@@ -1,0 +1,14 @@
+.flash-messages {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.flash-messages .error {
+    color: red;
+    font-size: 0.9rem;
+    padding: 10px;
+    background-color: #ffe6e6;
+    border: 1px solid #ff4d4d;
+    border-radius: 5px;
+    display: inline-block;
+}

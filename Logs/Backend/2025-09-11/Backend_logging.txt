@@ -1,0 +1,740 @@
+2025-09-11 12:00:20 - INFO - Use pytorch device_name: cpu
+2025-09-11 12:00:20 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-09-11 12:00:29 - INFO - Starting Gmail authentication.
+2025-09-11 12:00:29 - INFO - Loaded credentials from token.json.
+2025-09-11 12:00:29 - INFO - Gmail authentication successful.
+2025-09-11 12:00:29 - INFO - Fetching unread emails from Gmail.
+2025-09-11 12:00:30 - INFO - Found 100 unread emails. Processing...
+2025-09-11 12:00:35 - WARNING - Translation failed: 'coroutine' object has no attribute 'text'
+2025-09-11 12:00:35 - INFO - Skipping \u30de\u30c3\u30ad\u30f3\u30bc\u30fc (normalized: \u30de\u30c3\u30ad\u30f3\u30bc\u30fc) - not in target list.
+2025-09-11 12:00:35 - WARNING - Translation failed: 'coroutine' object has no attribute 'text'
+2025-09-11 12:00:35 - INFO - Skipping \u30c7\u30ed\u30a4\u30c8 (normalized: \u30c7\u30ed\u30a4\u30c8) - not in target list.
+2025-09-11 12:00:36 - WARNING - Translation failed: 'coroutine' object has no attribute 'text'
+2025-09-11 12:00:36 - INFO - Skipping \u30d9\u30a4\u30f3 (normalized: \u30d9\u30a4\u30f3) - not in target list.
+2025-09-11 12:00:37 - INFO - Skipping \u4e09\u83f1\u7dcf\u5408\u7814\u7a76\u6240 (normalized: \u4e09\u83f1\u7dcf\u5408\u7814\u7a76\u6240) - not in target list.
+2025-09-11 12:00:37 - WARNING - Translation failed: 'coroutine' object has no attribute 'text'
+2025-09-11 12:00:37 - INFO - Skipping \u30a2\u30af\u30bb\u30f3\u30c1\u30e5\u30a2 (normalized: \u30a2\u30af\u30bb\u30f3\u30c1\u30e5\u30a2) - not in target list.
+2025-09-11 12:00:38 - INFO - Skipping \u91ce\u6751\u7dcf\u5408\u7814\u7a76\u6240 (normalized: \u91ce\u6751\u7dcf\u5408\u7814\u7a76\u6240) - not in target list.
+2025-09-11 12:01:30 - INFO - Retrieved 94 unread emails.
+2025-09-11 12:01:30 - INFO - Processing email: Google Alert - "Deloitte" on 11-09-25
+2025-09-11 12:01:49 - INFO - Duplicate article detected, skipping: US holiday sales set for slowest growth since pandemic, Deloitte report forecasts
+2025-09-11 12:01:49 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://kfgo.com/2025/09/09/us-holiday-sales-set-for-slowest-growth-since-pandemic-deloitte-report-forecasts/
+2025-09-11 12:02:04 - INFO - Unique article detected. Added Deloitte and Datamount announce strategic alliance at COMEX Oman 2025 to advance cybersecurity capabilities across Oman to the database
+2025-09-11 12:02:04 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://www.zawya.com/en/press-release/companies-news/deloitte-and-datamount-announce-strategic-alliance-at-comex-oman-2025-to-advance-cybersecurity-capabilities-across-oman-ojtixocl
+2025-09-11 12:02:06 - WARNING - Invalid content from URL: https://www.msn.com/en-in/money/news/deloitte-india-s-new-office-mandate-employees-must-show-up-twice-a-week-or-risk-losing-out/ar-AA1MjE7F
+2025-09-11 12:02:33 - INFO - Unique article detected. Added Moving up the value curve: Shared services as a catalyst for growth to the database
+2025-09-11 12:02:33 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://www.irishtimes.com/sponsored/2025/09/11/moving-up-the-value-curve-shared-services-as-a-catalyst-for-growth/
+2025-09-11 12:02:33 - INFO - Processing email: Google Alert - McKinsey on 11-09-25
+2025-09-11 12:02:51 - INFO - Unique article detected. Added Breaking News: Tallahassee stabbing at Cascades Park leaves two injured to the database
+2025-09-11 12:02:51 - INFO - Prepared email insertion: Google Alert - McKinsey from https://www.fsunews.com/story/news/2025/09/10/tallahassee-stabbing-at-cascades-park-leaves-two-injured/86085732007/
+2025-09-11 12:02:51 - INFO - Processing email: Google Alert - BCG on 11-09-25
+2025-09-11 12:03:20 - INFO - Unique article detected. Added BCG\u306e\u65b0\u520a\u300e\u65b0\u898f\u4e8b\u696d\u64a4\u9000\u529b\u3092\u9ad8\u3081\u308b\u300f\u304c2025\u5e749\u670810\u65e5\u306b\u767a\u58f2 to the database
+2025-09-11 12:03:20 - INFO - Prepared email insertion: Google Alert - BCG from https://prtimes.jp/main/html/rd/p/000000025.000145445.html
+2025-09-11 12:03:43 - INFO - Duplicate article detected, skipping: \u3010\u30d5\u30a7\u30ea\u30f3\u30b0\u30fb\u30d5\u30a1\u30fc\u30de\u3011\u8180\u80f1\u764c\u907a\u4f1d\u5b50\u6cbb\u7642\u3092\u7533\u8acb\u2010BCG\u7642\u6cd5\u5f8c\u306e\u65b0\u9078\u629e\u80a2\uff5c\u85ac\u4e8b\u65e5\u5831\u30a6\u30a7\u30d6\u30b5\u30a4\u30c8
+2025-09-11 12:03:43 - INFO - Prepared email insertion: Google Alert - BCG from https://www.yakuji.co.jp/entry123130.html
+2025-09-11 12:03:52 - INFO - Unique article detected. Added \u691c\u7d22\u7d50\u679c\uff5c\u30e9\u30b8\u30aaNIKKEI to the database
+2025-09-11 12:03:52 - INFO - Prepared email insertion: Google Alert - BCG from https://www.radionikkei.jp/search/?q=%E3%80%8CAEC%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%81%AF%E8%A9%90%E6%AC%BA%E3%81%8B%EF%BC%9F%E3%80%8D%E3%81%A8%E3%81%84%E3%81%86%E7%96%91%E5%BF%B5%E3%81%AB%E5%AF%BE%E3%81%97%E3%80%81%E6%97%A5%E6%9C%AC%E3%81%AE%E6%97%A5%E5%A0%B1%E3%81%AF%E3%80%8CAEC%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%81%AF%E8%A9%90%E6%AC%BA%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%84%E3%80%8D%E3%81%A8%E5%A0%B1%E3%81%98%E3%81%9F%E3%80%82%E3%82%B0%E3%83%AD%E3%83%BC%E3%83%90%E3%83%AB%E6%8A%95%E8%B3%87%E5%AE%B6%E3%81%AE%E8%A6%96%E7%82%B9%E3%81%8B%E3%82%89%E3%82%82%E3%80%81%E6%97%A5%E6%9C%AC%E6%A0%AA%E3%81%AF%E5%86%8D%E3%81%B3%E6%B3%A8%E7%9B%AE%E3%82%92%E9%9B%86%E3%82%81%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%80%82AEC%20%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%20%E3%81%AF%E3%80%81AI%E3%82%84%E5%8D%8A%E5%B0%8E%E4%BD%93%E3%81%A8%E3%81%84%E3%81%A3%E3%81%9F%E6%88%A6%E7%95%A5%E7%94%A3%E6%A5%AD%E3%82%92%E4%B8%AD%E5%BF%83%E3%81%AB%E8%AA%BF%E6%9F%BB%E3%82%92%E5%B1%95%E9%96%8B%E3%81%97%E3%80%81%E6%8A%95%E8%B3%87%E5%AE%B6%E3%81%AB%E6%88%90%E9%95%B7%E3%81%AE%E9%9D%92%E5%86%99%E7%9C%9F%E3%82%92%E6%8F%90%E7%A4%BA%E3%81%97%E3%81%BE%E3%81%99%E3%80%82%E7%9F%AD%E6%9C%9F%E7%9A%84%E3%81%AA%E3%83%9C%E3%83%A9%E3%83%86%E3%82%A3%E3%83%AA%E3%83%86%E3%82%A3%E3%81%8C%E5%AD%98%E5%9C%A8%E3%81%97%E3%81%A6%E3%82%82%E3%80%81AEC%20%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%20%E3%81%AF%E5%86%B7%E9%9D%99%E3%81%AA%E5%88%86%E6%9E%90%E3%82%92%E6%8F%90%E4%BE%9B%E3%81%97%E3%80%81%E3%83%AA%E3%82%B9%E3%82%AF%E3%82%92%E6%9C%80%E5%B0%8F%E9%99%90%E3%81%AB%E6%8A%91%E3%81%88%E3%81%BE%E3%81%99%E3%80%82%E4%BF%A1%E9%A0%BC%E3%81%A7%E3%81%8D%E3%82%8B%E6%8A%95%E8%B3%87%E3%83%91%E3%83%BC%E3%83%88%E3%83%8A%E3%83%BC%E3%82%92%E6%8E%A2%E3%81%99%E3%81%AA%E3%82%89%E3%80%81AEC%20%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%20%E3%81%AE%E7%9F%A5%E8%A6%8B%E3%81%8C%E6%9C%80%E8%89%AF%E3%81%AE%E9%81%B8%E6%8A%9E%E8%82%A2%E3%81%A7%E3%81%99%E3%80%82.bcg
+2025-09-11 12:04:06 - INFO - Duplicate article detected, skipping: \u3010\u30e4\u30f3\u30bb\u30f3\u30d5\u30a1\u30fc\u30de\u3011\u8180\u80f1\u764c\u6cbb\u7642\u85ac\u3092\u7533\u8acb\u2010\u8180\u80f1\u5185\u3067\u30b2\u30e0\u30b7\u30bf\u30d3\u30f3\u5f90\u653e\uff5c\u85ac\u4e8b\u65e5\u5831\u30a6\u30a7\u30d6\u30b5\u30a4\u30c8
+2025-09-11 12:04:06 - INFO - Prepared email insertion: Google Alert - BCG from https://www.yakuji.co.jp/entry123133.html
+2025-09-11 12:04:24 - INFO - Duplicate article detected, skipping: \u300c\u5e74\u95931000\u4e07\u5186\u8d85\u3092\u6d88\u8cbb\u3059\u308b\u300d\u65e5\u672c\u306e\u5bcc\u88d5\u5c64\u306e\u982d\u306e\u4e2d…BCG\u304c\u8abf\u67fb (Business Insider Japan)
+2025-09-11 12:04:24 - INFO - Prepared email insertion: Google Alert - BCG from https://newspicks.com/news/15048206/?ref=picked-news_9985
+2025-09-11 12:05:00 - INFO - Duplicate article detected, skipping: \u6d3b\u52d5\u671f\u9593\u534a\u5e74\u4ee5\u4e0a\uff01\u30b1\u30fc\u30b9\u9762\u63a5\u306e\u58c1\u3092\u4e57\u308a\u8d8a\u3048BCG\u3078\u8ee2\u8077\u6210\u529f\uff5c\u8ee2\u8077\u30b5\u30fc\u30d3\u30b9\u306e\u30e0\u30fc\u30d3\u30f3
+2025-09-11 12:05:00 - INFO - Prepared email insertion: Google Alert - BCG from https://www.movin.co.jp/howtouse/careerchanges/careerchange531.html
+2025-09-11 12:05:17 - INFO - Unique article detected. Added \u51ac\u306e\u30a4\u30f3\u30bf\u30fc\u30f3\u30b7\u30c3\u30d7\uff5c\u30a4\u30f3\u30bf\u30fc\u30f3\u306e\u52df\u96c6\u60c5\u5831\u8a73\u7d30 | \u5916\u8cc7\u5c31\u6d3b\u30c9\u30c3\u30c8\u30b3\u30e0 to the database
+2025-09-11 12:05:17 - INFO - Prepared email insertion: Google Alert - BCG from https://gaishishukatsu.com/recruiting_info/view/12983
+2025-09-11 12:05:38 - WARNING - Invalid content from URL: https://dot.asahi.com/list/search?fulltext=%E3%80%8CAEC%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%81%AF%E8%A9%90%E6%AC%BA%E3%81%8B%EF%BC%9F%E3%80%8D%E3%81%A8%E3%81%84%E3%81%86%E7%96%91%E5%BF%B5%E3%81%AB%E5%AF%BE%E3%81%97%E3%80%81%E6%97%A5%E6%9C%AC%E3%81%AE%E6%97%A5%E5%A0%B1%E3%81%AF%E3%80%8CAEC%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%81%AF%E8%A9%90%E6%AC%BA%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%84%E3%80%8D%E3%81%A8%E5%A0%B1%E3%81%98%E3%81%9F%E3%80%82%E3%82%B0%E3%83%AD%E3%83%BC%E3%83%90%E3%83%AB%E8%B3%87%E9%87%91%E3%81%8C%E3%82%A2%E3%82%B8%E3%82%A2%E3%81%AB%E6%B5%81%E5%85%A5%E3%81%99%E3%82%8B%E3%81%AA%E3%81%8B%E3%80%81%E6%97%A5%E6%9C%AC%E6%A0%AA%E3%81%AF%E5%A4%A7%E3%81%8D%E3%81%AA%E6%81%A9%E6%81%B5%E3%82%92%E5%8F%97%E3%81%91%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%80%82AEC%20%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%20%E3%81%AF%E3%80%81%E3%81%93%E3%81%AE%E6%B5%81%E3%82%8C%E3%82%92%E8%A6%8B%E6%8D%AE%E3%81%88%E3%81%A6%E8%BC%B8%E5%87%BA%E9%96%A2%E9%80%A3%E3%82%84%E5%85%88%E7%AB%AF%E6%8A%80%E8%A1%93%E7%94%A3%E6%A5%AD%E3%81%B8%E3%81%AE%E6%8A%95%E8%B3%87%E6%88%A6%E7%95%A5%E3%82%92%E6%8F%90%E6%A1%88%E3%81%97%E3%81%BE%E3%81%99%E3%80%82%E7%89%B9%E3%81%AB%E5%8D%8A%E5%B0%8E%E4%BD%93%E3%82%84AI%E9%96%A2%E9%80%A3%E6%A0%AA%E3%81%AF%E3%80%81%E4%BB%8A%E5%BE%8C%E3%81%AE%E6%88%90%E9%95%B7%E3%82%92%E7%89%BD%E5%BC%95%E3%81%99%E3%82%8B%E5%88%86%E9%87%8E%E3%81%A7%E3%81%99%E3%80%82AEC%20%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%20%E3%81%AE%E5%88%86%E6%9E%90%E3%81%AB%E5%9F%BA%E3%81%A5%E3%81%91%E3%81%B0%E3%80%81%E6%8A%95%E8%B3%87%E5%AE%B6%E3%81%AF%E9%81%A9%E5%88%87%E3%81%AA%E3%82%BF%E3%82%A4%E3%83%9F%E3%83%B3%E3%82%B0%E3%81%A7%E5%B8%82%E5%A0%B4%E3%81%AB%E5%8F%82%E5%8A%A0%E3%81%A7%E3%81%8D%E3%81%BE%E3%81%99%E3%80%82%E5%AE%89%E5%AE%9A%E3%81%A8%E6%88%90%E9%95%B7%E3%82%92%E4%B8%A1%E7%AB%8B%E3%81%95%E3%81%9B%E3%82%8B%E3%81%AB%E3%81%AF%E3%80%81AEC%20%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%20%E3%81%A8%E3%81%AE%E5%8D%94%E5%83%8D%E3%81%8C%E6%9C%80%E8%89%AF%E3%81%AE%E9%81%B8%E6%8A%9E%E3%81%A7%E3%81%99%E3%80%82.bcg
+2025-09-11 12:06:15 - INFO - Duplicate article detected, skipping: \u30d5\u30a7\u30ea\u30f3\u30b0\u30fb\u30d5\u30a1\u30fc\u30de\u3001\u6700\u65b0\u306e\u6cbb\u7642\u52d5\u5411\u3084\u60a3\u8005\u3055\u3093\u306e\u62b1\u3048\u308b\u8ab2\u984c\u3092\u7d39\u4ecb\u3059\u308b\u8180\u80f1\u304c\u3093\u5553\u767a\u30e1\u30c7\u30a3\u30a2\u30bb\u30df\u30ca\u30fc\u3092\u958b\u50ac
+2025-09-11 12:06:15 - INFO - Prepared email insertion: Google Alert - BCG from https://www.kk-bestsellers.com/articles/-/press_release/4020963/
+2025-09-11 12:06:15 - INFO - Processing email: Google Alert - PwC on 11-09-25
+2025-09-11 12:06:44 - INFO - Duplicate article detected, skipping: \u300cSDV\u30ed\u30fc\u30c9\u30de\u30c3\u30d72040\u300d\u3068\u984c\u3057\u3066\u3001PwC\u30b3\u30f3\u30b5\u30eb\u30c6\u30a3\u30f3\u30b0\u5408\u540c\u4f1a\u793e \u6e21\u9089 \u4f38\u4e00\u90ce\u6c0f/\u7cf8\u7530 \u5468\u5e73\u6c0f/\u5c0f\u5009 \u5553\u8f14\u6c0f\u306b\u3088\u308b\u30bb\u30df\u30ca\u30fc\u30922025\u5e7410\u670810\u65e5(\u91d1)\u306b\u958b\u50ac!!
+2025-09-11 12:06:44 - INFO - Prepared email insertion: Google Alert - PwC from https://autoc-one.jp/news/5036426/
+2025-09-11 12:07:10 - INFO - Duplicate article detected, skipping: NTT\u30c9\u30b3\u30e2\u30d3\u30b8\u30cd\u30b9\u3001C\u30ad\u30e5\u30fc\u30d6\u30fb\u30b3\u30f3\u30b5\u30eb\u30c6\u30a3\u30f3\u30b0\u3001PwC\u30b3\u30f3\u30b5\u30eb\u30c6\u30a3\u30f3\u30b0\u5730\u57df\u8ab2\u984c\u306e\u89e3\u6c7a\u306b\u5411\u3051\u305f\u7523\u5b98\u5b66\u91d1\u9023\u643a\u306b\u3088\u308b\u5171\u5275\u578b\u30d3\u30b8\u30cd\u30b9\u30e2\u30c7\u30eb\u3092\u5c55\u958b
+2025-09-11 12:07:10 - INFO - Prepared email insertion: Google Alert - PwC from https://www.newsweekjapan.jp/press-release/2025/09/nttcpwc.php
+2025-09-11 12:07:38 - INFO - Duplicate article detected, skipping: \u300cSDV\u30ed\u30fc\u30c9\u30de\u30c3\u30d72040\u300d\u3068\u984c\u3057\u3066\u3001PwC\u30b3\u30f3\u30b5\u30eb\u30c6\u30a3\u30f3\u30b0\u5408\u540c\u4f1a\u793e \u6e21\u9089 \u4f38\u4e00\u90ce\u6c0f/\u7cf8\u7530 \u5468\u5e73\u6c0f/\u5c0f\u5009 \u5553\u8f14\u6c0f\u306b\u3088\u308b\u30bb\u30df\u30ca\u30fc\u30922025\u5e7410\u670810\u65e5(\u91d1)\u306b\u958b\u50ac!! | \u682a\u5f0f\u4f1a\u793e\u3000\u65b0\u793e\u4f1a\u30b7\u30b9\u30c6\u30e0\u7dcf\u5408\u7814\u7a76\u6240\u306e\u30d7\u30ec\u30b9\u30ea\u30ea\u30fc\u30b9
+2025-09-11 12:07:38 - INFO - Prepared email insertion: Google Alert - PwC from https://prtimes.jp/main/html/rd/p/000003976.000032407.html
+2025-09-11 12:08:00 - INFO - Duplicate article detected, skipping: \u300cSDV\u30ed\u30fc\u30c9\u30de\u30c3\u30d72040\u300d\u3068\u984c\u3057\u3066\u3001PwC\u30b3\u30f3\u30b5\u30eb\u30c6\u30a3\u30f3\u30b0\u5408\u540c\u4f1a\u793e \u6e21\u9089 \u4f38\u4e00\u90ce\u6c0f/\u7cf8\u7530 \u5468\u5e73\u6c0f/\u5c0f\u5009 \u5553\u8f14\u6c0f\u306b\u3088\u308b\u30bb\u30df\u30ca\u30fc\u30922025\u5e7410\u670810\u65e5(\u91d1)\u306b\u958b\u50ac!!
+2025-09-11 12:08:00 - INFO - Prepared email insertion: Google Alert - PwC from https://www.rbbtoday.com/release/prtimes2-today/20250910/1122993.html
+2025-09-11 12:08:15 - INFO - Duplicate article detected, skipping: \u4e2d\u56fd\u4e0d\u52d5\u7523\u5927\u624b\uff62\u4e07\u79d1\uff63\uff64\u7db1\u6e21\u308a\u306e\u30c7\u30d5\u30a9\u30eb\u30c8\u56de\u907f
+2025-09-11 12:08:15 - INFO - Prepared email insertion: Google Alert - PwC from https://toyokeizai.net/articles/-/903046
+2025-09-11 12:08:32 - INFO - Unique article detected. Added \u7c73\u56fd\u3067\u53f3\u6d3e\u653f\u6cbb\u6d3b\u52d5\u5bb6\u304c\u9283\u6483\u3055\u308c\u6b7b\u4ea1\u30007\u65e5\u306b\u306f\u65e5\u672c\u3067\u30a4\u30d9\u30f3\u30c8\u306b\u53c2\u52a0 to the database
+2025-09-11 12:08:32 - INFO - Prepared email insertion: Google Alert - PwC from https://www.asahi.com/sp/articles/AST9B6R8DT9BUHBI039M.html?iref=sp_topics_44a1a018-cefd-42fc-a583-cafca508169a_carousel_f7d6c425-be44-4078-b33f-21e9c6ea4b21_article_1&_klpuid=GwKq2LGpnkQhX6L36mXkc%2Fwwf%2Fkumagai%2Fbusiness%2Fkumagai%2Ffujita%2Ftdlc%2Fbusiness%2Fkanie%2Fdata%2Fdir%2Fdata%2Ffuruichi%2Fkanie%2Fdir%2Fpwc%2Fkumagai%2Fpwc%2Fkondo%2Fsdgsjapan%2Fbusiness%2Ftdlc%2Fmachiba%2Ftdlc%2Fkanie%2Fclassroom%2Fbusiness%2Fkumagai%2Fdata%2Fide%2Fpwc%2Fmri%2Fpwc%2Fcon%2Fkumagai%2Fbusiness%2Fide%2Fkondo%2Fpwc%2Fmachiba%2Fbusiness%2Ffuruichi%2Fsdgsjapan%2Fwwf%2Fkondo%2Fdir%2Fcon%2Fide%2Fwwf%2Fmri%2Fmachiba%2Fkanie%2Fcon%2Fdata%2Fclassroom%2Fwwf%2Fsdgsjapan%2Fmachiba%2Ftdlc%2Ffujita%2Fsdgsjapan%2Fsdgsjapan%2Fdir%2F%2Fbusiness%2Ffujita%2Fmri%2Fwwf%2Fide%2F
+2025-09-11 12:08:48 - INFO - Duplicate article detected, skipping: \u30b5\u30a4\u30d0\u30fc\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30fc\u5f37\u5316\u3078\u3001\u4eac\u90fd\u5e9c\u8b66\u304c\u5927\u624b\u30b3\u30f3\u30b5\u30eb\u4f01\u696d\u3068\u9023\u643a\uff08\u7523\u7d4c\u65b0\u805e\uff09
+2025-09-11 12:08:48 - INFO - Prepared email insertion: Google Alert - PwC from https://news.yahoo.co.jp/articles/4e7409405b32df1147eddb7a4414707f2ecc18e6
+2025-09-11 12:09:14 - INFO - Unique article detected. Added \u63f4\u52a9\u7e2e\u5c0f\u3001\u4e92\u3044\u306e\u5f37\u307f\u3092\u6301\u3061\u5bc4\u308b\u56fd\u969b\u9023\u643a\u3092\u3000\u30b6\u30f3\u30d3\u30a2\u4fdd\u5065\u7701\u6b21\u5b98 to the database
+2025-09-11 12:09:14 - INFO - Prepared email insertion: Google Alert - PwC from https://www.asahi.com/withplanet/article/16014742?_klpuid=GwKq2LGpnkQhX6L36mXkc%2Fwwf%2Fkumagai%2Fbusiness%2Fkumagai%2Ffujita%2Ftdlc%2Fbusiness%2Fkanie%2Fdata%2Fdir%2Fdata%2Ffuruichi%2Fkanie%2Fdir%2Fpwc%2Fkumagai%2Fpwc%2Fkondo%2Fsdgsjapan%2Fbusiness%2Ftdlc%2Fmachiba%2Ftdlc%2Fkanie%2Fclassroom%2Fbusiness%2Fkumagai%2Fcon%2Fdata%2Fkondo%2Fsdgsjapan%2Fcon%2Fcon%2Fcon%2Fdir%2Fbusiness%2Fbusiness%2Fmri%2Fclassroom%2Fclassroom%2Fmachiba%2Fcon%2Fbusiness%2Fpwc%2Fide%2Fbusiness%2F
+2025-09-11 12:09:30 - INFO - Unique article detected. Added \u7b2c11\u5f3e\u3000\u9078\u624b\u3001\u6307\u5c0e\u8005\u3068\u3057\u3066\u65e5\u672c\u306b\u300c\u6b69\u304f\u30b5\u30c3\u30ab\u30fc\u300d\u3092\u5e83\u3081\u308b\u300c\u3072\u3068\u300d\u3092\u8aad\u3093\u3067200\u5b57\u4f5c\u6587\u306b\u30c1\u30e3\u30ec\u30f3\u30b8 to the database
+2025-09-11 12:09:30 - INFO - Prepared email insertion: Google Alert - PwC from https://www.asahi.com/edua/article/16017900?_klpuid=GwKq2LGpnkQhX6L36mXkc%2Fwwf%2Fkumagai%2Fbusiness%2Fkumagai%2Ffujita%2Ftdlc%2Fbusiness%2Fkanie%2Fdata%2Fdir%2Fdata%2Ffuruichi%2Fkanie%2Fdir%2Fpwc%2Fkumagai%2Fpwc%2Fkondo%2Fsdgsjapan%2Fbusiness%2Ftdlc%2Fmachiba%2Ftdlc%2Fkanie%2Fclassroom%2Fbusiness%2Fkumagai%2Fdata%2Fide%2Fpwc%2Fmri%2Fpwc%2Fcon%2Fkumagai%2Fbusiness%2Fide%2Fkondo%2Fpwc%2Fmachiba%2Fbusiness%2Ffuruichi%2Fsdgsjapan%2Fwwf%2Fkondo%2Fdir%2Fcon%2Fide%2Fwwf%2Fmri%2Fmachiba%2Fkanie%2Fcon%2Fdata%2Fclassroom%2Fwwf%2Fsdgsjapan%2Fmachiba%2Ftdlc%2Ffujita%2Fsdgsjapan%2Fsdgsjapan%2Fdir%2F%2Fclassroom%2Fwwf%2Ffuruichi%2F
+2025-09-11 12:09:52 - INFO - Duplicate article detected, skipping: \u30b5\u30a4\u30d0\u30fc\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30fc\u5f37\u5316\u3078\u3001\u4eac\u90fd\u5e9c\u8b66\u304c\u5927\u624b\u30b3\u30f3\u30b5\u30eb\u4f01\u696d\u3068\u9023\u643a
+2025-09-11 12:09:52 - INFO - Prepared email insertion: Google Alert - PwC from https://topics.smt.docomo.ne.jp/article/sankei/nation/sankei-_west_west_affairs_DKFPHQSKMVKGVD2VY5ENJ2O24Y
+2025-09-11 12:10:10 - INFO - Unique article detected. Added \u55ab\u7159\u8005\u3068\u975e\u55ab\u7159\u8005\u306e\u5171\u5b58\u3081\u3056\u3057\u3001\u74b0\u5883\u6574\u5099\u306e\u9023\u643a\u5354\u5b9a\u3000\u5343\u4ee3\u7530\u533a\u3068JT to the database
+2025-09-11 12:10:10 - INFO - Prepared email insertion: Google Alert - PwC from https://www.asahi.com/articles/AST9B4V2XT9BOXIE013M.html?iref=reporter-bio-cover_timeline&_klpuid=GwKq2LGpnkQhX6L36mXkc%2Fwwf%2Fkumagai%2Fbusiness%2Fkumagai%2Ffujita%2Ftdlc%2Fbusiness%2Fkanie%2Fdata%2Fdir%2Fdata%2Ffuruichi%2Fkanie%2Fdir%2Fpwc%2Fkumagai%2Fpwc%2Fkondo%2Fsdgsjapan%2Fbusiness%2Ftdlc%2Fmachiba%2Ftdlc%2Fkanie%2Fclassroom%2Fbusiness%2Fkumagai%2Fdata%2Fide%2Fpwc%2Fmri%2Fpwc%2Fcon%2Fkumagai%2Fbusiness%2Fide%2Fkondo%2Fpwc%2Fmachiba%2Fbusiness%2Ffuruichi%2Fsdgsjapan%2Fwwf%2Fkondo%2Fdir%2Fcon%2Fide%2Fwwf%2Fmri%2Fmachiba%2Fkanie%2Fcon%2Fdata%2Fclassroom%2Fwwf%2Fsdgsjapan%2Fmachiba%2Ftdlc%2Ffujita%2Fsdgsjapan%2Fsdgsjapan%2Fdir%2F%2Fbusiness%2Ffujita%2Fkumagai%2Ffujita%2Fbusiness%2Ftdlc%2Fpwc%2Fclassroom%2F
+2025-09-11 12:10:27 - INFO - Unique article detected. Added Cognite Atlas AI(TM)\u3001\u30e1\u30b8\u30e3\u30fc\u30ea\u30ea\u30fc\u30b9\u3092\u767a\u8868 to the database
+2025-09-11 12:10:27 - INFO - Prepared email insertion: Google Alert - PwC from https://news.nicovideo.jp/watch/nw18238557?news_ref=tag
+2025-09-11 12:10:45 - INFO - Duplicate article detected, skipping: S.Hasegawa\uff08\u30d1\u30fc\u30c8\u30ca\u30fc\uff0f\u516c\u8a8d\u4f1a\u8a08\u58eb\uff09
+2025-09-11 12:10:45 - INFO - Prepared email insertion: Google Alert - PwC from https://www.pwc.com/jp/ja/careers/advisory/cpa/people/s-hasegawa.html
+2025-09-11 12:10:59 - INFO - Unique article detected. Added 20\u30c8\u30f3\u306e\u88c1\u65ad\u30ed\u30b9\u3092\u300c\u670d\u306e\u925b\u7b46\u300d\u306a\u3069\u306e\u4fa1\u5024\u306b\u5909\u3048\u308b\u2015\u682a\u5f0f\u4f1a\u793e\u30df\u30e4\u30e2\u30ea\u3001\u5927\u962a\u30fb\u95a2\u897f\u4e07\u535a\u3067\u30b5\u30b9\u30c6\u30ca\u30d6\u30eb\u30d5\u30a1\u30c3\u30b7\u30e7\u30f3\u306e\u65b0\u30e2\u30c7\u30eb\u300cReForme\uff08\u30ea\u30d5\u30a9\u30eb\u30e1\uff09\u300d\u3092\u767a\u8868 to the database
+2025-09-11 12:10:59 - INFO - Prepared email insertion: Google Alert - PwC from https://www.mapion.co.jp/news/release/000000004.000169107/
+2025-09-11 12:11:21 - INFO - Duplicate article detected, skipping: NTT\u30c9\u30b3\u30e2\u30d3\u30b8\u30cd\u30b9\u3001C\u30ad\u30e5\u30fc\u30d6\u30fb\u30b3\u30f3\u30b5\u30eb\u30c6\u30a3\u30f3\u30b0\u3001PwC\u30b3\u30f3\u30b5\u30eb\u30c6\u30a3\u30f3\u30b0 \u5730\u57df\u8ab2\u984c\u306e\u89e3\u6c7a\u306b\u5411\u3051\u305f\u7523\u5b98\u5b66\u91d1\u9023\u643a\u306b\u3088\u308b\u5171\u5275\u578b\u30d3\u30b8\u30cd\u30b9\u30e2\u30c7\u30eb\u3092\u5c55\u958b
+2025-09-11 12:11:21 - INFO - Prepared email insertion: Google Alert - PwC from https://www.pwc.com/jp/ja/press-room/2025/solving-regional-issues.html
+2025-09-11 12:11:35 - INFO - Duplicate article detected, skipping: \u306a\u305c\u7523\u696d\u30a2\u30fc\u30ad\u30c6\u30af\u30c1\u30e3\u306e\u8003\u3048\u65b9\u304c\u5fc5\u8981\u306a\u306e\u304b
+2025-09-11 12:11:35 - INFO - Prepared email insertion: Google Alert - PwC from https://www.pwc.com/jp/ja/knowledge/column/industrial-architecture/concept.html
+2025-09-11 12:11:53 - INFO - Unique article detected. Added \u653b\u3081\u3068\u5b88\u308a\u306e\u300c\u4e21\u5229\u304d\u306e\u4f01\u696d\u30ab\u30eb\u30c1\u30e3\u30fc\u300d\u91b8\u6210\u306b\u5411\u3051\u3066 to the database
+2025-09-11 12:11:53 - INFO - Prepared email insertion: Google Alert - PwC from https://www.pwc.com/jp/ja/seminars/a1250910.html
+2025-09-11 12:13:25 - INFO - Duplicate article detected, skipping: PwC\u8ee2\u8077\u306f\u672c\u5f53\u306b\u96e3\u3057\u3044\uff1f\u90e8\u9580\u5225\u96e3\u6613\u5ea6\u3068\u5185\u5b9a\u7372\u5f97\u306b\u5411\u3051\u305f\u5bfe\u7b56\u65b9\u6cd5
+2025-09-11 12:13:25 - INFO - Prepared email insertion: Google Alert - PwC from https://hideal-p.com/consultant-pwc-difficulty/
+2025-09-11 12:53:41 - INFO - Retrying request to /chat/completions in 0.385012 seconds
+2025-09-11 12:53:56 - INFO - Duplicate article detected, skipping: \u793e\u4f1a\u5b9f\u88c5\u3092\u62c5\u3048\u308b\u4eba\u6750\u3092\u80b2\u3066\u305f\u3044 PwC\u304c\u300c\u30ed\u30dc\u30c6\u30a3\u30af\u30b9\u7d4c\u55b6\u9053\u5834\u300d\u3067\u76ee\u6307\u3059\u3082\u306e - \u65e5\u7d4c\u30d3\u30b8\u30cd\u30b9\u96fb\u5b50\u7248Special
+2025-09-11 12:53:56 - INFO - Prepared email insertion: Google Alert - PwC from https://special.nikkeibp.co.jp/atclh/ONB/25/pwc0911/
+2025-09-11 12:54:05 - INFO - Duplicate article detected, skipping: PwC\u30b8\u30e3\u30d1\u30f3\u3001\u4f01\u696d\u306e\u8907\u5229\u8a08\u7b97\u30c4\u30fc\u30eb\u306e\u5c0e\u5165\u5148\u62e1\u5927 \u30af\u30e9\u30a6\u30c9\u79fb\u884c\u306710\u500d\u306b - \u65e5\u672c\u7d4c\u6e08\u65b0\u805e (\u65e5\u672c\u7d4c\u6e08\u65b0\u805e)
+2025-09-11 12:54:05 - INFO - Prepared email insertion: Google Alert - PwC from https://newspicks.com/news/15049007/
+2025-09-11 12:54:11 - WARNING - Invalid content from URL: https://openmoney.jp/career_path_reports/rrhKl3/resignation_reason
+2025-09-11 12:54:26 - INFO - Unique article detected. Added PwC\u30b3\u30f3\u30b5\u30eb\u30c6\u30a3\u30f3\u30b0\u5408\u540c\u4f1a\u793e\u306e\u300cXVS\u306e\u6848\u4ef6\u306b\u3064\u3044\u3066\u300d to the database
+2025-09-11 12:54:26 - INFO - Prepared email insertion: Google Alert - PwC from https://www.openwork.jp/asking/a0C30000003Llud/questions/22842
+2025-09-11 12:54:42 - WARNING - Invalid content from URL: https://doda.jp/DodaFront/View/JobSearchDetail/j_jid__3013383430/
+2025-09-11 12:54:58 - WARNING - Invalid content from URL: https://doda.jp/DodaFront/View/JobSearchDetail/j_jid__3013377980/
+2025-09-11 12:55:28 - INFO - Duplicate article detected, skipping: PwC\u25e2\u25e4\u30b5\u30b9\u30c6\u30ca\u30d3\u30ea\u30c6\u30a3\u30fb\u30b3\u30f3\u30b5\u30eb\u30bf\u30f3\u30c8\u25e2\u25e4DX×SX\u63a8\u9032\u3068\u7d44\u7e54\u6539\u9769\u652f\u63f4 | \u30cf\u30a4\u30af\u30e9\u30b9\u8ee2\u8077\u30b9\u30ab\u30a6\u30c8\u306a\u3089\u30ea\u30af\u30eb\u30fc\u30c8\u30c0\u30a4\u30ec\u30af\u30c8\u30b9\u30ab\u30a6\u30c8
+2025-09-11 12:55:28 - INFO - Prepared email insertion: Google Alert - PwC from https://directscout.recruit.co.jp/job_descriptions/8034149
+2025-09-11 12:55:30 - WARNING - Invalid content from URL: https://jp.indeed.com/viewjob?jk=669a766e9a538d03
+2025-09-11 12:55:39 - INFO - Unique article detected. Added \u5927\u7530\u533a\uff08\u5b9a\u65707\uff09\u306b\u7acb\u5019\u88dc\u3057\u305f16\u4eba\u306e\u7d4c\u6b74\u30fb\u653f\u7b56\u307e\u3068\u3081\u3010\u6771\u4eac\u90fd\u8b70\u4f1a\u8b70\u54e1\u9078\u63192025\u3011 to the database
+2025-09-11 12:55:39 - INFO - Prepared email insertion: Google Alert - PwC from https://news.yahoo.co.jp/search?p=pwc+%E3%82%A2%E3%83%89%E3%83%90%E3%82%A4%E3%82%B6%E3%83%AA%E3%83%BC%E5%90%88%E5%90%8C%E4%BC%9A%E7%A4%BE
+2025-09-11 12:56:03 - INFO - Unique article detected. Added \u79d8\u66f8\u696d\u52d9\uff08Executive Secretary\uff09\u3010PS\u3011 to the database
+2025-09-11 12:56:03 - INFO - Prepared email insertion: Google Alert - PwC from https://www.creativevillage.ne.jp/jobsearch/job_detail/JN00239102
+2025-09-11 12:56:18 - INFO - Unique article detected. Added \u4fee\u7406\u4f5c\u696d\u3067\u3059\u3002RXT300 TRIXX FX HO\u3067\u3059\u3002 to the database
+2025-09-11 12:56:18 - INFO - Prepared email insertion: Google Alert - PwC from https://tw1.jp/%E4%BF%AE%E7%90%86%E4%BD%9C%E6%A5%AD%E3%81%A7%E3%81%99%E3%80%82rxt300-trixx-fx-ho%E3%81%A7%E3%81%99%E3%80%82/
+2025-09-11 12:56:38 - INFO - Duplicate article detected, skipping: \u65b0\u30de\u30c3\u30d7\u516c\u958b\uff01
+2025-09-11 12:56:38 - INFO - Prepared email insertion: Google Alert - PwC from https://mvwakayama.jp/outlet/76310989610
+2025-09-11 12:56:40 - WARNING - Invalid content from URL: https://kaneju.co.jp/detail.php?shopdetail/3070482.htm
+2025-09-11 12:56:40 - INFO - Processing email: Google Alert - EY on 11-09-25
+2025-09-11 12:56:53 - INFO - Duplicate article detected, skipping: \u4e16\u754c\u306e\u30a8\u30f3\u30bf\u30e1\u6d88\u8cbb\u5e02\u5834\u3001\u6700\u91cd\u8996\u306f\u300c\u30b3\u30b9\u30d1\u300d\u306759\uff05\u3001\u898b\u5408\u3048\u3070\u30a2\u30c3\u30d7\u30b0\u30ec\u30fc\u30c9\u3084\u30d7\u30ec\u30df\u30a2\u30e0\u30aa\u30d7\u30b7\u30e7\u30f3\u3092\u8ffd\u52a0\u8cfc\u5165\u3000\u30fcEY\u8abf\u67fb
+2025-09-11 12:56:53 - INFO - Prepared email insertion: Google Alert - EY from https://www.travelvoice.jp/20250910-158354
+2025-09-11 12:57:14 - INFO - Duplicate article detected, skipping: \u300c\u5f37\u5236\u9069\u7528\u300d\u306e\u65b0\u30ea\u30fc\u30b9\u4f1a\u8a08\u57fa\u6e96\u2500\u2500EY\u3068\u8003\u3048\u308b\u3001\u7fa9\u52d9\u3092“\u6226\u7565”\u306b\u5909\u3048\u308b\u5206\u5c90\u70b9
+2025-09-11 12:57:14 - INFO - Prepared email insertion: Google Alert - EY from https://enterprisezine.jp/article/detail/22627
+2025-09-11 12:57:26 - INFO - Unique article detected. Added \u3010SeeP EYEVAN \u30cb\u30e5\u30a6\u30de\u30f3\u9ad8\u8f2a\u30119.12 \u30b0\u30e9\u30f3\u30c9\u30aa\u30fc\u30d7\u30f3 to the database
+2025-09-11 12:57:26 - INFO - Prepared email insertion: Google Alert - EY from https://news.nicovideo.jp/watch/nw18239374?news_ref=watch_20_nw17508841
+2025-09-11 12:57:33 - INFO - Unique article detected. Added \u30a4\u30f3\u30d0\u30a6\u30f3\u30c9\u5411\u3051\u30b0\u30c3\u30baEXPO\u3001\u5927\u962a\u3067\u958b\u50ac\u3001\u548c\u30c7\u30b6\u30a4\u30f3\u3084\u8336\u4f1a\u30bb\u30c3\u30c8\u3001\u30b5\u30b9\u30c6\u30ca\u30d6\u30eb\u88fd\u54c1\u306a\u3069\u5c55\u793a to the database
+2025-09-11 12:57:33 - INFO - Prepared email insertion: Google Alert - EY from https://www.travelvoice.jp/20250911-158355
+2025-09-11 12:57:51 - INFO - Unique article detected. Added \u4f01\u696d\u304cAI\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u3092\u5b89\u5168\u306b\u5c0e\u5165\u3059\u308b\u305f\u3081\u306e\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30d7\u30e9\u30c3\u30c8\u30d5\u30a9\u30fc\u30e0\u3092\u958b\u767a\u3059\u308b"Geordie"\u304cSeed\u3067$6.5M\u3092\u8abf\u9054 to the database
+2025-09-11 12:57:51 - INFO - Prepared email insertion: Google Alert - EY from https://www.atpartners.co.jp/news/2025-09-10-geordie-a-security-platform-that-helps-companies-deploy-ai-agents-securely-raises-6-5m-in-seed
+2025-09-11 12:58:02 - INFO - Unique article detected. Added \u30d3\u30b8\u30e7\u30f3\u30e1\u30ac\u30cd\u3001\u300cd\u30dd\u30a4\u30f3\u30c8\u300d5\u500d\u30ad\u30e3\u30f3\u30da\u30fc\u30f3\u5b9f\u65bd \u5168\u56fd97\u5e97\u8217\u30679\u670820\u65e5\uff5e \u773c\u93e1\u3084\u30b3\u30f3\u30bf\u30af\u30c8\u30ec\u30f3\u30ba\u3092\u304a\u5f97\u306b\u30b2\u30c3\u30c8\uff01 \u30aa\u30fc\u30c0\u30fc\u30e1\u30fc\u30c9\u306e\u7d2f\u9032\u30ec\u30f3\u30ba\u306a\u3069\u3001\u9ad8\u6a5f\u80fd\u30ec\u30f3\u30ba\u3082\u5bfe\u8c61 to the database
+2025-09-11 12:58:02 - INFO - Prepared email insertion: Google Alert - EY from https://news.nicovideo.jp/watch/nw18240101?news_ref=watch_20_nw17031473
+2025-09-11 12:58:15 - INFO - Duplicate article detected, skipping: \u30ad\u30e3\u30ea\u30a2\u60c5\u5831\u914d\u4fe1\u767b\u9332
+2025-09-11 12:58:15 - INFO - Prepared email insertion: Google Alert - EY from https://www.eysc.jp/recruit/entry/career/career-entry/
+2025-09-11 12:58:45 - INFO - Duplicate article detected, skipping: \u5927\u548c\u8a3c\u5238\u3001\u3042\u304a\u305e\u3089\u9280\u884c\u304c\u300cMonthly Pitch\u300d\u306b\u5171\u540c\u5354\u8cdb\u3000\uff5eAGS\u3001AWS\u30b8\u30e3\u30d1\u30f3\u3001EY\u30b8\u30e3\u30d1\u30f3\u3001\u4f4f\u53cb\u4e0d\u52d5\u7523\u306b\u52a0\u3048\u3001\u65b0\u305f\u306b\u4e21\u793e\u306e\u53c2\u753b\u306b\u3088\u308a\u3001\u5e83\u304c\u308b\u30b9\u30bf\u30fc\u30c8\u30a2\u30c3\u30d7\u652f\u63f4\uff5e
+2025-09-11 12:58:45 - INFO - Prepared email insertion: Google Alert - EY from https://www.cyberagentcapital.com/news_event/monthlypitch_202509/
+2025-09-11 12:59:02 - WARNING - Invalid content from URL: https://doda.jp/DodaFront/View/JobSearchDetail/j_jid__3013449188/
+2025-09-11 12:59:06 - WARNING - Invalid content from URL: https://openmoney.jp/career_path_reports/6BhYRY/decision_and_gap
+2025-09-11 12:59:09 - WARNING - Invalid content from URL: https://goshinjutsu-osaka.jp/outlet/72210360394
+2025-09-11 12:59:30 - INFO - Duplicate article detected, skipping: \u65b0\u30de\u30c3\u30d7\u516c\u958b\uff01Fortnite\u3067\u518d\u73fe\u3057\u305f\u548c\u6b4c\u5c71\u57ce\u3092\u821e\u53f0\u306b\u3001\u70b9\u5728\u3059\u308b\u969c\u5bb3\u7269\u3092\u4e57\u308a\u8d8a\u3048\u3066\u6700\u901f\u3067\u30b4\u30fc\u30eb\u3092\u76ee\u6307\u3059\u30d1\u30eb\u30af\u30fc\u30eb\u30de\u30c3\u30d7\u3002\u5168\uff16\u30b3\u30fc\u30b9\u3092\u7528\u610f\u3057\u307e\u3057\u305f\u3002\u305c\u3072\u904a\u3093\u3067\u307f\u3066\u304f\u3060\u3055\u3044\uff01
+2025-09-11 12:59:30 - INFO - Prepared email insertion: Google Alert - EY from https://www.mvwakayama.jp/outlet/437109107953
+2025-09-11 12:59:30 - INFO - Processing email: Google Alert - KPMG on 11-09-25
+2025-09-11 12:59:42 - INFO - Duplicate article detected, skipping: KPMG\u30b3\u30f3\u30b5\u30eb\u30c6\u30a3\u30f3\u30b0\u304c\u7d4c\u6e08\u5b89\u5168\u4fdd\u969c\u5bfe\u5fdc\u30bb\u30df\u30ca\u30fc\u309210\u6708\u958b\u50ac\u3001\u6771\u4eac\u5927\u5b66\u7389\u4e95\u6559\u6388\u3068\u6280\u8853\u30fb\u60c5\u5831\u7ba1\u7406\u3092\u89e3\u8aac
+2025-09-11 12:59:42 - INFO - Prepared email insertion: Google Alert - KPMG from https://trends.codecamp.jp/blogs/media/news721
+2025-09-11 12:59:53 - INFO - Unique article detected. Added \u4ed5\u4e8b\u4f53\u9a13 to the database
+2025-09-11 12:59:53 - INFO - Prepared email insertion: Google Alert - KPMG from https://job.career-tasu.jp/corp/00106134/report/37474/detail/
+2025-09-11 13:00:03 - INFO - Duplicate article detected, skipping: \u7d4c\u6e08\u5b89\u5168\u4fdd\u969c\u5bfe\u5fdc\u306e\u73fe\u5728\u5730\uff5e\u6280\u8853\u30fb\u60c5\u5831\u7ba1\u7406\u306e\u5f37\u5316\u306b\u5411\u3051\u3066\uff5e | KPMG\u30b8\u30e3\u30d1\u30f3\uff0fKPMG Japan
+2025-09-11 13:00:03 - INFO - Prepared email insertion: Google Alert - KPMG from https://jp.linkedin.com/posts/kpmg-jp_%E7%B5%8C%E6%B8%88%E5%AE%89%E5%85%A8%E4%BF%9D%E9%9A%9C%E5%AF%BE%E5%BF%9C%E3%81%AE%E7%8F%BE%E5%9C%A8%E5%9C%B0%E6%8A%80%E8%A1%93%E6%83%85%E5%A0%B1%E7%AE%A1%E7%90%86%E3%81%AE%E5%BC%B7%E5%8C%96%E3%81%AB%E5%90%91%E3%81%91%E3%81%A6-activity-7371335421978431488-UqhD
+2025-09-11 13:00:13 - INFO - Duplicate article detected, skipping: KPMG\u30b3\u30f3\u30b5\u30eb\u30c6\u30a3\u30f3\u30b0 \u63a1\u7528\u30b5\u30a4\u30c8
+2025-09-11 13:00:13 - INFO - Prepared email insertion: Google Alert - KPMG from http://recruit.kpmg-consulting.jp
+2025-09-11 13:00:48 - INFO - Duplicate article detected, skipping: \u25a1[HR] \u4eba\u4e8b\u4f01\u753b\u62c5\u5f53\u30b7\u30cb\u30a2\u30de\u30cd\u30fc\u30b8\u30e3\u30fc
+2025-09-11 13:00:48 - INFO - Prepared email insertion: Google Alert - KPMG from https://js01.jposting.net/kpmgkc/u/mid_careers/job.phtml?job_code=574
+2025-09-11 13:00:53 - WARNING - Invalid content from URL: https://www.zeikei.co.jp/files/seigo/5751.pdf
+2025-09-11 13:01:03 - INFO - Unique article detected. Added Gooroo Ventures Enters Paid Subscription Licence & Master Services Deal With KPMG to the database
+2025-09-11 13:01:03 - INFO - Prepared email insertion: Google Alert - KPMG from https://jp.reuters.com/article/brief-gooroo-ventures-enters-paid-subscr/brief-gooroo-ventures-enters-paid-subscription-licence-master-services-deal-with-kpmg-idUSFWN1SD012/
+2025-09-11 13:01:03 - INFO - Processing email: Google Alert - Deloitte on 11-09-25
+2025-09-11 13:01:24 - INFO - Duplicate article detected, skipping: Pseudonymised Data: Not Always Personal According to The Latest CJEU Judgement
+2025-09-11 13:01:24 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.datenschutz-notizen.de/pseudonymised-data-not-always-personal-according-to-the-latest-cjeu-judgement-1555813/
+2025-09-11 13:01:48 - INFO - Unique article detected. Added Former Big Four Partner Joins Management Controls, Inc. as APAC Chief Revenue Officer to Accelerate Regional Growth to the database
+2025-09-11 13:01:48 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.ad-hoc-news.de/boerse/news/marktberichte/former-big-four-partner-joins-management-controls-inc-as-apac-chief/68169565
+2025-09-11 13:02:01 - INFO - Duplicate article detected, skipping: College Sports Commission Admits $40M Overstatement in NIL Deal Values - CollegeNetWorth.com
+2025-09-11 13:02:01 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.collegenetworth.com/college-sports-commission-admits-40m-overstatement-in-nil-deal-values/
+2025-09-11 13:02:01 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 11-09-25
+2025-09-11 13:02:35 - INFO - Duplicate article detected, skipping: Security and Affordability Will Shape Energy's New Era
+2025-09-11 13:02:35 - INFO - Prepared email insertion: Google Alert - "Boston Consulting Group" "BCG" from https://www.prnewswire.com/news-releases/security-and-affordability-will-shape-energys-new-era-302553329.html
+2025-09-11 13:02:35 - INFO - Processing email: Google Alert - "PricewaterhouseCoopers" "PwC" on 11-09-25
+2025-09-11 13:02:57 - INFO - Unique article detected. Added Greens push for ban on unethical contractors after PwC scandal to the database
+2025-09-11 13:02:57 - INFO - Prepared email insertion: Google Alert - "PricewaterhouseCoopers" "PwC" from https://www.canberratimes.com.au/story/9063674/greens-push-for-ban-on-unethical-contractors-after-pwc-scandal/
+2025-09-11 13:02:57 - INFO - Processing email: Google Alert - McKinsey on 11-09-25
+2025-09-11 13:03:16 - INFO - Unique article detected. Added Latino actors work to break Hollywood stereotypes to the database
+2025-09-11 13:03:16 - INFO - Prepared email insertion: Google Alert - McKinsey from https://www.myarklamiss.com/news/hidden-history/hispanic-heritage-month/latino-actors-aim-to-break-through-hollywood-stereotypes/amp/
+2025-09-11 13:03:16 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 11-09-25
+2025-09-11 13:03:19 - WARNING - Invalid content from URL: https://ddnews.gov.in/en/india-positioned-to-benefit-from-shifting-global-value-chains-ficci-bcg-report/
+2025-09-11 13:03:51 - INFO - Unique article detected. Added FICCI–BCG Report Highlights: Macro-Economic Supply Chain Shifts to the Indian Ocean Trade Lake to the database
+2025-09-11 13:03:51 - INFO - Prepared email insertion: Google Alert - "Boston Consulting Group" "BCG" from https://www.republicworld.com/india/ficcibcg-report-highlights-macro-economic-supply-chain-shifts-to-the-indian-ocean-trade-lake
+2025-09-11 13:03:51 - INFO - Processing email: Google Alert - "Deloitte" on 11-09-25
+2025-09-11 13:04:15 - INFO - Unique article detected. Added Consumer and business signs point towards ‘subdued’ recovery, economists say | Accounting Times to the database
+2025-09-11 13:04:15 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://www.accountingtimes.com.au/economy/consumer-and-business-signs-point-towards-subdued-recovery-economists-say
+2025-09-11 13:04:15 - INFO - Processing email: Google Alert - Deloitte on 11-09-25
+2025-09-11 13:04:16 - WARNING - Invalid content from URL: https://www.bwpeople.in/article/deloitte-india-mandates-two-day-office-return-starting-october-1-571051
+2025-09-11 13:04:25 - INFO - Unique article detected. Added Deloitte India mandates in-office work for employees twice a week to the database
+2025-09-11 13:04:25 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.newsbytesapp.com/news/business/deloitte-india-mandates-in-office-work-for-employees-twice-a-week/tldr
+2025-09-11 13:04:25 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 11-09-25
+2025-09-11 13:04:49 - INFO - Duplicate article detected, skipping: Industrial Sector Outperformance: Navigating Cyclical Recovery in the Wake of Positive Wholesale Inflation
+2025-09-11 13:04:49 - INFO - Prepared email insertion: Google Alert - "Boston Consulting Group" "BCG" from https://www.ainvest.com/news/industrial-sector-outperformance-navigating-cyclical-recovery-wake-positive-wholesale-inflation-2509/
+2025-09-11 13:04:49 - INFO - Processing email: Google Alert - McKinsey on 11-09-25
+2025-09-11 13:05:13 - INFO - Duplicate article detected, skipping: McKinsey isn’t dead, but the glamour of being a professional is
+2025-09-11 13:05:13 - INFO - Prepared email insertion: Google Alert - McKinsey from https://www.cityam.com/mckinsey-isnt-dead-but-the-glamour-of-being-a-professional-is/
+2025-09-11 13:05:13 - INFO - Processing email: Google Alert - McKinsey on 11-09-25
+2025-09-11 13:05:13 - INFO - Processing email: Google Alert - KPMG on 11-09-25
+2025-09-11 13:05:32 - INFO - Duplicate article detected, skipping: Demand for permanent workers in South declines at fastest rate since June 2020
+2025-09-11 13:05:32 - INFO - Prepared email insertion: Google Alert - KPMG from https://businessbiscuit.com/business-news/economy-news/jobs-market-august-2025/
+2025-09-11 13:05:32 - INFO - Processing email: Google Alert - Deloitte on 11-09-25
+2025-09-11 13:05:32 - INFO - Processing email: Google Alert - Deloitte on 11-09-25
+2025-09-11 13:05:47 - INFO - Unique article detected. Added E-Invoicing: A catalyst for finance transformation and compliance to the database
+2025-09-11 13:05:47 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.deloitte.com/lu/en/services/tax/perspectives/e-invoicing-catalyst-for-finance-transformation-compliance.html
+2025-09-11 13:06:04 - INFO - Duplicate article detected, skipping: Aha moments, the 'first ten hours', and other pro tips from business leaders building AI-ready workforces
+2025-09-11 13:06:04 - INFO - Prepared email insertion: Google Alert - Deloitte from https://fortune.com/2025/09/10/aha-moments-the-first-ten-hours-and-other-pro-tips-from-business-leaders-building-ai-ready-workforces/
+2025-09-11 13:06:04 - INFO - Processing email: Google Alert - Bain & Company on 11-09-25
+2025-09-11 13:06:17 - INFO - Unique article detected. Added MRM Launches AI Relationship Management | LBBOnline to the database
+2025-09-11 13:06:17 - INFO - Prepared email insertion: Google Alert - Bain & Company from https://lbbonline.com/news/MRM-Launches-AI-Relationship-Management
+2025-09-11 13:06:17 - INFO - Processing email: Google Alert - Deloitte on 11-09-25
+2025-09-11 13:06:40 - INFO - Duplicate article detected, skipping: Consumer and business signs point towards ‘subdued’ recovery, economists say | Accounting Times
+2025-09-11 13:06:40 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.accountingtimes.com.au/economy/consumer-and-business-signs-point-towards-subdued-recovery-economists-say
+2025-09-11 13:06:40 - INFO - Processing email: Google Alert - "Deloitte" on 11-09-25
+2025-09-11 13:06:54 - INFO - Duplicate article detected, skipping: E-Invoicing: A catalyst for finance transformation and compliance | Deloitte Luxembourg
+2025-09-11 13:06:54 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://www.deloitte.com/lu/en/services/tax/perspectives/e-invoicing-catalyst-for-finance-transformation-compliance.html
+2025-09-11 13:06:54 - INFO - Processing email: Google Alert - Deloitte on 11-09-25
+2025-09-11 13:06:54 - INFO - Processing email: Google Alert - Accenture on 11-09-25
+2025-09-11 13:07:05 - WARNING - Invalid content from URL: https://www.ad-hoc-news.de/boerse/news/marktberichte/isb-leadership-summit-2025-addresses-skills-leaders-need-for-the-future/68172039
+2025-09-11 13:07:05 - INFO - Processing email: Google Alert - McKinsey on 11-09-25
+2025-09-11 13:07:14 - INFO - Unique article detected. Added Barclays Names McKinsey Veteran Sid Azad Head of Mass Affluent and Growth, Promotes Nick May to Head of Crown Dependencies. to the database
+2025-09-11 13:07:14 - INFO - Prepared email insertion: Google Alert - McKinsey from https://www.ainvest.com/news/barclays-names-mckinsey-veteran-sid-azad-head-mass-affluent-growth-promotes-nick-head-crown-dependencies-2509/
+2025-09-11 13:07:14 - INFO - Processing email: Google Alert - McKinsey on 11-09-25
+2025-09-11 13:07:14 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 11-09-25
+2025-09-11 13:07:14 - INFO - Processing email: Google Alert - "Deloitte" on 11-09-25
+2025-09-11 13:07:23 - INFO - Duplicate article detected, skipping: Trump’s Tariffs Boomerang: US Economy Weakens, India Stands Firm - BT TV BusinessToday
+2025-09-11 13:07:23 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://www.businesstoday.in/amp/bt-tv/video/trumps-tariffs-boomerang-us-economy-weakens-india-stands-firm-493426-2025-09-10
+2025-09-11 13:07:23 - INFO - Processing email: Google Alert - Deloitte on 11-09-25
+2025-09-11 13:07:40 - INFO - Duplicate article detected, skipping: Deloitte US asks India staff to return to office two days a week
+2025-09-11 13:07:40 - INFO - Prepared email insertion: Google Alert - Deloitte from https://m.economictimes.com/news/company/corporate-trends/deloitte-us-asks-india-staff-to-return-to-office-two-days-a-week/articleshow/123813538.cms
+2025-09-11 13:07:40 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 11-09-25
+2025-09-11 13:07:59 - INFO - Unique article detected. Added Reinsurers deliver 14% decade-long TSR, outpacing insurance peers – BCG to the database
+2025-09-11 13:07:59 - INFO - Prepared email insertion: Google Alert - "Boston Consulting Group" "BCG" from https://www.insurancebusinessmag.com/reinsurance/news/breaking-news/reinsurers-deliver-14-decadelong-tsr-outpacing-insurance-peers--bcg-549153.aspx
+2025-09-11 13:07:59 - INFO - Processing email: Google Alert - Deloitte on 11-09-25
+2025-09-11 13:09:46 - INFO - Duplicate article detected, skipping: Deloitte on Tackling Modern Money Laundering in Sri Lanka | EconomyNext
+2025-09-11 13:09:46 - INFO - Prepared email insertion: Google Alert - Deloitte from https://economynext.com/brand_voice/deloitte-on-tackling-modern-money-laundering-in-sri-lanka/
+2025-09-11 13:09:46 - INFO - Processing email: Google Alert - McKinsey on 11-09-25
+2025-09-11 13:09:47 - WARNING - Invalid content from URL: https://www.msn.com/en-us/money/smallbusiness/workday-s-ceo-says-his-career-took-off-after-he-changed-his-attitude-and-amazon-boss-andy-jassy-swears-by-the-same-mindset-hack/ar-AA1McFhN?ocid=finance-verthp-feeds
+2025-09-11 13:09:47 - INFO - Processing email: Google Alert - Deloitte on 11-09-25
+2025-09-11 13:10:05 - INFO - Duplicate article detected, skipping: Deloitte US asks India employees to return to office two days a week
+2025-09-11 13:10:05 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.business-standard.com/companies/news/deloitte-us-asks-india-employees-to-return-to-office-two-days-a-week-125091001634_1.html
+2025-09-11 13:10:13 - INFO - Duplicate article detected, skipping: Trump’s Tariffs Boomerang: US Economy Weakens, India Stands Firm - BT TV BusinessToday
+2025-09-11 13:10:13 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.businesstoday.in/amp/bt-tv/video/trumps-tariffs-boomerang-us-economy-weakens-india-stands-firm-493426-2025-09-10
+2025-09-11 13:10:13 - INFO - Processing email: Google Alert - Deloitte on 11-09-25
+2025-09-11 13:10:34 - INFO - Unique article detected. Added The buzzing northern city that is one of the most affordable European cities to buy a home to the database
+2025-09-11 13:10:34 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.timeout.com/uk/news/the-buzzing-northern-city-that-is-one-of-the-most-affordable-european-cities-to-buy-a-home-091025
+2025-09-11 13:10:34 - INFO - Processing email: Google Alert - "PricewaterhouseCoopers" "PwC" on 11-09-25
+2025-09-11 13:10:57 - INFO - Unique article detected. Added Colombian Tax Reform Unveiled to the database
+2025-09-11 13:10:57 - INFO - Prepared email insertion: Google Alert - "PricewaterhouseCoopers" "PwC" from https://www.pwc.com/co/es/pwc-insights/colombian-tax-reform-unveiled.html
+2025-09-11 13:10:57 - INFO - Processing email: Google Alert - "Ernst & Young" "EY" on 11-09-25
+2025-09-11 13:11:11 - INFO - Unique article detected. Added NITDA, Ernst & Young Explore Collaboration On Digital Literacy, Cybersecurity to the database
+2025-09-11 13:11:11 - INFO - Prepared email insertion: Google Alert - "Ernst & Young" "EY" from https://www.tvcnews.tv/nitda-ernst-young-explore-collaboration-on-digital-literacy-cybersecurity/
+2025-09-11 13:11:11 - INFO - Processing email: Google Alert - Deloitte on 11-09-25
+2025-09-11 13:11:27 - INFO - Duplicate article detected, skipping: Deloitte US asks India employees to return to office two days a week
+2025-09-11 13:11:27 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.business-standard.com/amp/companies/news/deloitte-us-asks-india-employees-to-return-to-office-two-days-a-week-125091001634_1.html
+2025-09-11 13:11:50 - INFO - Duplicate article detected, skipping: Deloitte: Holiday Retail Sales Expected to Increase 2.9% to 3.4%
+2025-09-11 13:11:50 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.streetinsider.com/PRNewswire/Deloitte%3A+Holiday+Retail+Sales+Expected+to+Increase+2.9%25+to+3.4%25/25317921.html
+2025-09-11 13:11:50 - INFO - Processing email: Google Alert - Bain & Company on 11-09-25
+2025-09-11 13:12:08 - INFO - Unique article detected. Added Owner family re-enters the operating business to the database
+2025-09-11 13:12:08 - INFO - Prepared email insertion: Google Alert - Bain & Company from https://www.industrial-production.de/economy---business/lenze--owner-family-returns-to-operational-business.htm
+2025-09-11 13:12:08 - INFO - Processing email: Google Alert - "Deloitte" on 11-09-25
+2025-09-11 13:12:21 - INFO - Duplicate article detected, skipping: Deloitte US asks India employees to return to office two days a week
+2025-09-11 13:12:21 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://www.business-standard.com/companies/news/deloitte-us-asks-india-employees-to-return-to-office-two-days-a-week-125091001634_1.html
+2025-09-11 13:12:21 - INFO - Processing email: Google Alert - Deloitte on 11-09-25
+2025-09-11 13:12:33 - INFO - Unique article detected. Added Deloitte Forecasts Up to 3.4% Holiday Growth from Wary but Resilient Shoppers | HomePage News to the database
+2025-09-11 13:12:33 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.homepagenews.com/retail-articles/deloitte-forecasts-up-to-3-4-holiday-growth-driven-by-wary-but-resilient-shoppers/
+2025-09-11 13:12:37 - WARNING - Invalid content from URL: https://deloitte.wsj.com/cfo/from-cost-center-to-value-creator-gbs-in-controllership-e3b25be6
+2025-09-11 13:12:37 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 11-09-25
+2025-09-11 13:12:37 - INFO - Processing email: Google Alert - Deloitte on 11-09-25
+2025-09-11 13:12:37 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 11-09-25
+2025-09-11 13:12:52 - INFO - Unique article detected. Added AI Set to Contribute $15.7 Trillion to Global GDP by 2030: Report - IndUS Business Journal to the database
+2025-09-11 13:12:52 - INFO - Prepared email insertion: Google Alert - "Boston Consulting Group" "BCG" from https://indusbusinessjournal.com/2025/09/ai-set-to-contribute-15-7-trillion-to-global-gdp-by-2030-report/
+2025-09-11 13:13:09 - INFO - Duplicate article detected, skipping: GHP Search Helps Ascend Charter Schools Add Two Trustees
+2025-09-11 13:13:09 - INFO - Prepared email insertion: Google Alert - "Boston Consulting Group" "BCG" from https://huntscanlon.com/ghp-search-helps-ascend-charter-schools-add-two-trustees/
+2025-09-11 13:13:18 - INFO - Unique article detected. Added Kraken Enters European Market with Tokenized Stocks Amid Competition with Robinhood to the database
+2025-09-11 13:13:18 - INFO - Prepared email insertion: Google Alert - "Boston Consulting Group" "BCG" from https://www.ainvest.com/news/kraken-enters-european-market-tokenized-stocks-competition-robinhood-2509/
+2025-09-11 13:13:18 - INFO - Processing email: Google Alert - McKinsey on 11-09-25
+2025-09-11 13:13:38 - INFO - Duplicate article detected, skipping: McKinsey is doubling down on entry-level hires — even in the AI era
+2025-09-11 13:13:38 - INFO - Prepared email insertion: Google Alert - McKinsey from https://www.bundle.app/en/finance/mckinsey-is-doubling-down-on-entry-level-hires-even-in-the-ai-era-1F318068-3954-4A3E-A3DF-B673BE25603E
+2025-09-11 13:13:38 - INFO - Processing email: Google Alert - "Deloitte" on 11-09-25
+2025-09-11 13:13:52 - INFO - Duplicate article detected, skipping: Deloitte Forecasts Up to 3.4% Holiday Growth from Wary but Resilient Shoppers
+2025-09-11 13:13:52 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://www.homepagenews.com/retail-articles/deloitte-forecasts-up-to-3-4-holiday-growth-driven-by-wary-but-resilient-shoppers/
+2025-09-11 13:14:09 - INFO - Duplicate article detected, skipping: US holiday sales expected to rise a modest 2.9–3.4%, Deloitte says
+2025-09-11 13:14:09 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://cryptorank.io/news/feed/f7a91-us-holiday-sales-expected-to-rise-a-modest-2-9-3-4-deloitte-says
+2025-09-11 13:14:11 - WARNING - Invalid content from URL: https://www.inc.com/reuters/dont-expect-massive-holiday-sales-growth-this-year/91238253
+2025-09-11 13:14:11 - INFO - Processing email: Google Alert - Deloitte on 11-09-25
+2025-09-11 13:14:12 - WARNING - Invalid content from URL: https://www.inc.com/reuters/dont-expect-massive-holiday-sales-growth-this-year/91238253
+2025-09-11 13:14:12 - INFO - Processing email: Google Alert - "Ernst & Young" "EY" on 11-09-25
+2025-09-11 13:14:13 - WARNING - Invalid content from URL: https://www.entrepreneur.com/business-news/nick-raquet-from-big-four-firm-to-mlbs-big-league/496959
+2025-09-11 13:14:13 - INFO - Processing email: Google Alert - Deloitte on 11-09-25
+2025-09-11 13:14:28 - INFO - Duplicate article detected, skipping: India’s fitness market revenue to grow by 15 pc annually, reach Rs 37,700 cr by 2030: Report
+2025-09-11 13:14:28 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.newsgram.com/health/2025/09/10/indias-fitness-market-revenue-to-grow-by-15-pc
+2025-09-11 13:14:28 - INFO - Processing email: Google Alert - KPMG on 11-09-25
+2025-09-11 13:14:51 - INFO - Unique article detected. Added Workplace friendships valued over wages says KPMG report to the database
+2025-09-11 13:14:51 - INFO - Prepared email insertion: Google Alert - KPMG from https://www.hrgrapevine.com/us/content/article/2025-09-10-workplace-friendships-valued-over-pay-says-kpmg-report?utm_source=search-list&utm_medium=search&utm_campaign=
+2025-09-11 13:14:51 - INFO - Processing email: Google Alert - Deloitte on 11-09-25
+2025-09-11 13:15:15 - INFO - Duplicate article detected, skipping: Deloitte: Holiday Retail Sales Expected to Increase 2.9% to 3.4%
+2025-09-11 13:15:15 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.prnewswire.com/news-releases/deloitte-holiday-retail-sales-expected-to-increase-2-9-to-3-4-302551634.html
+2025-09-11 13:15:29 - INFO - Duplicate article detected, skipping: US holiday sales set for slowest growth since pandemic, Deloitte report forecasts
+2025-09-11 13:15:29 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.investing.com/news/economic-indicators/us-holiday-sales-set-for-slowest-growth-since-pandemic-deloitte-report-forecasts-4232556
+2025-09-11 13:15:29 - INFO - Processing email: Google Alert - "Deloitte" on 11-09-25
+2025-09-11 13:15:50 - INFO - Duplicate article detected, skipping: Former Big Four Partner Joins Management Controls, Inc. as APAC Chief Revenue Officer to Accelerate Regional Growth - News Hub
+2025-09-11 13:15:50 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://newshub.medianet.com.au/2025/09/former-big-four-partner-joins-management-controls-inc-as-apac-chief-revenue-officer-to-accelerate-regional-growth/117880/
+2025-09-11 13:15:50 - INFO - Processing email: Google Alert - McKinsey on 10-09-25
+2025-09-11 13:15:54 - WARNING - Invalid content from URL: https://www.theglobeandmail.com/business/article-how-unions-are-preparing-for-the-age-of-ai/
+2025-09-11 13:15:54 - INFO - Processing email: Google Alert - "Deloitte" on 10-09-25
+2025-09-11 13:16:21 - INFO - Duplicate article detected, skipping: Deloitte: Holiday Retail Sales Expected to Increase 2.9% to 3.4%
+2025-09-11 13:16:21 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://www.prnewswire.com/news-releases/deloitte-holiday-retail-sales-expected-to-increase-2-9-to-3-4-302551634.html
+2025-09-11 13:16:21 - INFO - Processing email: Google Alert - Deloitte on 10-09-25
+2025-09-11 13:16:44 - INFO - Duplicate article detected, skipping: Deloitte: Holiday Retail Sales Expected to Increase 2.9% to 3.4%
+2025-09-11 13:16:44 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.prnewswire.com/news-releases/deloitte-holiday-retail-sales-expected-to-increase-2-9-to-3-4-302551634.html
+2025-09-11 13:17:02 - INFO - Unique article detected. Added Hero Dubai Desert Classic Launches Global Sustainability Challenge to the database
+2025-09-11 13:17:02 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.newsofbahrain.com/world/118721.html
+2025-09-11 13:17:36 - INFO - Unique article detected. Added Import outlook turns negative for holiday season to the database
+2025-09-11 13:17:36 - INFO - Prepared email insertion: Google Alert - Deloitte from https://massmarketretailers.com/import-outlook-turns-negative-for-holiday-season/
+2025-09-11 13:17:36 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 10-09-25
+2025-09-11 13:17:59 - INFO - Duplicate article detected, skipping: Reinsurers deliver 14% decade-long TSR, outpacing insurance peers – BCG
+2025-09-11 13:17:59 - INFO - Prepared email insertion: Google Alert - "Boston Consulting Group" "BCG" from https://www.insurancebusinessmag.com/reinsurance/news/breaking-news/reinsurers-deliver-14-decadelong-tsr-outpacing-insurance-peers--bcg-549153.aspx
+2025-09-11 13:18:20 - INFO - Duplicate article detected, skipping: AI Set to Contribute $15.7 Trillion to Global GDP by 2030: Report - IndUS Business Journal
+2025-09-11 13:18:20 - INFO - Prepared email insertion: Google Alert - "Boston Consulting Group" "BCG" from https://indusbusinessjournal.com/2025/09/ai-set-to-contribute-15-7-trillion-to-global-gdp-by-2030-report/
+2025-09-11 13:18:37 - INFO - Duplicate article detected, skipping: GHP Search Helps Ascend Charter Schools Add Two Trustees
+2025-09-11 13:18:37 - INFO - Prepared email insertion: Google Alert - "Boston Consulting Group" "BCG" from https://huntscanlon.com/ghp-search-helps-ascend-charter-schools-add-two-trustees/
+2025-09-11 13:18:49 - INFO - Unique article detected. Added VeChain's VeFounder Program Empowers Web3 Developers with Ready-Made dApps to the database
+2025-09-11 13:18:49 - INFO - Prepared email insertion: Google Alert - "Boston Consulting Group" "BCG" from https://www.ainvest.com/news/vechain-vefounder-program-empowers-web3-developers-ready-dapps-2509/
+2025-09-11 13:19:01 - INFO - Duplicate article detected, skipping: Kraken Enters European Market with Tokenized Stocks Amid Competition with Robinhood
+2025-09-11 13:19:01 - INFO - Prepared email insertion: Google Alert - "Boston Consulting Group" "BCG" from https://www.ainvest.com/news/kraken-enters-european-market-tokenized-stocks-competition-robinhood-2509/
+2025-09-11 13:19:01 - INFO - Processing email: Google Alert - Deloitte on 10-09-25
+2025-09-11 13:19:03 - WARNING - Invalid content from URL: https://www.bloomberg.com/news/articles/2025-09-10/deloitte-us-asks-india-staff-to-return-to-office-two-days-a-week
+2025-09-11 13:19:04 - WARNING - Invalid content from URL: https://www.inc.com/reuters/dont-expect-massive-holiday-sales-growth-this-year/91238253
+2025-09-11 13:19:04 - INFO - Processing email: Google Alert - "Ernst & Young" "EY" on 10-09-25
+2025-09-11 13:19:46 - INFO - Unique article detected. Added Lexham to Renovate West Hartford Building for 'Big Four' Accounting Firm, Preparing for Center Park Place Groundbreaking - We-Ha | West Hartford News to the database
+2025-09-11 13:19:46 - INFO - Prepared email insertion: Google Alert - "Ernst & Young" "EY" from https://we-ha.com/lexham-to-renovate-west-hartford-building-for-big-four-accounting-firm-preparing-for-center-park-place-groundbreaking/
+2025-09-11 13:19:48 - WARNING - Invalid content from URL: https://www.entrepreneur.com/business-news/nick-raquet-from-big-four-firm-to-mlbs-big-league/496959
+2025-09-11 13:20:10 - INFO - Unique article detected. Added Big Ideas Start Young: NFTE Opens 2025 World Series of Innovation to Innovators Ages 524 - Broadcast - O mercado financeiro em tempo real to the database
+2025-09-11 13:20:10 - INFO - Prepared email insertion: Google Alert - "Ernst & Young" "EY" from https://www.broadcast.com.br/releases/big-ideas-start-young-nfte-opens-2025-world-series-of-innovation-to-innovators-ages-524/
+2025-09-11 13:20:10 - INFO - Processing email: Google Alert - "Deloitte" on 10-09-25
+2025-09-11 13:20:29 - INFO - Duplicate article detected, skipping: Deloitte US asks India staff to return to office two days a week
+2025-09-11 13:20:29 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://m.economictimes.com/news/company/corporate-trends/deloitte-us-asks-india-staff-to-return-to-office-two-days-a-week/articleshow/123813538.cms
+2025-09-11 13:20:41 - INFO - Duplicate article detected, skipping: Zimmer Biomet seeks USD 172M in damages from Deloitte – Medical Buyer
+2025-09-11 13:20:41 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://medicalbuyer.co.in/zimmer-biomet-seeks-usd-172m-in-damages-from-deloitte/
+2025-09-11 13:21:05 - INFO - Duplicate article detected, skipping: India’s fitness market to double by 2030: Deloitte–HFA
+2025-09-11 13:21:05 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://mediabrief.com/indias-fitness-market-to-double-by-2030-deloitte-hfa/
+2025-09-11 13:21:08 - WARNING - Invalid content from URL: https://www.timesnownews.com/business-economy/economy/why-this-holiday-season-could-be-tough-for-us-retailers-sales-may-see-slowest-growth-since-pandemic-article-152743442
+2025-09-11 13:21:26 - INFO - Unique article detected. Added Deep-tech is a mindset, not a skill – What Indian enterprises must change to build it to the database
+2025-09-11 13:21:26 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://timestech.in/deep-tech-is-a-mindset-not-a-skill-what-indian-enterprises-must-change-to-build-it/
+2025-09-11 13:21:55 - INFO - Duplicate article detected, skipping: Gen Z vs Millennials: Career Trends & Shifts in 2025
+2025-09-11 13:21:55 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://www.newsgram.com/lifestyle/2025/09/10/gen-z-vs-millennials-career-trends-shifts-in-2025
+2025-09-11 13:21:55 - INFO - Processing email: Google Alert - McKinsey on 10-09-25
+2025-09-11 13:22:18 - INFO - Duplicate article detected, skipping: McKinsey is doubling down on entry-level hires — even in the AI era
+2025-09-11 13:22:18 - INFO - Prepared email insertion: Google Alert - McKinsey from https://www.bundle.app/en/finance/mckinsey-is-doubling-down-on-entry-level-hires-even-in-the-ai-era-1F318068-3954-4A3E-A3DF-B673BE25603E
+2025-09-11 13:22:20 - INFO - newspaper ignoring lxml node error: Input object is not an XML element: HtmlProcessingInstruction
+2025-09-11 13:22:24 - INFO - Unique article detected. Added Please Wait to the database
+2025-09-11 13:22:24 - INFO - Prepared email insertion: Google Alert - McKinsey from https://www2.fundsforngos.org/education/open-call-mckinsey-org-forward-learning-program-in-africa/
+2025-09-11 13:22:34 - INFO - Duplicate article detected, skipping: Barclays Appoints McKinsey Partner to Lead Mass Affluent Business Amid Wealth Push
+2025-09-11 13:22:34 - INFO - Prepared email insertion: Google Alert - McKinsey from https://www.ainvest.com/news/barclays-appoints-mckinsey-partner-lead-mass-affluent-business-wealth-push-2509/
+2025-09-11 13:22:35 - WARNING - Invalid content from URL: https://www.msn.com/en-us/money/smallbusiness/workday-s-ceo-says-his-career-took-off-after-he-changed-his-attitude-and-amazon-boss-andy-jassy-swears-by-the-same-mindset-hack/ar-AA1McFhN?ocid=finance-verthp-feeds
+2025-09-11 13:22:35 - INFO - Processing email: Google Alert - "Deloitte" on 10-09-25
+2025-09-11 13:22:37 - WARNING - Invalid content from URL: https://www.bloomberg.com/news/articles/2025-09-10/deloitte-us-asks-india-staff-to-return-to-office-two-days-a-week?srnd=homepage-americas
+2025-09-11 13:22:40 - WARNING - Invalid content from URL: https://news.futunn.com/en/flash/19361222
+2025-09-11 13:22:40 - INFO - Processing email: Google Alert - Deloitte on 10-09-25
+2025-09-11 13:22:42 - WARNING - Invalid content from URL: https://www.bloomberg.com/news/articles/2025-09-10/deloitte-us-asks-india-staff-to-return-to-office-two-days-a-week?srnd=homepage-americas
+2025-09-11 13:22:42 - INFO - Processing email: Google Alert - Deloitte on 10-09-25
+2025-09-11 13:22:55 - INFO - Duplicate article detected, skipping: Holiday shopping forecast 2025: Deloitte expects slower sales growth
+2025-09-11 13:22:55 - INFO - Prepared email insertion: Google Alert - Deloitte from https://t.co/92PBZLoAOE
+2025-09-11 13:23:00 - WARNING - Invalid content from URL: https://x.com/axios/status/1965634973760700469
+2025-09-11 13:23:00 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 10-09-25
+2025-09-11 13:23:00 - INFO - Processing email: Google Alert - Deloitte on 10-09-25
+2025-09-11 13:23:02 - WARNING - Invalid content from URL: https://news.futunn.com/en/flash/19361222/deloitte-china-and-the-university-of-hong-kong-join-forces
+2025-09-11 13:23:02 - INFO - Processing email: Google Alert - Deloitte on 10-09-25
+2025-09-11 13:23:24 - INFO - Duplicate article detected, skipping: India’s fitness market to double by 2030: Deloitte–HFA
+2025-09-11 13:23:24 - INFO - Prepared email insertion: Google Alert - Deloitte from https://mediabrief.com/indias-fitness-market-to-double-by-2030-deloitte-hfa/
+2025-09-11 13:23:24 - INFO - Processing email: Google Alert - "Deloitte" on 10-09-25
+2025-09-11 13:23:53 - INFO - Duplicate article detected, skipping: Deloitte Forecasts Weakest Holiday Sales Increase Since Pandemic | SGB Media Online
+2025-09-11 13:23:53 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://sgbonline.com/deloitte-forecasting-weakest-holiday-sales-increase-since-pandemic/
+2025-09-11 13:24:00 - WARNING - Invalid content from URL: https://www.quiverquant.com/news/Royalty+Pharma+and+Deloitte+Release+Landmark+Report+on+Biopharma+Royalty+Market+Insights+and+Trends
+2025-09-11 13:24:21 - INFO - Unique article detected. Added 8 to Be Honored at Rutgers Business School’s 2025 Alumni Awards Ceremony to the database
+2025-09-11 13:24:21 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://njbmagazine.com/njb-news-now/8-to-be-honored-at-rutgers-business-schools-2025-alumni-awards-ceremony/
+2025-09-11 13:24:21 - INFO - Processing email: Google Alert - Bain & Company on 10-09-25
+2025-09-11 13:24:48 - INFO - Duplicate article detected, skipping: Bain projection: U.S. holiday retail sales below average growth | The Supply Chain Xchange
+2025-09-11 13:24:48 - INFO - Prepared email insertion: Google Alert - Bain & Company from https://www.thescxchange.com/finance-strategy/plan/bain-forecast-u-s-holiday-retail-sales-to-notch-below-average-growth
+2025-09-11 13:24:48 - INFO - Processing email: Google Alert - McKinsey on 10-09-25
+2025-09-11 13:25:06 - INFO - Unique article detected. Added The end of an era: European carmakers face unprecedented challenges to the database
+2025-09-11 13:25:06 - INFO - Prepared email insertion: Google Alert - McKinsey from https://fakti.bg/en/avto/999216-the-end-of-an-era-european-carmakers-face-unprecedented-challenges
+2025-09-11 13:25:06 - INFO - Processing email: Google Alert - "Ernst & Young" "EY" on 10-09-25
+2025-09-11 13:25:52 - INFO - Duplicate article detected, skipping: EY-Parthenon practice unveils neurosymbolic AI capabilities to empower businesses to identify, predict and unlock revenue at scale
+2025-09-11 13:25:52 - INFO - Prepared email insertion: Google Alert - "Ernst & Young" "EY" from https://www.ey.com/en_us/newsroom/2025/09/ey-parthenon-practice-unveils-neurosymbolic-ai-capabilities-to-empower-businesses-to-identify-predict-and-unlock-revenue-at-scale
+2025-09-11 13:26:21 - INFO - Duplicate article detected, skipping: Market Challenges Exist But Entrepreneurs Aren’t Slowing Down
+2025-09-11 13:26:21 - INFO - Prepared email insertion: Google Alert - "Ernst & Young" "EY" from https://www.forbes.com/councils/forbesbusinesscouncil/2025/09/10/market-challenges-exist-but-entrepreneurs-arent-slowing-down/
+2025-09-11 13:26:21 - INFO - Processing email: Google Alert - Deloitte on 10-09-25
+2025-09-11 13:26:38 - WARNING - Invalid content from URL: https://sgbonline.com/deloitte-forecasting-weakest-holiday-sales-increase-since-pandemic/
+2025-09-11 13:26:56 - INFO - Duplicate article detected, skipping: 8 to Be Honored at Rutgers Business School’s 2025 Alumni Awards Ceremony
+2025-09-11 13:26:56 - INFO - Prepared email insertion: Google Alert - Deloitte from https://njbmagazine.com/njb-news-now/8-to-be-honored-at-rutgers-business-schools-2025-alumni-awards-ceremony/
+2025-09-11 13:26:56 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 10-09-25
+2025-09-11 13:27:15 - INFO - Duplicate article detected, skipping: AI set to add $15.7 trillion to global GDP by 2030: FICCI-BCG report
+2025-09-11 13:27:15 - INFO - Prepared email insertion: Google Alert - "Boston Consulting Group" "BCG" from https://www.thehindubusinessline.com/info-tech/ai-poised-to-add-157-trillion-to-global-gdp-by-2030-ficci-bcg-report/article70034304.ece
+2025-09-11 13:27:28 - INFO - Duplicate article detected, skipping: AI may boost global GDP by $15.7 trillion | IBC World News
+2025-09-11 13:27:28 - INFO - Prepared email insertion: Google Alert - "Boston Consulting Group" "BCG" from https://ibcworldnews.com/2025/09/10/ai-may-boost-global-gdp-by-15-7-trillion/
+2025-09-11 13:27:28 - INFO - Processing email: Google Alert - McKinsey on 10-09-25
+2025-09-11 13:27:28 - INFO - Processing email: Google Alert - Deloitte on 10-09-25
+2025-09-11 13:28:02 - INFO - Duplicate article detected, skipping: Deloitte: Holiday Retail Sales Expected to Increase 2.9% to 3.4%
+2025-09-11 13:28:02 - INFO - Prepared email insertion: Google Alert - Deloitte from https://finance.yahoo.com/news/deloitte-holiday-retail-sales-expected-120200008.html
+2025-09-11 13:28:29 - INFO - Duplicate article detected, skipping: Deloitte Forecasts Weakest Holiday Sales Increase Since Pandemic | SGB Media Online
+2025-09-11 13:28:29 - INFO - Prepared email insertion: Google Alert - Deloitte from https://sgbonline.com/deloitte-forecasting-weakest-holiday-sales-increase-since-pandemic/
+2025-09-11 13:28:58 - INFO - Duplicate article detected, skipping: Deloitte roundtable: Optimism in the market as capital\u202finnovation and M&A come to the fore
+2025-09-11 13:28:58 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.theinsurer.com/ti/reinsurancemonth/deloitte-roundtable-optimism-in-the-market-as-capital-innovation-and-ma-come-to-2025-09-10/
+2025-09-11 13:29:20 - INFO - Duplicate article detected, skipping: Inside Deloitte’s Global AI Data Centre Hub | AI Magazine
+2025-09-11 13:29:20 - INFO - Prepared email insertion: Google Alert - Deloitte from https://aimagazine.com/news/deloitte-creates-global-ai-data-centre-excellence-hub
+2025-09-11 13:29:33 - INFO - Duplicate article detected, skipping: Holiday sales could grow up to 3.4%: Deloitte
+2025-09-11 13:29:33 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.retaildive.com/news/holiday-retail-sales-growth-forecast-deloitte/759736/
+2025-09-11 13:29:59 - INFO - Duplicate article detected, skipping: Deloitte: Holiday sales growth to slow; e-commerce to stay strong
+2025-09-11 13:29:59 - INFO - Prepared email insertion: Google Alert - Deloitte from https://chainstoreage.com/deloitte-holiday-sales-growth-slow-e-commerce-stay-strong
+2025-09-11 13:30:12 - INFO - Duplicate article detected, skipping: Deloitte forecasts slower holiday retail sales growth in 2025
+2025-09-11 13:30:12 - INFO - Prepared email insertion: Google Alert - Deloitte from https://massmarketretailers.com/deloitte-forecasts-slower-holiday-retail-sales-growth-in-2025/
+2025-09-11 13:30:31 - INFO - Unique article detected. Added Royalty Pharma Announces Release of Deloitte’s Report on the Biopharma Royalty Market to the database
+2025-09-11 13:30:31 - INFO - Prepared email insertion: Google Alert - Deloitte from https://finance.yahoo.com/news/royalty-pharma-announces-release-deloitte-113000286.html
+2025-09-11 13:30:50 - INFO - Duplicate article detected, skipping: Deloitte and Legora form legal AI partnership
+2025-09-11 13:30:50 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.techmarketview.com/ukhotviews/archive/2025/09/10/deloitte-and-legora-form-legal-ai-partnership
+2025-09-11 13:31:08 - INFO - Duplicate article detected, skipping: US holiday sales expected to rise a modest 2.9–3.4%, Deloitte says
+2025-09-11 13:31:08 - INFO - Prepared email insertion: Google Alert - Deloitte from https://kalkinemedia.com/us/business-news/economy/us-holiday-sales-expected-to-rise-a-modest-29-34-deloitte-says
+2025-09-11 13:31:08 - INFO - Processing email: Google Alert - "Ernst & Young" "EY" on 10-09-25
+2025-09-11 13:31:30 - INFO - Duplicate article detected, skipping: US Electric Car Uptake Will Slow Further on Trump Policies
+2025-09-11 13:31:30 - INFO - Prepared email insertion: Google Alert - "Ernst & Young" "EY" from https://www.claimsjournal.com/news/national/2025/09/09/332848.htm
+2025-09-11 13:31:30 - INFO - Processing email: Google Alert - Deloitte on 10-09-25
+2025-09-11 13:31:45 - INFO - Duplicate article detected, skipping: US holiday sales expected to rise a modest 2.9–3.4%, Deloitte says
+2025-09-11 13:31:45 - INFO - Prepared email insertion: Google Alert - Deloitte from https://invezz.com/news/2025/09/10/us-holiday-sales-expected-to-rise-a-modest-2-9-3-4-deloitte-says/
+2025-09-11 13:31:47 - WARNING - Invalid content from URL: https://www.footballfancast.com/saudi-backers-tottenham-plan-as-daniel-levy-exit-kickstarts-restructure/
+2025-09-11 13:31:47 - INFO - Processing email: Google Alert - Bain & Company on 10-09-25
+2025-09-11 13:32:05 - INFO - Unique article detected. Added The Hidden Cost of Healthcare AI: Why Premium Prices Don't Equal Premium Results - MedCity News to the database
+2025-09-11 13:32:05 - INFO - Prepared email insertion: Google Alert - Bain & Company from https://medcitynews.com/2025/09/the-hidden-cost-of-healthcare-ai-why-premium-prices-dont-equal-premium-results/
+2025-09-11 13:32:05 - INFO - Processing email: Google Alert - Deloitte on 10-09-25
+2025-09-11 13:32:06 - WARNING - Invalid content from URL: https://www.morningstar.com/news/globe-newswire/9526512/royalty-pharma-announces-release-of-deloittes-report-on-the-biopharma-royalty-market
+2025-09-11 13:32:08 - WARNING - Invalid content from URL: https://www.insideindianabusiness.com/articles/notre-dame-msan-launch-second-online-course-for-military-spouses
+2025-09-11 13:32:18 - INFO - Duplicate article detected, skipping: Deloitte Report: Biopharma Royalty Market Drives Diversified Funding Strategy
+2025-09-11 13:32:18 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.ainvest.com/news/deloitte-report-biopharma-royalty-market-drives-diversified-funding-strategy-2509/
+2025-09-11 13:32:18 - INFO - Processing email: Google Alert - McKinsey on 10-09-25
+2025-09-11 13:32:20 - WARNING - Invalid content from URL: https://www.fnlondon.com/articles/barclays-taps-mckinsey-partner-to-lead-mass-affluent-business-38b62fa1
+2025-09-11 13:32:33 - INFO - Unique article detected. Added CIO ASEAN Leadership Live with McKinsey: Transformative role of AI and GenAI in the insurance sector in the Southeast Asia. to the database
+2025-09-11 13:32:33 - INFO - Prepared email insertion: Google Alert - McKinsey from https://www.cio.com/podcast/4054670/cio-asean-leadership-live-with-mckinsey-transformative-role-of-ai-and-genai-in-the-insurance-sector-in-the-southeast-asia.html
+2025-09-11 13:32:42 - INFO - Unique article detected. Added Managing Your Team When the C-Suite Isn’t Providing Strategic Direction to the database
+2025-09-11 13:32:42 - INFO - Prepared email insertion: Google Alert - McKinsey from https://hbr.org/2025/09/managing-your-team-when-the-c-suite-isnt-providing-strategic-direction
+2025-09-11 13:33:03 - INFO - Duplicate article detected, skipping: AI in Corporate Travel: Finding the Right Fit and Balance
+2025-09-11 13:33:03 - INFO - Prepared email insertion: Google Alert - McKinsey from https://skift.com/2025/09/10/ai-in-corporate-travel-finding-the-right-fit-and-balance/
+2025-09-11 13:33:22 - INFO - Unique article detected. Added Social mobility key to addressing ICT skills gap - TechCentral.ie to the database
+2025-09-11 13:33:22 - INFO - Prepared email insertion: Google Alert - McKinsey from https://www.techcentral.ie/social-mobility-key-to-addressing-ict-skills-gap/
+2025-09-11 13:33:22 - INFO - Processing email: Google Alert - "Deloitte" on 10-09-25
+2025-09-11 13:33:38 - INFO - Duplicate article detected, skipping: Deloitte roundtable: Optimism in the market as capital\u202finnovation and M&A come to the fore
+2025-09-11 13:33:38 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://www.theinsurer.com/ti/reinsurancemonth/deloitte-roundtable-optimism-in-the-market-as-capital-innovation-and-ma-come-to-2025-09-10/
+2025-09-11 13:33:54 - INFO - Duplicate article detected, skipping: Deloitte: Holiday Retail Sales Expected to Increase 2.9% to 3.4%
+2025-09-11 13:33:54 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://finance.yahoo.com/news/deloitte-holiday-retail-sales-expected-120200008.html
+2025-09-11 13:34:05 - INFO - Duplicate article detected, skipping: Holiday sales could grow up to 3.4%: Deloitte
+2025-09-11 13:34:05 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://www.retaildive.com/news/holiday-retail-sales-growth-forecast-deloitte/759736/
+2025-09-11 13:34:24 - INFO - Duplicate article detected, skipping: Deloitte: Holiday sales growth to slow; e-commerce to stay strong | Chain Store Age
+2025-09-11 13:34:24 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://chainstoreage.com/deloitte-holiday-sales-growth-slow-e-commerce-stay-strong
+2025-09-11 13:34:59 - INFO - Duplicate article detected, skipping: Royalty Pharma Announces Release of Deloitte’s Report on the Biopharma Royalty Market
+2025-09-11 13:34:59 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://finance.yahoo.com/news/royalty-pharma-announces-release-deloitte-113000286.html
+2025-09-11 13:35:16 - INFO - Duplicate article detected, skipping: Hero Dubai Desert Classic Collaborates with Deloitte to Launch Green Incubator Challenge, Driving Global Sustainability in Events - Travel And Tour World
+2025-09-11 13:35:16 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://www.travelandtourworld.com/news/article/hero-dubai-desert-classic-collaborates-with-deloitte-to-launch-green-incubator-challenge-driving-global-sustainability-in-events/
+2025-09-11 13:35:55 - INFO - Duplicate article detected, skipping: Royalty Pharma Announces Release of Deloitte’s Report on the Biopharma Royalty Market
+2025-09-11 13:35:55 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://www.stocktitan.net/news/RPRX/royalty-pharma-announces-release-of-deloitte-s-report-on-the-5u99iug3m492.html
+2025-09-11 13:35:56 - WARNING - Invalid content from URL: https://www.insideindianabusiness.com/articles/notre-dame-msan-launch-second-online-course-for-military-spouses
+2025-09-11 13:36:05 - INFO - Duplicate article detected, skipping: Deloitte Report: Biopharma Royalty Market Drives Diversified Funding Strategy
+2025-09-11 13:36:05 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://www.ainvest.com/news/deloitte-report-biopharma-royalty-market-drives-diversified-funding-strategy-2509/
+2025-09-11 13:36:25 - INFO - Duplicate article detected, skipping: Royalty Pharma Announces Release of Deloitte’s Report on the Biopharma Royalty Market
+2025-09-11 13:36:25 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://www.bakersfield.com/ap/news/royalty-pharma-announces-release-of-deloitte-s-report-on-the-biopharma-royalty-market/article_d0b2dcb2-66c0-51c3-bd5f-31aed52ac297.html
+2025-09-11 13:36:25 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 10-09-25
+2025-09-11 13:36:40 - INFO - Unique article detected. Added Indians fastest adopters of digital health solutions, with 70% using tech tools – Medical Buyer to the database
+2025-09-11 13:36:40 - INFO - Prepared email insertion: Google Alert - "Boston Consulting Group" "BCG" from https://medicalbuyer.co.in/indians-fastest-adopters-of-digital-health-solutions-with-70-using-tech-tools/
+2025-09-11 13:36:54 - INFO - Duplicate article detected, skipping: AI Likely To Add $15.7 Trillion To Global GDP By 2030: Report | Business
+2025-09-11 13:36:54 - INFO - Prepared email insertion: Google Alert - "Boston Consulting Group" "BCG" from https://ommcomnews.com/business-news/ai-likely-to-add-15-7-trillion-to-global-gdp-by-2030-report/
+2025-09-11 13:37:16 - INFO - Duplicate article detected, skipping: India Rises as Global Supply Chain Realignment Leader
+2025-09-11 13:37:16 - INFO - Prepared email insertion: Google Alert - "Boston Consulting Group" "BCG" from https://www.devdiscourse.com/article/business/3622218-india-rises-as-global-supply-chain-realignment-leader
+2025-09-11 13:37:16 - INFO - Processing email: Google Alert - McKinsey on 10-09-25
+2025-09-11 13:37:17 - WARNING - Invalid content from URL: https://www.fnlondon.com/articles/barclays-taps-mckinsey-partner-to-lead-mass-affluent-business-38b62fa1
+2025-09-11 13:37:19 - WARNING - Invalid content from URL: https://citywire.com/wealth-manager/news/barclays-hires-mckinsey-wealth-head-to-lead-mass-affluent-arm/a2473694
+2025-09-11 13:38:36 - INFO - Unique article detected. Added Letter on hydrogen: Achilles heel to the database
+2025-09-11 13:38:36 - INFO - Prepared email insertion: Google Alert - McKinsey from https://pemedianetwork.com/hydrogen-economist/articles/strategies-trends/2025/letter-on-hydrogen-achilles-heel/
+2025-09-11 13:38:53 - INFO - Unique article detected. Added ANZ's Leadership and Structural Overhaul: A Strategic Reassessment for Long-Term Value Creation to the database
+2025-09-11 13:38:53 - INFO - Prepared email insertion: Google Alert - McKinsey from https://www.ainvest.com/news/anz-leadership-structural-overhaul-strategic-reassessment-long-term-creation-2509/
+2025-09-11 13:38:53 - INFO - Processing email: Google Alert - Bain & Company on 10-09-25
+2025-09-11 13:39:17 - INFO - Unique article detected. Added Built to Be Bold: Why the Best Innovators Run Two Systems to the database
+2025-09-11 13:39:17 - INFO - Prepared email insertion: Google Alert - Bain & Company from https://www.bain.com/insights/built-to-be-bold-why-the-best-innovators-run-two-systems-innovation-report-2025/
+2025-09-11 13:39:41 - INFO - Unique article detected. Added 'Headhunting 2.0' revolutionizes executive hunting: "If you have it inside, don't look outside" to the database
+2025-09-11 13:39:41 - INFO - Prepared email insertion: Google Alert - Bain & Company from https://www.mundoamerica.com/news/2025/09/10/68c14776fdddff03368b457f.html
+2025-09-11 13:39:41 - INFO - Processing email: Google Alert - "Ernst & Young" "EY" on 10-09-25
+2025-09-11 13:39:59 - INFO - Duplicate article detected, skipping: EY-Parthenon practice unveils neurosymbolic AI capabilities to empower businesses to identify, predict and unlock revenue at scale
+2025-09-11 13:39:59 - INFO - Prepared email insertion: Google Alert - "Ernst & Young" "EY" from https://www.prnewswire.com/news-releases/ey-parthenon-practice-unveils-neurosymbolic-ai-capabilities-to-empower-businesses-to-identify-predict-and-unlock-revenue-at-scale-302551701.html
+2025-09-11 13:40:00 - WARNING - Invalid content from URL: https://www.steelorbis.com/steel-news/latest-news/ernst-young-indias-green-hydrogen-cost-for-steelmaking-to-halve-by-2030-1409174.htm
+2025-09-11 13:40:11 - INFO - Unique article detected. Added Jotron MD Wins Industry Category in EY Entrepreneur Of The Year Awards - Offshore Technology to the database
+2025-09-11 13:40:11 - INFO - Prepared email insertion: Google Alert - "Ernst & Young" "EY" from https://www.offshore-technology.com/contractors/data/shell-mvm-ceenergy-supply-deal/pressreleases/pressey-entrepreneur-of-the-year-awards/
+2025-09-11 13:40:39 - INFO - Unique article detected. Added Nominations Open for Fifth Edition of Aster Guardians Global Nursing Award 2026 Worth USD 250,000 to the database
+2025-09-11 13:40:39 - INFO - Prepared email insertion: Google Alert - "Ernst & Young" "EY" from https://www.voiceofalexandria.com/news/national_business_news/nominations-open-for-fifth-edition-of-aster-guardians-global-nursing-award-2026-worth-usd-250/article_2a156c7f-8809-5216-9968-80902ebbdb85.html
+2025-09-11 13:40:52 - INFO - Duplicate article detected, skipping: US EV Adoption Slows as Tax Credit Expires
+2025-09-11 13:40:52 - INFO - Prepared email insertion: Google Alert - "Ernst & Young" "EY" from https://www.indexbox.io/blog/us-ev-adoption-slows-as-tax-credit-expires/
+2025-09-11 13:41:04 - INFO - Duplicate article detected, skipping: Know an inspiring nurse? They could win a $250,000 global prize
+2025-09-11 13:41:04 - INFO - Prepared email insertion: Google Alert - "Ernst & Young" "EY" from https://theglobalfilipinomagazine.com/know-an-inspiring-nurse-they-could-win-a-250000-global-prize/
+2025-09-11 13:41:27 - INFO - Duplicate article detected, skipping: Nominations For Fifth Edition Of Aster Guardians Global Nursing Award 2026 Worth USD 250,000 Now Open
+2025-09-11 13:41:27 - INFO - Prepared email insertion: Google Alert - "Ernst & Young" "EY" from https://menafn.com/1110042380/Nominations-For-Fifth-Edition-Of-Aster-Guardians-Global-Nursing-Award-2026-Worth-USD-250000-Now-Open
+2025-09-11 13:41:27 - INFO - Processing email: Google Alert - Deloitte on 10-09-25
+2025-09-11 13:41:50 - INFO - Duplicate article detected, skipping: Deloitte China assists major asset restructuring of Shenzhen Original Advanced Compounds with CSRC approval
+2025-09-11 13:41:50 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.deloitte.com/cn/en/about/press-room/deloitte-china-assists-major-asset-restructuring-of-shenzhen-original-advanced-compounds-with-csrc-approval
+2025-09-11 13:42:03 - INFO - Duplicate article detected, skipping: Jewelry Takes Back Seat as US Holiday Spending Slows
+2025-09-11 13:42:03 - INFO - Prepared email insertion: Google Alert - Deloitte from https://rapaport.com/news/jewelry-takes-back-seat-as-us-holiday-spending-slows/
+2025-09-11 13:42:03 - INFO - Processing email: Google Alert - "Ernst & Young" "EY" on 10-09-25
+2025-09-11 13:42:04 - WARNING - Invalid content from URL: https://www.steelorbis.com/steel-news/latest-news/ernst-young-indias-green-hydrogen-cost-for-steelmaking-to-halve-by-2030-1409174.htm
+2025-09-11 13:42:20 - WARNING - Invalid content from URL: https://www.businesswire.com/news/home/20250910969391/en/Nominations-Open-for-Fifth-Edition-of-Aster-Guardians-Global-Nursing-Award-2026-Worth-USD-250000
+2025-09-11 13:42:20 - INFO - Processing email: Google Alert - Bain & Company on 10-09-25
+2025-09-11 13:42:33 - INFO - Duplicate article detected, skipping: Built to Reinvent: The Strategy of Innovation
+2025-09-11 13:42:33 - INFO - Prepared email insertion: Google Alert - Bain & Company from https://www.bain.com/insights/built-to-reinvent-strategy-innovation-report-2025/
+2025-09-11 13:42:33 - INFO - Processing email: Google Alert - Deloitte on 10-09-25
+2025-09-11 13:42:46 - INFO - Duplicate article detected, skipping: Royalty Pharma Announces Release of Deloitte’s Report on the Biopharma Royalty Market
+2025-09-11 13:42:46 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.stocktitan.net/news/RPRX/royalty-pharma-announces-release-of-deloitte-s-report-on-the-5u99iug3m492.html
+2025-09-11 13:42:59 - INFO - Duplicate article detected, skipping: Hero Dubai Desert Classic Collaborates with Deloitte to Launch Green Incubator Challenge, Driving Global Sustainability in Events - Travel And Tour World
+2025-09-11 13:42:59 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.travelandtourworld.com/news/article/hero-dubai-desert-classic-collaborates-with-deloitte-to-launch-green-incubator-challenge-driving-global-sustainability-in-events/
+2025-09-11 13:43:15 - INFO - Unique article detected. Added PwC and Deloitte to shut Belval satellite offices before end of year | Luxembourg Times to the database
+2025-09-11 13:43:15 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.luxtimes.lu/businessandfinance/pwc-and-deloitte-to-shut-belval-satellite-offices-before-end-of-year/89432924.html
+2025-09-11 13:43:15 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 10-09-25
+2025-09-11 13:43:28 - INFO - Duplicate article detected, skipping: Nearly 50 pc Indians planning for healthy ageing, 71 pc using tech to stay active longer: Report
+2025-09-11 13:43:28 - INFO - Prepared email insertion: Google Alert - "Boston Consulting Group" "BCG" from https://www.newsgram.com/health/2025/09/10/nearly-50-pc-indians-planning-for-healthy-ageing-71
+2025-09-11 13:43:28 - INFO - Processing email: Google Alert - Deloitte on 10-09-25
+2025-09-11 13:43:41 - INFO - Unique article detected. Added Deloitte Legal advises Atresmedia on the acquisition of Clear Channel España - Iberian Lawyer to the database
+2025-09-11 13:43:41 - INFO - Prepared email insertion: Google Alert - Deloitte from https://iberianlawyer.com/deloitte-legal-advises-atresmedia-on-the-acquisition-of-clear-channel-espana/
+2025-09-11 13:43:52 - INFO - Duplicate article detected, skipping: Royalty Pharma Announces Release of Deloitte’s Report on the Biopharma Royalty Market
+2025-09-11 13:43:52 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.globenewswire.com/news-release/2025/09/10/3147662/0/en/Royalty-Pharma-Announces-Release-of-Deloitte-s-Report-on-the-Biopharma-Royalty-Market.html
+2025-09-11 13:44:06 - INFO - Duplicate article detected, skipping: US holiday sales set for slowest growth since pandemic, Deloitte report forecasts
+2025-09-11 13:44:06 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.zawya.com/en/world/americas/us-holiday-sales-set-for-slowest-growth-since-pandemic-deloitte-report-forecasts-anzu6goi
+2025-09-11 13:44:18 - INFO - Unique article detected. Added Deloitte Malta announces sponsorship of Learning 360 to the database
+2025-09-11 13:44:18 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.independent.com.mt/articles/2025-09-10/business-news/Deloitte-Malta-announces-sponsorship-of-Learning-360-6736272997
+2025-09-11 13:44:31 - INFO - Duplicate article detected, skipping: US HOLIDAY SALES SET FOR SLOWEST GROWTH SINCE PANDEMIC, DELOITTE REPORT FORECASTS
+2025-09-11 13:44:31 - INFO - Prepared email insertion: Google Alert - Deloitte from https://hirunews.lk/goldfmnews/419344/us-holiday-sales-set-for-slowest-growth-since-pandemic-deloitte-report-forecasts
+2025-09-11 13:44:49 - INFO - Duplicate article detected, skipping: Pseudonymised Data: Not Always Personal According to The Latest CJEU Judgement
+2025-09-11 13:44:49 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.datenschutz-notizen.de/pseudonymised-data-not-always-personal-according-to-the-latest-cjeu-judgement-1555813/
+2025-09-11 13:44:49 - INFO - Processing email: Google Alert - McKinsey on 10-09-25
+2025-09-11 13:44:51 - WARNING - Invalid content from URL: https://citywire.com/wealth-manager/news/barclays-hires-mckinsey-wealth-head-to-lead-mass-affluent-arm/a2473694
+2025-09-11 13:45:01 - INFO - Unique article detected. Added McKinsey.org Forward Learning Program in US - fundsforNGOs to the database
+2025-09-11 13:45:01 - INFO - Prepared email insertion: Google Alert - McKinsey from https://www2.fundsforngos.org/education/mckinsey-org-forward-learning-program-in-us/amp/
+2025-09-11 13:45:13 - INFO - Duplicate article detected, skipping: Apply Now: McKinsey.org Forward Learning Program - fundsforNGOs
+2025-09-11 13:45:13 - INFO - Prepared email insertion: Google Alert - McKinsey from https://www2.fundsforngos.org/education/apply-now-mckinsey-org-forward-learning-program/
+2025-09-11 13:45:22 - WARNING - Invalid content from URL: https://www.weforum.org/stories/2025/09/nature-finance-sustainable-investing-priority-models/
+2025-09-11 13:45:25 - INFO - Retrying request to /chat/completions in 0.498377 seconds
+2025-09-11 13:45:42 - INFO - Duplicate article detected, skipping: AI could add billions to Luxembourg economy, consulting firm claims | Luxembourg Times
+2025-09-11 13:45:42 - INFO - Prepared email insertion: Google Alert - McKinsey from https://www.luxtimes.lu/luxembourg/ai-could-add-billions-to-luxembourg-economy-consulting-firm-claims/89342741.html
+2025-09-11 13:45:55 - INFO - Unique article detected. Added Nigerian Banks' Recapitalization to Fuel Tech, Lending - McK to the database
+2025-09-11 13:45:55 - INFO - Prepared email insertion: Google Alert - McKinsey from https://punchng.com/recapitalisation-funds-to-drive-tech-digital-lending-mckinsey/
+2025-09-11 13:46:06 - INFO - Unique article detected. Added Niam Group names new CEO and deputy CEO | PE Hub to the database
+2025-09-11 13:46:06 - INFO - Prepared email insertion: Google Alert - McKinsey from https://www.pehub.com/niam-group-names-new-ceo-and-deputy-ceo/
+2025-09-11 13:46:06 - INFO - Processing email: Google Alert - "PricewaterhouseCoopers" "PwC" on 10-09-25
+2025-09-11 13:46:18 - INFO - Unique article detected. Added Mony Group plc to appoint PwC as external auditor from 2026 By Investing.com to the database
+2025-09-11 13:46:18 - INFO - Prepared email insertion: Google Alert - "PricewaterhouseCoopers" "PwC" from https://in.investing.com/news/company-news/mony-group-plc-to-appoint-pwc-as-external-auditor-from-2026-93CH-4999031
+2025-09-11 13:46:18 - INFO - Processing email: Google Alert - KPMG on 10-09-25
+2025-09-11 13:46:27 - INFO - Duplicate article detected, skipping: Governance and compliance drive enterprise growth
+2025-09-11 13:46:27 - INFO - Prepared email insertion: Google Alert - KPMG from https://kpmg.com/uk/en/insights/strategy/governance-compliance-drive-growth.html
+2025-09-11 13:46:44 - INFO - Unique article detected. Added Private enterprises navigating a tougher tax landscape to the database
+2025-09-11 13:46:44 - INFO - Prepared email insertion: Google Alert - KPMG from https://kpmg.com/uk/en/insights/strategy/private-enterprises-managing-their-way-through-tax-landscape.html
+2025-09-11 13:46:44 - INFO - Processing email: Google Alert - Deloitte on 10-09-25
+2025-09-11 13:46:54 - INFO - Duplicate article detected, skipping: Zimmer Biomet seeks USD 172M in damages from Deloitte – Medical Buyer
+2025-09-11 13:46:54 - INFO - Prepared email insertion: Google Alert - Deloitte from https://medicalbuyer.co.in/zimmer-biomet-seeks-usd-172m-in-damages-from-deloitte/
+2025-09-11 13:46:55 - WARNING - Invalid content from URL: https://www.timesnownews.com/business-economy/economy/why-this-holiday-season-could-be-tough-for-us-retailers-sales-may-see-slowest-growth-since-pandemic-article-152743442
+2025-09-11 13:47:07 - INFO - Duplicate article detected, skipping: Deep-tech is a mindset, not a skill – What Indian enterprises must change to build it
+2025-09-11 13:47:07 - INFO - Prepared email insertion: Google Alert - Deloitte from https://timestech.in/deep-tech-is-a-mindset-not-a-skill-what-indian-enterprises-must-change-to-build-it/
+2025-09-11 13:47:23 - INFO - Duplicate article detected, skipping: Gen Z vs Millennials: Career Trends & Shifts in 2025
+2025-09-11 13:47:23 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.newsgram.com/lifestyle/2025/09/10/gen-z-vs-millennials-career-trends-shifts-in-2025
+2025-09-11 13:47:23 - INFO - Processing email: Google Alert - "Deloitte" on 10-09-25
+2025-09-11 13:47:39 - INFO - Duplicate article detected, skipping: Inside Deloitte’s Global AI Data Centre Hub | AI Magazine
+2025-09-11 13:47:39 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://aimagazine.com/news/deloitte-creates-global-ai-data-centre-excellence-hub
+2025-09-11 13:47:50 - INFO - Duplicate article detected, skipping: Deloitte forecasts slower holiday retail sales growth in 2025
+2025-09-11 13:47:50 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://massmarketretailers.com/deloitte-forecasts-slower-holiday-retail-sales-growth-in-2025/
+2025-09-11 13:48:05 - INFO - Duplicate article detected, skipping: Deloitte and Legora form legal AI partnership
+2025-09-11 13:48:05 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://www.techmarketview.com/ukhotviews/archive/2025/09/10/deloitte-and-legora-form-legal-ai-partnership
+2025-09-11 13:48:14 - WARNING - Invalid content from URL: https://kalkinemedia
+2025-09-11 13:48:31 - INFO - Duplicate article detected, skipping: US holiday sales expected to rise a modest 2.9–3.4%, Deloitte says
+2025-09-11 13:48:31 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://kalkinemedia.com/us/business-news/economy/us-holiday-sales-expected-to-rise-a-modest-29-34-deloitte-says
+2025-09-11 13:48:48 - INFO - Duplicate article detected, skipping: US Retailers Beware: Deloitte Projects Lowest Holiday Sales Growth Since Pandemic
+2025-09-11 13:48:48 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://stocktwits.com/news-articles/markets/equity/us-retailers-beware-deloitte-projects-lowest-holiday-sales-growth-since-pandemic/chwkd0MRdMt
+2025-09-11 13:48:58 - INFO - Duplicate article detected, skipping: Deloitte Legal advises Atresmedia on the acquisition of Clear Channel España - Iberian Lawyer
+2025-09-11 13:48:58 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://iberianlawyer.com/deloitte-legal-advises-atresmedia-on-the-acquisition-of-clear-channel-espana/
+2025-09-11 13:49:10 - INFO - Unique article detected. Added Inmaculada Castelló joins Deloitte Legal as Corporate Partner to the database
+2025-09-11 13:49:10 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://iberianlawyer.com/inmaculada-castello-joins-deloitte-legal-as-corporate-partner/
+2025-09-11 13:49:19 - INFO - Duplicate article detected, skipping: US Holiday Sales Set for Slowest Growth Since Pandemic: Deloitte Forecasts
+2025-09-11 13:49:19 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://www.ainvest.com/news/holiday-sales-set-slowest-growth-pandemic-deloitte-forecasts-2509/
+2025-09-11 13:49:38 - INFO - Duplicate article detected, skipping: India’s Fitness Industry to Touch \u20b937,700 Crore by 2030: Deloitte India & HFA Analysis
+2025-09-11 13:49:38 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://www.medianews4u.com/indias-fitness-industry-to-touch-%E2%82%B937700-crore-by-2030-deloitte-india-hfa-analysis/
+2025-09-11 13:49:54 - INFO - Duplicate article detected, skipping: Hero Dubai Desert Classic launches global sustainability challenge
+2025-09-11 13:49:54 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://www.dubaieye1038.com/news/sports/hero-dubai-desert-classic-launches-global-sustainability-challenge/
+2025-09-11 13:49:54 - INFO - All emails committed successfully.
+2025-09-11 13:49:55 - WARNING - Error marking email 19937766e3505f40 as read: [Errno 10053] An established connection was aborted by the software in your host machine
+2025-09-11 13:49:55 - WARNING - Error marking email 19937690181767ee as read: [Errno 10053] An established connection was aborted by the software in your host machine
+2025-09-11 13:51:04 - INFO - Emails marked as read.
+2025-09-11 16:04:14 - INFO - Use pytorch device_name: cpu
+2025-09-11 16:04:14 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-09-11 16:04:22 - INFO - Database tables created or already exist.
+2025-09-11 16:04:22 - INFO - WebScraper class instantiated.
+2025-09-11 16:04:25 - INFO - Extracted items for https://www.nri.com/jp/News: 0
+2025-09-11 16:04:42 - INFO - Extracted items for https://www.mckinsey.com/about-us/new-at-mckinsey-blog: 0
+2025-09-11 16:04:59 - INFO - Extracted items for https://www.mckinsey.com/jp/our-insights: 0
+2025-09-11 16:05:26 - ERROR - Failed to parse LLM initial content from https://www.bcg.com/about/corporate-newsroom: Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 207656 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2025-09-11 16:05:48 - ERROR - Failed to parse LLM initial content from https://www.bcg.com/ja-jp/about/news/press/default?00000173-7007-d959-afff-79c791c80008-page=1: Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 213750 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2025-09-11 16:05:52 - INFO - Extracted items for https://www.bain.com/about/media-center/press-releases/: 0
+2025-09-11 16:05:56 - INFO - Extracted items for https://www.bain.com/ja/about-bain/media-center/press-releases/: 0
+2025-09-11 16:05:58 - INFO - Extracted items for https://newsroom.accenture.com/: 0
+2025-09-11 16:06:00 - INFO - Extracted items for https://newsroom.accenture.jp/: 0
+2025-09-11 16:06:05 - INFO - Extracted items for https://www.deloitte.com/global/en/about/press-room.html: 0
+2025-09-11 16:06:10 - INFO - Extracted items for https://www2.deloitte.com/jp/ja/footerlinks/nr.html: 0
+2025-09-11 16:06:34 - INFO - Retrying request to /chat/completions in 0.376640 seconds
+2025-09-11 16:06:34 - INFO - Retrying request to /chat/completions in 0.763894 seconds
+2025-09-11 16:06:35 - ERROR - Failed to parse LLM initial content from https://www.ey.com/en_gl/newsroom: Connection error.
+2025-09-11 16:06:35 - INFO - Retrying request to /chat/completions in 0.414266 seconds
+2025-09-11 16:06:36 - INFO - Retrying request to /chat/completions in 0.943800 seconds
+2025-09-11 16:06:37 - ERROR - Failed to parse LLM initial content from https://www.ey.com/ja_jp/newsroom: Connection error.
+2025-09-11 16:06:37 - INFO - Retrying request to /chat/completions in 0.488206 seconds
+2025-09-11 16:06:37 - INFO - Retrying request to /chat/completions in 0.796074 seconds
+2025-09-11 16:06:38 - ERROR - Failed to parse LLM initial content from https://www.pwc.com/gx/en/news-room.html: Connection error.
+2025-09-11 16:06:38 - INFO - Retrying request to /chat/completions in 0.398431 seconds
+2025-09-11 16:06:39 - INFO - Retrying request to /chat/completions in 0.782232 seconds
+2025-09-11 16:09:19 - ERROR - Failed to parse LLM initial content from https://www.pwc.com/jp/ja/press-room.html#press: Connection error.
+2025-09-11 16:09:19 - INFO - Retrying request to /chat/completions in 0.462057 seconds
+2025-09-11 16:09:21 - INFO - Extracted items for https://kpmg.com/xx/en/home/media/press-releases.html: 0
+2025-09-11 16:09:25 - INFO - Extracted items for https://kpmg.com/jp/ja/home/media/press-releases.html: 0
+2025-09-11 16:09:31 - INFO - Extracted items for https://www.mri.co.jp/news/index.html: 0
+2025-09-11 16:09:41 - INFO - Extracted items for https://www.consulting.us/: 2
+2025-09-11 16:10:04 - INFO - Duplicate article: KPMG International appoints new heads of global advisory and AI strategy
+2025-09-11 16:10:04 - INFO - LLM secondary extraction success for: https://www.consulting.us/news/12364/kpmg-international-appoints-new-heads-of-global-advisory-and-ai-strategy
+2025-09-11 16:10:24 - INFO - Unique article: Huron buys strategy and operations consultancy Wilson Perumal & Company
+2025-09-11 16:10:24 - INFO - LLM secondary extraction success for: https://www.consulting.us/news/12361/huron-buys-strategy-and-operations-consultancy-wilson-perumal-company
+2025-09-11 16:10:31 - INFO - Extracted items for https://www.consultancy.uk/: 6
+2025-09-11 16:11:01 - INFO - Unique article: RSM UK advises on sale of Gloucestershire-based care homes
+2025-09-11 16:11:01 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41547/rsm-uk-advises-on-sale-of-gloucestershire-based-care-homes
+2025-09-11 16:11:29 - INFO - Unique article: Eight Advisory appoints Nicholas Collins as senior advisor
+2025-09-11 16:11:29 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41550/eight-advisory-appoints-nicholas-collins-as-senior-advisor
+2025-09-11 16:12:06 - INFO - Unique article: Ruan van Vuuren joins Oliver Wight EAME partner team
+2025-09-11 16:12:06 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41529/ruan-van-vuuren-joins-oliver-wight-eame-partner-team
+2025-09-11 16:12:39 - INFO - Unique article: Paul Haworth joins Leonard Curtis as group compliance leader
+2025-09-11 16:12:39 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41538/paul-haworth-joins-leonard-curtis-as-group-compliance-leader
+2025-09-11 16:13:03 - INFO - Unique article: Aon confirmed as official partner of Scuderia Ferrari HP
+2025-09-11 16:13:03 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41535/aon-confirmed-as-official-partner-of-scuderia-ferrari-hp
+2025-09-11 16:13:21 - INFO - Unique article: TCS completes data migration for Scottish Widows
+2025-09-11 16:13:21 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41505/tcs-completes-data-migration-for-scottish-widows
+2025-09-11 16:13:24 - INFO - Extracted items for https://www.consultancy.asia/country/japan: 0
+2025-09-11 16:13:27 - INFO - Extracted items for https://www.consultancy.in/: 0
+2025-09-11 16:13:30 - INFO - Extracted items for https://www.consultancy.com.au/: 0
+2025-09-11 16:13:41 - INFO - Extracted items for https://www.consultancy.eu/: 10
+2025-09-11 16:13:56 - INFO - Unique article: Atos promotes Natalie de Vries to regional consulting role
+2025-09-11 16:13:56 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12441/atos-promotes-natalie-de-vries-to-regional-consulting-role
+2025-09-11 16:14:10 - INFO - Unique article: FiSer Consulting appoints Randal van Vliet as Banking practice lead
+2025-09-11 16:14:10 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12420/fiser-consulting-appoints-randal-van-vliet-as-banking-practice-lead
+2025-09-11 16:14:31 - INFO - Unique article: Role-Based Access Control in XLReporting: Secure, flexible, and practical
+2025-09-11 16:14:31 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12444/role-based-access-control-in-xlreporting-secure-flexible-and-practical
+2025-09-11 16:15:03 - INFO - Unique article: The power of primary data in sustainable logistics
+2025-09-11 16:15:03 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12438/the-power-of-primary-data-in-sustainable-logistics
+2025-09-11 16:15:27 - INFO - Unique article: FANCAP and SEG join forces to launch M&A advisory offering for football
+2025-09-11 16:15:27 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12435/fancap-and-seg-join-forces-to-launch-ma-advisory-offering-for-football
+2025-09-11 16:16:02 - INFO - Duplicate article: Driving compliance with EU’s AI Act through Agentic AI agents
+2025-09-11 16:16:02 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12432/driving-compliance-with-eus-ai-act-through-agentic-ai-agents
+2025-09-11 16:16:25 - INFO - Unique article: PaymentGenes Academy powers skills in payments and fintech landscape
+2025-09-11 16:16:25 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12429/paymentgenes-academy-powers-skills-in-payments-and-fintech-landscape
+2025-09-11 16:16:46 - INFO - Unique article: Magnus Energy and gridDigIt enter into strategic partnership
+2025-09-11 16:16:46 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12426/magnus-energy-and-griddigit-enter-into-strategic-partnership
+2025-09-11 16:17:02 - INFO - Unique article: Kotter Training names MCH Consultancy a certified training partner in Benelux
+2025-09-11 16:17:02 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12423/kotter-training-names-mch-consultancy-a-certified-training-partner-in-benelux
+2025-09-11 16:17:21 - INFO - Duplicate article: FiSer Consulting appoints Randal van Vliet as Banking practice lead
+2025-09-11 16:17:21 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12420/fiser-consulting-appoints-randal-van-vliet-as-banking-practice-lead
+2025-09-11 16:17:24 - INFO - Extracted items for https://www.consultancy.asia/: 0
+2025-09-11 16:17:28 - INFO - Extracted items for https://www.consultancy-me.com/: 0
+2025-09-11 16:17:40 - INFO - Extracted items for https://www.consultancy.nl/: 9
+2025-09-11 16:18:14 - INFO - Unique article: Hiemstra & De Vries voegt zich bij Leeuwendaal – de partners over de krachtenbundeling
+2025-09-11 16:18:14 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/62589/hiemstra-de-vries-voegt-zich-bij-leeuwendaal-de-partners-over-de-krachtenbundeling
+2025-09-11 16:18:33 - INFO - Duplicate article: Atos promoveert Natalie de Vries tot regionale consultingrol
+2025-09-11 16:18:33 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/62601/atos-promoveert-natalie-de-vries-tot-regionale-consultingrol
+2025-09-11 16:18:58 - INFO - Unique article: Adviesbureaus leveren bijdrage aan de Toekomstgerichte Overheid 2025
+2025-09-11 16:18:58 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/62598/adviesbureaus-leveren-bijdrage-aan-de-toekomstgerichte-overheid-2025
+2025-09-11 16:19:19 - INFO - Unique article: Levi9 stelt Bert Pluimers aan als Chief Commercial Officer
+2025-09-11 16:19:19 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/62595/levi9-stelt-bert-pluimers-aan-als-chief-commercial-officer
+2025-09-11 16:19:50 - INFO - Duplicate article: De kracht van het 8-Step Change Model bij het realiseren van organisatieverandering
+2025-09-11 16:19:50 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/62592/de-kracht-van-het-8-step-change-model-bij-het-realiseren-van-organisatieverandering
+2025-09-11 16:20:43 - INFO - Duplicate article: EU AI Act compliance versterken met agentic AI
+2025-09-11 16:20:43 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/62586/eu-ai-act-compliance-versterken-met-agentic-ai
+2025-09-11 16:21:22 - INFO - Duplicate article: FiSer Consulting benoemt Randal van Vliet tot Banking-practice lead
+2025-09-11 16:21:22 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/62583/fiser-consulting-benoemt-randal-van-vliet-tot-banking-practice-lead
+2025-09-11 16:21:46 - INFO - Unique article: Marc Nijhuis treedt als partner toe tot W&RK Advies
+2025-09-11 16:21:46 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/62577/marc-nijhuis-treedt-als-partner-toe-tot-wrk-advies
+2025-09-11 16:22:02 - INFO - Unique article: FITZ benoemt Frank Sieben tot Chief Financial Officer
+2025-09-11 16:22:02 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/62568/fitz-benoemt-frank-sieben-tot-chief-financial-officer
+2025-09-11 16:22:07 - INFO - Extracted items for https://www.consultancy.co.za/: 0
+2025-09-11 16:22:11 - INFO - Extracted items for https://www.consultancy.lat/: 0
+2025-09-11 16:22:14 - INFO - Extracted items for https://www.consultancy.africa/: 0
+2025-09-11 16:22:19 - INFO - Extracted items for https://www.consulting.ca/: 1
+2025-09-11 16:22:37 - INFO - Unique article: SLR Consulting acquires renewables specialist Powerhaus Consulting
+2025-09-11 16:22:37 - INFO - LLM secondary extraction success for: https://www.consulting.ca/news/4621/slr-consulting-acquires-renewables-specialist-powerhaus-consulting
+2025-09-11 16:22:42 - INFO - Extracted items for https://www.consultancy.asia/country/singapore: 0
+2025-09-11 16:22:46 - INFO - Extracted items for https://www.consultancy.asia/country/china: 0
+2025-09-11 16:22:56 - INFO - Extracted items for https://www.consultancy.eu/country/france: 4
+2025-09-11 16:23:13 - INFO - Duplicate article: Atos promotes Natalie de Vries to regional consulting role
+2025-09-11 16:23:13 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12441/atos-promotes-natalie-de-vries-to-regional-consulting-role
+2025-09-11 16:23:49 - INFO - Duplicate article: Role-Based Access Control in XLReporting: Secure, flexible, and practical
+2025-09-11 16:23:49 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12444/role-based-access-control-in-xlreporting-secure-flexible-and-practical
+2025-09-11 16:24:16 - INFO - Duplicate article: The power of primary data in sustainable logistics
+2025-09-11 16:24:16 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12438/the-power-of-primary-data-in-sustainable-logistics
+2025-09-11 16:24:37 - INFO - Duplicate article: FANCAP and SEG join forces to launch M&A advisory offering for football
+2025-09-11 16:24:37 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12435/fancap-and-seg-join-forces-to-launch-ma-advisory-offering-for-football
+2025-09-11 16:24:44 - INFO - Extracted items for https://www.consultancy.eu/country/germany: 4
+2025-09-11 16:25:04 - INFO - Duplicate article: Atos promotes Natalie de Vries to regional consulting role
+2025-09-11 16:25:04 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12441/atos-promotes-natalie-de-vries-to-regional-consulting-role
+2025-09-11 16:25:29 - INFO - Duplicate article: Role-Based Access Control in XLReporting: Secure, flexible, and practical
+2025-09-11 16:25:29 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12444/role-based-access-control-in-xlreporting-secure-flexible-and-practical
+2025-09-11 16:25:56 - INFO - Duplicate article: The power of primary data in sustainable logistics
+2025-09-11 16:25:56 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12438/the-power-of-primary-data-in-sustainable-logistics
+2025-09-11 16:26:30 - INFO - Duplicate article: FANCAP and SEG join forces to launch M&A advisory offering for football
+2025-09-11 16:26:30 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12435/fancap-and-seg-join-forces-to-launch-ma-advisory-offering-for-football
+2025-09-11 16:26:38 - INFO - Extracted items for https://www.consultancy.uk/: 5
+2025-09-11 16:26:59 - INFO - Duplicate article: RSM UK advises on sale of Gloucestershire-based care homes
+2025-09-11 16:26:59 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41547/rsm-uk-advises-on-sale-of-gloucestershire-based-care-homes
+2025-09-11 16:27:17 - INFO - Duplicate article: Eight Advisory appoints Nicholas Collins as senior advisor
+2025-09-11 16:27:17 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41550/eight-advisory-appoints-nicholas-collins-as-senior-advisor
+2025-09-11 16:27:51 - INFO - Duplicate article: Ruan van Vuuren joins Oliver Wight EAME partner team
+2025-09-11 16:27:51 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41529/ruan-van-vuuren-joins-oliver-wight-eame-partner-team
+2025-09-11 16:28:22 - INFO - Duplicate article: Paul Haworth joins Leonard Curtis as group compliance leader
+2025-09-11 16:28:22 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41538/paul-haworth-joins-leonard-curtis-as-group-compliance-leader
+2025-09-11 16:28:42 - INFO - Duplicate article: Aon confirmed as official partner of Scuderia Ferrari HP
+2025-09-11 16:28:42 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41535/aon-confirmed-as-official-partner-of-scuderia-ferrari-hp
+2025-09-11 16:28:42 - INFO - Flattened articles: 41 items in total.
+2025-09-11 16:28:47 - INFO - Prepared to insert article: Consulting.org (https://www.consulting.us/news/12364/kpmg-international-appoints-new-heads-of-global-advisory-and-ai-strategy)
+2025-09-11 16:28:48 - INFO - Prepared to insert article: Consulting.org (https://www.consulting.us/news/12361/huron-buys-strategy-and-operations-consultancy-wilson-perumal-company)
+2025-09-11 16:28:49 - INFO - Prepared to insert article: Press Release (https://www.consultancy.uk/news/41547/rsm-uk-advises-on-sale-of-gloucestershire-based-care-homes)
+2025-09-11 16:28:51 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.uk/news/41550/eight-advisory-appoints-nicholas-collins-as-senior-advisor)
+2025-09-11 16:28:53 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.uk/news/41529/ruan-van-vuuren-joins-oliver-wight-eame-partner-team)
+2025-09-11 16:28:54 - INFO - Prepared to insert article: Press Release (https://www.consultancy.uk/news/41538/paul-haworth-joins-leonard-curtis-as-group-compliance-leader)
+2025-09-11 16:28:55 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.uk/news/41535/aon-confirmed-as-official-partner-of-scuderia-ferrari-hp)
+2025-09-11 16:28:56 - INFO - Prepared to insert article: Press Release (https://www.consultancy.uk/news/41505/tcs-completes-data-migration-for-scottish-widows)
+2025-09-11 16:28:57 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.eu/news/12441/atos-promotes-natalie-de-vries-to-regional-consulting-role)
+2025-09-11 16:28:58 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.eu/news/12420/fiser-consulting-appoints-randal-van-vliet-as-banking-practice-lead)
+2025-09-11 16:29:00 - INFO - Prepared to insert article: Press Release (https://www.consultancy.eu/news/12444/role-based-access-control-in-xlreporting-secure-flexible-and-practical)
+2025-09-11 16:29:01 - INFO - Prepared to insert article: Press Release (https://www.consultancy.eu/news/12438/the-power-of-primary-data-in-sustainable-logistics)
+2025-09-11 16:29:03 - INFO - Prepared to insert article: Press Release (https://www.consultancy.eu/news/12435/fancap-and-seg-join-forces-to-launch-ma-advisory-offering-for-football)
+2025-09-11 16:29:04 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.eu/news/12432/driving-compliance-with-eus-ai-act-through-agentic-ai-agents)
+2025-09-11 16:29:05 - INFO - Prepared to insert article: Press Release (https://www.consultancy.eu/news/12429/paymentgenes-academy-powers-skills-in-payments-and-fintech-landscape)
+2025-09-11 16:29:07 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.eu/news/12426/magnus-energy-and-griddigit-enter-into-strategic-partnership)
+2025-09-11 16:29:08 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.eu/news/12423/kotter-training-names-mch-consultancy-a-certified-training-partner-in-benelux)
+2025-09-11 16:29:10 - INFO - Prepared to insert article: Press Release (https://www.consultancy.eu/news/12420/fiser-consulting-appoints-randal-van-vliet-as-banking-practice-lead)
+2025-09-11 16:29:10 - INFO - Prepared to insert article: Press Release (https://www.consultancy.nl/nieuws/62589/hiemstra-de-vries-voegt-zich-bij-leeuwendaal-de-partners-over-de-krachtenbundeling)
+2025-09-11 16:29:12 - INFO - Prepared to insert article: Press Release (https://www.consultancy.nl/nieuws/62601/atos-promoveert-natalie-de-vries-tot-regionale-consultingrol)
+2025-09-11 16:29:13 - INFO - Prepared to insert article: Press Release (https://www.consultancy.nl/nieuws/62598/adviesbureaus-leveren-bijdrage-aan-de-toekomstgerichte-overheid-2025)
+2025-09-11 16:29:15 - INFO - Prepared to insert article: Press Release (https://www.consultancy.nl/nieuws/62595/levi9-stelt-bert-pluimers-aan-als-chief-commercial-officer)
+2025-09-11 16:29:16 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.nl/nieuws/62592/de-kracht-van-het-8-step-change-model-bij-het-realiseren-van-organisatieverandering)
+2025-09-11 16:29:18 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.nl/nieuws/62586/eu-ai-act-compliance-versterken-met-agentic-ai)
+2025-09-11 16:29:19 - INFO - Prepared to insert article: Press Release (https://www.consultancy.nl/nieuws/62583/fiser-consulting-benoemt-randal-van-vliet-tot-banking-practice-lead)
+2025-09-11 16:29:21 - INFO - Prepared to insert article: Press Release (https://www.consultancy.nl/nieuws/62577/marc-nijhuis-treedt-als-partner-toe-tot-wrk-advies)
+2025-09-11 16:29:22 - INFO - Prepared to insert article: Press Release (https://www.consultancy.nl/nieuws/62568/fitz-benoemt-frank-sieben-tot-chief-financial-officer)
+2025-09-11 16:29:23 - INFO - Prepared to insert article: Consulting.org (https://www.consulting.ca/news/4621/slr-consulting-acquires-renewables-specialist-powerhaus-consulting)
+2025-09-11 16:29:24 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.eu/news/12441/atos-promotes-natalie-de-vries-to-regional-consulting-role)
+2025-09-11 16:29:26 - INFO - Prepared to insert article: Press Release (https://www.consultancy.eu/news/12444/role-based-access-control-in-xlreporting-secure-flexible-and-practical)
+2025-09-11 16:29:27 - INFO - Prepared to insert article: Press Release (https://www.consultancy.eu/news/12438/the-power-of-primary-data-in-sustainable-logistics)
+2025-09-11 16:29:28 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.eu/news/12435/fancap-and-seg-join-forces-to-launch-ma-advisory-offering-for-football)
+2025-09-11 16:29:30 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.eu/news/12441/atos-promotes-natalie-de-vries-to-regional-consulting-role)
+2025-09-11 16:29:31 - INFO - Prepared to insert article: Press Release (https://www.consultancy.eu/news/12444/role-based-access-control-in-xlreporting-secure-flexible-and-practical)
+2025-09-11 16:29:32 - INFO - Prepared to insert article: Press Release (https://www.consultancy.eu/news/12438/the-power-of-primary-data-in-sustainable-logistics)
+2025-09-11 16:29:33 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.eu/news/12435/fancap-and-seg-join-forces-to-launch-ma-advisory-offering-for-football)
+2025-09-11 16:29:35 - INFO - Prepared to insert article: Press Release (https://www.consultancy.uk/news/41547/rsm-uk-advises-on-sale-of-gloucestershire-based-care-homes)
+2025-09-11 16:29:36 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.uk/news/41550/eight-advisory-appoints-nicholas-collins-as-senior-advisor)
+2025-09-11 16:29:37 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.uk/news/41529/ruan-van-vuuren-joins-oliver-wight-eame-partner-team)
+2025-09-11 16:29:38 - INFO - Prepared to insert article: Press Release (https://www.consultancy.uk/news/41538/paul-haworth-joins-leonard-curtis-as-group-compliance-leader)
+2025-09-11 16:29:40 - INFO - Prepared to insert article: Press Release (https://www.consultancy.uk/news/41535/aon-confirmed-as-official-partner-of-scuderia-ferrari-hp)
+2025-09-11 16:29:40 - INFO - All articles committed successfully.
+2025-09-11 16:29:40 - INFO - Web scraping pipeline completed successfully.

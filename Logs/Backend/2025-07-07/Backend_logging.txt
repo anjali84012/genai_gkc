@@ -1,0 +1,838 @@
+2025-07-07 11:45:24 - INFO - Starting Gmail authentication.
+2025-07-07 11:45:24 - INFO - Loaded credentials from token.json.
+2025-07-07 11:45:24 - INFO - Gmail authentication successful.
+2025-07-07 11:45:24 - INFO - Fetching unread emails from Gmail.
+2025-07-07 11:45:25 - INFO - Found 100 unread emails. Processing...
+2025-07-07 11:45:25 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-07 11:45:26 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-07 11:45:26 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-07 11:45:26 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-07 11:45:27 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-07 11:45:27 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-07 11:45:28 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-07 11:45:28 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-07 11:45:29 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-07 11:45:29 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-07 11:45:30 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-07 11:45:30 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-07 11:45:31 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-07 11:45:31 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-07 11:45:32 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-07 11:45:32 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-07 11:45:33 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-07 11:45:33 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-07 11:45:34 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-07 11:45:34 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-07 11:45:35 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-07 11:45:35 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-07 11:45:36 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-07 11:45:36 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-07 11:45:36 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-07 11:45:37 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-07 11:45:37 - INFO - Processing company: BCG
+2025-07-07 11:45:38 - INFO - Processing company: \u30d9\u30a4\u30f3
+2025-07-07 11:45:38 - INFO - Processing company: PwC
+2025-07-07 11:45:39 - INFO - Processing company: \u91ce\u6751\u7dcf\u5408\u7814\u7a76\u6240
+2025-07-07 11:45:39 - INFO - Processing company: \u4e09\u83f1\u7dcf\u5408\u7814\u7a76\u6240
+2025-07-07 11:45:40 - INFO - Processing company: \u30a2\u30af\u30bb\u30f3\u30c1\u30e5\u30a2
+2025-07-07 11:45:40 - INFO - Processing company: "PricewaterhouseCoopers" "PwC"
+2025-07-07 11:45:41 - INFO - Processing company: "PricewaterhouseCoopers" "PwC"
+2025-07-07 11:45:41 - INFO - Processing company: "PricewaterhouseCoopers" "PwC"
+2025-07-07 11:45:42 - INFO - Processing company: "PricewaterhouseCoopers" "PwC"
+2025-07-07 11:45:42 - INFO - Processing company: Accenture
+2025-07-07 11:45:43 - INFO - Processing company: Accenture
+2025-07-07 11:45:43 - INFO - Processing company: Accenture
+2025-07-07 11:45:44 - INFO - Processing company: "PricewaterhouseCoopers" "PwC"
+2025-07-07 11:45:44 - INFO - Processing company: Accenture
+2025-07-07 11:45:44 - INFO - Processing company: "PricewaterhouseCoopers" "PwC"
+2025-07-07 11:45:45 - INFO - Processing company: \u30de\u30c3\u30ad\u30f3\u30bc\u30fc
+2025-07-07 11:45:45 - INFO - Processing company: \u30c7\u30ed\u30a4\u30c8
+2025-07-07 11:45:46 - INFO - Processing company: BCG
+2025-07-07 11:45:46 - INFO - Processing company: EY
+2025-07-07 11:45:47 - INFO - Processing company: PwC
+2025-07-07 11:45:47 - INFO - Processing company: \u30a2\u30af\u30bb\u30f3\u30c1\u30e5\u30a2
+2025-07-07 11:45:48 - INFO - Processing company: \u4e09\u83f1\u7dcf\u5408\u7814\u7a76\u6240
+2025-07-07 11:45:48 - INFO - Processing company: \u30d9\u30a4\u30f3
+2025-07-07 11:45:48 - INFO - Processing company: \u91ce\u6751\u7dcf\u5408\u7814\u7a76\u6240
+2025-07-07 11:45:49 - INFO - Processing company: "PricewaterhouseCoopers" "PwC"
+2025-07-07 11:45:49 - INFO - Processing company: "PricewaterhouseCoopers" "PwC"
+2025-07-07 11:45:50 - INFO - Processing company: "PricewaterhouseCoopers" "PwC"
+2025-07-07 11:45:50 - INFO - Processing company: "PricewaterhouseCoopers" "PwC"
+2025-07-07 11:45:51 - INFO - Processing company: "PricewaterhouseCoopers" "PwC"
+2025-07-07 11:45:51 - INFO - Processing company: Accenture
+2025-07-07 11:45:52 - INFO - Processing company: "PricewaterhouseCoopers" "PwC"
+2025-07-07 11:45:52 - INFO - Processing company: Accenture
+2025-07-07 11:45:52 - INFO - Processing company: "PricewaterhouseCoopers" "PwC"
+2025-07-07 11:45:53 - INFO - Processing company: "PricewaterhouseCoopers" "PwC"
+2025-07-07 11:45:53 - INFO - Processing company: Accenture
+2025-07-07 11:45:54 - INFO - Processing company: "Nomura research Institute" "NRI"
+2025-07-07 11:45:54 - INFO - Processing company: "PricewaterhouseCoopers" "PwC"
+2025-07-07 11:45:55 - INFO - Processing company: Accenture
+2025-07-07 11:45:55 - INFO - Processing company: Accenture
+2025-07-07 11:45:56 - INFO - Processing company: Accenture
+2025-07-07 11:45:56 - INFO - Processing company: Accenture
+2025-07-07 11:45:57 - INFO - Processing company: "Nomura research Institute" "NRI"
+2025-07-07 11:45:57 - INFO - Processing company: \u30de\u30c3\u30ad\u30f3\u30bc\u30fc
+2025-07-07 11:45:58 - INFO - Processing company: \u30c7\u30ed\u30a4\u30c8
+2025-07-07 11:45:58 - INFO - Processing company: EY
+2025-07-07 11:45:59 - INFO - Processing company: BCG
+2025-07-07 11:45:59 - INFO - Processing company: \u30d9\u30a4\u30f3
+2025-07-07 11:46:00 - INFO - Processing company: PwC
+2025-07-07 11:46:00 - INFO - Processing company: \u30a2\u30af\u30bb\u30f3\u30c1\u30e5\u30a2
+2025-07-07 11:46:01 - INFO - Processing company: \u4e09\u83f1\u7dcf\u5408\u7814\u7a76\u6240
+2025-07-07 11:46:01 - INFO - Processing company: \u91ce\u6751\u7dcf\u5408\u7814\u7a76\u6240
+2025-07-07 11:46:02 - INFO - Processing company: "PricewaterhouseCoopers" "PwC"
+2025-07-07 11:46:02 - INFO - Processing company: Accenture
+2025-07-07 11:46:03 - INFO - Processing company: "PricewaterhouseCoopers" "PwC"
+2025-07-07 11:46:03 - INFO - Processing company: "Nomura research Institute" "NRI"
+2025-07-07 11:46:04 - INFO - Processing company: Accenture
+2025-07-07 11:46:04 - INFO - Processing company: Accenture
+2025-07-07 11:46:05 - INFO - Processing company: Accenture
+2025-07-07 11:46:05 - INFO - Processing company: Accenture
+2025-07-07 11:46:06 - INFO - Processing company: Accenture
+2025-07-07 11:46:06 - INFO - Processing company: "PricewaterhouseCoopers" "PwC"
+2025-07-07 11:46:06 - INFO - Processing company: \u30c7\u30ed\u30a4\u30c8
+2025-07-07 11:46:07 - INFO - Processing company: EY
+2025-07-07 11:46:07 - INFO - Processing company: BCG
+2025-07-07 11:46:08 - INFO - Processing company: \u30d9\u30a4\u30f3
+2025-07-07 11:46:08 - INFO - Processing company: PwC
+2025-07-07 11:46:09 - INFO - Processing company: \u30a2\u30af\u30bb\u30f3\u30c1\u30e5\u30a2
+2025-07-07 11:46:09 - INFO - Processing company: \u4e09\u83f1\u7dcf\u5408\u7814\u7a76\u6240
+2025-07-07 11:46:10 - INFO - Processing company: Accenture
+2025-07-07 11:46:10 - INFO - Processing company: "PricewaterhouseCoopers" "PwC"
+2025-07-07 11:46:11 - INFO - Processing company: "Ernst & Young" "EY"
+2025-07-07 11:46:11 - INFO - Processing company: "PricewaterhouseCoopers" "PwC"
+2025-07-07 11:46:12 - INFO - Processing company: "Ernst & Young" "EY"
+2025-07-07 11:46:12 - INFO - Retrieved 100 unread emails.
+2025-07-07 11:46:12 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 07-07-25
+2025-07-07 11:46:41 - ERROR - Error processing email 'Google Alert - "Boston Consulting Group" "BCG"' with URL 'https://asianews.network/foreign-visitors-to-vietnam-near-10-7-million-in-first-six-months-half-of-yearly-target/': 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686b6629-606a1a2d18442d0e340e100c;2d4554ac-611e-47ba-99dd-62c3841e0a79)
+2025-07-07 11:47:37 - ERROR - Error processing email 'Google Alert - "Boston Consulting Group" "BCG"' with URL 'https://pamfleti.net/english/bota/ish-keshilltari-i-rames-i-perfshire-ne-planin-e-trump-per-gazen-ft-institut-i288048': 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686b6661-44b85b9c7b0d57405d3f73cb;6172c3ba-fd2d-450e-8ece-675539928669)
+2025-07-07 11:47:37 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 07-07-25
+2025-07-07 11:47:50 - ERROR - Error processing email 'Google Alert - "Boston Consulting Group" "BCG"' with URL 'https://www.saba.ye/en/news3512364.htm': 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686b666f-567067b32894be09745bff50;026f0273-d83d-4085-b795-a996ede939dc)
+2025-07-07 11:48:05 - ERROR - Error processing email 'Google Alert - "Boston Consulting Group" "BCG"' with URL 'https://www.moneycontrol.com/world/tony-blair-institute-staff-linked-to-controversial-gaza-redevelopment-plan-article-13236488.html': 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686b667e-66fd0ed70d256aa43b0d9e99;0fdff8b1-f8d1-445e-a308-b41dc7168490)
+2025-07-07 11:48:25 - ERROR - Error processing email 'Google Alert - "Boston Consulting Group" "BCG"' with URL 'https://www.tourism-review.com/report-reveals-global-leisure-travel-trends-news15037': 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686b6692-19d6010e3d2a9e1d31546147;29306859-8b5a-4890-8d66-adb5db0f19ca)
+2025-07-07 11:48:25 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 07-07-25
+2025-07-07 11:48:42 - ERROR - Error processing email 'Google Alert - "Boston Consulting Group" "BCG"' with URL 'https://www.wealthbriefingasia.com/article.php/Boston-Consulting-Group-Names-New-Asia-Chair': 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686b66a2-106d6f8b1c66025f3d726366;4f274d6f-fab0-4890-8f1b-3392afe98f77)
+2025-07-07 11:48:42 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 07-07-25
+2025-07-07 11:49:22 - ERROR - Error processing email 'Google Alert - "Boston Consulting Group" "BCG"' with URL 'https://www.afr.com/companies/professional-services/tony-blair-s-staff-took-part-in-gaza-riviera-project-with-bcg-20250707-p5mcyw': 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686b66cb-7b38dce53dc45a9940698e5c;ad1cf4f1-a984-470c-be81-6371181b3012)
+2025-07-07 11:49:22 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 07-07-25
+2025-07-07 11:49:41 - ERROR - Error processing email 'Google Alert - "Boston Consulting Group" "BCG"' with URL 'https://www.middleeasteye.net/news/tony-blair-institute-linked-gaza-plan-condemned-ethnic-cleansing': 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686b66dd-31ea39a60d3ca71072b720c5;33362774-bad3-415a-9163-d138388ca56f)
+2025-07-07 11:49:57 - ERROR - Error processing email 'Google Alert - "Boston Consulting Group" "BCG"' with URL 'https://www.agenzianova.com/en/news/una-societa-di-consulenza-usa-ha-elaborato-un-progetto-per-lo-sfollamento-forzato-di-gaza/': 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686b66ed-7a94e05344c89a705782dcb2;af3f2c7c-998c-4a94-9acb-6bbce1aac490)
+2025-07-07 11:50:21 - ERROR - Error processing email 'Google Alert - "Boston Consulting Group" "BCG"' with URL 'https://www.middleeastmonitor.com/20250706-palestinians-condemn-plan-modelled-by-us-firm-to-forcibly-displace-gazans/': 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686b6706-0324f8f85484849828ba7cc7;54b349f0-d4c1-4962-af51-b170a2f27606)
+2025-07-07 11:50:22 - WARNING - Invalid content from URL: https://www.ainvest.com/news/gaza-aid-logistics-geopolitical-risks-esg-compliance-threaten-investor-portfolios-2507/
+2025-07-07 11:50:22 - WARNING - Invalid content from URL: https://www.msn.com/en-in/news/india/who-is-rajan-kabra-meet-the-ca-final-air-1-from-mumbai-the-same-student-who-topped-his-ca-intermediate-exam/ar-AA1I36Te
+2025-07-07 11:50:22 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 07-07-25
+2025-07-07 11:50:23 - WARNING - Invalid content from URL: https://www.agenzianova.com/en/news/una-societa-di-consulenza-usa-ha-elaborato-un-progetto-per-lo-sfollamento-forzato-di-gaza/
+2025-07-07 11:50:23 - WARNING - Invalid content from URL: https://www.ainvest.com/news/gaza-aid-logistics-geopolitical-risks-esg-compliance-threaten-investor-portfolios-2507/
+2025-07-07 11:50:24 - WARNING - Invalid content from URL: https://www.telegraph.co.uk/politics/2025/07/06/tony-blair-think-tank-worked-trump-riviera-plan-for-gaza/
+2025-07-07 11:50:24 - WARNING - Invalid content from URL: https://www.msn.com/en-in/news/india/who-is-rajan-kabra-meet-the-ca-final-air-1-from-mumbai-the-same-student-who-topped-his-ca-intermediate-exam/ar-AA1I36Te
+2025-07-07 11:50:24 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 07-07-25
+2025-07-07 11:50:25 - WARNING - Invalid content from URL: https://www.middleeasteye.net/news/tony-blair-institute-linked-gaza-plan-condemned-ethnic-cleansing
+2025-07-07 11:50:25 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 06-07-25
+2025-07-07 11:50:26 - WARNING - Invalid content from URL: https://www.middleeastmonitor.com/20250706-palestinians-condemn-plan-modelled-by-us-firm-to-forcibly-displace-gazans/
+2025-07-07 11:50:26 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 06-07-25
+2025-07-07 11:50:26 - WARNING - Invalid content from URL: https://www.livemint.com/education/who-is-rajan-kabra-meet-the-icai-ca-2025-topper-from-mumbai-who-secured-air-1-twice-11751791404902.html
+2025-07-07 11:50:27 - WARNING - Invalid content from URL: https://timesofindia.indiatimes.com/education/news/who-is-rajan-kabra-meet-the-ca-final-air-1-from-mumbai-the-same-student-who-topped-his-ca-intermediate-exam/articleshow/122276690.cms
+2025-07-07 11:50:27 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 06-07-25
+2025-07-07 11:50:27 - WARNING - Invalid content from URL: https://www.ft.com/content/0b1bc761-c572-4b61-882a-fb4467259dcd
+2025-07-07 11:50:27 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 06-07-25
+2025-07-07 11:50:28 - WARNING - Invalid content from URL: https://amp.scmp.com/opinion/article/3317146/us-politician-claims-china-spreading-antisemitism-really
+2025-07-07 11:50:28 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 06-07-25
+2025-07-07 11:50:29 - WARNING - Invalid content from URL: https://www.aa.com.tr/en/middle-east/palestinians-condemn-plan-modelled-by-us-firm-to-forcibly-displace-gazans/3623485
+2025-07-07 11:50:30 - WARNING - Invalid content from URL: https://www.wealthbriefingasia.com/article.php/Boston-Consulting-Group-Names-New-Asia-Chair
+2025-07-07 11:50:30 - WARNING - Invalid content from URL: https://www.aljazeera.com/news/liveblog/2025/7/6/live-israeli-forces-bomb-gaza-city-home-killing-12-amid-push-for-truce
+2025-07-07 11:50:31 - WARNING - Invalid content from URL: https://www.letemps.ch/monde/le-boston-consulting-group-aurait-modelise-les-couts-de-la-relocalisation-de-gazaouis
+2025-07-07 11:50:31 - WARNING - Invalid content from URL: https://amp.scmp.com/opinion/article/3317146/us-politician-claims-china-spreading-antisemitism-really
+2025-07-07 11:50:31 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 06-07-25
+2025-07-07 11:50:32 - WARNING - Invalid content from URL: https://www.aljazeera.com/news/liveblog/2025/7/6/live-israeli-forces-bomb-gaza-city-home-killing-12-amid-push-for-truce
+2025-07-07 11:50:32 - WARNING - Invalid content from URL: https://ozarab.media/us-consultancy-firm-involved-in-ghf-aid-scheme-modelled-plans-to-relocate-palestinians/
+2025-07-07 11:50:33 - WARNING - Invalid content from URL: https://imemc.org/article/under-the-guise-of-humanitarian-aid-a-plan-to-displace-palestinians-from-gaza/
+2025-07-07 11:50:33 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 06-07-25
+2025-07-07 11:50:33 - WARNING - Invalid content from URL: https://www.livemint.com/education/who-is-rajan-kabra-meet-the-icai-ca-2025-topper-from-mumbai-who-secured-air-1-twice-11751791404902.html
+2025-07-07 11:50:33 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 06-07-25
+2025-07-07 11:50:34 - WARNING - Invalid content from URL: https://www.heraldscotland.com/news/25292131.shadowy-figures-running-us-israeli-aid-operation-gaza/
+2025-07-07 11:50:34 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 06-07-25
+2025-07-07 11:50:34 - WARNING - Invalid content from URL: https://imemc.org/article/under-the-guise-of-humanitarian-aid-a-plan-to-displace-palestinians-from-gaza/
+2025-07-07 11:50:34 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 06-07-25
+2025-07-07 11:50:35 - WARNING - Invalid content from URL: https://uk.news.yahoo.com/shadowy-figures-running-us-israeli-050800438.html
+2025-07-07 11:50:35 - WARNING - Invalid content from URL: https://en.vietnamplus.vn/foreign-visitors-to-vietnam-near-107-million-in-h1-half-of-full-year-target-post322199.vnp
+2025-07-07 11:50:36 - WARNING - Invalid content from URL: https://timesofindia.indiatimes.com/education/news/who-is-rajan-kabra-meet-the-ca-final-air-1-from-mumbai-the-same-student-who-topped-his-ca-intermediate-exam/articleshow/122276690.cms
+2025-07-07 11:50:36 - WARNING - Invalid content from URL: https://elnacional.com.py/mundo/como-adaptar-infraestructura-calentamiento-global-n88358
+2025-07-07 11:50:36 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 06-07-25
+2025-07-07 11:50:37 - WARNING - Invalid content from URL: https://www.moneycontrol.com/world/bcg-under-fire-for-role-in-gaza-aid-project-tied-to-mass-relocation-plan-article-13233359.html
+2025-07-07 11:50:37 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 06-07-25
+2025-07-07 11:50:38 - WARNING - Invalid content from URL: https://www.presstv.ir/Detail/2025/07/05/750666/Palestine-Israel-Gaza-American-firm-BCG-help-develop-GHF-aid-distribution-scheme-Financial-Times-probe
+2025-07-07 11:50:38 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 05-07-25
+2025-07-07 11:50:38 - WARNING - Invalid content from URL: https://www.haaretz.com/us-news/2025-07-05/ty-article/.premium/report-leading-u-s-consulting-firm-calculated-costs-of-expelling-palestinians-from-gaza/00000197-db14-dcbf-abd7-db3d78720000
+2025-07-07 11:50:38 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 05-07-25
+2025-07-07 11:50:39 - WARNING - Invalid content from URL: https://www.wwf.org.br/nossosconteudos/notas_e_releases/english/?92062/WWF-and-BCG-launch-study-to-strengthen-civil-societys-engagement-in-climate-negotiations
+2025-07-07 11:50:39 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 05-07-25
+2025-07-07 11:50:39 - WARNING - Invalid content from URL: https://www.haaretz.com/us-news/2025-07-05/ty-article/.premium/report-leading-u-s-consulting-firm-calculated-costs-of-expelling-palestinians-from-gaza/00000197-db14-dcbf-abd7-db3d78720000
+2025-07-07 11:50:39 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 05-07-25
+2025-07-07 11:50:40 - WARNING - Invalid content from URL: https://www.middleeasteye.net/news/us-consultancy-firm-involved-ghf-aid-scheme-modelled-plans-relocate
+2025-07-07 11:50:40 - WARNING - Invalid content from URL: https://thecradle.co/articles-id/31778
+2025-07-07 11:50:40 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 05-07-25
+2025-07-07 11:50:41 - WARNING - Invalid content from URL: https://thecradle.co/articles/us-firm-behind-ghf-modeled-voluntary-relocation-plan-to-expedite-ethnic-cleansing-of-gaza
+2025-07-07 11:50:41 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 05-07-25
+2025-07-07 11:50:42 - WARNING - Invalid content from URL: https://www.middleeasteye.net/news/us-consultancy-firm-involved-ghf-aid-scheme-modelled-plans-relocate
+2025-07-07 11:50:42 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 05-07-25
+2025-07-07 11:50:43 - WARNING - Invalid content from URL: https://www.moneycontrol.com/world/bcg-under-fire-for-role-in-gaza-aid-project-tied-to-mass-relocation-plan-article-13233359.html
+2025-07-07 11:50:43 - INFO - Processing email: Google Alert - BCG on 04-07-25
+2025-07-07 11:50:43 - WARNING - Invalid content from URL: https://jp.investing.com/news/earnings/article-1163493
+2025-07-07 11:50:43 - INFO - Processing email: Google Alert - \u30d9\u30a4\u30f3 on 04-07-25
+2025-07-07 11:50:44 - WARNING - Invalid content from URL: https://www.billboard-japan.com/d_news/detail/151081/2
+2025-07-07 11:50:45 - WARNING - Invalid content from URL: https://news.yahoo.co.jp/articles/44106a2b1f765d3f30212b2ad17fe9b438b39076
+2025-07-07 11:50:45 - WARNING - Invalid content from URL: https://topics.smt.docomo.ne.jp/article/gsj/sports/gsj-20250703011
+2025-07-07 11:50:46 - WARNING - Invalid content from URL: https://maonline.jp/articles/jyoujyoukigyou2025_1-6_20250703
+2025-07-07 11:50:46 - WARNING - Invalid content from URL: https://newscast.jp/news/0048042
+2025-07-07 11:50:47 - WARNING - Invalid content from URL: https://www.nikkan.co.jp/articles/view/00753687?gnr_footer=0082449
+2025-07-07 11:50:47 - WARNING - Invalid content from URL: https://www.excite.co.jp/news/article/maonline_jyoujyoukigyou2025_1_6_20250703/
+2025-07-07 11:50:47 - INFO - Processing email: Google Alert - PwC on 04-07-25
+2025-07-07 11:50:48 - WARNING - Invalid content from URL: https://dcross.impress.co.jp/docs/news/004115.html
+2025-07-07 11:50:48 - WARNING - Invalid content from URL: https://www.nna.jp/news/2812507
+2025-07-07 11:50:49 - WARNING - Invalid content from URL: https://hwsm.jp/news/94625/
+2025-07-07 11:50:49 - WARNING - Invalid content from URL: https://www.nikkan.co.jp/articles/view/00753819
+2025-07-07 11:50:50 - WARNING - Invalid content from URL: https://xtech.nikkei.com/atcl/nxt/column/18/03249/062800002/
+2025-07-07 11:50:50 - WARNING - Invalid content from URL: https://www.nikkan.co.jp/articles/view/00753826
+2025-07-07 11:50:51 - WARNING - Invalid content from URL: https://diamond-rm.net/management/ma/516537/2/
+2025-07-07 11:50:52 - WARNING - Invalid content from URL: https://dcross.impress.co.jp/docs/news/004108.html
+2025-07-07 11:50:52 - WARNING - Invalid content from URL: https://www.oricon.co.jp/pressrelease/2385980/
+2025-07-07 11:50:56 - WARNING - Invalid content from URL: https://newspicks.com/news/5147150/body/
+2025-07-07 11:50:56 - WARNING - Invalid content from URL: https://news.livedoor.com/pr_topics/detail/29091404/
+2025-07-07 11:50:56 - INFO - Processing email: Google Alert - \u91ce\u6751\u7dcf\u5408\u7814\u7a76\u6240 on 04-07-25
+2025-07-07 11:50:57 - WARNING - Invalid content from URL: https://www.nri.com/jp/media/column/inoue/20250704.html
+2025-07-07 11:50:57 - WARNING - Invalid content from URL: https://www.nri.com
+2025-07-07 11:50:58 - WARNING - Invalid content from URL: https://news.yahoo.co.jp/articles/734d277d348c0065cc266c0d7e3ea5244e226385?page=3
+2025-07-07 11:50:58 - WARNING - Invalid content from URL: https://www.jpx.co.jp/corporate/news/news-releases/1030/20250703-01.html
+2025-07-07 11:50:59 - WARNING - Invalid content from URL: https://news.yahoo.co.jp/articles/445e5544aa25a3ee85dea249faee4197c2d8ef61?page=3
+2025-07-07 11:51:00 - WARNING - Invalid content from URL: https://prtimes.jp/main/html/rd/p/000003880.000032407.html
+2025-07-07 11:51:00 - WARNING - Invalid content from URL: https://www.kankyo-business.jp/column/853a629f-0c0d-4f92-8eef-d8280d7ba01e
+2025-07-07 11:51:01 - WARNING - Invalid content from URL: https://www.nikkan.co.jp/articles/view/00753768
+2025-07-07 11:51:01 - WARNING - Invalid content from URL: https://forest.watch.impress.co.jp/docs/bookwatch/sale/2028292.html
+2025-07-07 11:51:02 - WARNING - Invalid content from URL: https://response.jp/article/2025/07/04/397871.html
+2025-07-07 11:51:02 - WARNING - Invalid content from URL: https://chemical-news.com/2025/07/03/%E4%B8%89%E8%8F%B1%E5%8C%96%E5%B7%A5%E6%A9%9F%E3%80%80%E5%B7%9D%E5%B4%8E%E7%99%BA%E3%80%81%E5%BE%AA%E7%92%B0%E5%9E%8B%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC/
+2025-07-07 11:51:03 - WARNING - Invalid content from URL: https://s.response.jp/article/2025/07/04/397873.html
+2025-07-07 11:51:04 - WARNING - Invalid content from URL: https://www.kankyo-business.jp/news/c6861cdc-27f1-403b-9ad3-c7e4b7e4e281
+2025-07-07 11:51:04 - WARNING - Invalid content from URL: https://sirabee.com/2025/07/04/20163443423/
+2025-07-07 11:51:05 - WARNING - Invalid content from URL: https://aslead.nri.co.jp/ownedmedia/articles/introduction/jiraservicemanagement/
+2025-07-07 11:51:05 - WARNING - Invalid content from URL: https://syukatsu-kaigi.jp/companies/82599/entry_sheets/236740
+2025-07-07 11:51:06 - WARNING - Invalid content from URL: https://job-worker.com/2025/07/03/25214
+2025-07-07 11:51:06 - WARNING - Invalid content from URL: https://researchmap.jp/read0123530/books_etc/30034131?lang=ja
+2025-07-07 11:51:07 - WARNING - Invalid content from URL: http://www3.keizaireport.com/report.php/RID/296061/?parts
+2025-07-07 11:51:07 - INFO - Processing email: Google Alert - \u4e09\u83f1\u7dcf\u5408\u7814\u7a76\u6240 on 04-07-25
+2025-07-07 11:51:08 - WARNING - Invalid content from URL: https://www.mri.co.jp/knowledge/insight/dep/2025/0703.html
+2025-07-07 11:51:08 - WARNING - Invalid content from URL: https://news.yahoo.co.jp/articles/03decc3a21f7d59b465314c50dae4038a1d0df2c
+2025-07-07 11:51:09 - WARNING - Invalid content from URL: https://minkabu.jp/news/4279898
+2025-07-07 11:51:09 - WARNING - Invalid content from URL: https://prtimes.jp/main/html/rd/p/000000064.000119361.html
+2025-07-07 11:51:10 - WARNING - Invalid content from URL: https://news.yahoo.co.jp/articles/7bb2c7f373d36a6dd225eb1f82d90942f68b1ae6?page=2
+2025-07-07 11:51:10 - WARNING - Invalid content from URL: https://newspicks.com/news/14579576/?block=categories&ref=index
+2025-07-07 11:51:11 - WARNING - Invalid content from URL: https://mainichi.jp/articles/20250703/pr2/00m/020/791000c
+2025-07-07 11:51:11 - WARNING - Invalid content from URL: https://data.wingarc.com/reaktorjp-digitaldoers10-report-82930
+2025-07-07 11:51:12 - WARNING - Invalid content from URL: https://www.hirosaki-u.ac.jp/104966/
+2025-07-07 11:51:12 - WARNING - Invalid content from URL: https://article.auone.jp/detail/1/3/6/455_6_r_20250704_1751598654940805
+2025-07-07 11:51:13 - WARNING - Invalid content from URL: https://newspicks.com/news/14592632/body/
+2025-07-07 11:51:14 - WARNING - Invalid content from URL: https://www.travelvoice.jp/20250704-157990
+2025-07-07 11:51:14 - WARNING - Invalid content from URL: https://bio.nikkeibp.co.jp/atcl/release/25/07/03/24815/
+2025-07-07 11:51:15 - WARNING - Invalid content from URL: https://www.kensetsunews.com/archives/1097450
+2025-07-07 11:51:15 - WARNING - Invalid content from URL: https://www.onecareer.jp/companies/7/experiences/2026/12/1163116
+2025-07-07 11:51:16 - WARNING - Invalid content from URL: https://www.emachi-nabari.jp/j-kouryu/?p=35137
+2025-07-07 11:51:16 - WARNING - Invalid content from URL: https://news.yahoo.co.jp/search?p=%28%E4%B8%89%E8%8F%B1%E7%B7%8F%E5%90%88%E7%A0%94%E7%A9%B6%E6%89%80+%E4%B8%89%E8%8F%B1%E7%B7%8F%E7%A0%94%29+%28%E6%A0%AA+%E6%A0%AA%E4%BE%A1+%E3%82%B9%E3%83%88%E3%83%83%E3%83%97+%E9%85%8D%E5%BD%93+%E6%B1%BA%E7%AE%97+%E9%81%A9%E6%99%82%E9%96%8B%E7%A4%BA+%E6%A5%AD%E7%B8%BE+%E5%84%AA%E5%BE%85%29
+2025-07-07 11:51:17 - WARNING - Invalid content from URL: https://newspicks.com/news/14449691/?ref=picked-news_9985&utm_source=initial&utm_medium=article&utm_campaign=ubin250701_ns14449691&invoker=ln_initial_article_ubin250701_ns14449691
+2025-07-07 11:51:17 - WARNING - Invalid content from URL: https://ameblo.jp/grace--blog/entry-12913524514.html
+2025-07-07 11:51:18 - WARNING - Invalid content from URL: https://mediso.mhlw.go.jp/topics_page/20250703-01/
+2025-07-07 11:51:18 - INFO - Processing email: Google Alert - \u30a2\u30af\u30bb\u30f3\u30c1\u30e5\u30a2 on 04-07-25
+2025-07-07 11:51:18 - WARNING - Invalid content from URL: https://xtrend.nikkei.com/atcl/contents/18/01115/00005/
+2025-07-07 11:51:19 - WARNING - Invalid content from URL: https://jp.investing.com/news/analyst-ratings/article-93CH-1162907
+2025-07-07 11:51:19 - WARNING - Invalid content from URL: https://it.impress.co.jp/articles/-/28079
+2025-07-07 11:51:20 - WARNING - Invalid content from URL: https://japan.zdnet.com/article/35235106/
+2025-07-07 11:51:20 - WARNING - Invalid content from URL: https://www.shinmai.co.jp/news/article/PRPTc57729_r403
+2025-07-07 11:51:21 - WARNING - Invalid content from URL: https://www.itmedia.co.jp/news/articles/2507/04/news068.html
+2025-07-07 11:51:21 - WARNING - Invalid content from URL: https://prtimes.jp/main/html/rd/p/000000056.000078849.html
+2025-07-07 11:51:22 - WARNING - Invalid content from URL: https://www.nikkinonline.com/article/292483/
+2025-07-07 11:51:22 - WARNING - Invalid content from URL: https://diamond.jp/articles/-/367755
+2025-07-07 11:51:23 - WARNING - Invalid content from URL: https://ascii.jp/elem/000/004/296/4296965/
+2025-07-07 11:51:23 - WARNING - Invalid content from URL: https://news.nicovideo.jp/watch/nw17907745?news_ref=watch_20_nw17854250
+2025-07-07 11:51:23 - INFO - Processing email: Google Alert - "PricewaterhouseCoopers" "PwC" on 03-07-25
+2025-07-07 11:51:24 - WARNING - Invalid content from URL: https://bhbusiness.com/2025/07/03/autism-services-deals-hit-5-year-high-fueling-behavioral-healths-ma-rebound/
+2025-07-07 11:51:24 - WARNING - Invalid content from URL: https://open4business.com.ua/en/pwc-ukraine-has-new-director/
+2025-07-07 11:51:25 - WARNING - Invalid content from URL: https://thechronicle.com.ph/ph-energy-sector-faces-crucial-crossroads-embrace-digital-or-be-left-behind/
+2025-07-07 11:51:25 - WARNING - Invalid content from URL: https://www.agenzianova.com/en/news/italy-in-the-grip-of-heat-from-enea-25-green-solutions-to-combat-heat-in-cities/
+2025-07-07 11:51:25 - INFO - Processing email: Google Alert - "PricewaterhouseCoopers" "PwC" on 03-07-25
+2025-07-07 11:51:26 - WARNING - Invalid content from URL: https://www.newsweek.com/pwc-executive-explains-need-empathy-curiosity-corporate-leadership-2093108
+2025-07-07 11:51:26 - WARNING - Invalid content from URL: https://iol.co.za/business-report/international/2025-07-02-hong-kong-to-regain-ipo-crown-this-year-say-pwc-and-deloitte/
+2025-07-07 11:51:26 - WARNING - Invalid content from URL: https://www.pressreader.com/malta/times-of-malta-1409/20250703/281745570386712
+2025-07-07 11:51:27 - WARNING - Invalid content from URL: https://www.aman-alliance.org/Home/ContentDetail/91947
+2025-07-07 11:51:27 - INFO - Processing email: Google Alert - "PricewaterhouseCoopers" "PwC" on 03-07-25
+2025-07-07 11:51:28 - WARNING - Invalid content from URL: https://www.law.com/international-edition/2025/07/02/pwcs-china-woes-hit-hong-kong-legal-affiliate-partners-depart-firm-to-rebrand/
+2025-07-07 11:51:28 - WARNING - Invalid content from URL: https://theedgemalaysia.com/node/761240
+2025-07-07 11:51:29 - WARNING - Invalid content from URL: https://asianews.network/indonesian-government-targets-15000-barrels-per-day-from-community-oil-wells/
+2025-07-07 11:51:29 - WARNING - Invalid content from URL: https://www.caclubindia.com/guide/top-10-ca-firms-in-india/
+2025-07-07 11:51:30 - WARNING - Invalid content from URL: https://www.segyenewsagency.com/news/articleView.html?idxno=620087
+2025-07-07 11:51:30 - INFO - Processing email: Google Alert - "PricewaterhouseCoopers" "PwC" on 03-07-25
+2025-07-07 11:51:31 - WARNING - Invalid content from URL: https://newshub.medianet.com.au/2025/07/wizz-air-tops-major-airline-emissions-rankings/108055/
+2025-07-07 11:51:31 - INFO - Processing email: Google Alert - Accenture on 03-07-25
+2025-07-07 11:51:32 - WARNING - Invalid content from URL: https://evertiq.com/news/2025-07-02-accenture-acquires-systema-to-bolster-manufacturing-automation
+2025-07-07 11:51:32 - WARNING - Invalid content from URL: https://ctbythenumbers.news/ctnews/iwt9m5q7wwis1hcai82oobr16zsq2x
+2025-07-07 11:51:33 - WARNING - Invalid content from URL: https://www.investing.com/news/analyst-ratings/accenture-stock-maintains-buy-rating-at-ubs-following-systema-acquisition-93CH-4121345
+2025-07-07 11:51:33 - WARNING - Invalid content from URL: https://news.bloomberglaw.com/daily-labor-report/accenture-ex-manager-loses-appeal-to-revive-racial-bias-suit
+2025-07-07 11:51:33 - WARNING - Invalid content from URL: https://news.bloomberglaw.com/business-and-practice/accenture-ex-manager-loses-appeal-to-revive-racial-bias-suit
+2025-07-07 11:51:34 - WARNING - Invalid content from URL: https://www.insurancetimes.co.uk/news/accenture-appoints-industry-lead-for-uk-ireland-and-africa/1455668.article
+2025-07-07 11:51:34 - WARNING - Invalid content from URL: https://www.nasdaq.com/articles/palantir-technologies-pltr-opinions-accenture-partnership-and-valuation-concerns
+2025-07-07 11:51:35 - WARNING - Invalid content from URL: https://www.consultancy.uk/news/40706/accenture-names-will-pritchett-as-insurance-lead-for-uk-ireland-and-africa
+2025-07-07 11:51:35 - WARNING - Invalid content from URL: https://news.outsourceaccelerator.com/accenture-semiconductor-automation-systema/
+2025-07-07 11:51:36 - WARNING - Invalid content from URL: https://www.investing.com/analysis/forget-ibm-accentures-ai-momentum-is-your-next-buy-200663072
+2025-07-07 11:51:36 - INFO - Processing email: Google Alert - Accenture on 03-07-25
+2025-07-07 11:51:36 - WARNING - Invalid content from URL: https://evertiq.com/news/2025-07-02-accenture-acquires-systema-to-bolster-manufacturing-automation
+2025-07-07 11:51:37 - WARNING - Invalid content from URL: https://news.bloomberglaw.com/business-and-practice/accenture-ex-manager-loses-appeal-to-revive-racial-bias-suit
+2025-07-07 11:51:37 - WARNING - Invalid content from URL: https://news.bloomberglaw.com/daily-labor-report/accenture-ex-manager-loses-appeal-to-revive-racial-bias-suit
+2025-07-07 11:51:38 - WARNING - Invalid content from URL: https://news.outsourceaccelerator.com/accenture-semiconductor-automation-systema/
+2025-07-07 11:51:38 - WARNING - Invalid content from URL: https://www.streetinsider.com/news.php?id=25008942&classic=1
+2025-07-07 11:51:39 - WARNING - Invalid content from URL: https://www.nasdaq.com/articles/palantir-technologies-pltr-opinions-accenture-partnership-and-valuation-concerns
+2025-07-07 11:51:39 - WARNING - Invalid content from URL: https://www.tradingview.com/news/marketbeat:0280b101b094b:0-forget-ibm-accenture-s-ai-momentum-is-your-next-buy/
+2025-07-07 11:51:39 - WARNING - Invalid content from URL: https://www.quiverquant.com/news/Palantir+Technologies+%28PLTR%29+Opinions+on+Accenture+Partnership+and+Valuation+Concerns
+2025-07-07 11:51:40 - WARNING - Invalid content from URL: https://www.quiverquant.com/news/Lobbying+Update%3A+%2440%2C000+of+ACCENTURE+FEDERAL+SERVICES+LLC+lobbying+was+just+disclosed
+2025-07-07 11:51:40 - WARNING - Invalid content from URL: https://www.manilatimes.net/2025/07/03/business/top-business/accentuate-career-development-at-accenture/2142982
+2025-07-07 11:51:40 - INFO - Processing email: Google Alert - Accenture on 03-07-25
+2025-07-07 11:51:41 - WARNING - Invalid content from URL: https://www.indiatoday.in/technology/features/story/rs-800-crore-joining-bonus-once-in-accenture-iitian-trapit-bansal-has-joined-meta-ai-superintelligence-team-2749437-2025-07-02
+2025-07-07 11:51:41 - WARNING - Invalid content from URL: https://in.investing.com/news/analyst-ratings/accenture-stock-maintains-buy-rating-at-ubs-following-systema-acquisition-93CH-4899054
+2025-07-07 11:51:41 - WARNING - Invalid content from URL: https://www.business-standard.com/companies/news/openai-custom-ai-consulting-service-10-million-grab-accenture-125070200681_1.html
+2025-07-07 11:51:42 - WARNING - Invalid content from URL: https://cio.eletsonline.com/news/india-launches-%E2%82%B91-lakh-crore-plan-to-boost-private-research/74894/
+2025-07-07 11:51:43 - WARNING - Invalid content from URL: https://auto.economictimes.indiatimes.com/news/newsletters/boschs-25-billion-investment-in-ai-revolutionizing-automated-driving-and-smart-manufacturing/122204085
+2025-07-07 11:51:43 - INFO - Processing email: Google Alert - "PricewaterhouseCoopers" "PwC" on 03-07-25
+2025-07-07 11:51:43 - WARNING - Invalid content from URL: https://www.straitstimes.com/business/companies-markets/hong-kong-to-reclaim-top-spot-in-global-ipos-pwc-says
+2025-07-07 11:51:44 - WARNING - Invalid content from URL: https://www.businesstimes.com.sg/international/global/hong-kong-reclaim-top-spot-global-ipos-pwc
+2025-07-07 11:51:44 - WARNING - Invalid content from URL: https://sg.finance.yahoo.com/news/hong-kong-regain-ipo-crown-102047101.html
+2025-07-07 11:51:44 - INFO - Processing email: Google Alert - Accenture on 03-07-25
+2025-07-07 11:51:45 - WARNING - Invalid content from URL: https://securitybrief.com.au/story/most-asia-pacific-firms-unprepared-for-ai-driven-cyber-threats
+2025-07-07 11:51:45 - WARNING - Invalid content from URL: https://www.marketingmag.com.au/amp/tech-data/oztam-releases-streamscape-new-quarterly-report-on-screen-consumption/
+2025-07-07 11:51:45 - INFO - Processing email: Google Alert - "PricewaterhouseCoopers" "PwC" on 03-07-25
+2025-07-07 11:51:46 - WARNING - Invalid content from URL: https://www.ad-hoc-news.de/boerse/news/marktberichte/wizz-air-tops-major-airline-emissions-rankings/67659204
+2025-07-07 11:51:46 - INFO - Processing email: Google Alert - \u30de\u30c3\u30ad\u30f3\u30bc\u30fc on 03-07-25
+2025-07-07 11:51:46 - WARNING - Invalid content from URL: https://online.logi-biz.com/127879/
+2025-07-07 11:51:47 - WARNING - Invalid content from URL: https://news.nicovideo.jp/watch/nw17893304?news_ref=watch_20_nw17860012
+2025-07-07 11:51:47 - INFO - Processing email: Google Alert - \u30c7\u30ed\u30a4\u30c8 on 03-07-25
+2025-07-07 11:51:47 - WARNING - Invalid content from URL: https://hre-net.com/keizai/keizaisougou/84063/
+2025-07-07 11:51:48 - WARNING - Invalid content from URL: https://www.nikkan.co.jp/articles/view/00753487
+2025-07-07 11:51:48 - WARNING - Invalid content from URL: https://www.niigata-nippo.co.jp/articles/-/639067
+2025-07-07 11:51:49 - WARNING - Invalid content from URL: https://www.okinawatimes.co.jp/articles/-/1617099
+2025-07-07 11:51:49 - WARNING - Invalid content from URL: https://news.yahoo.co.jp/articles/8167ccf1bcfad9e17d618794a5587d5368df1e7b
+2025-07-07 11:51:50 - WARNING - Invalid content from URL: https://prtimes.jp/main/html/rd/p/000000002.000159758.html
+2025-07-07 11:51:50 - WARNING - Invalid content from URL: https://webtan.impress.co.jp/n/2025/07/02/49642
+2025-07-07 11:51:51 - WARNING - Invalid content from URL: https://www.coindeskjapan.com/301197/
+2025-07-07 11:51:52 - WARNING - Invalid content from URL: https://www.nna.jp/news/2812113
+2025-07-07 11:51:52 - WARNING - Invalid content from URL: https://news.nicovideo.jp/watch/nw17895206?news_ref=watch_20_nw17860012
+2025-07-07 11:51:53 - WARNING - Invalid content from URL: https://topics.smt.docomo.ne.jp/amp/article/sankei/business/sankei-_economy_business_ZFUONEGN2JLYXNAOW4IWJ5ZPSI
+2025-07-07 11:51:53 - INFO - Processing email: Google Alert - BCG on 03-07-25
+2025-07-07 11:51:53 - WARNING - Invalid content from URL: https://www.bcg.com/ja-jp/press/2july2025-beyond-ai-adoption-full-potential
+2025-07-07 11:51:53 - WARNING - Invalid content from URL: https://diamond.jp/articles/-/367755
+2025-07-07 11:51:54 - WARNING - Invalid content from URL: https://opac.agulin.aoyama.ac.jp/iwjs0011opc/ufirdi.do?ufi_target=catdbl&ufi_locale=ja&pkey=BB01326659&hidden_return_link=true
+2025-07-07 11:51:55 - WARNING - Invalid content from URL: https://www.travelandtourworld.jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/%E8%A8%98%E4%BA%8B/%E3%82%B5%E3%82%A6%E3%82%B8%E3%82%A2%E3%83%A9%E3%83%93%E3%82%A2%E3%81%AF%E3%80%81BCG%E3%81%8C%E5%A0%B1%E5%91%8A%E3%81%97%E3%81%9F2040%E5%B9%B4%E3%81%BE%E3%81%A7%E3%81%AB%E3%83%AC%E3%82%B8%E3%83%A3%E3%83%BC%E6%97%85%E8%A1%8C%E5%B8%82%E5%A0%B4%E3%82%92XNUMX%E5%85%86%E7%B1%B3%E3%83%89%E3%83%AB%E3%81%AB%E6%8A%BC%E3%81%97%E4%B8%8A%E3%81%92%E3%82%8B%E3%81%A8%E8%A6%8B%E8%BE%BC%E3%81%BE%E3%82%8C%E3%82%8B%E5%9B%BD%E3%80%85%E3%81%AE%E3%83%AA%E3%82%B9%E3%83%88%E3%81%AB%E4%B8%AD%E5%9B%BD%E3%81%A8%E3%82%A4%E3%83%B3%E3%83%89%E3%81%A8%E3%81%A8%E3%82%82%E3%81%AB%E5%8A%A0%E3%82%8F%E3%81%A3%E3%81%9F%E3%80%82/
+2025-07-07 11:51:55 - WARNING - Invalid content from URL: https://www.askdoctors.jp/topics/5090747
+2025-07-07 11:51:56 - WARNING - Invalid content from URL: https://n150.net/kai-sangokushi-taisen-2nd-season-ends/
+2025-07-07 11:51:56 - WARNING - Invalid content from URL: https://n150.net/think-about-the-kai-sangokushi-war-lu-bu-deck/
+2025-07-07 11:51:58 - WARNING - Invalid content from URL: https://life.awaisora.com/2025/07/03/19b44ab6-e399-4ff3-929e-639d735edefd/
+2025-07-07 11:51:59 - WARNING - Invalid content from URL: https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11317025711
+2025-07-07 11:51:59 - INFO - Processing email: Google Alert - EY on 03-07-25
+2025-07-07 11:51:59 - WARNING - Invalid content from URL: https://it.impress.co.jp/articles/-/28057
+2025-07-07 11:52:00 - WARNING - Invalid content from URL: https://diamond.jp/articles/amp/367799
+2025-07-07 11:52:00 - WARNING - Invalid content from URL: https://www.spf.org/china/news/20250703.html
+2025-07-07 11:52:01 - WARNING - Invalid content from URL: https://bijutsutecho.com/exhibitions/16248
+2025-07-07 11:52:01 - WARNING - Invalid content from URL: https://flyteam.jp/photo/4221845
+2025-07-07 11:52:02 - WARNING - Invalid content from URL: https://diamond.jp/articles/amp/367581
+2025-07-07 11:52:02 - WARNING - Invalid content from URL: https://b.kyodo.co.jp/business/2025-07-03_8442731/
+2025-07-07 11:52:03 - WARNING - Invalid content from URL: https://flyteam.jp/photo/4221838
+2025-07-07 11:52:03 - WARNING - Invalid content from URL: https://mynavi-agent.jp/jobsearch/10466768/
+2025-07-07 11:52:05 - WARNING - Invalid content from URL: https://openmoney.jp/reports/vlIrX3/career_growth_specialization
+2025-07-07 11:52:05 - WARNING - Invalid content from URL: https://www.ey-office.com/blog_archive/2025/07/02/electric-is-a-great-library-that-makes-it-easy-to-sync-data-between-apps/
+2025-07-07 11:52:06 - WARNING - Invalid content from URL: https://jp.linkedin.com/jobs/view/%E3%80%90tcf-deals-m-a-advisory%E3%80%91m-a%E3%82%A2%E3%83%89%E3%83%90%E3%82%A4%E3%82%B6%E3%83%AA%E3%83%BC-at-ey-3927969154
+2025-07-07 11:52:06 - WARNING - Invalid content from URL: https://music-book.jp/music/Artist/1180945/Music/aaa9j0h9
+2025-07-07 11:52:06 - INFO - Processing email: Google Alert - PwC on 03-07-25
+2025-07-07 11:52:06 - WARNING - Invalid content from URL: https://www.openwork.jp/a0C30000003Llud/recruit?j=c20eacda0795cb6c
+2025-07-07 11:52:07 - WARNING - Invalid content from URL: https://www.pasona.co.jp/jobsearch/detail/000000006001066538
+2025-07-07 11:52:08 - WARNING - Invalid content from URL: https://next.gaishishukatsu.com/job_infos/114346
+2025-07-07 11:52:08 - WARNING - Invalid content from URL: https://www.onecareer.jp/companies/92304/experiences/2026/168210/1186065
+2025-07-07 11:52:09 - WARNING - Invalid content from URL: https://www.strategyand.pwc.com/jp/ja/global/forms/contactUsNew.html?parentPagePath=/content/pwc/12/ja/leadership&style=pwc&territory=12&contactLink=/content/pwc/12/ja/contacts/y/yusuke-nakabayashi
+2025-07-07 11:52:10 - WARNING - Invalid content from URL: https://jp.linkedin.com/jobs/view/m-a%E6%88%A6%E7%95%A5%E5%AE%A4%EF%BC%88%E5%BD%93%E7%A4%BE%E8%87%AA%E8%BA%AB%E3%81%AEm-a%E6%88%A6%E7%95%A5%E7%AD%96%E5%AE%9A%EF%BD%9E%E3%83%87%E3%82%A3%E3%83%BC%E3%83%AB%E3%82%A8%E3%82%B0%E3%82%BC%E3%82%AD%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%EF%BD%9Epmi%EF%BC%89%E3%80%90sc-x-value-strategy%E3%80%91-at-pwc-japan-4259140654
+2025-07-07 11:52:11 - WARNING - Invalid content from URL: http://www.tetoria.co.jp/shopdetail/45825599163748
+2025-07-07 11:52:12 - WARNING - Invalid content from URL: http://www.tetoria.co.jp/shopdetail/45825599184089
+2025-07-07 11:52:12 - WARNING - Invalid content from URL: https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10317002395
+2025-07-07 11:52:12 - INFO - Processing email: Google Alert - \u30a2\u30af\u30bb\u30f3\u30c1\u30e5\u30a2 on 03-07-25
+2025-07-07 11:52:13 - WARNING - Invalid content from URL: https://article.yahoo.co.jp/detail/b5828775b9baadf78f1189b2991b472726a871b2
+2025-07-07 11:52:13 - WARNING - Invalid content from URL: https://securitytoken.or.jp/news20250701/
+2025-07-07 11:52:14 - WARNING - Invalid content from URL: https://www.onecareer.jp/events/internship/68739?utm_source=oc&utm_medium=selection_recommend_event&utm_campaign=event_details
+2025-07-07 11:52:14 - WARNING - Invalid content from URL: https://www.asahi.com/sp/articles/photo/AS20240207002024.html?_klpuid=GwKq2LGpnkQhX6L36mXkc%2Fdata%2Fkanie%2Fkondo%2Fmri%2Ffujita%2F
+2025-07-07 11:52:15 - WARNING - Invalid content from URL: https://openmoney.jp/reports/1zI6nR/career_growth_specialization
+2025-07-07 11:52:15 - WARNING - Invalid content from URL: https://syukatsu-kaigi.jp/companies/94735/screening_experiences/interview/1051406
+2025-07-07 11:52:16 - WARNING - Invalid content from URL: https://directscout.recruit.co.jp/job_descriptions/7507061
+2025-07-07 11:52:16 - WARNING - Invalid content from URL: https://newspicks.com/news/14501895/
+2025-07-07 11:52:17 - WARNING - Invalid content from URL: https://toranet.jp/viewjob/7fdf955c02cba2df/
+2025-07-07 11:52:17 - WARNING - Invalid content from URL: https://directscout.recruit.co.jp/job_descriptions/7513494
+2025-07-07 11:52:18 - WARNING - Invalid content from URL: https://part.shufu-job.jp/tokyo/city-minatoku/order-17367846
+2025-07-07 11:52:19 - WARNING - Invalid content from URL: https://www.delacalzadalegal.com/shopdetail/36022777
+2025-07-07 11:52:19 - WARNING - Invalid content from URL: https://www.webull.co.jp/news-detail/13085106616509441
+2025-07-07 11:52:20 - WARNING - Invalid content from URL: https://paiza.jp/career/job_offers/34726?from=list
+2025-07-07 11:52:21 - WARNING - Invalid content from URL: https://jp.linkedin.com/in/taichi-tashiro/ja
+2025-07-07 11:52:21 - INFO - Processing email: Google Alert - \u4e09\u83f1\u7dcf\u5408\u7814\u7a76\u6240 on 03-07-25
+2025-07-07 11:52:21 - WARNING - Invalid content from URL: https://www.mri.co.jp/knowledge/column/20250702.html
+2025-07-07 11:52:22 - WARNING - Invalid content from URL: https://www.agrinews.co.jp/economy/index/316631
+2025-07-07 11:52:22 - WARNING - Invalid content from URL: https://www.yomiuri.co.jp/shimen/20250702-OYT9T50124/
+2025-07-07 11:52:23 - WARNING - Invalid content from URL: https://www.agrinews.co.jp/news/index/316404
+2025-07-07 11:52:23 - WARNING - Invalid content from URL: https://news.yahoo.co.jp/articles/34852d93a2d5431b113aa3ef84ed3d7df9a74bf9?page=2
+2025-07-07 11:52:24 - WARNING - Invalid content from URL: https://www.u-tokyo.ac.jp/focus/ja/events/z0211_00071.html
+2025-07-07 11:52:24 - WARNING - Invalid content from URL: https://prtimes.jp/main/html/rd/p/000007773.000002535.html
+2025-07-07 11:52:25 - WARNING - Invalid content from URL: https://www.excite.co.jp/news/article/Prtimes_2025-07-02-16751-2003/
+2025-07-07 11:52:25 - WARNING - Invalid content from URL: https://topics.smt.docomo.ne.jp/article/techblitz/business/techblitz-62608
+2025-07-07 11:52:26 - WARNING - Invalid content from URL: https://newspicks.com/news/14580155/?ref=news-summary_4212306
+2025-07-07 11:52:26 - WARNING - Invalid content from URL: https://nft-times.jp/ai/125580/
+2025-07-07 11:52:27 - WARNING - Invalid content from URL: https://www.yomiuri.co.jp/expo2025/20250701-OYO1T50075/
+2025-07-07 11:52:27 - WARNING - Invalid content from URL: https://www.jiji.com/jc/article?k=000000002.000165234&g=prt
+2025-07-07 11:52:27 - INFO - Processing email: Google Alert - \u30d9\u30a4\u30f3 on 03-07-25
+2025-07-07 11:52:28 - WARNING - Invalid content from URL: https://ptj.jiho.jp/article/163073
+2025-07-07 11:52:29 - WARNING - Invalid content from URL: https://billboard-japan.com/d_news/image/151081/1
+2025-07-07 11:52:29 - WARNING - Invalid content from URL: https://news.yahoo.co.jp/articles/44106a2b1f765d3f30212b2ad17fe9b438b39076/images/000
+2025-07-07 11:52:30 - WARNING - Invalid content from URL: https://pando.life/article/1555672
+2025-07-07 11:52:30 - WARNING - Invalid content from URL: http://www.led-tokyo.co.jp/shopdetail/73499308011
+2025-07-07 11:52:31 - WARNING - Invalid content from URL: https://www.torecolo.jp/shop/c/c101062_dI_sscn_p5/
+2025-07-07 11:52:31 - INFO - Processing email: Google Alert - \u91ce\u6751\u7dcf\u5408\u7814\u7a76\u6240 on 03-07-25
+2025-07-07 11:52:32 - WARNING - Invalid content from URL: https://www.nikkan.co.jp/articles/view/00753406
+2025-07-07 11:52:32 - WARNING - Invalid content from URL: https://toyokeizai.net/articles/-/886597?display=b
+2025-07-07 11:52:33 - WARNING - Invalid content from URL: https://news.yahoo.co.jp/articles/88f8c69c470ed7517f7477848095abe0badccbbd
+2025-07-07 11:52:33 - WARNING - Invalid content from URL: https://jp.reuters.com/markets/japan/funds/NUNWJEAIBRMYJNLPF7GI3BMU2M-2025-07-02/
+2025-07-07 11:52:34 - WARNING - Invalid content from URL: https://www.nishinippon.co.jp/item/1371305/
+2025-07-07 11:52:34 - WARNING - Invalid content from URL: https://shikiho.toyokeizai.net/news/0/883851
+2025-07-07 11:52:35 - WARNING - Invalid content from URL: https://jp.reuters.com/opinion/forex-forum/SJTHPD5YYVKBBMLXA3RL2BCZUI-2025-07-01/
+2025-07-07 11:52:36 - WARNING - Invalid content from URL: https://www.rieti.go.jp/jp/publications/summary/25060017.html
+2025-07-07 11:52:36 - WARNING - Invalid content from URL: https://www.yomiuri.co.jp/expo2025/20250702-OYO1T50047/
+2025-07-07 11:52:37 - WARNING - Invalid content from URL: https://www.japanmetal.com/news-t20250701144555.html
+2025-07-07 11:52:38 - WARNING - Invalid content from URL: https://www.gomutimes.co.jp/?p=205028
+2025-07-07 11:52:38 - WARNING - Invalid content from URL: https://www.nhk.jp/p/my-asa/rs/J8792PY43V/episode/re/JW99LWLGWX/
+2025-07-07 11:52:39 - WARNING - Invalid content from URL: https://s.kabutan.jp/news/n202507010758/
+2025-07-07 11:52:40 - WARNING - Invalid content from URL: https://diamond.jp/zai/articles/-/1052533
+2025-07-07 11:52:40 - WARNING - Invalid content from URL: https://www.logi-today.com/803622
+2025-07-07 11:52:42 - WARNING - Invalid content from URL: http://www.shonai-nippo.co.jp/cgi/ad/day.cgi?p=2025:07:01
+2025-07-07 11:52:42 - WARNING - Invalid content from URL: https://www.nikkan.co.jp/articles/view/00753411?gnr_footer=0082398
+2025-07-07 11:52:43 - WARNING - Invalid content from URL: https://prtimes.jp/main/html/rd/p/000000403.000057729.html
+2025-07-07 11:52:43 - WARNING - Invalid content from URL: https://newspicks.com/news/14568960/?block=side-news-series&ref=news-body_14571551
+2025-07-07 11:52:44 - WARNING - Invalid content from URL: https://ligare.news/story/denso-0701/
+2025-07-07 11:52:44 - WARNING - Invalid content from URL: https://www.kyodo.co.jp/local/2025-07-02_3946472/
+2025-07-07 11:52:45 - WARNING - Invalid content from URL: https://www.bloomberg.co.jp/news/articles/2025-07-02/SYQTCIT1UM0W00
+2025-07-07 11:52:45 - WARNING - Invalid content from URL: https://online.nikkei-cnbc.co.jp/vod/59420
+2025-07-07 11:52:46 - WARNING - Invalid content from URL: https://dempa-digital.com/article/671794
+2025-07-07 11:52:46 - WARNING - Invalid content from URL: https://www.nomura.co.jp/wealthstyle/article/0382/
+2025-07-07 11:52:47 - WARNING - Invalid content from URL: https://mainichi.jp/articles/20250702/pr2/00m/020/054000c
+2025-07-07 11:52:47 - WARNING - Invalid content from URL: https://motorcars.jp/bluerebirth-council-established-to-expand-use-of-recycled-materials-in-the-automotive-industry20250630
+2025-07-07 11:52:48 - WARNING - Invalid content from URL: https://www.netdenjd.com/articles/-/319565
+2025-07-07 11:52:48 - WARNING - Invalid content from URL: https://www.itmedia.co.jp/business/spv/2507/03/news055.html
+2025-07-07 11:52:49 - WARNING - Invalid content from URL: https://s.response.jp/article/2025/07/01/397694.html
+2025-07-07 11:52:50 - WARNING - Invalid content from URL: https://s.kabutan.jp/news/n202507010446/
+2025-07-07 11:52:50 - WARNING - Invalid content from URL: https://prtimes.jp/main/html/rd/p/000003860.000032407.html
+2025-07-07 11:52:50 - WARNING - Invalid content from URL: https://www.47news.jp/12808105.html
+2025-07-07 11:52:51 - WARNING - Invalid content from URL: https://online.nikkei-cnbc.co.jp/vod/59482
+2025-07-07 11:52:51 - WARNING - Invalid content from URL: https://www.nishinippon.co.jp/item/1371321/
+2025-07-07 11:52:51 - INFO - Processing email: Google Alert - "PricewaterhouseCoopers" "PwC" on 03-07-25
+2025-07-07 11:52:52 - WARNING - Invalid content from URL: https://www.businesstimes.com.sg/international/global/hong-kong-reclaim-top-spot-global-ipos-pwc-says
+2025-07-07 11:52:52 - WARNING - Invalid content from URL: https://www.macaubusiness.com/angola-project-finance-of-60m-available-but-constrained-by-bureaucracy-undp/
+2025-07-07 11:52:53 - WARNING - Invalid content from URL: https://simpleflying.com/wizz-air-most-emissions-efficient-airline-new-global-study/
+2025-07-07 11:52:53 - INFO - Processing email: Google Alert - "PricewaterhouseCoopers" "PwC" on 03-07-25
+2025-07-07 11:52:53 - WARNING - Invalid content from URL: https://www.pwc.com/gx/en/news-room/press-releases/2025/sebastian-di-paola-is-elected-to-chair-pwcs-global-board.html
+2025-07-07 11:52:54 - WARNING - Invalid content from URL: https://uk.finance.yahoo.com/news/hong-kong-regain-ipo-crown-102047170.html
+2025-07-07 11:52:54 - INFO - Processing email: Google Alert - "PricewaterhouseCoopers" "PwC" on 03-07-25
+2025-07-07 11:52:54 - WARNING - Invalid content from URL: https://www.ad-hoc-news.de/boerse/news/marktberichte/wizz-air-tops-major-airline-emissions-rankings/67659204
+2025-07-07 11:52:54 - INFO - Processing email: Google Alert - "PricewaterhouseCoopers" "PwC" on 03-07-25
+2025-07-07 11:52:55 - WARNING - Invalid content from URL: https://www.cfodive.com/news/ma-comeback-pause-amid-us-policy-uncertainties-pwc-trump/752266/
+2025-07-07 11:52:55 - INFO - Processing email: Google Alert - "PricewaterhouseCoopers" "PwC" on 03-07-25
+2025-07-07 11:52:56 - WARNING - Invalid content from URL: https://travelweekly.co.uk/news/wizz-air-tops-list-of-most-emissions-efficient-major-airlines
+2025-07-07 11:52:56 - INFO - Processing email: Google Alert - Accenture on 02-07-25
+2025-07-07 11:52:57 - WARNING - Invalid content from URL: https://www.horizont.net/agenturen/nachrichten/neues-angebot-publicis-steigt-mit-holger-hansen-ins-sportmarketing-ein-228880
+2025-07-07 11:52:57 - INFO - Processing email: Google Alert - "PricewaterhouseCoopers" "PwC" on 02-07-25
+2025-07-07 11:52:57 - WARNING - Invalid content from URL: https://www.sttinfo.fi/tiedote/71303110/wizz-air-tops-major-airline-emissions-rankings?publisherId=58763726&lang=en
+2025-07-07 11:52:57 - INFO - Processing email: Google Alert - Accenture on 02-07-25
+2025-07-07 11:52:58 - WARNING - Invalid content from URL: https://uk.investing.com/news/analyst-ratings/accenture-stock-maintains-buy-rating-at-ubs-following-systema-acquisition-93CH-4156225
+2025-07-07 11:52:58 - WARNING - Invalid content from URL: https://lbbonline.com/news/Range-Rover-Extends-Partnership-with-The-Championships-Wimbledon-2025
+2025-07-07 11:52:58 - INFO - Processing email: Google Alert - "PricewaterhouseCoopers" "PwC" on 02-07-25
+2025-07-07 11:52:59 - WARNING - Invalid content from URL: https://www.chinadailyasia.com/article/615084
+2025-07-07 11:52:59 - INFO - Processing email: Google Alert - "PricewaterhouseCoopers" "PwC" on 02-07-25
+2025-07-07 11:52:59 - WARNING - Invalid content from URL: https://www.france24.com/en/live-news/20250702-hong-kong-to-regain-ipo-crown-this-year-say-pwc-and-deloitte
+2025-07-07 11:53:00 - WARNING - Invalid content from URL: https://news.bloomberglaw.com/daily-tax-report/australia-extends-ban-on-pwc-contracts-continues-ethical-review
+2025-07-07 11:53:00 - WARNING - Invalid content from URL: https://www.bastillepost.com/global/article/4994845-wizz-air-tops-major-airline-emissions-rankings
+2025-07-07 11:53:00 - INFO - Processing email: Google Alert - Accenture on 02-07-25
+2025-07-07 11:53:00 - WARNING - Invalid content from URL: https://uk.news.yahoo.com/north-east-tech-companies-hundreds-040000882.html
+2025-07-07 11:53:00 - INFO - Processing email: Google Alert - "Nomura research Institute" "NRI" on 02-07-25
+2025-07-07 11:53:01 - WARNING - Invalid content from URL: https://www.fullyloaded.com.au/major-transport-companies-establish-recycled-materials-council-for-new-vehicles/
+2025-07-07 11:53:01 - INFO - Processing email: Google Alert - "PricewaterhouseCoopers" "PwC" on 02-07-25
+2025-07-07 11:53:01 - WARNING - Invalid content from URL: https://www.pwc.com/gx/en/news-room/press-releases/2025/sebastian-di-paola-is-elected-to-chair-pwcs-global-board.html
+2025-07-07 11:53:02 - WARNING - Invalid content from URL: https://www.bloomberg.com/news/articles/2025-07-02/hong-kong-to-reclaim-top-spot-in-global-ipos-pwc-says
+2025-07-07 11:53:02 - WARNING - Invalid content from URL: https://www.straitstimes.com/business/companies-markets/hong-kong-to-reclaim-top-spot-in-global-ipos-pwc-says
+2025-07-07 11:53:03 - WARNING - Invalid content from URL: https://www.thestandard.com.hk/market/article/305894/PwC-Hong-Kong-on-track-to-top-global-IPOs-raise-over-200-billion
+2025-07-07 11:53:04 - WARNING - Invalid content from URL: https://nationalpost.com/news/internet-service-providers-fear-feds-will-side-with-crtc-on-ruling-boosting-competitor-access-to-fibre-networks
+2025-07-07 11:53:04 - INFO - Processing email: Google Alert - Accenture on 02-07-25
+2025-07-07 11:53:04 - WARNING - Invalid content from URL: https://www.theweek.in/wire-updates/business/2025/07/01/dcm123-biz-resolve-ai-appt.html
+2025-07-07 11:53:06 - WARNING - Invalid content from URL: https://www.businesstoday.in/amp/bt-tv/market-today/video/reasons-why-market-expert-vinit-bolinjkar-is-avoiding-it-sector-482565-2025-07-01
+2025-07-07 11:53:06 - WARNING - Invalid content from URL: https://www.devdiscourse.com/article/technology/3488886-sauvik-banerjjee-steering-rezolve-ais-global-ascension
+2025-07-07 11:53:07 - WARNING - Invalid content from URL: https://www.business-standard.com/industry/auto/indian-cv-industry-to-grow-3-5-percent-in-fy26-on-infra-push-icra-125063001094_1.html
+2025-07-07 11:53:07 - INFO - Processing email: Google Alert - Accenture on 02-07-25
+2025-07-07 11:53:07 - WARNING - Invalid content from URL: https://newsroom.accenture.com/news/2025/accenture-acquires-systema-to-drive-manufacturing-automation-for-semiconductor-clients
+2025-07-07 11:53:08 - WARNING - Invalid content from URL: https://www.businesswire.com/news/home/20250630972226/en/Palantir-and-Accenture-Federal-Services-Join-Forces-to-Help-Federal-Government-Agencies-Reinvent-Operations-with-AI
+2025-07-07 11:53:08 - WARNING - Invalid content from URL: https://www.nasdaq.com/articles/accenture-acquires-systema
+2025-07-07 11:53:09 - WARNING - Invalid content from URL: https://drivesncontrols.com/accenture-buys-systema-to-bolster-its-high-tech-manufacturing-capabilities/
+2025-07-07 11:53:09 - WARNING - Invalid content from URL: https://www.ciodive.com/news/cybersecurity-strategy-challenges-AI-automation-agents-Accenture/751847/
+2025-07-07 11:53:10 - WARNING - Invalid content from URL: https://www.processexcellencenetwork.com/automation/news/accenture-acquires-systema-to-automate-semiconductor-manufacturing-processes
+2025-07-07 11:53:10 - WARNING - Invalid content from URL: https://www.rttnews.com/3550011/accenture-acquires-systema.aspx
+2025-07-07 11:53:11 - WARNING - Invalid content from URL: https://www.marketbeat.com/originals/forget-ibm-accentures-ai-momentum-is-your-next-buy/
+2025-07-07 11:53:11 - WARNING - Invalid content from URL: https://www.crowdfundinsider.com/2025/07/243909-majority-of-organizations-not-ready-to-protect-against-ai-augmented-cyber-threats-accenture/
+2025-07-07 11:53:11 - WARNING - Invalid content from URL: https://www.pipelinepub.com/news/accenture-acquires-systema
+2025-07-07 11:53:11 - INFO - Processing email: Google Alert - Accenture on 02-07-25
+2025-07-07 11:53:12 - WARNING - Invalid content from URL: https://newsroom.accenture.com/news/2025/accenture-acquires-systema-to-drive-manufacturing-automation-for-semiconductor-clients
+2025-07-07 11:53:12 - WARNING - Invalid content from URL: https://www.processexcellencenetwork.com/automation/news/accenture-acquires-systema-to-automate-semiconductor-manufacturing-processes
+2025-07-07 11:53:13 - WARNING - Invalid content from URL: https://www.ciodive.com/news/cybersecurity-strategy-challenges-AI-automation-agents-Accenture/751847/
+2025-07-07 11:53:13 - WARNING - Invalid content from URL: https://www.nasdaq.com/articles/accenture-acquires-systema
+2025-07-07 11:53:14 - WARNING - Invalid content from URL: https://www.rttnews.com/3550011/accenture-acquires-systema.aspx
+2025-07-07 11:53:14 - WARNING - Invalid content from URL: https://www.pipelinepub.com/news/accenture-acquires-systema
+2025-07-07 11:53:15 - WARNING - Invalid content from URL: https://ctbythenumbers.news/ctnews/iwt9m5q7wwis1hcai82oobr16zsq2x
+2025-07-07 11:53:15 - WARNING - Invalid content from URL: https://www.msn.com/en-us/money/topstocks/accentures-fcf-guidance-shows-acn-stock-is-cheap-how-to-play-this/ar-AA1HHM8w
+2025-07-07 11:53:16 - WARNING - Invalid content from URL: https://www.msn.com/en-us/money/other/palantir-accenture-partner-to-implement-more-ai-in-government-work/ar-AA1HHqkO
+2025-07-07 11:53:16 - WARNING - Invalid content from URL: https://www.dqindia.com/news/accenture-acquires-systema-to-boost-semiconductor-automation-in-europe-9455250
+2025-07-07 11:53:16 - INFO - Processing email: Google Alert - Accenture on 02-07-25
+2025-07-07 11:53:16 - WARNING - Invalid content from URL: https://fr.investing.com/news/pro/accenture-acquiert-systema-432SI-2939367
+2025-07-07 11:53:16 - INFO - Processing email: Google Alert - "Nomura research Institute" "NRI" on 02-07-25
+2025-07-07 11:53:18 - WARNING - Invalid content from URL: https://www.fullyloaded.com.au/major-transport-companies-establish-recycled-materials-council-for-new-vehicles/
+2025-07-07 11:53:18 - INFO - Processing email: Google Alert - \u30de\u30c3\u30ad\u30f3\u30bc\u30fc on 02-07-25
+2025-07-07 11:53:18 - WARNING - Invalid content from URL: https://gaishishukatsu.com/recruiting_info/view/12610
+2025-07-07 11:53:19 - WARNING - Invalid content from URL: https://plus.onecareer.jp/companies/1/company_evaluations/company_strengths_and_employee_attraction
+2025-07-07 11:53:20 - WARNING - Invalid content from URL: https://arvo.net/ai/ai-news-special-report/8904/
+2025-07-07 11:53:20 - WARNING - Invalid content from URL: https://www.onecareer.jp/companies/1/experiences/2026/1/1201678
+2025-07-07 11:53:20 - WARNING - Invalid content from URL: https://item.fril.jp/ad72c1bf06f2f0c11c611fad56b96de5
+2025-07-07 11:53:20 - INFO - Processing email: Google Alert - \u30c7\u30ed\u30a4\u30c8 on 02-07-25
+2025-07-07 11:53:21 - WARNING - Invalid content from URL: https://www.jfc.or.jp/news_subsidy/%E7%AC%AC5%E5%9B%9E%E3%80%8C%E3%82%B3%E3%83%AC%E3%82%AF%E3%83%86%E3%82%A3%E3%83%96%E3%83%BB%E3%82%A4%E3%83%B3%E3%83%91%E3%82%AF%E3%83%88%E3%81%AB%E3%82%88%E3%82%8B%E7%A4%BE%E4%BC%9A%E8%AA%B2%E9%A1%8C/
+2025-07-07 11:53:22 - WARNING - Invalid content from URL: https://plus.onecareer.jp/companies/5/company_evaluations/career_path_evaluation_system
+2025-07-07 11:53:22 - WARNING - Invalid content from URL: https://aunara.jp/recommended-consulting-company/
+2025-07-07 11:53:23 - WARNING - Invalid content from URL: https://supergt.net/news/%E3%80%8E%E3%83%87%E3%83%AD%E3%82%A4%E3%83%88%E3%83%BB%E3%83%88%E3%83%A0%E3%82%B9-%E9%80%86%E8%BB%A2win%E3%80%8F%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84%E5%A0%B1%E7%9F%A5%E3%81%AE%E7%B4%99%E9%9D%A2
+2025-07-07 11:53:50 - WARNING - Invalid content from URL: https://news.yahoo.co.jp/articles/8167ccf1bcfad9e17d618794a5587d5368df1e7b/images/000
+2025-07-07 11:53:50 - WARNING - Invalid content from URL: https://www.r-agent.com/kensaku/kyujin/20241223-205-01-017.html
+2025-07-07 11:53:51 - WARNING - Invalid content from URL: https://directscout.recruit.co.jp/job_descriptions/7508277
+2025-07-07 11:53:51 - WARNING - Invalid content from URL: https://syukatsu-kaigi.jp/companies/79424/word_mouths/employee/ages/40
+2025-07-07 11:53:53 - WARNING - Invalid content from URL: https://www.okinawatimes.co.jp/articles/gallery/1617099
+2025-07-07 11:53:53 - WARNING - Invalid content from URL: https://www.ypmc.co.jp/info/news/22354/
+2025-07-07 11:53:54 - WARNING - Invalid content from URL: https://www.excite.co.jp/news/article/Dprp_113061/image/1/
+2025-07-07 11:53:55 - WARNING - Invalid content from URL: https://syukatsu-kaigi.jp/companies/170466/compare/109481
+2025-07-07 11:53:55 - WARNING - Invalid content from URL: https://www.neowing.co.jp/products?q=%E3%83%87%E3%83%AD%E3%82%A4%E3%83%88%E3%83%88%E3%83%BC%E3%83%9E%E3%83%84%E7%A8%8E%E7%90%86%E5%A3%AB%E6%B3%95%E4%BA%BA%2F%E7%B7%A8+DT%E5%BC%81%E8%AD%B7%E5%A3%AB%E6%B3%95%E4%BA%BA%2F%E7%B7%A8&page=1&term.media_format=video&opt.on_preorder=0&opt.on_released=0&range.rel=&term.release_month=6&term.release_year=2025
+2025-07-07 11:53:56 - WARNING - Invalid content from URL: https://item.fril.jp/63d1d6166ea68a453ee88b62ce247853
+2025-07-07 11:53:57 - WARNING - Invalid content from URL: https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11316943956
+2025-07-07 11:53:57 - INFO - Processing email: Google Alert - EY on 02-07-25
+2025-07-07 11:53:58 - WARNING - Invalid content from URL: https://diamond.jp/articles/amp/367749
+2025-07-07 11:53:58 - WARNING - Invalid content from URL: https://news.nicovideo.jp/watch/nw17897000?news_ref=watch_60_nw17854504
+2025-07-07 11:53:59 - WARNING - Invalid content from URL: https://newspicks.com/news/14317446/?a=QIqxiaSUsM0qRrYUw8yY4YhqLyISMwCdGjbRZdiCYAtu%2BwxxlKpxsLXCOSQibPnB8BUP0paa%2FfApVCbFlcTF%2FarN9a8Yl7PHEWIrn0VKXwXyE5g3A0jivchb7BG5L9QOBa0JDkDYFwC3Ze%2FGc%2FP8SibLzqjFaPfe9rPfV8NEQQ48jSlp55LwfdNySEqEvJpMVbPlIu9PzYIN0MZ2f00S3PEAz37Acs4A%2F5tk3NDWhaDWNu2pNawFI08KtaDud2lJSJ2rF8B3TBnQvyhmd3gKX3IwiXnLhoQijqBpPeqjBSD9Xui56uhyXxo8hzHnG3IR0J0c4GzW0iiMYf0ZeTNLLqhFSsBs6vZZ60gHc9NP77azx09rVBz0iAqJSCbHm4xjpjBn3Ij%2FhYJSTLhu6GXSpMmBqlex1i2KY4Vj7XXF3zz5ajRQB6dY5jDaGRkgkxKytX6JBWQvziF%2Bxh%2FNDI2U2O9vZAT7de0v%2FVG9xTN65JCKz5y4MW0gEyBJ6WVdNsM8hpSN%2Bf2DdfWvIauszF9TKw%3D%3D&adid=FI4G&ref=market
+2025-07-07 11:54:00 - WARNING - Invalid content from URL: https://blog.goo.ne.jp/kaikeinews/e/c51d263fdf0084b8f9dbaaaf6d5a55bb
+2025-07-07 11:54:00 - WARNING - Invalid content from URL: https://fmfukuoka.co.jp/kyodo_prw/202506301431.html
+2025-07-07 11:54:01 - WARNING - Invalid content from URL: https://tokyo.publishing.3rd-in.co.jp/article/1e16e432-5630-11f0-a2ef-9ca3ba0a67df
+2025-07-07 11:54:02 - WARNING - Invalid content from URL: https://prwire.ibarakinews.jp/202506301430
+2025-07-07 11:54:02 - WARNING - Invalid content from URL: https://haken.en-japan.com/w_98287716/
+2025-07-07 11:54:03 - WARNING - Invalid content from URL: https://openmoney.jp/reports/p5IKZk/grade_income
+2025-07-07 11:54:04 - WARNING - Invalid content from URL: https://syukatsu-kaigi.jp/companies/123970/company_studies/5719
+2025-07-07 11:54:04 - WARNING - Invalid content from URL: https://directscout.recruit.co.jp/job_descriptions/7484432
+2025-07-07 11:54:05 - WARNING - Invalid content from URL: https://www.r-agent.com/kensaku/kyujin/20250630-623-01-005.html
+2025-07-07 11:54:06 - WARNING - Invalid content from URL: https://openmoney.jp/reports/p5IKZk/overtime
+2025-07-07 11:54:06 - WARNING - Invalid content from URL: https://www.r-agent.com/kensaku/kyujin/20250630-624-01-008.html
+2025-07-07 11:54:07 - WARNING - Invalid content from URL: https://news.3rd-in.co.jp/article/eb414c6c-562c-11f0-937e-9ca3ba083d71
+2025-07-07 11:54:08 - WARNING - Invalid content from URL: https://www.neowing.co.jp/product/NEOBK-3028121
+2025-07-07 11:54:09 - WARNING - Invalid content from URL: https://filmarks.com/movies/109468/reviews/199537389
+2025-07-07 11:54:09 - WARNING - Invalid content from URL: https://core-fit.jp/shopdetail/14845130
+2025-07-07 11:54:10 - WARNING - Invalid content from URL: https://www.park-direct.jp/parkinglot/PK000125781
+2025-07-07 11:54:11 - WARNING - Invalid content from URL: https://www.gunma-kaigokyujin.com/jobs/20180906-27-2-3-2-250630271
+2025-07-07 11:54:12 - WARNING - Invalid content from URL: https://jmty.jp/okinawa/sale-ele/article-1id9g2
+2025-07-07 11:54:12 - INFO - Processing email: Google Alert - BCG on 02-07-25
+2025-07-07 11:54:13 - WARNING - Invalid content from URL: https://www.bcg.com/ja-jp/press/1july2025-bcg-newapc-sasaki-newneasl-hattori
+2025-07-07 11:54:13 - WARNING - Invalid content from URL: https://www.bcg.com/ja-jp/publications/2025/enterprise-digital-strategy-book
+2025-07-07 11:54:14 - WARNING - Invalid content from URL: https://www.okinawatimes.co.jp/articles/-/1616938
+2025-07-07 11:54:15 - WARNING - Invalid content from URL: https://prtimes.jp/main/html/rd/p/000000021.000145445.html
+2025-07-07 11:54:16 - WARNING - Invalid content from URL: https://xtrend.nikkei.com/atcl/contents/18/01199/
+2025-07-07 11:54:16 - WARNING - Invalid content from URL: https://kyodonewsprwire.jp/release/202507011493
+2025-07-07 11:54:17 - WARNING - Invalid content from URL: https://news.nicovideo.jp/watch/nw17896351?news_ref=watch_20_nw17851964
+2025-07-07 11:54:29 - WARNING - Invalid content from URL: https://directscout.recruit.co.jp/job_descriptions/7513304
+2025-07-07 11:54:29 - WARNING - Invalid content from URL: https://www.aperza.com/d/m/SICK/BCG19-I1BM1099/10260.html?device=sp
+2025-07-07 11:54:30 - WARNING - Invalid content from URL: https://caloo.jp/hospitals/search/04/v1?page=8
+2025-07-07 11:54:31 - WARNING - Invalid content from URL: https://group-bc.com/cast/cast-980738800/
+2025-07-07 11:54:31 - INFO - Processing email: Google Alert - \u30d9\u30a4\u30f3 on 02-07-25
+2025-07-07 11:54:32 - WARNING - Invalid content from URL: https://www.mixonline.jp/tabid55.html?artid=78617
+2025-07-07 11:54:32 - WARNING - Invalid content from URL: https://newscast.jp/news/4336936
+2025-07-07 11:54:33 - WARNING - Invalid content from URL: https://www.atpress.ne.jp/news/441258
+2025-07-07 11:54:34 - WARNING - Invalid content from URL: https://iyakutsushinsha.com/2025/07/01/%E3%83%99%E3%82%A4%E3%83%B3%E5%82%98%E4%B8%8B%E3%81%A7%E6%96%B0%E3%81%9F%E3%81%AB%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%80%8112%E6%9C%881%E6%97%A5%E3%82%88%E3%82%8A%E5%95%86%E5%8F%B7%E3%82%92/
+2025-07-07 11:54:34 - WARNING - Invalid content from URL: https://bio.nikkeibp.co.jp/atcl/release/25/07/01/24773/
+2025-07-07 11:54:35 - WARNING - Invalid content from URL: https://www.newsweekjapan.jp/press-release/2025/07/post-11768.php
+2025-07-07 11:54:36 - WARNING - Invalid content from URL: https://news.yahoo.co.jp/articles/a2f0f9ba7c29fbfaa323c06251e0fcd86a404a21
+2025-07-07 11:54:36 - WARNING - Invalid content from URL: https://www.marr.jp/news/entry/61730/
+2025-07-07 11:54:38 - WARNING - Invalid content from URL: https://nk.jiho.jp/article/200229
+2025-07-07 11:54:38 - WARNING - Invalid content from URL: https://iyakutsushinsha.com/2025/07/01/%E5%BD%B9%E5%93%A1%E4%BA%BA%E4%BA%8B%E3%81%A8%E5%9F%B7%E8%A1%8C%E4%BD%93%E5%88%B6%EF%BC%887%E6%9C%881%E6%97%A5%E4%BB%98%EF%BC%89%E3%80%80%E7%94%B0%E8%BE%BA%E4%B8%89%E8%8F%B1%E8%A3%BD%E8%96%AC/
+2025-07-07 11:54:39 - WARNING - Invalid content from URL: https://digiday.jp/glossy/luxury-brands-should-rethink-price-hikes-to-win-back-disillusioned-gen-z-shoppers/
+2025-07-07 11:54:40 - WARNING - Invalid content from URL: https://www.musiclifeclub.com/news/20250701_05.html
+2025-07-07 11:54:41 - WARNING - Invalid content from URL: https://maonline.jp/articles/ma_summary_20250701
+2025-07-07 11:54:41 - WARNING - Invalid content from URL: https://www.mapion.co.jp/news/release/000000012.000159159/
+2025-07-07 11:54:42 - WARNING - Invalid content from URL: https://jp.tradingview.com/news/reuters.com,2025:newsml_L4N3SY14V:0/
+2025-07-07 11:54:42 - WARNING - Invalid content from URL: https://www.webull.co.jp/news-detail/13085430364021760
+2025-07-07 11:54:43 - WARNING - Invalid content from URL: https://osaka-vein.com/news/898/
+2025-07-07 11:54:44 - WARNING - Invalid content from URL: https://jp.tradingview.com/news/reuters.com,2025:newsml_L4N3SY0ZR:0/
+2025-07-07 11:54:45 - WARNING - Invalid content from URL: https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10316957350
+2025-07-07 11:54:46 - WARNING - Invalid content from URL: https://mabitem.memo.wiki/d/2%BC%A1%A5%BF%A5%A4%A5%C8%A5%EB/%A5%D9%A5%A4%A5%F3
+2025-07-07 11:54:46 - INFO - Processing email: Google Alert - PwC on 02-07-25
+2025-07-07 11:54:46 - WARNING - Invalid content from URL: https://atmarkit.itmedia.co.jp/ait/articles/2507/01/news027.html
+2025-07-07 11:54:47 - WARNING - Invalid content from URL: https://digitalpr.jp/r/113013
+2025-07-07 11:54:47 - WARNING - Invalid content from URL: https://digitalpr.jp/r/113040
+2025-07-07 11:54:48 - WARNING - Invalid content from URL: https://www.okinawatimes.co.jp/articles/-/1616719
+2025-07-07 11:54:49 - WARNING - Invalid content from URL: https://www.niigata-nippo.co.jp/articles/-/638592
+2025-07-07 11:54:49 - WARNING - Invalid content from URL: https://www.asahi.com/sdgs/article/15858701
+2025-07-07 11:54:50 - WARNING - Invalid content from URL: https://www.okinawatimes.co.jp/articles/-/1616717
+2025-07-07 11:54:51 - WARNING - Invalid content from URL: https://mainichi.jp/articles/20250701/pls/00m/020/273000c
+2025-07-07 11:54:51 - WARNING - Invalid content from URL: https://www.nikkan.co.jp/articles/view/00753488?gnr_footer=0082422
+2025-07-07 11:54:52 - WARNING - Invalid content from URL: https://www.afpbb.com/articles/-/3586442
+2025-07-07 11:54:52 - WARNING - Invalid content from URL: https://www.sen-i-news.co.jp/seninews/view/?article=412758&banner=10000051
+2025-07-07 11:54:53 - WARNING - Invalid content from URL: https://www.kensetsunews.com/archives/1096605
+2025-07-07 11:54:54 - WARNING - Invalid content from URL: https://www.nna.jp/news/2811172
+2025-07-07 11:54:54 - WARNING - Invalid content from URL: https://www.afpbb.com/articles/-/3586445
+2025-07-07 11:54:55 - WARNING - Invalid content from URL: https://mag.executive.itmedia.co.jp/executive/articles/2507/01/news007.html
+2025-07-07 11:54:55 - WARNING - Invalid content from URL: https://www.mapion.co.jp/news/release/dgpr113012/
+2025-07-07 11:54:56 - WARNING - Invalid content from URL: https://socialport-y.city.yokohama.lg.jp/20250701-52795/
+2025-07-07 11:54:57 - WARNING - Invalid content from URL: https://www.pwc.com/jp/ja/knowledge/thoughtleadership/ceo-survey.html
+2025-07-07 11:54:57 - WARNING - Invalid content from URL: https://active.nikkeibp.co.jp/atcl/r/19/RSP693342_01072025/
+2025-07-07 11:54:58 - WARNING - Invalid content from URL: https://prtimes.jp/main/html/rd/p/000000048.000108712.html
+2025-07-07 11:54:59 - WARNING - Invalid content from URL: https://news.nicovideo.jp/watch/nw17894419?news_ref=watch_70_nw17817207
+2025-07-07 11:54:59 - WARNING - Invalid content from URL: https://www.strategyand.pwc.com/jp/ja/contacts/y/yusuke-nakabayashi.html
+2025-07-07 11:55:00 - WARNING - Invalid content from URL: https://www.r-agent.com/kensaku/kyujin/20250630-339-01-016.html
+2025-07-07 11:55:01 - WARNING - Invalid content from URL: https://www.pasona.co.jp/jobsearch/detail/000000006001066255
+2025-07-07 11:55:01 - WARNING - Invalid content from URL: https://www.nikki.ne.jp/company/200211191319437671/naitei/2026/39697/
+2025-07-07 11:55:02 - WARNING - Invalid content from URL: https://next.gaishishukatsu.com/job_infos/114255
+2025-07-07 11:55:02 - WARNING - Invalid content from URL: https://www.r-agent.com/kensaku/kyujin/20250630-339-01-035.html
+2025-07-07 11:55:04 - WARNING - Invalid content from URL: https://core-fit.jp/shopdetail/7893385
+2025-07-07 11:55:05 - WARNING - Invalid content from URL: https://plus.onecareer.jp/companies/299/company_evaluations/3358/income_salary_bonus
+2025-07-07 11:55:05 - WARNING - Invalid content from URL: http://led-tokyo.co.jp/shopdetail/52999296560
+2025-07-07 11:55:06 - WARNING - Invalid content from URL: https://www.will-grow.co.jp/job/pwc%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%EF%BC%8Fai%E3%83%BB%E3%82%A2%E3%83%8A%E3%83%AA%E3%83%86%E3%82%A3%E3%82%AF%E3%82%B9%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB/?post_id=22940
+2025-07-07 11:55:07 - WARNING - Invalid content from URL: https://syukatsu-kaigi.jp/companies/167079/compare/123940
+2025-07-07 11:55:07 - WARNING - Invalid content from URL: https://syukatsu-kaigi.jp/companies/100686/compare/96496
+2025-07-07 11:55:08 - WARNING - Invalid content from URL: https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12316969217
+2025-07-07 11:55:09 - WARNING - Invalid content from URL: https://gameclub.jp/bluelock-pwc/9842637
+2025-07-07 11:55:09 - INFO - Processing email: Google Alert - \u30a2\u30af\u30bb\u30f3\u30c1\u30e5\u30a2 on 02-07-25
+2025-07-07 11:55:09 - WARNING - Invalid content from URL: https://type.jp/et/feature/28771/
+2025-07-07 11:55:10 - WARNING - Invalid content from URL: https://www.businessinsider.jp/article/accenture-nagoya-career/
+2025-07-07 11:55:11 - WARNING - Invalid content from URL: https://s.response.jp/article/2025/07/01/397691.html
+2025-07-07 11:55:11 - WARNING - Invalid content from URL: https://jp.investing.com/news/company-news/article-93CH-1159583
+2025-07-07 11:55:12 - WARNING - Invalid content from URL: https://bizzine.jp/article/detail/11624
+2025-07-07 11:55:12 - WARNING - Invalid content from URL: https://news.nicovideo.jp/watch/nw17890743?news_ref=watch_60_nw17859404
+2025-07-07 11:55:13 - WARNING - Invalid content from URL: https://news.nicovideo.jp/watch/nw17895684?news_ref=watch_20_nw17841343
+2025-07-07 11:55:13 - INFO - Processing email: Google Alert - \u4e09\u83f1\u7dcf\u5408\u7814\u7a76\u6240 on 02-07-25
+2025-07-07 11:55:13 - WARNING - Invalid content from URL: https://pubpjt.mri.co.jp/publicoffer/20250701.html
+2025-07-07 11:55:14 - WARNING - Invalid content from URL: https://www.dcs.co.jp/news/2025/250701.html
+2025-07-07 11:55:15 - WARNING - Invalid content from URL: https://www.onecareer.jp/companies/7/experiences/2026/12/1147483
+2025-07-07 11:55:15 - WARNING - Invalid content from URL: https://mri.smartseminar.jp/public/application/add/9488
+2025-07-07 11:55:16 - WARNING - Invalid content from URL: http://www3.keizaireport.com/report.php/RID/628913/
+2025-07-07 11:55:17 - WARNING - Invalid content from URL: http://www3.keizaireport.com/report.php/RID/628914/
+2025-07-07 11:55:18 - WARNING - Invalid content from URL: https://montblancfa.com/utidaatusi-mitubisi-purofi-ru-gakureki-keireki-kuro-zuappu/
+2025-07-07 11:55:18 - INFO - Processing email: Google Alert - \u91ce\u6751\u7dcf\u5408\u7814\u7a76\u6240 on 02-07-25
+2025-07-07 11:55:19 - WARNING - Invalid content from URL: https://www.nri.com/jp/files/000048306.pdf
+2025-07-07 11:55:19 - WARNING - Invalid content from URL: https://job.mynavi.jp/26/pc/search/corp52737/obog26043026/obog.html
+2025-07-07 11:55:20 - WARNING - Invalid content from URL: https://openmoney.jp/reports/qBI8RM/salary
+2025-07-07 11:55:20 - WARNING - Invalid content from URL: https://plus.onecareer.jp/companies/6/company_evaluations/overtime_and_work_life_balance
+2025-07-07 11:55:21 - WARNING - Invalid content from URL: https://love-from.azit.co.jp/article/igp7l0zkiaeg
+2025-07-07 11:55:22 - WARNING - Invalid content from URL: https://www.j-lis.go.jp/file/nri_nogyo_20250630.pdf
+2025-07-07 11:55:23 - WARNING - Invalid content from URL: https://www.takumi-probook.jp/takumistaff/construction-news/post-8094
+2025-07-07 11:55:23 - WARNING - Invalid content from URL: https://openmoney.jp/reports/qBI8RM/overtime
+2025-07-07 11:55:24 - WARNING - Invalid content from URL: http://www3.keizaireport.com/report.php/RID/628639/
+2025-07-07 11:55:24 - WARNING - Invalid content from URL: https://item.fril.jp/dbee7f94062e4518cfc191359fd440aa
+2025-07-07 11:55:24 - WARNING - Invalid content from URL: https://www.nishinippon.co.jp/image/931817/
+2025-07-07 11:55:25 - WARNING - Invalid content from URL: https://jp.linkedin.com/jobs/view/%E3%80%90it%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88%E3%80%91%E7%A5%9E%E5%A5%88%E5%B7%9D-at-%E3%82%A2%E3%82%A4%E3%83%95%E3%83%AB%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE-4260427464
+2025-07-07 11:55:26 - WARNING - Invalid content from URL: https://united-states.kinokuniya.com/bw/9784492581179
+2025-07-07 11:55:26 - INFO - Processing email: Google Alert - "PricewaterhouseCoopers" "PwC" on 02-07-25
+2025-07-07 11:55:26 - WARNING - Invalid content from URL: https://www.pwc.com/jp/en/press-room/2025/business-transformation.html
+2025-07-07 11:55:26 - INFO - Processing email: Google Alert - Accenture on 01-07-25
+2025-07-07 11:55:27 - WARNING - Invalid content from URL: https://uk.investing.com/news/pro/accenture-acquires-systema-432SI-4153913
+2025-07-07 11:55:27 - INFO - Processing email: Google Alert - "PricewaterhouseCoopers" "PwC" on 01-07-25
+2025-07-07 11:55:27 - WARNING - Invalid content from URL: https://www.lexpert.ca/news/finance-law/pwc-survey-shows-76-percent-of-canadians-worry-over-food-costs-as-opposed-to-59-percent-globally/392871
+2025-07-07 11:55:28 - WARNING - Invalid content from URL: https://www.rhyljournal.co.uk/news/25278749.rhyls-former-wilko-site-under-offer-going-market/
+2025-07-07 11:55:28 - INFO - Processing email: Google Alert - "Nomura research Institute" "NRI" on 01-07-25
+2025-07-07 11:55:28 - WARNING - Invalid content from URL: https://www.nri.com/en/files/000048382.pdf
+2025-07-07 11:55:29 - WARNING - Invalid content from URL: https://www.mrw.co.uk/news/japanese-coalition-targets-car-to-car-recycling-by-2035-30-06-2025/
+2025-07-07 11:55:29 - INFO - Processing email: Google Alert - Accenture on 01-07-25
+2025-07-07 11:55:30 - WARNING - Invalid content from URL: https://newsroom.accenture.com/news/2025/palantir-and-accenture-federal-services-join-forces-to-help-federal-government-agencies-reinvent-operations-with-ai
+2025-07-07 11:55:30 - WARNING - Invalid content from URL: https://finance.yahoo.com/news/palantir-accenture-partner-implement-more-145553792.html
+2025-07-07 11:55:31 - WARNING - Invalid content from URL: https://www.consultancy.com.au/news/11355/accenture-brings-together-five-business-lines-into-new-reinvention-services-unit
+2025-07-07 11:55:31 - WARNING - Invalid content from URL: https://finance.yahoo.com/news/palantir-stock-jumps-accenture-federal-163425936.html
+2025-07-07 11:55:32 - WARNING - Invalid content from URL: https://www.investopedia.com/palantir-accenture-partner-to-implement-more-ai-in-government-work-11763411
+2025-07-07 11:55:32 - WARNING - Invalid content from URL: https://finance.yahoo.com/news/accenture-plc-acn-declined-due-115205959.html
+2025-07-07 11:55:33 - WARNING - Invalid content from URL: https://washingtonexec.com/2025/06/palantir-accenture-federal-team-up-on-ai-for-government/
+2025-07-07 11:55:33 - WARNING - Invalid content from URL: https://finance.yahoo.com/news/palantir-technologies-nasdaqgs-pltr-partners-175406080.html
+2025-07-07 11:55:34 - WARNING - Invalid content from URL: https://www.mobileworldlive.com/industry/accenture-forges-digital-auto-training-collaboration/
+2025-07-07 11:55:34 - WARNING - Invalid content from URL: https://seekingalpha.com/news/4463599-palantir-taps-accenture-federal-as-preferred-partner-for-us-government-ai-deployments
+2025-07-07 11:55:35 - WARNING - Invalid content from URL: https://t.co/cedTqxmi82
+2025-07-07 11:55:35 - WARNING - Invalid content from URL: https://x.com/TheEconomist/status/1939670531218809127
+2025-07-07 11:55:35 - INFO - Processing email: Google Alert - Accenture on 01-07-25
+2025-07-07 11:55:36 - WARNING - Invalid content from URL: https://newsroom.accenture.com/news/2025/palantir-and-accenture-federal-services-join-forces-to-help-federal-government-agencies-reinvent-operations-with-ai
+2025-07-07 11:55:37 - WARNING - Invalid content from URL: https://finance.yahoo.com/news/palantir-accenture-partner-implement-more-145553792.html
+2025-07-07 11:55:38 - WARNING - Invalid content from URL: https://finance.yahoo.com/news/accenture-plc-acn-declined-due-115205959.html
+2025-07-07 11:55:39 - WARNING - Invalid content from URL: https://finance.yahoo.com/news/palantir-stock-jumps-accenture-federal-163425936.html
+2025-07-07 11:55:40 - WARNING - Invalid content from URL: https://finance.yahoo.com/news/palantir-technologies-nasdaqgs-pltr-partners-175406080.html
+2025-07-07 11:55:40 - WARNING - Invalid content from URL: https://www.investopedia.com/palantir-accenture-partner-to-implement-more-ai-in-government-work-11763411
+2025-07-07 11:55:40 - WARNING - Invalid content from URL: https://washingtonexec.com/2025/06/palantir-accenture-federal-team-up-on-ai-for-government/
+2025-07-07 11:55:42 - WARNING - Invalid content from URL: https://www.mobileworldlive.com/industry/accenture-forges-digital-auto-training-collaboration/
+2025-07-07 11:55:43 - WARNING - Invalid content from URL: https://www.ainvest.com/news/palantir-accenture-partner-revolutionize-government-ai-operations-2507/
+2025-07-07 11:55:44 - WARNING - Invalid content from URL: https://www.ncnewsonline.com/news/national/palantir-and-accenture-federal-services-join-forces-to-help-federal-government-agencies-reinvent-operations-with/article_fa04f102-cfe9-571d-b404-652abccc6fcf.html
+2025-07-07 11:55:44 - WARNING - Invalid content from URL: https://t.co/cedTqxmi82
+2025-07-07 11:55:45 - WARNING - Invalid content from URL: https://x.com/TheEconomist/status/1939670531218809127
+2025-07-07 11:55:45 - INFO - Processing email: Google Alert - Accenture on 01-07-25
+2025-07-07 11:55:45 - WARNING - Invalid content from URL: https://www.business-standard.com/industry/auto/accenture-iit-madras-learnvantage-skill-software-defined-vehicles-125063000764_1.html
+2025-07-07 11:55:45 - WARNING - Invalid content from URL: https://www.autocarpro.in/news/accenture-learnvantage-partners-with-iit-madras-to-train-professionals-for-software-defined-vehicles-127229
+2025-07-07 11:55:46 - WARNING - Invalid content from URL: https://www.iitm.ac.in/happenings/press-releases-and-coverages/accenture-learnvantage-and-iit-madrass-caar-collaborate
+2025-07-07 11:55:47 - WARNING - Invalid content from URL: https://cxotoday.com/press-release/accenture-learnvantage-and-iit-madrass-caar-collaborate-to-skill-talent-for-software-defined-vehicles/
+2025-07-07 11:55:47 - WARNING - Invalid content from URL: https://www.businessworld.in/article/accenture-iit-madras-partner-to-upskill-talent-for-software-defined-vehicles-561867
+2025-07-07 11:55:48 - WARNING - Invalid content from URL: https://www.dtnext.in/news/chennai/accenture-and-iit-m-caar-collaborate-to-launch-skilling-initiative-for-software-defined-vehicles-838703
+2025-07-07 11:55:49 - WARNING - Invalid content from URL: https://analyticsindiamag.com/ai-news-updates/accenture-and-iit-madras-team-up-to-train-talent-for-software-defined-vehicles/
+2025-07-07 11:55:49 - WARNING - Invalid content from URL: https://timestech.in/accenture-learnvantage-iit-madras-caar-join-forces-to-upskill-talent-in-software%E2%80%91defined-vehicles/
+2025-07-07 11:55:50 - WARNING - Invalid content from URL: https://cio.eletsonline.com/news/accenture-and-iit-madras-launch-sdv-skilling-program/74874/
+2025-07-07 11:55:50 - WARNING - Invalid content from URL: https://bwautoworld.com/article/accenture-learnvantage-iit-madras-partner-to-skill-talent-for-software-defined-vehicles-561827
+2025-07-07 11:55:50 - INFO - Processing email: Google Alert - Accenture on 01-07-25
+2025-07-07 11:55:51 - WARNING - Invalid content from URL: https://www.consultancy.com.au/news/11355/accenture-brings-together-five-business-lines-into-new-reinvention-services-unit
+2025-07-07 11:55:52 - WARNING - Invalid content from URL: https://www.itnews.com.au/news/adha-readies-market-test-of-accentures-788m-my-health-record-deal-618318?utm_source=feed&utm_medium=rss&utm_campaign=editors_picks
+2025-07-07 11:55:53 - WARNING - Invalid content from URL: https://au.finance.yahoo.com/news/palantir-stock-jumps-accenture-federal-163425936.html
+2025-07-07 11:55:54 - WARNING - Invalid content from URL: https://au.investing.com/news/company-news/palantir-and-accenture-federal-services-form-strategic-partnership-93CH-3909736
+2025-07-07 11:55:54 - WARNING - Invalid content from URL: https://aapnews.aap.com.au/aapreleases/cision20250630AE21333
+2025-07-07 11:55:54 - INFO - Processing email: Google Alert - Accenture on 01-07-25
+2025-07-07 11:55:55 - WARNING - Invalid content from URL: http://www.mangalorean.com/pr-newswire/?rkey=20250630EN21333&filter=17665
+2025-07-07 11:55:55 - INFO - Processing email: Google Alert - "PricewaterhouseCoopers" "PwC" on 01-07-25
+2025-07-07 11:55:55 - WARNING - Invalid content from URL: https://www.pwc.com/jp/en/services/sustainability-coe/executive-sustainability-forum/supporting-company.html
+2025-07-07 11:55:55 - INFO - Processing email: Google Alert - \u30c7\u30ed\u30a4\u30c8 on 01-07-25
+2025-07-07 11:55:56 - WARNING - Invalid content from URL: https://digitalpr.jp/r/112879
+2025-07-07 11:55:56 - WARNING - Invalid content from URL: https://dcross.impress.co.jp/docs/news/004104.html
+2025-07-07 11:55:57 - WARNING - Invalid content from URL: https://bizzine.jp/article/detail/11756
+2025-07-07 11:55:57 - WARNING - Invalid content from URL: https://www.okinawatimes.co.jp/articles/-/1616783
+2025-07-07 11:55:58 - WARNING - Invalid content from URL: https://news.yahoo.co.jp/articles/3803ba39780d2539f23df63c37ba0fbdadbabd86
+2025-07-07 11:55:58 - WARNING - Invalid content from URL: https://news.yahoo.co.jp/articles/b484fe3ab7710acba1293b19c1769b52f39dd760
+2025-07-07 11:55:59 - WARNING - Invalid content from URL: https://www.fnn.jp/articles/-/893884?display=full
+2025-07-07 11:55:59 - WARNING - Invalid content from URL: https://topics.smt.docomo.ne.jp/article/fnn/business/fnn-893884?page=2
+2025-07-07 11:56:00 - WARNING - Invalid content from URL: https://topics.smt.docomo.ne.jp/article/jp_motorsport/sports/jp_motorsport-2025063040398
+2025-07-07 11:56:00 - WARNING - Invalid content from URL: https://mainichi.jp/premier/business/articles/20250626/biz/00m/020/007000c
+2025-07-07 11:56:00 - WARNING - Invalid content from URL: https://news.livedoor.com/topics/detail/29065450/
+2025-07-07 11:56:00 - INFO - Processing email: Google Alert - EY on 01-07-25
+2025-07-07 11:56:01 - WARNING - Invalid content from URL: https://business.nikkei.com/atcl/gen/19/00760/062400004/
+2025-07-07 11:56:02 - WARNING - Invalid content from URL: https://www.shinmai.co.jp/news/article/PRPW202506301431
+2025-07-07 11:56:02 - WARNING - Invalid content from URL: https://www.jomo-news.co.jp/articles/-/710292
+2025-07-07 11:56:03 - WARNING - Invalid content from URL: https://www.afpbb.com/articles/-/3586474
+2025-07-07 11:56:03 - WARNING - Invalid content from URL: https://biz-journal.jp/company/post_389744.html
+2025-07-07 11:56:04 - WARNING - Invalid content from URL: https://www.chibanippo.co.jp/prwire/1462595
+2025-07-07 11:56:05 - WARNING - Invalid content from URL: https://www.shimotsuke.co.jp/articles/-/1142418
+2025-07-07 11:56:05 - WARNING - Invalid content from URL: https://www.okinawatimes.co.jp/articles/-/1616748
+2025-07-07 11:56:06 - WARNING - Invalid content from URL: https://mantan-web.jp/article/20250701prm00m020019000c.html
+2025-07-07 11:56:06 - WARNING - Invalid content from URL: https://www.excite.co.jp/news/article/Prtimes_2025-06-30-78149-982/
+2025-07-07 11:56:06 - WARNING - Invalid content from URL: https://news.nicovideo.jp/watch/nw17888859?news_ref=watch_70_nw17851340
+2025-07-07 11:56:06 - INFO - Processing email: Google Alert - BCG on 01-07-25
+2025-07-07 11:56:07 - WARNING - Invalid content from URL: https://news.cube-soft.jp/article/3990981
+2025-07-07 11:56:08 - WARNING - Invalid content from URL: https://senmonka.baby-calendar.jp/questions/view/115382
+2025-07-07 11:56:08 - WARNING - Invalid content from URL: https://news.matomame.jp/tag/49504
+2025-07-07 11:56:09 - WARNING - Invalid content from URL: https://blogtag.ameba.jp/detail/BCG?amebaId=so2000ra&entryId=12707732136&page=4&score=900&offset=154&orderby=asc
+2025-07-07 11:56:09 - INFO - Processing email: Google Alert - \u30d9\u30a4\u30f3 on 01-07-25
+2025-07-07 11:56:09 - WARNING - Invalid content from URL: https://www.mt-pharma.co.jp/news/2025/MTPC250701.html
+2025-07-07 11:56:10 - WARNING - Invalid content from URL: https://news.yahoo.co.jp/articles/306024f2db2cf4b4caa5fa9adc6e10a99ae58030
+2025-07-07 11:56:10 - WARNING - Invalid content from URL: https://www.marr.jp/mainfo/news/entry/61647
+2025-07-07 11:56:11 - WARNING - Invalid content from URL: https://www.marr.jp/mainfo/news/entry/61686
+2025-07-07 11:56:11 - WARNING - Invalid content from URL: https://maonline.jp/tobnews/2025_052b
+2025-07-07 11:56:12 - WARNING - Invalid content from URL: https://article.auone.jp/detail/1/3/6/470_6_r_20250630_1751282866542026
+2025-07-07 11:56:12 - WARNING - Invalid content from URL: https://news.livedoor.com/topics/detail/29068892/
+2025-07-07 11:56:12 - INFO - Processing email: Google Alert - PwC on 01-07-25
+2025-07-07 11:56:13 - WARNING - Invalid content from URL: https://www.pwc.com/jp/ja/press-room/2025/assurance-new-executives.html
+2025-07-07 11:56:13 - WARNING - Invalid content from URL: https://diamond.jp/articles/-/366847
+2025-07-07 11:56:14 - WARNING - Invalid content from URL: https://insight.axc.ne.jp/article/consulnews/6411/
+2025-07-07 11:56:16 - WARNING - Invalid content from URL: https://news.infoseek.co.jp/article/digitalprplatform_113013/
+2025-07-07 11:56:16 - WARNING - Invalid content from URL: https://newswitch.jp/image/46133
+2025-07-07 11:56:17 - WARNING - Invalid content from URL: https://www.mapion.co.jp/news/release/dgpr113013/
+2025-07-07 11:56:17 - WARNING - Invalid content from URL: https://newspicks.com/news/14465247/
+2025-07-07 11:56:18 - WARNING - Invalid content from URL: https://www.r-agent.com/kensaku/kyujin/20250630-336-01-039.html
+2025-07-07 11:56:20 - WARNING - Invalid content from URL: https://job.career-tasu.jp/corp/00107440/counterplan/356978/1/detail/
+2025-07-07 11:56:21 - WARNING - Invalid content from URL: https://news.infoseek.co.jp/article/digitalprplatform_113012/
+2025-07-07 11:56:22 - WARNING - Invalid content from URL: https://www.r-agent.com/kensaku/kyujin/20250630-242-01-154.html
+2025-07-07 11:56:23 - WARNING - Invalid content from URL: https://llanjapan.org/llan17/cont/uploads/2019/02/New_VI_Logo.pdf
+2025-07-07 11:56:23 - WARNING - Invalid content from URL: https://search.yahoo.co.jp/realtime/search?rkf=1&fr=rts_bzmod_ytop_pc&p=PWC&btid=MTkzOTY0MDIyOTQ5OTEyMTY4Mw==
+2025-07-07 11:56:24 - WARNING - Invalid content from URL: https://game8.jp/bluelockpwc/702833
+2025-07-07 11:56:25 - WARNING - Invalid content from URL: https://www.sc-s.jp/?c=84471144776205&channel=acd854&from=news.php%3Fid%3D1447762-264%26name%3D%E3%83%88%E3%82%A5%E3%82%A8%E3%83%AB%E3%83%96+TWELVE+PWC%E5%B0%82%E7%94%A8+%E3%81%AE%E3%81%B3%E3%81%AE%E3%81%B3%E3%82%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%AD%E3%83%BC%E3%83%97+%E3%82%BB%E3%83%BC%E3%83%AB++%E6%B0%B4%E4%B8%8A%E3%83%90%E3%82%A4%E3%82%AF+%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88%E3%82%B9%E3%82%AD%E3%83%BC+%E3%82%A2%E3%83%B3%E3%82%AB%E3%83%AA%E3%83%B3%E3%82%B0+%E3%83%95%E3%83%83%E3%82%AF+%E3%83%AD%E3%83%BC%E3%83%97
+2025-07-07 11:56:26 - WARNING - Invalid content from URL: https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13316912093
+2025-07-07 11:56:27 - WARNING - Invalid content from URL: https://gameclub.jp/bluelock-pwc/9814952
+2025-07-07 11:56:28 - WARNING - Invalid content from URL: https://tw1.jp/%E3%83%8F%E3%82%A4%E3%82%A8%E3%83%BC%E3%82%B9%E7%94%A8%E3%83%92%E3%83%83%E3%83%81%E3%83%A1%E3%83%B3%E3%83%90%E3%83%BC/
+2025-07-07 11:56:29 - WARNING - Invalid content from URL: https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC198GK0Z10C25A6000000/
+2025-07-07 11:56:30 - WARNING - Invalid content from URL: https://www.sc-s.jp/?c=05095152529006&channel=82a15c&from=pin.php%3Fid%3D1525290-1878%26name%3D%E3%82%BB%E3%83%AB%E3%83%A2%E3%83%BC%E3%82%BF%E3%83%BC+%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%A2%E3%83%BC%E3%82%BF%E3%83%BC+PWC+FX1800+FX%E3%82%A6%E3%82%A7%E3%83%BC%E3%83%96%E3%83%A9%E3%83%B3%E3%83%8A%E3%83%BCGX1800+FZR+FZS+VX1800%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84%E3%83%9C%E3%83%BC%E3%83%88
+2025-07-07 11:56:30 - INFO - Processing email: Google Alert - \u30a2\u30af\u30bb\u30f3\u30c1\u30e5\u30a2 on 01-07-25
+2025-07-07 11:56:30 - WARNING - Invalid content from URL: https://openmoney.jp/reports/X8Iz4b/overtime
+2025-07-07 11:56:31 - WARNING - Invalid content from URL: https://syukatsu-kaigi.jp/companies/94735/screening_experiences/144480
+2025-07-07 11:56:31 - WARNING - Invalid content from URL: https://directscout.recruit.co.jp/job_descriptions/7487790
+2025-07-07 11:56:32 - WARNING - Invalid content from URL: https://www.revcomm.co.jp/seminar/20250630event/
+2025-07-07 11:56:34 - WARNING - Invalid content from URL: https://news.yahoo.co.jp/search?p=%E3%82%A2%E3%82%AF%E3%82%BB%E3%83%B3%E3%83%81%E3%83%A5%E3%82%A2%20%E3%83%9C%E3%83%BC%E3%83%8A%E3%82%B9
+2025-07-07 11:56:35 - WARNING - Invalid content from URL: https://directscout.recruit.co.jp/job_descriptions/7487476
+2025-07-07 11:56:36 - WARNING - Invalid content from URL: https://ut-board.com/recruitment/472/
+2025-07-07 11:56:37 - WARNING - Invalid content from URL: https://aiagent-navi.com/news/accenture-trusted-agent/
+2025-07-07 11:56:37 - WARNING - Invalid content from URL: https://jp.linkedin.com/in/hiro-ohara-127900371
+2025-07-07 11:56:37 - WARNING - Invalid content from URL: https://plus.onecareer.jp/articles/730
+2025-07-07 11:56:38 - WARNING - Invalid content from URL: https://s.response.jp/article/img/2025/07/01/397691/2121994.html?from=thumb_under_hero
+2025-07-07 11:56:39 - WARNING - Invalid content from URL: https://www.excite.co.jp/news/article/Prtimes_2025-06-30-78849-54/image/1/
+2025-07-07 11:56:40 - WARNING - Invalid content from URL: https://news.infoseek.co.jp/article/prtimes_000000054_000078849/
+2025-07-07 11:56:41 - WARNING - Invalid content from URL: https://b.hatena.ne.jp/entry/s/logmi.jp/main/career/331907
+2025-07-07 11:56:41 - WARNING - Invalid content from URL: http://saasinsider.jp/detail/20250630/8/2
+2025-07-07 11:56:41 - INFO - Processing email: Google Alert - \u4e09\u83f1\u7dcf\u5408\u7814\u7a76\u6240 on 01-07-25
+2025-07-07 11:56:42 - WARNING - Invalid content from URL: https://www.mri.co.jp/knowledge/opinion/2025/202507_1.html
+2025-07-07 11:56:42 - WARNING - Invalid content from URL: https://www.mri.co.jp/knowledge/column/20250701_2.html
+2025-07-07 11:56:43 - WARNING - Invalid content from URL: https://www.travelvoice.jp/20250701-157971
+2025-07-07 11:56:43 - WARNING - Invalid content from URL: https://www.jcci.or.jp/news/news/2025/0630170636.html
+2025-07-07 11:56:44 - WARNING - Invalid content from URL: https://storyweb.jp/prtimes/582164/
+2025-07-07 11:56:44 - WARNING - Invalid content from URL: https://monoist.itmedia.co.jp/mn/spv/2506/30/news034.html
+2025-07-07 11:56:45 - WARNING - Invalid content from URL: https://www.agrinews.co.jp/news/prtimes/315910
+2025-07-07 11:56:46 - WARNING - Invalid content from URL: https://logmi.jp/main/technology/331897
+2025-07-07 11:56:46 - WARNING - Invalid content from URL: https://newspicks.com/news/14502098/?ref=news-body_1431679
+2025-07-07 11:56:48 - WARNING - Invalid content from URL: https://online.logi-biz.com/127788/
+2025-07-07 11:56:49 - WARNING - Invalid content from URL: https://www.excite.co.jp/news/article/Prtimes_2025-06-30-165234-2/
+2025-07-07 11:56:50 - WARNING - Invalid content from URL: https://newspicks.com/news/14470990/?ref=user
+2025-07-07 11:56:50 - WARNING - Invalid content from URL: https://logmi.jp/main/management/331918
+2025-07-07 11:56:51 - WARNING - Invalid content from URL: https://www.dcs.co.jp/news/2025/250630.html
+2025-07-07 11:56:52 - WARNING - Invalid content from URL: https://talentsquare.co.jp/career/jri-university/
+2025-07-07 11:56:52 - INFO - Processing email: Google Alert - Accenture on 01-07-25
+2025-07-07 11:56:52 - WARNING - Invalid content from URL: https://www.mrweb.com/drno/news38475.htm
+2025-07-07 11:56:52 - INFO - Processing email: Google Alert - "PricewaterhouseCoopers" "PwC" on 01-07-25
+2025-07-07 11:56:53 - WARNING - Invalid content from URL: https://fesnews.media/309173/2025/06/30/
+2025-07-07 11:56:53 - INFO - Processing email: Google Alert - "Ernst & Young" "EY" on 01-07-25
+2025-07-07 11:56:53 - WARNING - Invalid content from URL: https://www.dmagazine.com/uncategorized/2025/06/eys-healthcare-entrepreneur-of-the-year-and-resource-center-launches-healthcare-team/
+2025-07-07 11:56:54 - WARNING - Invalid content from URL: https://www.cfodive.com/news/evolving-tech-data-spotlight-modern-controller-role-ey/752016/
+2025-07-07 11:56:54 - INFO - Processing email: Google Alert - "PricewaterhouseCoopers" "PwC" on 01-07-25
+2025-07-07 11:56:54 - WARNING - Invalid content from URL: https://news.sap.com/africa/2025/06/how-ai-is-helping-pwc-clients-comply-with-european-union-sustainability-regulations/
+2025-07-07 11:56:54 - INFO - Processing email: Google Alert - "Ernst & Young" "EY" on 01-07-25
+2025-07-07 11:56:55 - WARNING - Invalid content from URL: https://www.dmagazine.com/uncategorized/2025/06/eys-healthcare-entrepreneur-of-the-year-and-resource-center-launches-healthcare-team/
+2025-07-07 11:56:55 - WARNING - Invalid content from URL: https://www.cfodive.com/news/evolving-tech-data-spotlight-modern-controller-role-ey/752016/
+2025-07-07 11:56:55 - INFO - All emails committed successfully.
+2025-07-07 11:56:55 - WARNING - Error marking email 197e38526505cbbf as read: [SYS] unknown error (_ssl.c:2576)
+2025-07-07 12:04:09 - INFO - Starting Gmail authentication.
+2025-07-07 12:04:09 - INFO - Loaded credentials from token.json.
+2025-07-07 12:04:09 - INFO - Gmail authentication successful.
+2025-07-07 12:04:09 - INFO - Fetching unread emails from Gmail.
+2025-07-07 12:04:09 - INFO - No unread emails found.
+2025-07-07 12:04:09 - INFO - No unread emails to process.
+2025-07-07 12:05:39 - INFO - Starting Gmail authentication.
+2025-07-07 12:05:39 - INFO - Loaded credentials from token.json.
+2025-07-07 12:05:39 - INFO - Gmail authentication successful.
+2025-07-07 12:05:39 - INFO - Fetching unread emails from Gmail.
+2025-07-07 12:05:40 - INFO - Found 3 unread emails. Processing...
+2025-07-07 12:05:40 - INFO - Processing company: Bain & Company
+2025-07-07 12:05:41 - INFO - Processing company: \u30de\u30c3\u30ad\u30f3\u30bc\u30fc
+2025-07-07 12:05:41 - INFO - Processing company: BCG
+2025-07-07 12:05:41 - INFO - Retrieved 3 unread emails.
+2025-07-07 12:05:41 - INFO - Processing email: Google Alert - Bain & Company on 07-07-25
+2025-07-07 12:05:42 - WARNING - Invalid content from URL: https://www.constructionweekonline.com/news/saudis-kafd-breaks-guinness-record-with-worlds-longest-pedestrian-skywalk
+2025-07-07 12:05:42 - INFO - Processing email: Google Alert - \u30de\u30c3\u30ad\u30f3\u30bc\u30fc on 07-07-25
+2025-07-07 12:05:43 - WARNING - Invalid content from URL: https://diamond.jp/articles/-/367973
+2025-07-07 12:05:43 - WARNING - Invalid content from URL: https://toyokeizai.net/articles/-/888676
+2025-07-07 12:05:44 - WARNING - Invalid content from URL: https://jbpress.ismedia.jp/articles/-/89305?page=5
+2025-07-07 12:05:44 - WARNING - Invalid content from URL: https://diamond.jp/articles/-/366498?page=5
+2025-07-07 12:05:45 - WARNING - Invalid content from URL: https://ndlsearch.ndl.go.jp/books/R100000137-I9784478121399
+2025-07-07 12:05:45 - INFO - Processing email: Google Alert - BCG on 07-07-25
+2025-07-07 12:05:46 - WARNING - Invalid content from URL: https://bizzine.jp/article/detail/11798
+2025-07-07 12:05:46 - WARNING - Invalid content from URL: https://xtech.nikkei.com/atcl/nxt/column/18/03254/062600001/
+2025-07-07 12:05:47 - WARNING - Invalid content from URL: https://n150.net/category/blockchaingame/kai-sangokushi-taisen/
+2025-07-07 12:05:47 - INFO - All emails committed successfully.
+2025-07-07 12:05:49 - INFO - Emails marked as read.
+2025-07-07 12:06:31 - INFO - Database tables created or already exist.
+2025-07-07 12:06:32 - INFO - WebScraper class instantiated.
+2025-07-07 12:06:34 - INFO - Extracted items for https://www.nri.com/jp/News: 0
+2025-07-07 12:06:36 - INFO - Extracted items for https://www.consulting.us/: 0
+2025-07-07 12:06:36 - INFO - Flattened articles: 0 items in total.
+2025-07-07 12:06:36 - INFO - All articles committed successfully.
+2025-07-07 12:06:36 - INFO - Web scraping pipeline completed successfully.

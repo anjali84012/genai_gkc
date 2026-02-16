@@ -1,0 +1,1203 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <!-- Meta Tags and Title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Manager Dashboard</title>
+    <style>
+        /* Reset and Base Styles */
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e3c72; /* Deep Blue Background */
+            background-image: linear-gradient(315deg, #1e3c72 0%, #2a5298 74%);
+            color: #fff; /* Text Color */
+            min-height: 100vh;
+            position: relative;
+        }
+
+        /* tsParticles Background Container */
+        #tsparticles {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            z-index: -1; /* Behind all content */
+            top: 0;
+            left: 0;
+        }
+
+        /* Header and Logout Button Styles */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent */
+            backdrop-filter: blur(10px); /* Blur Effect */
+        }
+
+        .header h1 {
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .logout-button {
+            background-color: #dc3545;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .logout-button:hover {
+            background-color: #c82333;
+        }
+
+        /* Main Content Styles */
+        main {
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            padding: 20px;
+            overflow: hidden;
+        }
+
+        /* Flash Messages Styles */
+        #flash-messages {
+            position: relative;
+            opacity: 1;
+            transition: opacity 1s ease-out;
+            margin: 10px;
+        }
+
+        #flash-messages.fade-out {
+            opacity: 0;
+        }
+
+        .flash-message {
+            background-color: #d4edda;
+            color: #155724;
+            padding: 10px;
+            border: 1px solid #c3e6cb;
+            margin-bottom: 5px;
+            border-radius: 5px;
+        }
+
+        /* Filters Toggle Button */
+        .filters-toggle {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            cursor: pointer;
+            font-size: 18px;
+            width: 100%;
+            text-align: left;
+            outline: none;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .filters-toggle:hover {
+            background-color: #0056b3;
+        }
+
+        .filters-toggle::after {
+            content: '\25BC'; /* Down arrow */
+            float: right;
+            margin-left: 10px;
+        }
+
+        .filters-toggle.active::after {
+            content: '\25B2'; /* Up arrow */
+        }
+
+        /* Filter Form Styles */
+        .filter-form {
+            padding: 0 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-bottom: 1px solid #ddd;
+            display: none; /* Hidden by default */
+            overflow: hidden;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .filter-form form {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        .filter-row {
+            flex: 1;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .filter-row input[type="text"],
+        .filter-row input[type="date"] {
+            flex: 1 1 150px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: rgba(255, 255, 255, 0.8);
+            color: #000;
+        }
+
+        .filter-row input[type="text"]::placeholder,
+        .filter-row input[type="date"]::placeholder {
+            color: #555;
+        }
+
+        .filter-actions {
+            display: flex;
+            gap: 10px;
+            margin-left: 10px;
+        }
+
+        .filter-button,
+        .reset-button {
+            padding: 8px 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .filter-button {
+            background-color: #007BFF;
+            color: white;
+        }
+
+        .filter-button:hover {
+            background-color: #0056b3;
+        }
+
+        .reset-button {
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .reset-button:hover {
+            background-color: #5a6268;
+        }
+
+        /* Table Styles */
+        .table-container {
+            width: 100%;
+            max-height: 600px; /* Set desired height for vertical scrolling */
+            overflow-x: auto; /* Enable horizontal scrolling */
+            overflow-y: auto; /* Enable vertical scrolling */
+            border: 1px solid #444;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.05);
+        }
+    
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed; /* Prevent the table from elongating */
+            color: #fff; /* Ensure table text is visible */
+        }
+    
+        table th,
+        table td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ffffff67; /* White borders for cells */
+        }
+    
+        table th {
+            background-color: #007BFF;
+            color: white;
+        }
+
+        /* Remove alternating row background to prevent conflict with highlighting */
+        tbody tr {
+            background-color: transparent;
+        }
+
+        /* Fixed Widths for Columns */
+        table th:nth-child(1), table td:nth-child(1) {
+            width: 120px; /* ID */
+        }
+
+        table th:nth-child(2), table td:nth-child(2) {
+            width: 150px; /* Company Name */
+        }
+
+        table th:nth-child(3), table td:nth-child(3) {
+            width: 100px; /* Date */
+        }
+
+        table th:nth-child(4), table td:nth-child(4) {
+            width: 100px; /* Time */
+        }
+        table th:nth-child(5), table td:nth-child(5) {
+            width: 80px; /* Link */
+        }
+
+        table th:nth-child(6), table td:nth-child(6) {
+            width: 200px; /* Category */
+        }
+
+        table th:nth-child(7), table td:nth-child(7) {
+            width: 150px; /* Category Code */
+        }
+
+        table th:nth-child(8), table td:nth-child(8) {
+            width: 200px; /* Summary */
+        }
+
+        table th:nth-child(9), table td:nth-child(9) {
+            width: 200px; /* Summary (Japanese) */
+        }
+        table th:nth-child(10), table td:nth-child(10) {
+            width: 200px; /* Type of Article */
+        }
+
+        table th:nth-child(11), table td:nth-child(11) {
+            width: 140px; /* Score */
+        }
+
+        /* Scored Row Highlight (Transparent Purple) */
+        .scored-row {
+            background-color: rgba(128, 0, 128, 0.2); /* Transparent Purple */
+            transition: background-color 0.5s ease;
+        }
+
+        /* Highlight for submission */
+        .highlight-submitted {
+            background-color: rgba(128, 0, 128, 0.5); /* Darker Purple */
+            transition: background-color 2s ease;
+        }
+
+        /* Highlight for newly added emails */
+        .highlight-added {
+            background-color: rgba(0, 128, 0, 0.2); /* Transparent Green */
+            animation: fadeOutGreen 10s forwards;
+        }
+
+        /* Highlight for recalled emails */
+        .highlight-removed {
+            background-color: rgba(255, 0, 0, 0.2); /* Transparent Red */
+            animation: fadeOutRed 10s forwards;
+        }
+
+        @keyframes fadeOutGreen {
+            0% { background-color: rgba(0, 128, 0, 0.2); }
+            100% { background-color: transparent; }
+        }
+
+        @keyframes fadeOutRed {
+            0% { background-color: rgba(255, 0, 0, 0.2); }
+            100% { background-color: transparent; }
+        }
+
+        /* Pagination Styles */
+        .pagination {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .pagination a {
+            display: inline-block;
+            padding: 8px 16px;
+            margin: 0 4px;
+            text-decoration: none;
+            background-color: #007BFF;
+            color: white;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .pagination a:hover {
+            background-color: #0056b3;
+        }
+
+        .pagination .disabled {
+            background-color: #e9e9e9;
+            color: #bbb;
+            pointer-events: none;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .filter-row {
+                flex-direction: column;
+            }
+
+            .filter-actions {
+                margin-left: 0;
+                justify-content: center;
+            }
+
+            .filters-toggle {
+                font-size: 16px;
+                padding: 10px 16px;
+            }
+
+            .filter-button,
+            .reset-button {
+                font-size: 14px;
+                padding: 8px 12px;
+            }
+
+            table th,
+            table td {
+                padding: 8px;
+                font-size: 14px;
+            }
+        }
+
+        /* Dashboard Boxes Container */
+        .dashboard-boxes {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            gap: 20px;
+        }
+
+        /* Individual Dashboard Box Styles */
+        .dashboard-box {
+            flex: 1;
+            background-color: rgba(0, 123, 255, 0.8); /* Bootstrap primary color with opacity */
+            padding: 20px;
+            border-radius: 8px;
+            color: white;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .dashboard-box:hover {
+            transform: translateY(-5px);
+        }
+
+        .dashboard-box h3 {
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+
+        .dashboard-box p {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        /* Modal Styles */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1000; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgba(0, 0, 0, 0.7); /* Black w/ opacity */
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 10% auto; /* 10% from the top and centered */
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%; /* Could be more or less, depending on screen size */
+            border-radius: 8px;
+            color: #000;
+            position: relative;
+        }
+
+        .close-button {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            cursor: pointer;
+        }
+
+        .close-button:hover,
+        .close-button:focus {
+            color: black;
+            text-decoration: none;
+        }
+
+        /* Submit Button Styles */
+        .submit-button {
+            background-color: #28a745; /* Green */
+            color: white;
+            border: none;
+            padding: 6px 12px;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 12px;
+            transition: background-color 0.3s ease;
+            margin-top: 5px; /* Spacing from the toggle */
+        }
+
+        .submit-button:hover {
+            background-color: #218838;
+        }
+
+        .submit-button:disabled {
+            background-color: #6c757d;
+            cursor: not-allowed;
+        }
+
+        /* Additional Styles for the New Select Element */
+        .score-select {
+            padding: 6px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            color: #000;
+            font-size: 14px;
+            margin-right: 8px;
+            position: relative;
+            z-index: 1000;
+        }
+
+        .view-more-button {
+            background-color: #00fceb8a;
+            color: white;
+            border: none;
+            padding: 4px 8px;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 12px;
+            margin-left: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .view-more-button:hover {
+            background-color: #218826;
+        }
+    </style>
+</head>
+<body>
+    <!-- tsParticles Background -->
+    <div id="tsparticles"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>Welcome {{ session.get('user_name', 'Manager') }} !</h1>
+        <form action="{{ url_for('logout') }}" method="get" style="margin: 0;">
+            <button type="submit" class="logout-button">Logout</button>
+        </form>
+    </header>
+    
+    <!-- Main Content -->
+    <main>
+        <!-- Flash Messages -->
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+            <div id="flash-messages">
+              {% for message in messages %}
+                <div class="flash-message">
+                  {{ message }}
+                </div>
+              {% endfor %}
+            </div>
+          {% endif %}
+        {% endwith %}
+
+        <!-- Dashboard Boxes -->
+        <div class="dashboard-boxes">
+            <div class="dashboard-box">
+                <h3>Approved</h3>
+                <p id="approved-count">0</p>
+            </div>
+            <div class="dashboard-box">
+                <h3>Scored</h3>
+                <p id="scored-count">0</p>
+            </div>
+            <div class="dashboard-box">
+                <h3>Remaining</h3>
+                <p id="remaining-count">0</p>
+            </div>
+        </div>
+
+        <!-- Filters Toggle Button -->
+        <button class="filters-toggle">Filters</button>
+
+        <!-- Filter Form -->
+        <div class="filter-form">
+            <form id="filter-form">
+                <div class="filter-row">
+                    <input type="text" name="company" placeholder="Company Name">
+                    <input type="date" name="from_date" placeholder="From Date">
+                    <input type="date" name="to_date" placeholder="To Date">
+                    <input type="text" name="time" placeholder="Time">
+                    <input type="text" name="category" placeholder="Category">
+                    <input type="text" name="category_code" placeholder="Category Code">
+                </div>
+                <div class="filter-actions">
+                    <button type="submit" class="filter-button">Filter</button>
+                    <button type="button" class="reset-button">Reset</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Approved Emails Table -->
+        <div class="table-container">
+            <table id="approved-emails-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Company Name</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Link</th>
+                        <th>Category</th>
+                        <th>Category Code</th>
+                        <th>Summary</th>
+                        <th>Summary (Japanese)</th>
+                        <th>Type of Article</th>
+                        {% if session.get('user_name') in ['Manager 1', 'Manager 2'] %}
+                            <th>Score</th>
+                        {% endif %}
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="{% if session.get('user_name') in ['Manager 1', 'Manager 2'] %}11{% else %}10{% endif %}" style="text-align: center;">Loading approved emails...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Pagination -->
+        <div class="pagination" id="pagination">
+            <!-- Pagination buttons will be inserted here -->
+        </div>
+    </main>
+
+    <!-- Modal Structure -->
+    <div id="summary-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal-content">
+            <span class="close-button" aria-label="Close Modal">&times;</span>
+            <h2 id="modal-title">Summary Details</h2>
+            <p id="modal-summary-text"></p>
+        </div>
+    </div>
+
+    <!-- tsParticles Library -->
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.11.0/tsparticles.bundle.min.js"></script>
+    <!-- Include jQuery (required for AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- LOGGING FUNCTION (ADDED) -->
+    <script>
+        function logAction(actionDescription) {
+            console.log("LOG:", actionDescription);
+            fetch('/frontend_log', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ message: actionDescription })
+            });
+        }
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            logAction("Manager Dashboard page loaded");
+
+            // Initialize tsParticles for the interactive background
+            tsParticles.load("tsparticles", {
+                fullScreen: {
+                    enable: false, // Using a div
+                    zIndex: -1
+                },
+                particles: {
+                    number: {
+                        value: 60, // Density
+                        density: {
+                            enable: true,
+                            area: 800
+                        }
+                    },
+                    color: {
+                        value: "#ffffff" // White particles
+                    },
+                    shape: {
+                        type: "circle" // Shape type
+                    },
+                    opacity: {
+                        value: 0.5,
+                        random: false
+                    },
+                    size: {
+                        value: 4,
+                        random: false
+                    },
+                    links: {
+                        enable: true,
+                        distance: 120,
+                        color: "#ffffff",
+                        opacity: 0.3,
+                        width: 1
+                    },
+                    move: {
+                        enable: true,
+                        speed: 2.5,
+                        direction: "none",
+                        outModes: {
+                            default: "bounce"
+                        }
+                    }
+                },
+                interactivity: {
+                    events: {
+                        onHover: {
+                            enable: true,
+                            mode: "repulse"
+                        },
+                        resize: true
+                    },
+                    modes: {
+                        repulse: {
+                            distance: 100,
+                            duration: 0.4
+                        }
+                    }
+                },
+                retina_detect: true,
+                background: {
+                    color: "transparent"
+                }
+            });
+
+            // Flash messages fade-out
+            const flashMessages = document.getElementById('flash-messages');
+            if (flashMessages) {
+                setTimeout(function () {
+                    flashMessages.classList.add('fade-out');
+                    flashMessages.addEventListener('transitionend', function () {
+                        flashMessages.remove();
+                    });
+                }, 5000);
+            }
+
+            // Parse existing query params from URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const filters = {
+                company: urlParams.get('company') || '',
+                from_date: urlParams.get('from_date') || '',
+                to_date: urlParams.get('to_date') || '',
+                time: urlParams.get('time') || '',
+                category: urlParams.get('category') || '',
+                category_code: urlParams.get('category_code') || ''
+            };
+
+            let currentPage = parseInt(urlParams.get('page')) || 1;
+            const perPage = 10;
+            let previousEmailIds = [];
+            let previousEmailData = {};
+            let initialFetch = true;
+            let filtersChanged = false;
+
+            // Fill the filter form with existing params
+            const filterForm = document.getElementById('filter-form');
+            if (filterForm) {
+                filterForm.elements['company'].value = filters.company;
+                filterForm.elements['from_date'].value = filters.from_date;
+                filterForm.elements['to_date'].value = filters.to_date;
+                filterForm.elements['time'].value = filters.time;
+                filterForm.elements['category'].value = filters.category;
+                filterForm.elements['category_code'].value = filters.category_code;
+            }
+
+            // Function to build query string from filters
+            function buildQueryString(page = 1) {
+                const params = new URLSearchParams();
+                if (filters.company) params.set('company', filters.company);
+                if (filters.from_date) params.set('from_date', filters.from_date);
+                if (filters.to_date) params.set('to_date', filters.to_date);
+                if (filters.time) params.set('time', filters.time);
+                if (filters.category) params.set('category', filters.category);
+                if (filters.category_code) params.set('category_code', filters.category_code);
+                if (page > 1) params.set('page', page);
+                return params.toString();
+            }
+
+            // Handle filter form submission to refresh page with new query params
+            if (filterForm) {
+                filterForm.addEventListener('submit', function (e) {
+                    e.preventDefault();
+                    logAction("Filter applied");
+
+                    filters.company = filterForm.elements['company'].value.trim();
+                    filters.from_date = filterForm.elements['from_date'].value.trim();
+                    filters.to_date = filterForm.elements['to_date'].value.trim();
+                    filters.time = filterForm.elements['time'].value.trim();
+                    filters.category = filterForm.elements['category'].value.trim();
+                    filters.category_code = filterForm.elements['category_code'].value.trim();
+
+                    const queryString = buildQueryString(1);
+                    window.location.href = `{{ url_for('manager_dashboard') }}?${queryString}`;
+                });
+            }
+
+            // Handle reset button - clears filters and reloads page
+            const resetButton = document.querySelector('.reset-button');
+            if (resetButton) {
+                resetButton.addEventListener('click', function () {
+                    logAction("Filters reset");
+                    filterForm.reset();
+                    window.location.href = `{{ url_for('manager_dashboard') }}`;
+                });
+            }
+
+            // Determine which score field to use based on user_name
+            const userName = "{{ session.get('user_name', 'Manager') }}";
+            let scoreField = '';
+            if (userName === 'Manager 1') {
+                scoreField = 'satake_score';
+            } else if (userName === 'Manager 2') {
+                scoreField = 'kajikawa_score';
+            }
+
+            // Fetch filtered counts based on current filters
+            function fetchFilteredCounts() {
+                const queryParams = new URLSearchParams();
+                if (filters.company) queryParams.append('company', filters.company);
+                if (filters.from_date) queryParams.append('from_date', filters.from_date);
+                if (filters.to_date) queryParams.append('to_date', filters.to_date);
+                if (filters.time) queryParams.append('time', filters.time);
+                if (filters.category) queryParams.append('category', filters.category);
+                if (filters.category_code) queryParams.append('category_code', filters.category_code);
+
+                fetch('/manager_dashboard_counts_filtered?' + queryParams.toString())
+                    .then(response => response.json())
+                    .then(data => {
+                        document.getElementById('approved-count').innerText = data.approved_count;
+                        document.getElementById('scored-count').innerText = data.scored_count;
+                        document.getElementById('remaining-count').innerText = data.remaining_count;
+                        logAction("Filtered counts updated");
+                    })
+                    .catch(error => {
+                        console.error('Error fetching filtered counts:', error);
+                        logAction("Error fetching filtered counts: " + error);
+                    });
+            }
+
+            // ***** MODIFICATION STARTS HERE *****
+            // We add a variable to control auto-refresh and logic to stop refresh when a score dropdown is in focus
+            let allowAutoRefresh = true;
+            // ***** MODIFICATION ENDS HERE *****
+
+            // Fetch Approved Emails
+            function fetchApprovedEmails() {
+                const queryParams = new URLSearchParams();
+                queryParams.append('page', currentPage);
+                queryParams.append('per_page', perPage);
+                if (filters.company) queryParams.append('company', filters.company);
+                if (filters.from_date) queryParams.append('from_date', filters.from_date);
+                if (filters.to_date) queryParams.append('to_date', filters.to_date);
+                if (filters.time) queryParams.append('time', filters.time);
+                if (filters.category) queryParams.append('category', filters.category);
+                if (filters.category_code) queryParams.append('category_code', filters.category_code);
+
+                fetch(`/manager_emails?${queryParams.toString()}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        logAction("Approved emails data fetched successfully");
+                        const tbody = document.querySelector('#approved-emails-table tbody');
+                        const newEmailIds = data.emails.map(email => email.id);
+
+                        const emailDataMap = {};
+                        data.emails.forEach(email => {
+                            emailDataMap[email.id] = email;
+                        });
+
+                        let addedEmailIds = [];
+                        let removedEmailIds = [];
+
+                        if (!initialFetch) {
+                            // Emails that are new (added)
+                            addedEmailIds = newEmailIds.filter(id => !previousEmailIds.includes(id));
+
+                            // Emails that have been removed (recalled)
+                            removedEmailIds = previousEmailIds.filter(id => !newEmailIds.includes(id));
+                        }
+
+                        const displayEmails = [];
+
+                        // Add current emails
+                        data.emails.forEach(email => {
+                            displayEmails.push(email);
+                        });
+
+                        // Add recalled emails
+                        removedEmailIds.forEach(id => {
+                            const email = previousEmailData[id];
+                            if (email) {
+                                email.isRecalled = true; 
+                                displayEmails.push(email);
+                            }
+                        });
+
+                        tbody.innerHTML = ''; // Clear existing data
+
+                        if (displayEmails.length === 0) {
+                            tbody.innerHTML = `
+                                <tr>
+                                    <td colspan="{% if session.get('user_name') in ['Manager 1', 'Manager 2'] %}11{% else %}10{% endif %}" style="text-align: center;">No approved emails to display.</td>
+                                </tr>
+                            `;
+                        } else {
+                            displayEmails.forEach(email => {
+                                const row = document.createElement('tr');
+                                row.setAttribute('data-email-id', email.id); 
+                                let selectedScore = email.selected_score || 0;
+
+                                const scoreSelect = document.createElement('select');
+                                scoreSelect.classList.add('score-select');
+
+                                [0, 1, 2, 3].forEach(value => {
+                                    const option = document.createElement('option');
+                                    option.value = value.toString();
+                                    option.textContent = value.toString();
+                                    if (selectedScore === value) option.selected = true;
+                                    scoreSelect.appendChild(option);
+                                });
+
+                                const scoreCell = document.createElement('td');
+                                scoreCell.appendChild(scoreSelect);
+
+                                let submitButton = null;
+                                if (selectedScore > 0) {
+                                    row.classList.add('scored-row');
+                                    createSubmitButton();
+                                }
+
+                                function createSubmitButton() {
+                                    submitButton = document.createElement('button');
+                                    submitButton.classList.add('submit-button');
+                                    submitButton.textContent = 'Submit';
+                                    scoreCell.appendChild(submitButton);
+
+                                    submitButton.addEventListener('click', function () {
+                                        const emailId = email.id;
+                                        const score = parseInt(scoreSelect.value);
+
+                                        logAction("Score submitted for email_id="+emailId+" with score="+score);
+
+                                        submitButton.disabled = true;
+                                        submitButton.textContent = 'Submitting...';
+
+                                        fetch('{{ url_for("update_score") }}', {
+                                            method: 'POST',
+                                            headers: {
+                                                'Content-Type': 'application/x-www-form-urlencoded'
+                                            },
+                                            body: new URLSearchParams({
+                                                'email_id': emailId,
+                                                'score': score,
+                                                'submit': 'true'
+                                            })
+                                        })
+                                        .then(response => response.json())
+                                        .then(data => {
+                                            if (!data.success) {
+                                                alert('Error updating score: ' + data.error);
+                                                submitButton.disabled = false;
+                                                submitButton.textContent = 'Submit';
+                                            } else {
+                                                row.classList.add('highlight-submitted');
+
+                                                setTimeout(() => {
+                                                    row.remove();
+                                                }, 3000);
+
+                                                fetchFilteredCounts();
+                                            }
+                                        })
+                                        .catch(error => {
+                                            console.error('Error updating score:', error);
+                                            logAction("Error updating score: " + error);
+                                            alert('An error occurred while updating the score.');
+                                            submitButton.disabled = false;
+                                            submitButton.textContent = 'Submit';
+                                        });
+                                    });
+                                }
+
+                                // ---------------------------
+                                // CHANGED SECTION: We remove the fetch call from the dropdown "change" event
+                                // ---------------------------
+                                scoreSelect.addEventListener('change', function () {
+                                    const selectedValue = parseInt(this.value);
+                                    const emailId = email.id;
+
+                                    logAction("Score changed for email_id="+emailId+" to score="+selectedValue);
+
+                                    // NO backend fetch here anymore. Only local UI changes:
+                                    if (selectedValue > 0) {
+                                        row.classList.add('scored-row');
+                                        if (!submitButton) {
+                                            createSubmitButton();
+                                        }
+                                    } else {
+                                        row.classList.remove('scored-row');
+                                        if (submitButton) {
+                                            submitButton.remove();
+                                            submitButton = null;
+                                        }
+                                    }
+                                });
+                                // ---------------------------
+                                // END of changed section
+                                // ---------------------------
+
+                                // ***** MODIFICATION STARTS HERE *****
+                                // When score dropdown is focused, stop refresh. When it loses focus, allow refresh again.
+                                scoreSelect.addEventListener('focus', function() {
+                                    allowAutoRefresh = false;
+                                });
+                                scoreSelect.addEventListener('blur', function() {
+                                    allowAutoRefresh = true;
+                                });
+                                // ***** MODIFICATION ENDS HERE *****
+
+                                const maxSummaryLength = 30;
+                                let summaryHTML = email.summary;
+                                if (email.summary.length > maxSummaryLength) {
+                                    const truncatedSummary = email.summary.substring(0, maxSummaryLength) + '...';
+                                    summaryHTML = `
+                                        ${truncatedSummary}
+                                        <button class="view-more-button" data-summary="${email.summary.replace(/"/g, '&quot;')}">View More</button>
+                                    `;
+                                }
+
+                                let summaryJPHTML = email.summary_japanese;
+                                if (email.summary_japanese.length > maxSummaryLength) {
+                                    const truncatedSummaryJP = email.summary_japanese.substring(0, maxSummaryLength) + '...';
+                                    summaryJPHTML = `
+                                        ${truncatedSummaryJP}
+                                        <button class="view-more-button" data-summary="${email.summary_japanese.replace(/"/g, '&quot;')}">View More</button>
+                                    `;
+                                }
+
+                                row.innerHTML += `
+                                    <td>${email.date}_${email.id}</td>
+                                    <td>${email.company_name}</td>
+                                    <td>${email.date}</td>
+                                    <td>${email.time}</td>
+                                    <td><a href="${email.link}" target="_blank" style="color: #1e90ff;">View</a></td>
+                                    <td>${email.category}</td>
+                                    <td>${email.category_code}</td>
+                                    <td>${summaryHTML}</td>
+                                    <td>${summaryJPHTML}</td>
+                                    <td>${email.subject}</td>
+                                    <td></td>
+                                `;
+
+                                row.replaceChild(scoreCell, row.querySelector('td:nth-child(11)'));
+                                tbody.appendChild(row);
+
+                                const viewMoreButtons = row.querySelectorAll('.view-more-button');
+                                viewMoreButtons.forEach(button => {
+                                    button.addEventListener('click', function () {
+                                        logAction("View More Summary clicked");
+                                        const summary = this.getAttribute('data-summary');
+                                        openModal(summary);
+                                    });
+                                });
+
+                                if (!filtersChanged) {
+                                    if (addedEmailIds.includes(email.id)) {
+                                        row.classList.add('highlight-added');
+                                        setTimeout(() => {
+                                            row.classList.remove('highlight-added');
+                                        }, 10000);
+                                    } else if (email.isRecalled) {
+                                        row.classList.add('highlight-removed');
+                                        setTimeout(() => {
+                                            row.remove();
+                                        }, 10000);
+                                    }
+                                }
+                            });
+                        }
+
+                        previousEmailIds = newEmailIds.slice();
+                        previousEmailData = Object.assign({}, data.emails.reduce((acc, email) => {
+                            acc[email.id] = email;
+                            return acc;
+                        }, {}));
+
+                        filtersChanged = false;
+
+                        updatePagination(data);
+
+                        initialFetch = false;
+
+                        // After fetching and displaying emails, fetch filtered counts
+                        fetchFilteredCounts();
+                    })
+                    .catch(error => {
+                        console.error('Error fetching approved emails:', error);
+                        logAction("Error fetching approved emails: " + error);
+                    });
+            }
+
+            // Update Pagination Controls
+            function updatePagination(data) {
+                const paginationDiv = document.getElementById('pagination');
+                paginationDiv.innerHTML = ''; 
+
+                if (data.total > 0) {
+                    const totalPages = data.pages;
+                    const page = data.page;
+
+                    // Previous Button
+                    const prevButton = document.createElement('a');
+                    prevButton.textContent = '« Previous';
+                    if (data.has_prev) {
+                        prevButton.href = '#';
+                        prevButton.addEventListener('click', function(e) {
+                            e.preventDefault();
+                            logAction("Pagination: Previous clicked");
+                            currentPage = data.prev_num;
+                            filtersChanged = true;
+                            const queryString = buildQueryString(currentPage);
+                            window.history.replaceState(null, null, `?${queryString}`);
+                            fetchApprovedEmails();
+                        });
+                    } else {
+                        prevButton.classList.add('disabled');
+                    }
+                    paginationDiv.appendChild(prevButton);
+
+                    // Page Numbers
+                    for (let i = 1; i <= totalPages; i++) {
+                        const pageButton = document.createElement('a');
+                        pageButton.textContent = i;
+                        if (i === page) {
+                            pageButton.classList.add('disabled');
+                        } else {
+                            pageButton.href = '#';
+                            pageButton.addEventListener('click', function(e) {
+                                e.preventDefault();
+                                logAction("Pagination: Page " + i + " clicked");
+                                currentPage = i;
+                                filtersChanged = true;
+                                const queryString = buildQueryString(currentPage);
+                                window.history.replaceState(null, null, `?${queryString}`);
+                                fetchApprovedEmails();
+                            });
+                        }
+                        paginationDiv.appendChild(pageButton);
+                    }
+
+                    // Next Button
+                    const nextButton = document.createElement('a');
+                    nextButton.textContent = 'Next »';
+                    if (data.has_next) {
+                        nextButton.href = '#';
+                        nextButton.addEventListener('click', function(e) {
+                            e.preventDefault();
+                            logAction("Pagination: Next clicked");
+                            currentPage = data.next_num;
+                            filtersChanged = true;
+                            const queryString = buildQueryString(currentPage);
+                            window.history.replaceState(null, null, `?${queryString}`);
+                            fetchApprovedEmails();
+                        });
+                    } else {
+                        nextButton.classList.add('disabled');
+                    }
+                    paginationDiv.appendChild(nextButton);
+                }
+            }
+
+            // Filters Toggle Functionality
+            const filtersToggle = document.querySelector('.filters-toggle');
+            const filterFormContainer = document.querySelector('.filter-form');
+
+            filtersToggle.addEventListener('click', function () {
+                filtersToggle.classList.toggle('active');
+                if (filterFormContainer.style.display === 'block') {
+                    filterFormContainer.style.display = 'none';
+                    logAction("Filters hidden");
+                } else {
+                    filterFormContainer.style.display = 'block';
+                    logAction("Filters shown");
+                }
+            });
+
+            // Initial Fetch
+            fetchApprovedEmails();
+
+            // ***** MODIFICATION STARTS HERE *****
+            // Only fetch if allowAutoRefresh is true
+            setInterval(function() {
+                if (allowAutoRefresh) {
+                    fetchApprovedEmails();
+                }
+            }, 2000);
+            // ***** MODIFICATION ENDS HERE *****
+
+            // Modal Functionality
+            const modal = document.getElementById('summary-modal');
+            const closeButton = document.querySelector('.close-button');
+            const modalSummaryText = document.getElementById('modal-summary-text');
+
+            function openModal(summary) {
+                modalSummaryText.textContent = summary;
+                modal.style.display = 'block';
+            }
+
+            function closeModal() {
+                logAction("Summary modal closed");
+                modal.style.display = 'none';
+                modalSummaryText.textContent = '';
+            }
+
+            closeButton.addEventListener('click', function () {
+                closeModal();
+            });
+
+            window.addEventListener('click', function (event) {
+                if (event.target == modal) {
+                    logAction("Summary modal closed by clicking outside");
+                    closeModal();
+                }
+            });
+
+            document.addEventListener('keydown', function(event) {
+                if (event.key === 'Escape' && modal.style.display === 'block') {
+                    logAction("Summary modal closed by pressing Escape key");
+                    closeModal();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

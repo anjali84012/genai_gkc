@@ -1,0 +1,232 @@
+2025-11-04 11:07:16 - INFO - Use pytorch device_name: cpu
+2025-11-04 11:07:16 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-11-04 11:07:24 - INFO - Database tables created or already exist.
+2025-11-04 11:07:25 - INFO - WebScraper class instantiated.
+2025-11-04 11:07:29 - INFO - Extracted items for https://www.nri.com/jp/News: 0
+2025-11-04 11:07:47 - INFO - Extracted items for https://www.mckinsey.com/about-us/new-at-mckinsey-blog: 0
+2025-11-04 11:08:04 - INFO - Extracted items for https://www.mckinsey.com/jp/our-insights: 0
+2025-11-04 11:08:30 - ERROR - Failed to parse LLM initial content from https://www.bcg.com/about/corporate-newsroom: Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 209120 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2025-11-04 11:08:52 - ERROR - Failed to parse LLM initial content from https://www.bcg.com/ja-jp/about/news/press/default?00000173-7007-d959-afff-79c791c80008-page=1: Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 213213 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2025-11-04 11:08:58 - INFO - Extracted items for https://www.bain.com/about/media-center/press-releases/: 0
+2025-11-04 11:09:04 - INFO - Extracted items for https://www.bain.com/ja/about-bain/media-center/press-releases/: 0
+2025-11-04 11:09:06 - INFO - Extracted items for https://newsroom.accenture.com/: 0
+2025-11-04 11:09:09 - INFO - Extracted items for https://newsroom.accenture.jp/: 0
+2025-11-04 11:09:16 - INFO - Extracted items for https://www.deloitte.com/global/en/about/press-room.html: 0
+2025-11-04 11:09:21 - INFO - Extracted items for https://www2.deloitte.com/jp/ja/footerlinks/nr.html: 0
+2025-11-04 11:09:30 - INFO - Extracted items for https://www.ey.com/en_gl/newsroom: 0
+2025-11-04 11:09:38 - INFO - Extracted items for https://www.ey.com/ja_jp/newsroom: 0
+2025-11-04 11:09:45 - ERROR - Failed to parse LLM initial content from https://www.pwc.com/gx/en/news-room.html: Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 218693 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2025-11-04 11:09:50 - INFO - Extracted items for https://www.pwc.com/jp/ja/press-room.html#press: 0
+2025-11-04 11:09:56 - ERROR - Failed to parse LLM initial content from https://kpmg.com/xx/en/home/media/press-releases.html: Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 250064 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2025-11-04 11:10:00 - INFO - Extracted items for https://kpmg.com/jp/ja/home/media/press-releases.html: 0
+2025-11-04 11:10:03 - INFO - Extracted items for https://www.mri.co.jp/news/index.html: 0
+2025-11-04 11:10:09 - INFO - Extracted items for https://www.consulting.us/: 1
+2025-11-04 11:10:29 - INFO - Unique article: Deloitte US invests in Kihomac to scale domestic drone manufacturing
+2025-11-04 11:10:29 - INFO - LLM secondary extraction success for: https://www.consulting.us/news/12592/deloitte-us-invests-in-kihomac-to-scale-domestic-drone-manufacturing
+2025-11-04 11:10:37 - INFO - Extracted items for https://www.consultancy.uk/: 5
+2025-11-04 11:11:19 - INFO - Unique article: TDS appoints four senior leaders ahead of busy 2026
+2025-11-04 11:11:19 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/42027/tds-appoints-four-senior-leaders-ahead-of-busy-2026
+2025-11-04 11:12:00 - INFO - Unique article: Circular methods could unlock €30 million in value for TowerCos economy
+2025-11-04 11:12:00 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/42030/circular-methods-could-unlock-30-million-in-value-for-towercos-economy
+2025-11-04 11:12:46 - INFO - Unique article: Victoria Evans on how Oliver Wyman uses corporate life to enable broader societal inclusion
+2025-11-04 11:12:46 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/42021/victoria-evans-on-how-oliver-wyman-uses-corporate-life-to-enable-broader-societal-inclusion
+2025-11-04 11:13:15 - INFO - Unique article: RSM in line for Easter Airways administration
+2025-11-04 11:13:15 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/42033/rsm-in-line-for-easter-airways-administration
+2025-11-04 11:13:53 - INFO - Unique article: How training can play a part in solving the UK productivity puzzle
+2025-11-04 11:13:53 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/42024/how-training-can-play-a-part-in-solving-the-uk-productivity-puzzle
+2025-11-04 11:13:57 - INFO - Extracted items for https://www.consultancy.asia/country/japan: 0
+2025-11-04 11:14:03 - INFO - Extracted items for https://www.consultancy.in/: 2
+2025-11-04 11:14:24 - INFO - Unique article: India’s restaurant industry targets growth in Tier-II and Tier-III cities
+2025-11-04 11:14:24 - INFO - LLM secondary extraction success for: https://www.consultancy.in/news/4499/indias-restaurant-industry-targets-growth-in-tier-ii-and-tier-iii-cities
+2025-11-04 11:15:08 - INFO - Unique article: Vinay Singh leads Managed Services & Technology arm of Guidehouse
+2025-11-04 11:15:08 - INFO - LLM secondary extraction success for: https://www.consultancy.in/news/4493/vinay-singh-leads-managed-services-technology-arm-of-guidehouse
+2025-11-04 11:15:13 - INFO - Extracted items for https://www.consultancy.com.au/: 0
+2025-11-04 11:15:35 - INFO - Extracted items for https://www.consultancy.eu/: 0
+2025-11-04 11:15:40 - INFO - Extracted items for https://www.consultancy.asia/: 0
+2025-11-04 11:15:45 - INFO - Extracted items for https://www.consultancy-me.com/: 0
+2025-11-04 11:15:53 - INFO - Extracted items for https://www.consultancy.nl/: 5
+2025-11-04 11:16:50 - ERROR - Failed in secondary LLM parsing (https://www.consultancy.nl/nieuws/63606/nieuwsgierigheid-boven-angst-hoe-olga-kulikova-bij-kpmg-bouwt-aan-groei-en-vertrouwen): 'NoneType' object does not support item assignment
+2025-11-04 11:17:34 - INFO - Unique article: Kor Gerritsma: ‘Herstelvermogen is dé sleutel tot digitale weerbaarheid’
+2025-11-04 11:17:34 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/63690/kor-gerritsma-herstelvermogen-is-de-sleutel-tot-digitale-weerbaarheid
+2025-11-04 11:18:16 - INFO - Unique article: Hoe AI een koekjesproducent helpt aan meer rendement én kwaliteit
+2025-11-04 11:18:16 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/63687/hoe-ai-een-koekjesproducent-helpt-aan-meer-rendement-en-kwaliteit
+2025-11-04 11:18:38 - INFO - Unique article: Gerard Kiewiet benoemd tot nieuwe partner Defensie bij Eraneos
+2025-11-04 11:18:38 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/63696/gerard-kiewiet-benoemd-tot-nieuwe-partner-defensie-bij-eraneos
+2025-11-04 11:18:58 - INFO - Unique article: NewForesight verwelkomt Layla Schmitter als Analyst
+2025-11-04 11:18:58 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/63660/newforesight-verwelkomt-layla-schmitter-als-analyst
+2025-11-04 11:19:03 - INFO - Extracted items for https://www.consultancy.co.za/: 0
+2025-11-04 11:19:07 - INFO - Extracted items for https://www.consultancy.lat/: 0
+2025-11-04 11:19:12 - INFO - Extracted items for https://www.consultancy.africa/: 0
+2025-11-04 11:19:17 - INFO - Extracted items for https://www.consulting.ca/: 1
+2025-11-04 11:19:39 - INFO - Unique article: Canadian venture capital remained sluggish in third quarter 
+2025-11-04 11:19:39 - INFO - LLM secondary extraction success for: https://www.consulting.ca/news/4699/canadian-venture-capital-remained-sluggish-in-third-quarter
+2025-11-04 11:19:43 - INFO - Extracted items for https://www.consultancy.asia/country/singapore: 0
+2025-11-04 11:19:47 - INFO - Extracted items for https://www.consultancy.asia/country/china: 0
+2025-11-04 11:19:53 - INFO - Extracted items for https://www.consultancy.eu/country/france: 0
+2025-11-04 11:19:57 - INFO - Extracted items for https://www.consultancy.eu/country/germany: 0
+2025-11-04 11:20:06 - INFO - Extracted items for https://www.consultancy.uk/: 5
+2025-11-04 11:20:39 - INFO - Duplicate article: Circular methods could unlock €30 million in value for TowerCos economy
+2025-11-04 11:20:39 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/42030/circular-methods-could-unlock-30-million-in-value-for-towercos-economy
+2025-11-04 11:21:23 - INFO - Duplicate article: Victoria Evans on how Oliver Wyman uses corporate life to enable broader societal inclusion
+2025-11-04 11:21:23 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/42021/victoria-evans-on-how-oliver-wyman-uses-corporate-life-to-enable-broader-societal-inclusion
+2025-11-04 11:21:46 - INFO - Duplicate article: RSM in line for Easter Airways administration
+2025-11-04 11:21:46 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/42033/rsm-in-line-for-easter-airways-administration
+2025-11-04 11:38:35 - INFO - Retrying request to /chat/completions in 0.488187 seconds
+2025-11-04 11:39:17 - INFO - Duplicate article: How training can play a part in solving the UK productivity puzzle
+2025-11-04 11:39:17 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/42024/how-training-can-play-a-part-in-solving-the-uk-productivity-puzzle
+2025-11-04 11:39:56 - INFO - Duplicate article: TDS appoints four senior leaders ahead of busy 2026
+2025-11-04 11:39:56 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/42027/tds-appoints-four-senior-leaders-ahead-of-busy-2026
+2025-11-04 11:39:56 - INFO - Flattened articles: 18 items in total.
+2025-11-04 11:39:58 - INFO - Prepared to insert article: Consulting.org (https://www.consulting.us/news/12592/deloitte-us-invests-in-kihomac-to-scale-domestic-drone-manufacturing)
+2025-11-04 11:40:00 - INFO - Skipping Others - not in target list.
+2025-11-04 11:40:02 - INFO - Skipping Others - not in target list.
+2025-11-04 11:40:03 - INFO - Skipping Others - not in target list.
+2025-11-04 11:40:06 - INFO - Skipping Others - not in target list.
+2025-11-04 11:40:08 - INFO - Skipping Others - not in target list.
+2025-11-04 11:40:11 - INFO - Skipping Others - not in target list.
+2025-11-04 11:40:13 - INFO - Skipping Others - not in target list.
+2025-11-04 11:40:15 - INFO - Skipping Others - not in target list.
+2025-11-04 11:40:16 - INFO - Skipping Others - not in target list.
+2025-11-04 11:40:18 - INFO - Skipping Others - not in target list.
+2025-11-04 11:40:20 - INFO - Skipping Others - not in target list.
+2025-11-04 11:40:21 - INFO - Skipping Others - not in target list.
+2025-11-04 11:40:24 - INFO - Skipping Others - not in target list.
+2025-11-04 11:40:25 - INFO - Skipping Others - not in target list.
+2025-11-04 11:40:27 - INFO - Skipping RSM - not in target list.
+2025-11-04 11:40:29 - INFO - Skipping Others - not in target list.
+2025-11-04 11:40:31 - INFO - Skipping Others - not in target list.
+2025-11-04 11:40:31 - INFO - All articles committed successfully.
+2025-11-04 11:40:31 - INFO - Web scraping pipeline completed successfully.
+2025-11-04 13:59:17 - INFO - Use pytorch device_name: cpu
+2025-11-04 13:59:17 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-11-04 13:59:26 - INFO - Starting Gmail authentication.
+2025-11-04 13:59:26 - INFO - Loaded credentials from token.json.
+2025-11-04 13:59:26 - INFO - Gmail authentication successful.
+2025-11-04 13:59:26 - INFO - Fetching unread emails from Gmail.
+2025-11-04 13:59:27 - INFO - Found 18 unread emails. Processing...
+2025-11-04 13:59:38 - INFO - Skipping \u4e09\u83f1\u7dcf\u5408\u7814\u7a76\u6240 (normalized: \u4e09\u83f1\u7dcf\u5408\u7814\u7a76\u6240) - not in target list.
+2025-11-04 13:59:42 - WARNING - Translation failed: 'NoneType' object has no attribute 'send'
+2025-11-04 13:59:42 - INFO - Skipping \u30de\u30c3\u30ad\u30f3\u30bc\u30fc (normalized: \u30de\u30c3\u30ad\u30f3\u30bc\u30fc) - not in target list.
+2025-11-04 13:59:44 - INFO - Skipping \u4e09\u83f1\u7dcf\u5408\u7814\u7a76\u6240 (normalized: \u4e09\u83f1\u7dcf\u5408\u7814\u7a76\u6240) - not in target list.
+2025-11-04 13:59:44 - INFO - Retrieved 15 unread emails.
+2025-11-04 13:59:44 - INFO - Processing email: Google Alert - Deloitte on 04-11-25
+2025-11-04 14:00:22 - INFO - Unique article detected. Added Deloitte Middle East launches Human Capital Trends 2025 report to the database
+2025-11-04 14:00:22 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.zawya.com/en/press-release/research-and-studies/deloitte-middle-east-launches-human-capital-trends-2025-report-c6xnu2u2
+2025-11-04 14:00:40 - INFO - Unique article detected. Added NVIDIA Partners Bring Physical AI, New Smart City Technologies to Dublin, Ho Chi Minh City, Raleigh and More to the database
+2025-11-04 14:00:40 - INFO - Prepared email insertion: Google Alert - Deloitte from https://blogs.nvidia.com/blog/physical-ai-smart-city-expo-world-congress/
+2025-11-04 14:00:40 - INFO - Processing email: Google Alert - Accenture on 04-11-25
+2025-11-04 14:01:00 - INFO - Unique article detected. Added Accenture CEO Talks AI’s New Frontier on The Power of Knowing | Pfizer to the database
+2025-11-04 14:01:00 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.pfizer.com/news/announcements/accenture-ceo-talks-ais-new-frontier-power-knowing
+2025-11-04 14:01:20 - WARNING - Invalid content from URL: https://procurementmag.com/news/accenture-the-physical-ai-orchestrator
+2025-11-04 14:01:44 - INFO - Duplicate article detected, skipping: Accenture: The Physical AI Orchestrator Boosting Efficiency | Supply Chain Magazine
+2025-11-04 14:01:44 - INFO - Prepared email insertion: Google Alert - Accenture from https://supplychaindigital.com/news/accenture-the-physical-ai-orchestrator
+2025-11-04 14:02:11 - INFO - Unique article detected. Added Accenture (ACN) Fell in Q3 Amid Strong Growth Trajectories to the database
+2025-11-04 14:02:11 - INFO - Prepared email insertion: Google Alert - Accenture from https://finance.yahoo.com/news/accenture-acn-fell-q3-amid-134356301.html
+2025-11-04 14:02:40 - INFO - Unique article detected. Added Accenture backs agentic AI platform Lyzr to the database
+2025-11-04 14:02:40 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.techmarketview.com/ukhotviews/archive/2025/11/03/accenture-backs-agentic-ai-platform-lyzr
+2025-11-04 14:02:42 - WARNING - Invalid content from URL: https://www.insidermonkey.com/blog/accenture-acn-fell-in-q3-amid-strong-growth-trajectories-1639208/
+2025-11-04 14:03:10 - INFO - Duplicate article detected, skipping: What is Accenture's Physical AI Orchestrator? | Manufacturing Digital
+2025-11-04 14:03:10 - INFO - Prepared email insertion: Google Alert - Accenture from https://manufacturingdigital.com/news/accenture-the-physical-ai-orchestrator
+2025-11-04 14:03:26 - INFO - Unique article detected. Added If You Invested $1000 In Accenture Stock 20 Years Ago, You Would Have This Much Today - Accenture (NYSE:ACN) - Benzinga to the database
+2025-11-04 14:03:26 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.benzinga.com/insights/news/25/11/48608164/if-you-invested-1000-in-accenture-stock-20-years-ago-you-would-have-this-much-today
+2025-11-04 14:03:54 - INFO - Unique article detected. Added PartnerOne to Acquire Mortgage Cadence From Accenture - MortgageOrb to the database
+2025-11-04 14:03:54 - INFO - Prepared email insertion: Google Alert - Accenture from https://mortgageorb.com/partnerone-to-acquire-mortgage-cadence-from-accenture
+2025-11-04 14:04:14 - INFO - Unique article detected. Added TIAA Trust National Association Trims Stock Position in Accenture PLC $ACN to the database
+2025-11-04 14:04:14 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.marketbeat.com/instant-alerts/filing-tiaa-trust-national-association-trims-stock-position-in-accenture-plc-acn-2025-11-03/
+2025-11-04 14:04:30 - INFO - Unique article detected. Added #accentureme #fii9 | Accenture Middle East to the database
+2025-11-04 14:04:30 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.linkedin.com/posts/accenture-middle-east_accentureme-fii9-activity-7390751973974724608-2vZj
+2025-11-04 14:04:30 - INFO - Processing email: Google Alert - Accenture on 04-11-25
+2025-11-04 14:04:38 - WARNING - Invalid content from URL: https://www.dnaindia.com/technology/report-amazon-tcs-infosys-meta-and-other-tech-giants-cut-100000-jobs-in-2025-check-full-list-here-3186519
+2025-11-04 14:29:26 - INFO - Retrying request to /chat/completions in 0.375463 seconds
+2025-11-04 14:30:15 - INFO - Unique article detected. Added Balanced approach to AI sovereignty needed to ensure Europe’s competitiveness while protecting data to the database
+2025-11-04 14:30:15 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.technologyforyou.org/balanced-approach-to-ai-sovereignty-needed-to-ensure-europes-competitiveness-while-protecting-data/
+2025-11-04 14:30:15 - INFO - Processing email: Google Alert - Accenture on 04-11-25
+2025-11-04 14:30:31 - WARNING - Invalid content from URL: https://procurementmag.com/news/accenture-the-physical-ai-orchestrator
+2025-11-04 14:31:03 - INFO - Duplicate article detected, skipping: Why Accenture (ACN) is a Top Growth Stock for the Long-Term
+2025-11-04 14:31:03 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.zacks.com/stock/news/2783531/why-accenture-acn-is-a-top-growth-stock-for-the-long-term
+2025-11-04 14:31:51 - INFO - Duplicate article detected, skipping: Accenture PLC $ACN Shares Acquired by Bank of Montreal Can
+2025-11-04 14:31:51 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.marketbeat.com/instant-alerts/filing-accenture-plc-acn-shares-acquired-by-bank-of-montreal-can-2025-11-03/
+2025-11-04 14:32:19 - INFO - Duplicate article detected, skipping: Triglav Investments D.O.O. Cuts Stake in Accenture PLC $ACN
+2025-11-04 14:32:19 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.marketbeat.com/instant-alerts/filing-triglav-investments-doo-cuts-stake-in-accenture-plc-acn-2025-11-02/
+2025-11-04 14:32:19 - INFO - Processing email: Google Alert - Deloitte on 04-11-25
+2025-11-04 14:32:51 - INFO - Unique article detected. Added Deloitte Advances Ascend™ Platform to Increase Agility and Personalization of Delivery While Enhancing Transparency and Security for Clients to the database
+2025-11-04 14:32:51 - INFO - Prepared email insertion: Google Alert - Deloitte from https://finance.yahoo.com/news/deloitte-advances-ascend-platform-increase-193800956.html
+2025-11-04 14:32:51 - INFO - Processing email: Google Alert - \u30de\u30c3\u30ad\u30f3\u30bc\u30fc on 04-11-25
+2025-11-04 14:37:34 - INFO - Retrying request to /chat/completions in 0.377130 seconds
+2025-11-04 14:37:34 - INFO - Retrying request to /chat/completions in 0.758573 seconds
+2025-11-04 14:37:35 - WARNING - LLM returned invalid response for https://newspicks.com/news/15397164/body
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://directscout.recruit.co.jp/job_descriptions/8466022
+2025-11-04 14:37:35 - INFO - Processing email: Google Alert - BCG on 04-11-25
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://www.bcg.com/ja-jp/press/4november2025-car-buyers-five-trends-reshaping-auto-industry
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://www.bcg.com/ja-jp/publications/2025/it-spending-pulse-optimism-investment-and-priorities
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://carboncredits.jp/global/xprize-cdr-finalists-cost-reduction-strategies-2025/
+2025-11-04 14:37:35 - INFO - Processing email: Google Alert - PwC on 04-11-25
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://newscast.jp/smart/news/3851388
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://www.businessinsider.jp/article/2510-inside-the-2025-family-office-boom-shaping-the-worlds-superrich/
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://www.openwork.jp/a0C30000003Llud/compa/a0C1000001777WN/
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://directscout.recruit.co.jp/job_descriptions/8464495
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://item.rakuten.co.jp/auc-jsptokai/c/0000002269/?force-site=pc
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://gameclub.jp/bluelock-pwc/11382371
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://gameclub.jp/bluelock-pwc/11387191
+2025-11-04 14:37:35 - INFO - Processing email: Google Alert - EY on 04-11-25
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://jp.investing.com/news/company-news/article-93CH-1306328
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://doda.jp/DodaFront/View/JobSearchDetail/j_jid__3013710168/
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://jmty.jp/hiroshima/sale-ele/article-1kvuzc
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: http://www.sobabugyo.jp/detail/8371742
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://fruitfly.jp/cgi-bin/flystock/search_result_list.cgi?lang=j&strain=&genotype=&mapposition=&species=&cgno=&synonym=&insertedchr=&mutation=&phenotype=&keyword=&subcate=|40|120|20|110|130|50|390|250|400|270|360|200|190|180|370|140|150|160|170|210|220|230|240|440|70|600|610|10|60|430|510|520|80|260|410|420|280|290|300|310|320|330|340|350|&search_type_strain_num=1&search_type_genotype=1&search_type_mapposition=1&search_type_mapposition2=0&search_type_species=1&search_type_cgno=0&search_type_synonym=0&search_type_insertedchr=0&search_type_mutation=0&search_type_phenotype=0&db3=3&line=25&page_from=286&sort_key=7
+2025-11-04 14:37:35 - INFO - Processing email: Google Alert - Accenture on 03-11-25
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://newsroom.accenture.com/news/2025/europe-seeking-greater-ai-sovereignty-accenture-report-finds
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://www.crnasia.com/news/2025/partners/accenture-and-oracle-ai-partnership-in-apac-explained
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://news.futunn.com/en/post/64238003/at-us-250-is-it-time-to-put-accenture-plc
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://www.msn.com/en-in/money/news/alaska-airlines-hires-accenture-to-audit-it-systems-after-global-outage-forced-it-to-cancel-quarterly-earnings-call/ar-AA1PCZpL
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://www.caledonianrecord.com/europe-seeking-greater-ai-sovereignty-accenture-report-finds/article_03cd6db8-a87f-5dc4-ba83-15942ab8e8cd.html
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://kauainownews.com/2025/11/01/alaska-airlines-working-with-global-firm-to-complete-comprehensive-audit-of-tech-systems/
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://thefacts.com/ap_news/accenture/image_0e5b458f-ac5c-502d-adf2-723d07a5106d.html
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://www.marketbeat.com/instant-alerts/filing-alphastar-capital-management-llc-acquires-4755-shares-of-accenture-plc-acn-2025-11-01/
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://www.cxodigitalpulse.com/lyzr-ai-raises-8-million-to-scale-enterprise-ai-agent-platform-eyes-12-million-in-revenue-ahead-of-series-b/
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://www.newser.com/story/377213/Trend-analysis-for-Accenture-plc-this-week
+2025-11-04 14:37:35 - INFO - Processing email: Google Alert - Accenture on 03-11-25
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://www.newsbytesapp.com/news/business/amazon-intel-to-pwc-major-companies-that-announced-layoffs/story
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://www.businesstoday.in/tech-today/news/story/global-tech-layoffs-2025-over-11-lakh-jobs-lost-as-ai-reshapes-traditional-roles-500503-2025-11-02
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://www.outlookbusiness.com/interviews/ai-will-drive-steady-long-term-growth-for-it-and-consulting-says-kpmgs-hemant-jhajhria
+2025-11-04 14:37:35 - INFO - Processing email: Google Alert - Accenture on 03-11-25
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://newsroom.accenture.com/news/2025/europe-seeking-greater-ai-sovereignty-accenture-report-finds
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://www.crnasia.com/news/2025/partners/accenture-and-oracle-ai-partnership-in-apac-explained
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://news.futunn.com/en/post/64238003/at-us-250-is-it-time-to-put-accenture-plc
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://www.msn.com/en-in/money/news/alaska-airlines-hires-accenture-to-audit-it-systems-after-global-outage-forced-it-to-cancel-quarterly-earnings-call/ar-AA1PCZpL
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://www.joplinglobe.com/region/national_business/europe-seeking-greater-ai-sovereignty-accenture-report-finds/article_30679d0c-bf36-55db-aa13-e716f9635153.html
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://thefacts.com/ap_news/accenture/image_0e5b458f-ac5c-502d-adf2-723d07a5106d.html
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://kauainownews.com/2025/11/01/alaska-airlines-working-with-global-firm-to-complete-comprehensive-audit-of-tech-systems/
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://www.marketbeat.com/instant-alerts/filing-alphastar-capital-management-llc-acquires-4755-shares-of-accenture-plc-acn-2025-11-01/
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://www.newser.com/story/377213/Trend-analysis-for-Accenture-plc-this-week
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://www.marketbeat.com/instant-alerts/filing-balentine-llc-sells-2410-shares-of-accenture-plc-acn-2025-11-01/
+2025-11-04 14:37:35 - INFO - Processing email: Google Alert - Accenture on 03-11-25
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://www.adnews.com.au/campaigns/asahi-nz-x-by-long-white-via-droga5-anz
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://mumbrella.com.au/long-white-rolls-out-x-by-long-white-with-garys-sugar-liquidation-sale-campaign-905903
+2025-11-04 14:37:35 - INFO - Processing email: Google Alert - BCG on 03-11-25
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://news.yahoo.co.jp/articles/0646d4732f6ef0be3075f59095e69328cc55d690/images/000
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: http://toyoshima.clinic/2025/11/01/%E5%B9%B4%E6%9C%AB%E3%81%AEbcg%E3%83%AF%E3%82%AF%E3%83%81%E3%83%B3%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://datazoo.jp/n/BCG+%E3%83%90%E3%82%AB%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%B2%E3%83%83%E3%83%88%E9%81%B8%E6%89%8B%E6%A8%A9/24327481
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://shopping.bookoff.co.jp/search/genre/31/author/BCG%20ROCKERS
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://ameblo.jp/katsuada/entry-12942764177.html
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://anond.hatelabo.jp/20251102233655
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://duc-10.co.jp/?c=0317024136c33f6
+2025-11-04 14:37:35 - INFO - Processing email: Google Alert - Accenture on 03-11-25
+2025-11-04 14:37:35 - WARNING - Invalid content from URL: https://campaignbrief.com/asahi-nz-launches-x-by-long-white-with-an-unexpected-twist-in-latest-campaign-via-droga5/
+2025-11-04 14:37:35 - INFO - All emails committed successfully.
+2025-11-04 14:37:35 - WARNING - Error marking email 19a4dee8a6db5666 as read: [Errno 10053] An established connection was aborted by the software in your host machine
+2025-11-04 14:37:35 - WARNING - Error marking email 19a4deb30c413ba8 as read: [Errno 10053] An established connection was aborted by the software in your host machine
+2025-11-04 14:37:35 - WARNING - Error marking email 19a4de946047c6b3 as read: Unable to find the server at gmail.googleapis.com
+2025-11-04 14:37:35 - WARNING - Error marking email 19a4de856cb1e02e as read: Unable to find the server at gmail.googleapis.com
+2025-11-04 14:37:35 - WARNING - Error marking email 19a4d7c652aaa579 as read: Unable to find the server at gmail.googleapis.com
+2025-11-04 14:37:35 - WARNING - Error marking email 19a4d7a4575417a1 as read: Unable to find the server at gmail.googleapis.com
+2025-11-04 14:37:35 - WARNING - Error marking email 19a4d7848b315da6 as read: Unable to find the server at gmail.googleapis.com
+2025-11-04 14:37:35 - WARNING - Error marking email 19a4d741d45a1ac3 as read: Unable to find the server at gmail.googleapis.com
+2025-11-04 14:37:35 - WARNING - Error marking email 19a4d740d7813214 as read: Unable to find the server at gmail.googleapis.com
+2025-11-04 14:37:35 - WARNING - Error marking email 19a48c50624d0c76 as read: Unable to find the server at gmail.googleapis.com
+2025-11-04 14:37:35 - WARNING - Error marking email 19a48c2d89136fe0 as read: Unable to find the server at gmail.googleapis.com
+2025-11-04 14:37:35 - WARNING - Error marking email 19a48c1afca24225 as read: Unable to find the server at gmail.googleapis.com
+2025-11-04 14:37:35 - WARNING - Error marking email 19a48bc7dd37897f as read: Unable to find the server at gmail.googleapis.com
+2025-11-04 14:37:35 - WARNING - Error marking email 19a4852162ab7e95 as read: Unable to find the server at gmail.googleapis.com
+2025-11-04 14:37:35 - WARNING - Error marking email 19a46d5d4ca250d5 as read: Unable to find the server at gmail.googleapis.com
+2025-11-04 14:37:35 - INFO - Emails marked as read.

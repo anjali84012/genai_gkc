@@ -1,0 +1,18 @@
+2025-07-16 10:46:05 - INFO - Use pytorch device_name: cpu
+2025-07-16 10:46:05 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-07-16 10:46:10 - INFO - Database tables created or already exist.
+2025-07-16 10:46:10 - INFO - WebScraper class instantiated.
+2025-07-16 10:46:13 - INFO - Extracted items for https://www.nri.com/jp/News: 0
+2025-07-16 10:46:18 - INFO - Extracted items for https://www.consulting.us/: 3
+2025-07-16 10:46:36 - INFO - Unique article: Deloitte acquires assets of Trust Processing Solutions
+2025-07-16 10:46:36 - INFO - LLM secondary extraction success for: https://www.consulting.us/news/12118/deloitte-acquires-assets-of-trust-processing-solutions
+2025-07-16 10:46:53 - INFO - Unique article: EisnerAmper launches talent solutions offering
+2025-07-16 10:46:53 - INFO - LLM secondary extraction success for: https://www.consulting.us/news/12103/eisneramper-launches-talent-solutions-offering
+2025-07-16 10:47:11 - INFO - Unique article: Baringa acquires Altruas team
+2025-07-16 10:47:11 - INFO - LLM secondary extraction success for: https://www.consulting.us/news/12121/baringa-acquires-altruas-team
+2025-07-16 10:47:11 - INFO - Flattened articles: 3 items in total.
+2025-07-16 10:47:15 - INFO - Prepared to insert article: Consulting.org (https://www.consulting.us/news/12118/deloitte-acquires-assets-of-trust-processing-solutions)
+2025-07-16 10:47:17 - INFO - Prepared to insert article: Consulting.org (https://www.consulting.us/news/12103/eisneramper-launches-talent-solutions-offering)
+2025-07-16 10:47:18 - INFO - Prepared to insert article: Consulting.org (https://www.consulting.us/news/12121/baringa-acquires-altruas-team)
+2025-07-16 10:47:18 - INFO - All articles committed successfully.
+2025-07-16 10:47:18 - INFO - Web scraping pipeline completed successfully.

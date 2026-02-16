@@ -1,0 +1,433 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auditor Dashboard | GKC</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+        :root {
+            --primary: #3b82f6;
+            --bg: #0f172a;
+            --card-bg: rgba(30, 41, 59, 0.7);
+            --border: rgba(255, 255, 255, 0.1);
+            --text: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Compact Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.25rem 1rem;
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo h1 {
+            font-size: 0.9rem;
+            font-weight: 700;
+            background: linear-gradient(90deg, #60a5fa, #3b82f6);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .btn {
+            padding: 0.4rem 0.8rem;
+            border-radius: 0.4rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-decoration: none;
+            border: none;
+            font-size: 0.8rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+
+        .btn-primary {
+            background-color: var(--primary);
+            color: white;
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--text);
+        }
+
+        main {
+            padding: 0.5rem 1rem;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        /* Compact Stats and Controls */
+        .stats {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-card {
+            background: var(--card-bg);
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.4rem;
+            border: 1px solid var(--border);
+            flex: 1;
+            text-align: center;
+        }
+
+        .stat-card h3 {
+            color: var(--text-muted);
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            margin-bottom: 0.1rem;
+        }
+
+        .stat-card p {
+            font-size: 0.9rem;
+            font-weight: 700;
+        }
+
+        .controls {
+            background: var(--card-bg);
+            padding: 0.75rem 1rem;
+            border-radius: 0.5rem;
+            border: 1px solid var(--border);
+            margin-bottom: 1rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            align-items: flex-end;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        .form-group label {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+
+        input {
+            background: #0f172a;
+            border: 1px solid var(--border);
+            color: white;
+            padding: 0.4rem 0.6rem;
+            border-radius: 0.3rem;
+            outline: none;
+            font-size: 0.8rem;
+        }
+
+        /* Efficient Table Layout */
+        .table-wrapper {
+            background: var(--card-bg);
+            border-radius: 0.5rem;
+            border: 1px solid var(--border);
+            overflow: hidden;
+        }
+
+        .table-container {
+            overflow-x: auto;
+            max-height: calc(100vh - 280px);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.75rem;
+        }
+
+        th {
+            background: #1e293b;
+            padding: 0.5rem 0.75rem;
+            text-align: left;
+            color: var(--text-muted);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            white-space: nowrap;
+        }
+
+        td {
+            padding: 0.4rem 0.75rem;
+            border-bottom: 1px solid var(--border);
+            max-width: 300px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            vertical-align: middle;
+        }
+
+        tr:hover td {
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        .expandable {
+            cursor: pointer;
+            color: #60a5fa;
+        }
+
+        .link {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        /* Revised Pagination */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+
+        .page-link {
+            min-width: 2.2rem;
+            height: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 0.3rem;
+            color: var(--text);
+            text-decoration: none;
+            font-size: 0.8rem;
+            transition: background 0.2s;
+        }
+
+        .page-link.active {
+            background: var(--primary);
+            border-color: var(--primary);
+            font-weight: 700;
+        }
+
+        .page-link:hover:not(.active) {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .page-link.disabled {
+            opacity: 0.3;
+            pointer-events: none;
+        }
+
+        .dots {
+            color: var(--text-muted);
+            padding: 0 0.2rem;
+        }
+
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.85);
+            backdrop-filter: blur(6px);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+        }
+
+        .modal-content {
+            background: #1e293b;
+            padding: 1.5rem;
+            border-radius: 0.75rem;
+            max-width: 700px;
+            width: 100%;
+            max-height: 85vh;
+            overflow-y: auto;
+            position: relative;
+            border: 1px solid var(--border);
+            color: #cbd5e1;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>GENAI GKC Auditor</h1>
+        </div>
+        <div style="display: flex; align-items: center; gap: 1rem;">
+            <span style="font-size: 0.75rem; color: var(--text-muted);">Auditor Portal</span>
+            <a href="/logout" class="btn btn-outline">Logout</a>
+        </div>
+    </header>
+    <main>
+        <div class="stats">
+            <div class="stat-card">
+                <h3>Total Records</h3>
+                <p>{{ total }}</p>
+            </div>
+            <div class="stat-card">
+                <h3>Page</h3>
+                <p>{{ page }} / {{ pages }}</p>
+            </div>
+            <div class="stat-card"
+                style="display: flex; flex-direction: column; justify-content: center; gap: 0.5rem; min-width: 150px;">
+                <h3 style="margin-bottom: 0;">Go to Page</h3>
+                <form action="/dashboard" method="GET" style="display: flex; gap: 0.5rem; align-items: center;">
+                    <input type="hidden" name="company" value="{{ company_filter }}">
+                    <input type="hidden" name="category" value="{{ category_filter }}">
+                    <input type="hidden" name="start_date" value="{{ start_date }}">
+                    <input type="hidden" name="end_date" value="{{ end_date }}">
+
+                    <input type="number" name="page" min="1" max="{{ pages }}" placeholder="#"
+                        style="width: 60px; padding: 0.2rem; background: #0f172a; border: 1px solid var(--border); color: white; border-radius: 0.3rem;"
+                        required>
+                    <button type="submit" class="btn btn-primary"
+                        style="padding: 0.3rem 0.6rem; font-size: 0.8rem;">Go</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="controls">
+            <form action="/dashboard" method="GET"
+                style="display: flex; gap: 0.75rem; flex-grow: 1; align-items: flex-end; flex-wrap: wrap;">
+                <div class="form-group"><label>Company</label><input type="text" name="company"
+                        value="{{ company_filter }}" placeholder="Search..."></div>
+                <div class="form-group"><label>Category</label><input type="text" name="category"
+                        value="{{ category_filter }}" placeholder="Search..."></div>
+                <div class="form-group"><label>Start Date</label><input type="date" name="start_date"
+                        value="{{ start_date }}"></div>
+                <div class="form-group"><label>End Date</label><input type="date" name="end_date"
+                        value="{{ end_date }}"></div>
+                <button type="submit" class="btn btn-primary">Apply Filters</button>
+                <a href="/dashboard" class="btn btn-outline">Reset</a>
+                <button type="submit" formaction="/download_data" class="btn btn-primary">Export Data (Excel)</button>
+            </form>
+
+            <div class="table-wrapper">
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Company</th>
+                                <th>Subject</th>
+                                <th>Date</th>
+                                <th>Time</th>
+                                <th>Link</th>
+                                <th>Title</th>
+                                <th>Body</th>
+                                <th>Category</th>
+                                <th>Category Code</th>
+                                <th>Summary</th>
+                                <th>Summary Japanese</th>
+                                <th>Decision</th>
+                                <th>Reasoning</th>
+                                <th>Duplicate</th>
+                                <th>Dup Reason</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for email in emails %}
+                            <tr>
+                                <td>{{ email.date }}_{{ email.id }}</td>
+                                <td>{{ email.company_name }}</td>
+                                <td>{{ email.subject }}</td>
+                                <td>{{ email.date }}</td>
+                                <td>{{ email.time }}</td>
+                                <td><a href="{{ email.link }}" target="_blank" class="link">Link</a></td>
+                                <td class="expandable" onclick="expand(this, 'Title')">{{ email.title }}</td>
+                                <td class="expandable" onclick="expand(this, 'Body')">{{ email.body }}</td>
+                                <td>{{ email.category }}</td>
+                                <td>{{ email.category_code }}</td>
+                                <td class="expandable" onclick="expand(this, 'Summary')">{{ email.summary }}</td>
+                                <td class="expandable" onclick="expand(this, 'Summary Japanese')">{{
+                                    email.summary_japanese }}</td>
+                                <td>{{ email.decision }}</td>
+                                <td class="expandable" onclick="expand(this, 'Reasoning')">{{ email.reasoning }}</td>
+                                <td>{{ 'Yes' if email.duplicated_or_not else 'No' }}</td>
+                                <td class="expandable" onclick="expand(this, 'Reason of Duplication')">{{
+                                    email.reason_of_duplication }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            {% if pages > 1 %}
+            <div class="pagination">
+                <!-- Prev Arrow -->
+                <a href="/dashboard?page={{ page-1 }}&company={{ company_filter }}&category={{ category_filter }}"
+                    class="page-link {% if page == 1 %}disabled{% endif %}">&larr;</a>
+
+                <!-- First 3 Pages -->
+                {% for p in range(1, 4) %}
+                {% if p <= pages %} <a
+                    href="/dashboard?page={{ p }}&company={{ company_filter }}&category={{ category_filter }}"
+                    class="page-link {% if p == page %}active{% endif %}">{{ p }}</a>
+                    {% endif %}
+                    {% endfor %}
+
+                    {% if pages > 3 %}
+                    <span class="dots">...</span>
+                    <!-- Logic to show current page if it's beyond 3 -->
+                    {% if page > 3 %}
+                    <a href="/dashboard?page={{ page }}&company={{ company_filter }}&category={{ category_filter }}"
+                        class="page-link active">{{ page }}</a>
+                    {% if page < pages %} <span class="dots">...</span>
+                        {% endif %}
+                        {% endif %}
+                        {% endif %}
+
+                        <!-- Next Arrow -->
+                        <a href="/dashboard?page={{ page+1 }}&company={{ company_filter }}&category={{ category_filter }}"
+                            class="page-link {% if page == pages %}disabled{% endif %}">&rarr;</a>
+            </div>
+            {% endif %}
+    </main>
+
+    <div id="modal" class="modal" onclick="if(event.target==this) this.style.display='none'">
+        <div class="modal-content">
+            <h2 id="modal-title" style="margin-bottom: 1rem; font-size: 1.1rem; color: var(--primary);"></h2>
+            <div id="modal-body" style="white-space: pre-wrap; font-size: 0.9rem; line-height: 1.5; color: #e2e8f0;">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function expand(cell, title) {
+            document.getElementById('modal-title').innerText = title;
+            document.getElementById('modal-body').innerText = cell.innerText;
+            document.getElementById('modal').style.display = 'flex';
+        }
+    </script>
+</body>
+
+</html>

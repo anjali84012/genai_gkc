@@ -1,0 +1,476 @@
+2025-09-05 11:32:59 - INFO - Use pytorch device_name: cpu
+2025-09-05 11:32:59 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-09-05 11:33:04 - INFO - Database tables created or already exist.
+2025-09-05 11:33:04 - INFO - WebScraper class instantiated.
+2025-09-05 11:33:38 - INFO - Extracted items for https://www.nri.com/jp/News: 1
+2025-09-05 11:34:55 - INFO - Duplicate article: \u91ce\u6751\u7dcf\u5408\u7814\u7a76\u6240\u3001AI\u306b\u3088\u308b\u300c\u591a\u8996\u70b9\u5206\u6790\u30b7\u30b9\u30c6\u30e0\u300d\u3092\u958b\u767a
+2025-09-05 11:34:55 - INFO - LLM secondary extraction success for: https://www.nri.com/jp/news/newsrelease/20250904_1.html
+2025-09-05 11:35:28 - INFO - Extracted items for https://www.mckinsey.com/about-us/new-at-mckinsey-blog: 0
+2025-09-05 11:36:00 - INFO - Extracted items for https://www.mckinsey.com/jp/our-insights: 0
+2025-09-05 11:36:34 - INFO - Extracted items for https://www.bcg.com/about/corporate-newsroom: 0
+2025-09-05 11:37:09 - INFO - Extracted items for https://www.bcg.com/ja-jp/about/news/press/default?00000173-7007-d959-afff-79c791c80008-page=1: 0
+2025-09-05 11:37:42 - INFO - Extracted items for https://www.bain.com/about/media-center/press-releases/: 1
+2025-09-05 11:38:57 - INFO - Unique article: Bain & Company Named as a “Leader” in IDC MarketScape: Worldwide Digital Business Strategy Consulting Services 2025 Vendor Assessment
+2025-09-05 11:38:57 - INFO - LLM secondary extraction success for: https://www.bain.com/about/media-center/press-releases/20252/bain--company-named-as-a-leader-in-idc-marketscape-worldwide-digital-business-strategy-consulting-services-2025-vendor-assessment/
+2025-09-05 11:39:31 - INFO - Extracted items for https://www.bain.com/ja/about-bain/media-center/press-releases/: 1
+2025-09-05 11:40:56 - INFO - Duplicate article: Bain & Company Named as a “Leader” in IDC MarketScape: Worldwide Digital Business Strategy Consulting Services 2025 Vendor Assessment
+2025-09-05 11:40:56 - INFO - LLM secondary extraction success for: https://www.bain.com/ja/about-bain/media-center/press-releases/20252/bain--company-named-as-a-leader-in-idc-marketscape-worldwide-digital-business-strategy-consulting-services-2025-vendor-assessment/
+2025-09-05 11:41:04 - INFO - Extracted items for https://newsroom.accenture.com/: 2
+2025-09-05 11:41:45 - INFO - Unique article: Accenture Acquires MomentumABM, Expanding Marketing Advisory and Account-Based Marketing Capabilities for B2B Growth
+2025-09-05 11:41:45 - INFO - LLM secondary extraction success for: https://newsroom.accenture.com/news/2025/accenture-acquires-momentumabm-expanding-marketing-advisory-and-account-based-marketing-capabilities-for-b2b-growth
+2025-09-05 11:42:20 - INFO - Unique article: Accenture Named An Official Sponsor of the National Football League’s 2025 International Games
+2025-09-05 11:42:20 - INFO - LLM secondary extraction success for: https://newsroom.accenture.com/news/2025/accenture-named-an-official-sponsor-of-the-national-football-league-s-2025-international-games
+2025-09-05 11:42:30 - INFO - Extracted items for https://newsroom.accenture.jp/: 0
+2025-09-05 11:42:38 - INFO - Extracted items for https://www.deloitte.com/global/en/about/press-room.html: 1
+2025-09-05 11:43:38 - INFO - Unique article: Deloitte launches AI Infrastructure CoE to drive AI data center innovation and delivery globally
+2025-09-05 11:43:38 - INFO - LLM secondary extraction success for: https://www.deloitte.com/global/en/about/press-room/deloitte-launches-ai-infrastructure-coe-to-drive-ai-data-center-innovation-and-delivery-globally.html
+2025-09-05 11:43:44 - INFO - Extracted items for https://www2.deloitte.com/jp/ja/footerlinks/nr.html: 0
+2025-09-05 11:43:49 - INFO - Extracted items for https://www.ey.com/en_gl/newsroom: 0
+2025-09-05 11:43:57 - INFO - Extracted items for https://www.ey.com/ja_jp/newsroom: 0
+2025-09-05 11:44:06 - INFO - Extracted items for https://www.pwc.com/gx/en/news-room.html: 0
+2025-09-05 11:44:40 - INFO - Extracted items for https://www.pwc.com/jp/ja/press-room.html#press: 1
+2025-09-05 11:45:48 - INFO - Unique article: \u30df\u30c4\u30ab\u30f3\u30b0\u30eb\u30fc\u30d7\u306e\u65e5\u672c\u30a8\u30ea\u30a2\u306e\u7d4c\u55b6\u57fa\u76e4\u5237\u65b0\u3092PwC\u30b3\u30f3\u30b5\u30eb\u30c6\u30a3\u30f3\u30b0\u3068SAP\u30b8\u30e3\u30d1\u30f3\u304cSAP S/4HANA Cloud\u5c0e\u5165\u306b\u3088\u308a\u652f\u63f4
+2025-09-05 11:45:48 - INFO - LLM secondary extraction success for: https://www.pwc.com/jp/ja/press-room/2025/mizkan.html
+2025-09-05 11:45:55 - INFO - Extracted items for https://kpmg.com/xx/en/home/media/press-releases.html: 2
+2025-09-05 11:46:19 - INFO - Duplicate article: KPMG International appoints two senior leaders to drive its Global Advisory and AI strategy
+2025-09-05 11:46:19 - INFO - LLM secondary extraction success for: https://kpmg.com/xx/en/media/press-releases/2025/09/kpmg-international-appoints-two-senior-leaders-to-drive-its-global-advisory-and-ai-strategy.html
+2025-09-05 11:46:46 - INFO - Duplicate article: Companies sees tangible business value from ESG Assurance
+2025-09-05 11:46:46 - INFO - LLM secondary extraction success for: https://kpmg.com/xx/en/media/press-releases/2025/09/companies-sees-tangible-business-value-from-esg-assurance.html
+2025-09-05 11:46:52 - INFO - Extracted items for https://kpmg.com/jp/ja/home/media/press-releases.html: 1
+2025-09-05 11:47:16 - INFO - Unique article: \u3042\u305a\u3055\u76e3\u67fb\u6cd5\u4eba\u3001\u66f8\u7c4d\u300c\u30c7\u30a3\u30fc\u30d7\u30c6\u30c3\u30af\u30fb\u30b9\u30bf\u30fc\u30c8\u30a2\u30c3\u30d7 12\u4eba\u306e\u65b0\u3057\u3044\u4e8b\u696d\u9818\u57df\u306e\u958b\u62d3\u8005\u300d\u3092\u767a\u884c
+2025-09-05 11:47:16 - INFO - LLM secondary extraction success for: https://kpmg.com/jp/ja/home/media/press-releases/2025/09/deep-tech-startup.html
+2025-09-05 11:47:48 - INFO - Extracted items for https://www.mri.co.jp/news/index.html: 0
+2025-09-05 11:47:52 - INFO - Extracted items for https://www.consulting.us/: 0
+2025-09-05 11:48:01 - INFO - Extracted items for https://www.consultancy.uk/: 5
+2025-09-05 11:48:23 - INFO - Unique article: Financial firms must analyse customer needs ahead of FCA targeted support proposals
+2025-09-05 11:48:23 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41487/financial-firms-must-analyse-customer-needs-ahead-of-fca-targeted-support-proposals
+2025-09-05 11:48:42 - INFO - Unique article: M&A advisors support LDC’s growth investment in Bespoke Kitchen Foods
+2025-09-05 11:48:42 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41508/ma-advisors-support-ldcs-growth-investment-in-bespoke-kitchen-foods
+2025-09-05 11:49:00 - INFO - Duplicate article: Growth consultancy MomentumABM joins Accenture Song
+2025-09-05 11:49:00 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41517/growth-consultancy-momentumabm-joins-accenture-song
+2025-09-05 11:49:16 - INFO - Unique article: Elemental Concept expands Asia-Pacific presence with Purple Shirt deal
+2025-09-05 11:49:16 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41484/elemental-concept-expands-asia-pacific-presence-with-purple-shirt-deal
+2025-09-05 11:49:34 - INFO - Unique article: Kirby Healy joins Kroll amid Ireland expansion
+2025-09-05 11:49:34 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41490/kirby-healy-joins-kroll-amid-ireland-expansion
+2025-09-05 11:49:43 - INFO - Extracted items for https://www.consultancy.asia/country/japan: 0
+2025-09-05 11:49:48 - INFO - Extracted items for https://www.consultancy.in/: 0
+2025-09-05 11:49:54 - INFO - Extracted items for https://www.consultancy.com.au/: 0
+2025-09-05 11:49:59 - INFO - Extracted items for https://www.consultancy.eu/: 0
+2025-09-05 11:50:03 - INFO - Extracted items for https://www.consultancy.asia/: 0
+2025-09-05 11:50:10 - INFO - Extracted items for https://www.consultancy-me.com/: 5
+2025-09-05 11:50:32 - INFO - Duplicate article: Report: Artificial General Intelligence marks the next era of AI
+2025-09-05 11:50:32 - INFO - LLM secondary extraction success for: https://www.consultancy-me.com/news/11640/report-artificial-general-intelligence-marks-the-next-era-of-ai
+2025-09-05 11:50:33 - WARNING - Invalid content from URL: https://www.consultancy-me.com/news/11637/how-banking-can-unite-with-telecom-for-a-stronger-defence-against-fraud
+2025-09-05 11:50:34 - WARNING - Invalid content from URL: https://www.consultancy-me.com/news/11634/hr-leaders-in-uae-struggle-with-gap-between-ambition-and-action
+2025-09-05 11:50:34 - WARNING - Invalid content from URL: https://www.consultancy-me.com/news/11631/robert-cooper-and-ryan-bray-on-csqs-offerings-and-edge-in-the-market
+2025-09-05 11:50:35 - WARNING - Invalid content from URL: https://www.consultancy-me.com/news/11628/awr-lloyd-ceo-alexander-wood-on-the-firms-middle-east-launch-and-ambitions
+2025-09-05 11:50:45 - INFO - Extracted items for https://www.consultancy.nl/: 0
+2025-09-05 11:50:46 - INFO - Extracted items for https://www.consultancy.co.za/: 0
+2025-09-05 11:50:47 - INFO - Extracted items for https://www.consultancy.lat/: 0
+2025-09-05 11:50:49 - INFO - Extracted items for https://www.consultancy.africa/: 0
+2025-09-05 11:50:50 - INFO - Extracted items for https://www.consulting.ca/: 0
+2025-09-05 11:50:51 - INFO - Extracted items for https://www.consultancy.asia/country/singapore: 0
+2025-09-05 11:50:52 - INFO - Extracted items for https://www.consultancy.asia/country/china: 0
+2025-09-05 11:50:55 - INFO - Extracted items for https://www.consultancy.eu/country/france: 0
+2025-09-05 11:50:56 - INFO - Extracted items for https://www.consultancy.eu/country/germany: 0
+2025-09-05 11:50:57 - INFO - Extracted items for https://www.consultancy.uk/: 0
+2025-09-05 11:50:57 - INFO - Flattened articles: 16 items in total.
+2025-09-05 11:50:59 - INFO - Skipping Nomura Research Institute (NRI) - not in target list.
+2025-09-05 11:51:00 - INFO - Prepared to insert article: Consulting.org (https://www.bain.com/about/media-center/press-releases/20252/bain--company-named-as-a-leader-in-idc-marketscape-worldwide-digital-business-strategy-consulting-services-2025-vendor-assessment/)
+2025-09-05 11:51:01 - INFO - Prepared to insert article: Consulting.org (https://www.bain.com/ja/about-bain/media-center/press-releases/20252/bain--company-named-as-a-leader-in-idc-marketscape-worldwide-digital-business-strategy-consulting-services-2025-vendor-assessment/)
+2025-09-05 11:51:03 - INFO - Prepared to insert article: Consulting.org (https://newsroom.accenture.com/news/2025/accenture-acquires-momentumabm-expanding-marketing-advisory-and-account-based-marketing-capabilities-for-b2b-growth)
+2025-09-05 11:51:05 - INFO - Prepared to insert article: Consulting.org (https://newsroom.accenture.com/news/2025/accenture-named-an-official-sponsor-of-the-national-football-league-s-2025-international-games)
+2025-09-05 11:51:07 - INFO - Prepared to insert article: Press Release (https://www.deloitte.com/global/en/about/press-room/deloitte-launches-ai-infrastructure-coe-to-drive-ai-data-center-innovation-and-delivery-globally.html)
+2025-09-05 11:51:08 - INFO - Prepared to insert article: Consulting.org (https://www.pwc.com/jp/ja/press-room/2025/mizkan.html)
+2025-09-05 11:51:10 - INFO - Prepared to insert article: Consulting.org (https://kpmg.com/xx/en/media/press-releases/2025/09/kpmg-international-appoints-two-senior-leaders-to-drive-its-global-advisory-and-ai-strategy.html)
+2025-09-05 11:51:11 - INFO - Prepared to insert article: Consulting.org (https://kpmg.com/xx/en/media/press-releases/2025/09/companies-sees-tangible-business-value-from-esg-assurance.html)
+2025-09-05 11:51:12 - INFO - Prepared to insert article: Press Release (https://kpmg.com/jp/ja/home/media/press-releases/2025/09/deep-tech-startup.html)
+2025-09-05 11:51:13 - INFO - Skipping Others - not in target list.
+2025-09-05 11:51:14 - INFO - Skipping Others - not in target list.
+2025-09-05 11:51:15 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.uk/news/41517/growth-consultancy-momentumabm-joins-accenture-song)
+2025-09-05 11:51:16 - INFO - Skipping Others - not in target list.
+2025-09-05 11:51:18 - INFO - Skipping Others - not in target list.
+2025-09-05 11:51:19 - INFO - Skipping Kinetic Consulting - not in target list.
+2025-09-05 11:51:19 - INFO - All articles committed successfully.
+2025-09-05 11:51:19 - INFO - Web scraping pipeline completed successfully.
+2025-09-05 13:11:07 - INFO - Use pytorch device_name: cpu
+2025-09-05 13:11:07 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-09-05 13:11:13 - INFO - Starting Gmail authentication.
+2025-09-05 13:11:13 - INFO - Loaded credentials from token.json.
+2025-09-05 13:11:13 - INFO - Gmail authentication successful.
+2025-09-05 13:11:13 - INFO - Fetching unread emails from Gmail.
+2025-09-05 13:11:14 - INFO - Found 100 unread emails. Processing...
+2025-09-05 13:11:15 - INFO - Processing company: McKinsey
+2025-09-05 13:11:15 - INFO - Processing company: Bain & Company
+2025-09-05 13:11:16 - INFO - Processing company: \u30c7\u30ed\u30a4\u30c8
+2025-09-05 13:11:16 - INFO - Skipping \u30c7\u30ed\u30a4\u30c8 - not in target list.
+2025-09-05 13:11:16 - INFO - Processing company: BCG
+2025-09-05 13:11:17 - INFO - Processing company: \u30d9\u30a4\u30f3
+2025-09-05 13:11:17 - INFO - Skipping \u30d9\u30a4\u30f3 - not in target list.
+2025-09-05 13:11:18 - INFO - Processing company: \u30a2\u30af\u30bb\u30f3\u30c1\u30e5\u30a2
+2025-09-05 13:11:18 - INFO - Skipping \u30a2\u30af\u30bb\u30f3\u30c1\u30e5\u30a2 - not in target list.
+2025-09-05 13:11:18 - INFO - Processing company: PwC
+2025-09-05 13:11:19 - INFO - Processing company: EY
+2025-09-05 13:11:19 - INFO - Processing company: KPMG
+2025-09-05 13:11:20 - INFO - Processing company: \u30de\u30c3\u30ad\u30f3\u30bc\u30fc
+2025-09-05 13:11:20 - INFO - Skipping \u30de\u30c3\u30ad\u30f3\u30bc\u30fc - not in target list.
+2025-09-05 13:11:20 - INFO - Processing company: Bain & Company
+2025-09-05 13:11:21 - INFO - Processing company: Deloitte
+2025-09-05 13:11:21 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-09-05 13:11:21 - INFO - Skipping "Boston Consulting Group" "BCG" - not in target list.
+2025-09-05 13:11:22 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-09-05 13:11:22 - INFO - Skipping "Boston Consulting Group" "BCG" - not in target list.
+2025-09-05 13:11:22 - INFO - Processing company: "Deloitte"
+2025-09-05 13:11:22 - INFO - Skipping "Deloitte" - not in target list.
+2025-09-05 13:11:23 - INFO - Processing company: McKinsey
+2025-09-05 13:11:23 - INFO - Processing company: McKinsey
+2025-09-05 13:11:24 - INFO - Processing company: Deloitte
+2025-09-05 13:11:24 - INFO - Processing company: KPMG
+2025-09-05 13:11:25 - INFO - Processing company: Deloitte
+2025-09-05 13:11:25 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-09-05 13:11:25 - INFO - Skipping "Boston Consulting Group" "BCG" - not in target list.
+2025-09-05 13:11:26 - INFO - Processing company: McKinsey
+2025-09-05 13:11:26 - INFO - Processing company: McKinsey
+2025-09-05 13:11:27 - INFO - Processing company: Deloitte
+2025-09-05 13:11:27 - INFO - Processing company: McKinsey
+2025-09-05 13:11:28 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-09-05 13:11:28 - INFO - Skipping "Boston Consulting Group" "BCG" - not in target list.
+2025-09-05 13:11:28 - INFO - Processing company: "Ernst & Young" "EY"
+2025-09-05 13:11:28 - INFO - Skipping "Ernst & Young" "EY" - not in target list.
+2025-09-05 13:11:29 - INFO - Processing company: McKinsey
+2025-09-05 13:11:29 - INFO - Processing company: "Deloitte"
+2025-09-05 13:11:29 - INFO - Skipping "Deloitte" - not in target list.
+2025-09-05 13:11:30 - INFO - Processing company: Deloitte
+2025-09-05 13:11:30 - INFO - Processing company: "PricewaterhouseCoopers" "PwC"
+2025-09-05 13:11:30 - INFO - Skipping "PricewaterhouseCoopers" "PwC" - not in target list.
+2025-09-05 13:11:31 - INFO - Processing company: Deloitte
+2025-09-05 13:11:31 - INFO - Processing company: "Deloitte"
+2025-09-05 13:11:31 - INFO - Skipping "Deloitte" - not in target list.
+2025-09-05 13:11:32 - INFO - Processing company: Deloitte
+2025-09-05 13:11:32 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-09-05 13:11:32 - INFO - Skipping "Boston Consulting Group" "BCG" - not in target list.
+2025-09-05 13:11:33 - INFO - Processing company: "Ernst & Young" "EY"
+2025-09-05 13:11:33 - INFO - Skipping "Ernst & Young" "EY" - not in target list.
+2025-09-05 13:11:33 - INFO - Processing company: "Deloitte"
+2025-09-05 13:11:33 - INFO - Skipping "Deloitte" - not in target list.
+2025-09-05 13:11:34 - INFO - Processing company: Deloitte
+2025-09-05 13:11:35 - INFO - Processing company: Deloitte
+2025-09-05 13:11:35 - INFO - Processing company: Bain & Company
+2025-09-05 13:11:36 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-09-05 13:11:36 - INFO - Skipping "Boston Consulting Group" "BCG" - not in target list.
+2025-09-05 13:11:37 - INFO - Processing company: Accenture
+2025-09-05 13:11:37 - INFO - Processing company: Deloitte
+2025-09-05 13:11:38 - INFO - Processing company: McKinsey
+2025-09-05 13:11:38 - INFO - Processing company: "PricewaterhouseCoopers" "PwC"
+2025-09-05 13:11:38 - INFO - Skipping "PricewaterhouseCoopers" "PwC" - not in target list.
+2025-09-05 13:11:39 - INFO - Processing company: Deloitte
+2025-09-05 13:11:39 - INFO - Processing company: Bain & Company
+2025-09-05 13:11:40 - INFO - Processing company: "Deloitte"
+2025-09-05 13:11:40 - INFO - Skipping "Deloitte" - not in target list.
+2025-09-05 13:11:40 - INFO - Processing company: Deloitte
+2025-09-05 13:11:41 - INFO - Processing company: McKinsey
+2025-09-05 13:11:41 - INFO - Processing company: McKinsey
+2025-09-05 13:11:42 - INFO - Processing company: Bain & Company
+2025-09-05 13:11:42 - INFO - Processing company: Deloitte
+2025-09-05 13:11:43 - INFO - Processing company: Bain & Company
+2025-09-05 13:11:43 - INFO - Processing company: "Deloitte"
+2025-09-05 13:11:43 - INFO - Skipping "Deloitte" - not in target list.
+2025-09-05 13:11:44 - INFO - Processing company: Deloitte
+2025-09-05 13:11:44 - INFO - Processing company: McKinsey
+2025-09-05 13:11:45 - INFO - Processing company: McKinsey
+2025-09-05 13:11:45 - INFO - Processing company: KPMG
+2025-09-05 13:11:46 - INFO - Processing company: KPMG
+2025-09-05 13:11:46 - INFO - Processing company: Deloitte
+2025-09-05 13:11:47 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-09-05 13:11:47 - INFO - Skipping "Boston Consulting Group" "BCG" - not in target list.
+2025-09-05 13:11:47 - INFO - Processing company: Bain & Company
+2025-09-05 13:11:48 - INFO - Processing company: "Deloitte"
+2025-09-05 13:11:48 - INFO - Skipping "Deloitte" - not in target list.
+2025-09-05 13:11:48 - INFO - Processing company: Deloitte
+2025-09-05 13:11:49 - INFO - Processing company: McKinsey
+2025-09-05 13:11:49 - INFO - Processing company: Deloitte
+2025-09-05 13:11:50 - INFO - Processing company: Bain & Company
+2025-09-05 13:11:50 - INFO - Processing company: McKinsey
+2025-09-05 13:11:51 - INFO - Processing company: Bain & Company
+2025-09-05 13:11:51 - INFO - Processing company: "Deloitte"
+2025-09-05 13:11:51 - INFO - Skipping "Deloitte" - not in target list.
+2025-09-05 13:11:52 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-09-05 13:11:52 - INFO - Skipping "Boston Consulting Group" "BCG" - not in target list.
+2025-09-05 13:11:52 - INFO - Processing company: McKinsey
+2025-09-05 13:11:53 - INFO - Processing company: Deloitte
+2025-09-05 13:11:53 - INFO - Processing company: "Deloitte"
+2025-09-05 13:11:53 - INFO - Skipping "Deloitte" - not in target list.
+2025-09-05 13:11:54 - INFO - Processing company: Deloitte
+2025-09-05 13:11:54 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-09-05 13:11:54 - INFO - Skipping "Boston Consulting Group" "BCG" - not in target list.
+2025-09-05 13:11:55 - INFO - Processing company: "PricewaterhouseCoopers" "PwC"
+2025-09-05 13:11:55 - INFO - Skipping "PricewaterhouseCoopers" "PwC" - not in target list.
+2025-09-05 13:11:55 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-09-05 13:11:55 - INFO - Skipping "Boston Consulting Group" "BCG" - not in target list.
+2025-09-05 13:11:56 - INFO - Processing company: Bain & Company
+2025-09-05 13:11:56 - INFO - Processing company: McKinsey
+2025-09-05 13:11:57 - INFO - Processing company: Bain & Company
+2025-09-05 13:11:58 - INFO - Processing company: Bain & Company
+2025-09-05 13:11:58 - INFO - Processing company: Deloitte
+2025-09-05 13:11:58 - INFO - Processing company: Bain & Company
+2025-09-05 13:11:59 - INFO - Processing company: "Ernst & Young" "EY"
+2025-09-05 13:11:59 - INFO - Skipping "Ernst & Young" "EY" - not in target list.
+2025-09-05 13:11:59 - INFO - Processing company: Deloitte
+2025-09-05 13:12:00 - INFO - Processing company: "Ernst & Young" "EY"
+2025-09-05 13:12:00 - INFO - Skipping "Ernst & Young" "EY" - not in target list.
+2025-09-05 13:12:00 - INFO - Processing company: "Deloitte"
+2025-09-05 13:12:00 - INFO - Skipping "Deloitte" - not in target list.
+2025-09-05 13:12:01 - INFO - Processing company: McKinsey
+2025-09-05 13:12:01 - INFO - Processing company: McKinsey
+2025-09-05 13:12:02 - INFO - Processing company: Deloitte
+2025-09-05 13:12:02 - INFO - Processing company: Bain & Company
+2025-09-05 13:12:03 - INFO - Processing company: Bain & Company
+2025-09-05 13:12:03 - INFO - Processing company: Deloitte
+2025-09-05 13:12:04 - INFO - Processing company: McKinsey
+2025-09-05 13:12:05 - INFO - Processing company: Deloitte
+2025-09-05 13:12:05 - INFO - Processing company: KPMG
+2025-09-05 13:12:05 - INFO - Processing company: "Deloitte"
+2025-09-05 13:12:05 - INFO - Skipping "Deloitte" - not in target list.
+2025-09-05 13:12:06 - INFO - Processing company: Deloitte
+2025-09-05 13:12:06 - INFO - Retrieved 68 unread emails.
+2025-09-05 13:12:06 - INFO - Processing email: Google Alert - McKinsey on 05-09-25
+2025-09-05 13:12:07 - WARNING - Invalid content from URL: https://www.msn.com/en-us/money/smallbusiness/mckinsey-research-reveals-a-solution-to-overwhelmed-and-exhausted-ceos/ar-AA1IznO7?ocid=spartandhp
+2025-09-05 13:12:07 - INFO - Processing email: Google Alert - Bain & Company on 05-09-25
+2025-09-05 13:12:07 - WARNING - Invalid content from URL: https://www.moneycontrol.com/news/business/markets/shree-digvijay-cements-promoter-true-north-to-sell-50-percent-stake-to-bain-and-piramal-backed-irf-triggering-open-offer-13523082.html
+2025-09-05 13:12:07 - INFO - Processing email: Google Alert - BCG on 05-09-25
+2025-09-05 13:12:08 - WARNING - Invalid content from URL: https://newspicks.com/news/15002211/?block=headline&ref=index
+2025-09-05 13:12:08 - WARNING - Invalid content from URL: https://newspicks.com/news/15002211/body/
+2025-09-05 13:12:09 - WARNING - Invalid content from URL: https://www.businessinsider.jp/article/2509consulting-deloitte-pwc-ey-partner/
+2025-09-05 13:12:10 - WARNING - Invalid content from URL: https://www.manila-shimbun.com/category/society/news290509.html
+2025-09-05 13:12:10 - WARNING - Invalid content from URL: https://www.med.or.jp/people/plaza/plus/vol9/
+2025-09-05 13:12:11 - WARNING - Invalid content from URL: https://thebridge.jp/2025/09/openai-jobs-platform-chatgpt-ai-talent-pipeline
+2025-09-05 13:12:11 - WARNING - Invalid content from URL: https://group-bc.com/blog/shop-brog/fu/page/252/
+2025-09-05 13:12:12 - WARNING - Invalid content from URL: https://bcgonline.jp/privacy/
+2025-09-05 13:12:12 - INFO - Processing email: Google Alert - PwC on 05-09-25
+2025-09-05 13:12:12 - WARNING - Invalid content from URL: https://news.sap.com/japan/2025/09/0904_pwc-sap-japan-enable-mizkan-digital-transformation-sap-s4hana-cloud/
+2025-09-05 13:12:13 - WARNING - Invalid content from URL: https://digitalpr.jp/r_detail.php?release_id=117221
+2025-09-05 13:12:14 - WARNING - Invalid content from URL: https://www.businessinsider.jp/article/2509consulting-deloitte-pwc-ey-partner/
+2025-09-05 13:12:14 - WARNING - Invalid content from URL: https://www.afpbb.com/articles/-/3596641
+2025-09-05 13:12:15 - WARNING - Invalid content from URL: https://www.asahi.com/news/tenseijingo_newest.html?iref=sp_navi&_klpuid=GwKq2LGpnkQhX6L36mXkc%2Fwwf%2Fkumagai%2Fbusiness%2Fkumagai%2Fdata%2Fdir%2Fkanie%2Fdata%2Fclassroom%2Ftdlc%2Fpwc%2Fkondo%2Fkumagai%2Fwwf%2Fbusiness%2Fclassroom%2Fpwc%2Fkondo%2Ftdlc%2Fkumagai%2Fkondo%2Fkumagai%2F%2Fkondo%2F
+2025-09-05 13:12:15 - WARNING - Invalid content from URL: https://www.jetro.go.jp/biznews/2025/09/432b67823a7c5cc0.html
+2025-09-05 13:12:16 - WARNING - Invalid content from URL: https://it.impress.co.jp/articles/-/28333
+2025-09-05 13:12:17 - WARNING - Invalid content from URL: https://japan.zdnet.com/article/35237597/
+2025-09-05 13:12:17 - WARNING - Invalid content from URL: https://bluelock-pwc.com/.
+2025-09-05 13:12:18 - WARNING - Invalid content from URL: https://times.abema.tv/articles/-/10196833?page=2
+2025-09-05 13:12:19 - WARNING - Invalid content from URL: https://www.asahi.com/sp/articles/AST934CHTT93UCVL04LM.html?iref=sp_fbox_u06&_klpuid=GwKq2LGpnkQhX6L36mXkc%2Fwwf%2Fkumagai%2Fbusiness%2Fkumagai%2Fdata%2Fdir%2Fkanie%2Ftdlc%2Fkondo%2Fdir%2Fbusiness%2Fpwc%2Fwwf%2Fkanie%2F
+2025-09-05 13:12:19 - WARNING - Invalid content from URL: https://www.hiroshimapeacemedia.jp/blog/?lang=ja&s=%E8%8B%A5%E5%B9%B4%E6%8A%95%E8%B3%87%E8%80%85%E3%81%AB%E3%81%A8%E3%81%A3%E3%81%A6%E3%80%81%E4%B8%AD%E6%A0%B8%E5%84%AA%E8%89%AF%E6%A0%AA%E7%A0%94%E7%A9%B6%E6%89%80%E3%81%AF%E5%A4%B1%E6%95%97%E3%81%AB%E3%81%A9%E3%81%86%E5%90%91%E3%81%8D%E5%90%88%E3%81%86%E3%81%8B%E3%82%92%E5%AD%A6%E3%81%B6%E3%81%93%E3%81%A8%E3%81%8C%E9%87%8D%E8%A6%81%E3%81%A0%E3%81%A8%E8%A8%80%E3%81%84%E3%81%BE%E3%81%99%E3%80%82%E6%8A%95%E8%B3%87%E3%81%AF%E9%95%B7%E3%81%84%E9%81%93%E3%81%AE%E3%82%8A%E3%81%A7%E3%81%82%E3%82%8A%E3%80%81%E6%8C%AB%E6%8A%98%E3%82%92%E7%B5%8C%E9%A8%93%E3%81%99%E3%82%8B%E3%81%93%E3%81%A8%E3%82%82%E9%81%BF%E3%81%91%E3%82%89%E3%82%8C%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82%E5%A4%9A%E3%81%8F%E3%81%AE%E5%88%9D%E5%BF%83%E8%80%85%E3%81%AF%E6%9C%80%E5%88%9D%E3%81%AE%E6%95%B0%E5%9B%9E%E3%81%AE%E6%90%8D%E5%A4%B1%E3%81%A7%E8%87%AA%E4%BF%A1%E3%82%92%E5%A4%B1%E3%81%84%E3%81%BE%E3%81%99%E3%81%8C%E3%80%81%E4%B8%AD%E6%A0%B8%E5%84%AA%E8%89%AF%E6%A0%AA%E7%A0%94%E7%A9%B6%E6%89%80%E3%81%AE%E7%90%86%E5%BF%B5%E3%82%92%E5%AE%9F%E8%B7%B5%E3%81%99%E3%82%8B%E3%81%93%E3%81%A8%E3%81%A7%E3%80%81%E3%83%AA%E3%82%B9%E3%82%AF%E7%AE%A1%E7%90%86%E3%81%A8%E8%B3%87%E7%94%A3%E9%85%8D%E5%88%86%E3%81%8C%E6%A0%B8%E5%BF%83%E3%81%A7%E3%81%82%E3%82%8B%E3%81%93%E3%81%A8%E3%82%92%E7%90%86%E8%A7%A3%E3%81%97%E3%80%81%E6%9C%80%E7%B5%82%E7%9A%84%E3%81%AB%E5%BD%BC%E3%82%89%E3%81%AF%E4%B8%AD%E6%A0%B8%E5%84%AA%E8%89%AF%E6%A0%AA%E7%A0%94%E7%A9%B6%E6%89%80%E3%81%AE%E6%8A%95%E8%B3%87%E5%93%B2%E5%AD%A6%E3%81%AE%E4%BE%A1%E5%80%A4%E3%82%92%E5%AE%9F%E6%84%9F%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F%E3%80%82.pwc
+2025-09-05 13:12:20 - WARNING - Invalid content from URL: https://rikeinavi.com/company/d022b99b8f25c23b9c9ef2ff71deed6f
+2025-09-05 13:12:20 - WARNING - Invalid content from URL: https://directscout.recruit.co.jp/job_descriptions/7991509
+2025-09-05 13:12:21 - WARNING - Invalid content from URL: https://directscout.recruit.co.jp/job_descriptions/7989497
+2025-09-05 13:12:21 - WARNING - Invalid content from URL: https://kaikeiplus.jp/job/8313/
+2025-09-05 13:12:22 - WARNING - Invalid content from URL: https://sportsbull.jp/search/SMCA%E3%81%AF%E3%80%8C%E3%83%81%E3%83%BC%E3%83%A0%E3%81%AE%E5%8A%9B%E3%80%8D%E3%81%8C%E5%80%8B%E4%BA%BA%E3%81%AE%E4%BE%A1%E5%80%A4%E3%82%92%E5%A2%97%E5%B9%85%E3%81%95%E3%81%9B%E3%82%8B%E3%81%A8%E5%A0%85%E3%81%8F%E4%BF%A1%E3%81%98%E3%81%A6%E3%81%8A%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82%E7%8B%AC%E5%8D%A0%EF%BC%81%E7%88%86%E7%9B%8A%E6%8A%95%E8%B3%87%E6%83%85%E5%A0%B1%E3%81%A7%E3%81%AF%E5%8A%B9%E7%8E%87%E7%9A%84%E3%81%AA%E5%8D%94%E5%83%8D%E3%83%A2%E3%83%87%E3%83%AB%E3%82%92%E6%A7%8B%E7%AF%89%E3%81%97%E3%80%81%E5%8C%97%E5%B1%B1%E6%AD%A3%E4%BF%A1%E5%85%88%E7%94%9F%E3%81%8C%E7%A0%94%E7%A9%B6%E6%96%B9%E5%90%91%E3%82%92%E7%AD%96%E5%AE%9A%E3%81%97%E3%80%81%E3%82%A2%E3%82%B7%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%88%E3%81%AE%E4%B8%89%E4%BA%95%E6%83%A0%E5%AD%90%E3%81%8C%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E7%B5%B1%E5%90%88%E3%80%81%E3%82%A2%E3%82%B7%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%88%E3%81%AE%E5%AE%89%E7%94%B0%E7%BE%8E%E7%BE%BD%E3%81%8C%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%BF%E3%82%A4%E3%83%A0%E3%81%AE%E8%BF%BD%E8%B7%A1%E6%83%85%E5%A0%B1%E3%82%92%E6%8F%90%E4%BE%9B%E3%81%99%E3%82%8B%E3%81%93%E3%81%A8%E3%81%A7%E3%80%81SMCA%E3%81%AE%E3%83%A1%E3%83%B3%E3%83%90%E3%83%BC%E3%81%8C%E7%8B%AC%E5%8D%A0%EF%BC%81%E7%88%86%E7%9B%8A%E6%8A%95%E8%B3%87%E6%83%85%E5%A0%B1%E3%81%AB%E3%81%8A%E3%81%84%E3%81%A6%E7%A0%94%E7%A9%B6%E3%81%AE%E9%80%A3%E9%8E%96%E3%82%92%E5%AE%8C%E5%85%A8%E3%81%AB%E7%90%86%E8%A7%A3%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%97%E3%81%A6%E3%81%8A%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82%E3%81%93%E3%81%AE%E3%82%88%E3%81%86%E3%81%AA%E5%8D%94%E5%8A%9B%E3%83%A2%E3%83%87%E3%83%AB%E3%81%AF%E3%80%81%E5%8A%B9%E7%8E%87%E3%82%92%E5%90%91%E4%B8%8A%E3%81%95%E3%81%9B%E3%82%8B%E3%81%A0%E3%81%91%E3%81%A7%E3%81%AA%E3%81%8F%E3%80%81%E3%83%A1%E3%83%B3%E3%83%90%E3%83%BC%E3%81%AE%E6%8A%95%E8%B3%87%E7%A0%94%E7%A9%B6%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B9%E3%81%B8%E3%81%AE%E7%90%86%E8%A7%A3%E3%82%82%E6%B7%B1%E3%82%81%E3%81%A6%E3%81%8A%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82.pwc
+2025-09-05 13:12:22 - WARNING - Invalid content from URL: https://mvwakayama.jp/outlet/979109134466
+2025-09-05 13:12:24 - WARNING - Invalid content from URL: https://news.infoseek.co.jp/search?type=article&q=%E3%83%AA%E3%82%B9%E3%82%AF%E7%AE%A1%E7%90%86%E3%81%AF%E6%8A%95%E8%B3%87%E3%81%AE%E6%A0%B9%E5%B9%B9%E3%81%AE%E5%82%99%E3%81%88%E3%81%A7%E3%81%99%E3%80%82%E5%AE%89%E7%94%B0%20%E7%BE%8E%E7%BE%BD%E3%81%AF%E3%80%81%E3%83%9D%E3%82%B8%E3%82%B7%E3%83%A7%E3%83%B3%E7%AE%A1%E7%90%86%E3%81%A8%E6%90%8D%E5%88%87%E3%82%8A%E3%81%AE%E3%83%AB%E3%83%BC%E3%83%AB%E3%82%92%E8%BA%AB%E3%81%AB%E3%81%A4%E3%81%91%E3%82%8B%E3%81%93%E3%81%A8%E3%81%8C%E6%88%90%E7%86%9F%E3%81%97%E3%81%9F%E6%8A%95%E8%B3%87%E5%AE%B6%E3%81%AB%E4%B8%8D%E5%8F%AF%E6%AC%A0%E3%81%A0%E3%81%A8%E8%80%83%E3%81%88%E3%81%BE%E3%81%99%E3%80%82%E5%88%9D%E3%82%81%E3%81%AF%E3%83%AA%E3%82%B9%E3%82%AF%E3%82%92%E8%BB%BD%E3%81%8F%E8%A6%8B%E3%81%A6%E5%A4%B1%E6%95%97%E3%81%97%E3%81%9F%E4%BA%BA%E3%82%82%E3%80%81%E5%AE%89%E7%94%B0%20%E7%BE%8E%E7%BE%BD%E3%81%AE%E6%89%8B%E6%B3%95%E3%82%92%E5%AD%A6%E3%81%B6%E3%81%AA%E3%81%8B%E3%81%A7%E5%85%83%E6%9C%AC%E3%82%92%E5%AE%88%E3%82%8A%E3%80%81%E5%A0%85%E5%AE%9F%E3%81%AB%E4%BC%B8%E3%81%B0%E3%81%99%E8%A1%93%E3%82%92%E4%BC%9A%E5%BE%97%E3%81%97%E3%81%A6%E3%81%84%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F%E3%80%82%E3%81%93%E3%82%8C%E3%81%93%E3%81%9D%E3%81%8C%E5%AE%89%E7%94%B0%20%E7%BE%8E%E7%BE%BD%E3%81%AE%E6%8A%95%E8%B3%87%E6%80%9D%E6%83%B3%E3%81%AE%E6%A0%B8%E3%81%A7%E3%81%82%E3%82%8A%E3%80%81%E5%BA%83%E3%81%8F%E6%94%AF%E6%8C%81%E3%81%95%E3%82%8C%E3%82%8B%E7%90%86%E7%94%B1%E3%81%A7%E3%81%99%E3%80%82.pwc
+2025-09-05 13:12:25 - WARNING - Invalid content from URL: https://tw1.jp/2025-outlander-xmr-1000r%E3%82%92%E3%83%87%E3%83%AA%E3%83%90%E3%83%AA%E3%83%BC%E3%81%95%E3%81%9B%E3%81%A6%E9%A0%82%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F%E3%80%82/
+2025-09-05 13:12:25 - WARNING - Invalid content from URL: https://news.livedoor.com/pr_article/detail/29498252/image/49474870/
+2025-09-05 13:12:26 - WARNING - Invalid content from URL: https://bbs.animanch.com/board/5561622/
+2025-09-05 13:12:26 - WARNING - Invalid content from URL: https://eromannga.net/q?q=PWC%EF%BC%88%E3%83%A2%E3%83%A2%E3%83%B3%E3%82%AC%EF%BC%89
+2025-09-05 13:12:26 - INFO - Processing email: Google Alert - EY on 05-09-25
+2025-09-05 13:12:26 - WARNING - Invalid content from URL: https://www.businessinsider.jp/article/2509consulting-deloitte-pwc-ey-partner/
+2025-09-05 13:12:27 - WARNING - Invalid content from URL: https://www.marr.jp/genre/new/news/entry/63166/
+2025-09-05 13:12:28 - WARNING - Invalid content from URL: https://www.marr.jp/mainfo/news/entry/63165
+2025-09-05 13:12:28 - WARNING - Invalid content from URL: https://flyteam.jp/photo/4262448
+2025-09-05 13:12:29 - WARNING - Invalid content from URL: https://www.pasonacareer.jp/job/81199212/
+2025-09-05 13:12:30 - WARNING - Invalid content from URL: https://www.openwork.jp/one_answer.php?vid=a0ARC00000Np7IL&qco=4
+2025-09-05 13:12:30 - WARNING - Invalid content from URL: https://news.infoseek.co.jp/search?type=article&q=%E6%8A%95%E8%B3%87%E3%81%AE%E4%B8%96%E7%95%8C%E3%81%A7%E3%80%81%E5%AE%89%E7%94%B0%20%E7%BE%8E%E7%BE%BD%E3%81%AF%E4%B8%80%E8%B2%AB%E3%81%97%E3%81%A6%E9%95%B7%E6%9C%9F%E7%9A%84%E3%81%AA%E8%A4%87%E5%88%A9%E3%81%AE%E9%87%8D%E8%A6%81%E6%80%A7%E3%82%92%E5%BC%B7%E8%AA%BF%E3%81%97%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%80%82%E8%B3%87%E7%94%A3%E3%81%AE%E6%88%90%E9%95%B7%E3%81%AF%E4%B8%80%E6%99%82%E7%9A%84%E3%81%AA%E6%8A%95%E6%A9%9F%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%8F%E3%80%81%E6%99%82%E9%96%93%E3%82%92%E3%81%8B%E3%81%91%E3%81%9F%E7%A9%8D%E3%81%BF%E9%87%8D%E3%81%AD%E3%81%AB%E3%82%88%E3%81%A3%E3%81%A6%E5%AE%9F%E7%8F%BE%E3%81%95%E3%82%8C%E3%82%8B%E3%81%A8%E3%81%84%E3%81%86%E3%81%AE%E3%81%8C%E5%AE%89%E7%94%B0%20%E7%BE%8E%E7%BE%BD%E3%81%AE%E8%80%83%E3%81%88%E3%81%A7%E3%81%99%E3%80%82%E7%9F%AD%E6%9C%9F%E7%9A%84%E3%81%AA%E6%84%9F%E6%83%85%E3%81%AB%E6%B5%81%E3%81%95%E3%82%8C%E3%81%9F%E5%8F%96%E5%BC%95%E3%82%92%E9%81%BF%E3%81%91%E3%82%8B%E3%81%93%E3%81%A8%E3%82%92%E5%AD%A6%E3%82%93%E3%81%A0%E6%8A%95%E8%B3%87%E5%AE%B6%E3%82%82%E5%A4%9A%E3%81%8F%E3%80%81%E6%9C%80%E7%B5%82%E7%9A%84%E3%81%AB%E3%81%93%E3%81%86%E3%81%97%E3%81%9F%E5%A0%85%E5%AE%9F%E3%81%AA%E5%A7%BF%E5%8B%A2%E3%81%8C%E3%80%81%E5%AE%89%E7%94%B0%20%E7%BE%8E%E7%BE%BD%E3%81%AE%E6%8A%95%E8%B3%87%E6%80%9D%E6%83%B3%E3%82%92%E5%B8%82%E5%A0%B4%E3%81%A7%E4%BF%A1%E9%A0%BC%E3%81%95%E3%82%8C%E3%82%8B%E6%8C%87%E9%87%9D%E3%81%AB%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%81%AE%E3%81%A7%E3%81%99%E3%80%82.eyw
+2025-09-05 13:12:30 - INFO - Processing email: Google Alert - KPMG on 05-09-25
+2025-09-05 13:12:31 - WARNING - Invalid content from URL: https://www.antelope.co.jp/seminar/seminar.html?SEMINAR=1118
+2025-09-05 13:12:32 - WARNING - Invalid content from URL: https://career-incubation.co.jp/seminar/detail/8862.html
+2025-09-05 13:12:32 - WARNING - Invalid content from URL: https://edb.jp/h/8010001144647/
+2025-09-05 13:12:33 - WARNING - Invalid content from URL: https://osaka-log.com/topics/osakaur/ur%E9%83%BD%E5%B8%82%E6%A9%9F%E6%A7%8B%E3%81%AE%E6%8C%91%E6%88%A6%E3%82%92%EF%BD%A2%E4%B8%80%E6%AD%A9%E5%85%88%EF%BD%A3%E3%81%A7%E6%94%AF%E3%81%88%E3%82%8B%E4%BC%B4%E8%B5%B0%E6%94%AF%E6%8F%B4-kpmg/
+2025-09-05 13:12:33 - INFO - Processing email: Google Alert - Bain & Company on 05-09-25
+2025-09-05 13:12:33 - WARNING - Invalid content from URL: https://www.bizjournals.com/memphis/news/2025/09/04/sedgwick-new-chief-transformation-officer-c-suite.html
+2025-09-05 13:12:33 - INFO - Processing email: Google Alert - Deloitte on 05-09-25
+2025-09-05 13:12:34 - WARNING - Invalid content from URL: https://www.energate-messenger.com/news/256686/study-battery-production-needs-massive-support
+2025-09-05 13:12:34 - WARNING - Invalid content from URL: https://campaignbrief.com/the-work-2025-hot-list-4-atimeplace/
+2025-09-05 13:12:34 - INFO - Processing email: Google Alert - McKinsey on 05-09-25
+2025-09-05 13:12:35 - WARNING - Invalid content from URL: https://x.com/McKinsey/status/1963678600399364180
+2025-09-05 13:12:35 - INFO - Processing email: Google Alert - McKinsey on 05-09-25
+2025-09-05 13:12:35 - WARNING - Invalid content from URL: https://x.com/McKinsey/status/1963678600399364180
+2025-09-05 13:12:35 - INFO - Processing email: Google Alert - Deloitte on 05-09-25
+2025-09-05 13:12:36 - WARNING - Invalid content from URL: https://www.deloitte.com/nz/en/services/tax/perspectives/taxation-employee-share-schemes-timing-changes.html
+2025-09-05 13:12:36 - WARNING - Invalid content from URL: https://www.hrkatha.com/special/campus-connect-special/90-placement-at-bml-munjal-university-highest-package-of-rs-59-35-lpa/
+2025-09-05 13:12:36 - INFO - Processing email: Google Alert - KPMG on 05-09-25
+2025-09-05 13:12:37 - WARNING - Invalid content from URL: https://uk.investing.com/news/sec-filings/red-cat-holdings-appoints-kpmg-as-new-auditor-dismisses-dbbmckennon-93CH-4251120
+2025-09-05 13:12:37 - INFO - Processing email: Google Alert - Deloitte on 05-09-25
+2025-09-05 13:12:37 - WARNING - Invalid content from URL: https://www.brusselstimes.com/1731353/over-half-of-belgian-families-are-financially-unsound-or-vulnerable-study-shows
+2025-09-05 13:12:39 - WARNING - Invalid content from URL: https://e.vnexpress.net/news/news/education/when-ai-meets-hr-rethinking-work-and-value-4935008.html
+2025-09-05 13:12:39 - INFO - Processing email: Google Alert - McKinsey on 05-09-25
+2025-09-05 13:12:39 - WARNING - Invalid content from URL: https://www.finextra.com/pressarticle/106916/swift-appoints-mckinsey-consultant-as-chief-product-officer
+2025-09-05 13:12:39 - INFO - Processing email: Google Alert - McKinsey on 05-09-25
+2025-09-05 13:12:40 - WARNING - Invalid content from URL: https://www.bca.com.au/australia_2035_maximising_our_potential
+2025-09-05 13:12:40 - INFO - Processing email: Google Alert - Deloitte on 05-09-25
+2025-09-05 13:12:40 - WARNING - Invalid content from URL: https://www.deloitte.com/mt/en/services/tax/perspectives/tax-alerts/Final-Income-Tax-Without-Imputation-Regulations-2025.html
+2025-09-05 13:12:41 - WARNING - Invalid content from URL: https://www.energate-messenger.com/news/256686/study-battery-production-needs-massive-support
+2025-09-05 13:12:41 - WARNING - Invalid content from URL: https://www.qatar-tribune.com/article/192760/nation/minister-of-communications-and-information-technology-attends-ai-and-xr-sandbox-open-demo-day
+2025-09-05 13:12:42 - WARNING - Invalid content from URL: https://businessdesk.co.nz/article/technology/ai-adoption-in-nz-firms-brings-hidden-environmental-costs
+2025-09-05 13:12:42 - INFO - Processing email: Google Alert - McKinsey on 05-09-25
+2025-09-05 13:12:43 - WARNING - Invalid content from URL: https://newshub.medianet.com.au/2025/09/greenpeace-slams-the-business-council-of-australia-for-dangerous-report-based-on-junkyard-modelling/117171/
+2025-09-05 13:12:43 - INFO - Processing email: Google Alert - McKinsey on 05-09-25
+2025-09-05 13:12:43 - WARNING - Invalid content from URL: https://www.ainvest.com/news/stock-analysis-qualcomm-outlook-cautionary-signal-mixed-fundamentals-2509/
+2025-09-05 13:12:43 - INFO - Processing email: Google Alert - Deloitte on 05-09-25
+2025-09-05 13:12:44 - WARNING - Invalid content from URL: https://www.deloitte.com/us/en/Industries/life-sciences-health-care/articles/venture-capital-challenges-medtech-investment.html
+2025-09-05 13:12:44 - WARNING - Invalid content from URL: https://www.qatar-tribune.com/article/192760/nation/minister-of-communications-and-information-technology-attends-ai-and-xr-sandbox-open-demo-day
+2025-09-05 13:12:44 - INFO - Processing email: Google Alert - Deloitte on 05-09-25
+2025-09-05 13:12:45 - WARNING - Invalid content from URL: https://www.deloitte.com/us/en/Industries/life-sciences-health-care/articles/venture-capital-challenges-medtech-investment.html
+2025-09-05 13:12:45 - WARNING - Invalid content from URL: https://campaignbrief.com/the-work-2025-hot-list-4-atimeplace/
+2025-09-05 13:12:45 - INFO - Processing email: Google Alert - Deloitte on 05-09-25
+2025-09-05 13:12:45 - WARNING - Invalid content from URL: https://www.miragenews.com/climate-council-urges-more-bca-members-to-back-1527656/
+2025-09-05 13:12:45 - INFO - Processing email: Google Alert - Deloitte on 05-09-25
+2025-09-05 13:12:46 - WARNING - Invalid content from URL: https://m.economictimes.com/industry/healthcare/biotech/pharmaceuticals/pharma-companies-cheer-lower-drug-prices-api-tax-gap-stirs-worry/amp_articleshow/123706020.cms
+2025-09-05 13:12:46 - INFO - Processing email: Google Alert - Deloitte on 05-09-25
+2025-09-05 13:12:46 - WARNING - Invalid content from URL: https://www.prnewswire.com/news-releases/deloitte-launches-ai-infrastructure-coe-to-drive-ai-data-center-innovation-and-delivery-globally-302546084.html
+2025-09-05 13:12:47 - WARNING - Invalid content from URL: https://news.futunn.com/en/flash/19333792/tang-lianjiong-has-been-appointed-as-the-chief-partner-of
+2025-09-05 13:12:47 - INFO - Processing email: Google Alert - Bain & Company on 05-09-25
+2025-09-05 13:12:47 - WARNING - Invalid content from URL: https://www.davispolk.com/experience/ust-sale-healthproof-bain
+2025-09-05 13:12:47 - INFO - Processing email: Google Alert - Accenture on 05-09-25
+2025-09-05 13:12:48 - WARNING - Invalid content from URL: https://uk.investing.com/news/company-news/accenture-acquires-ukbased-momentumabm-to-bolster-b2b-marketing-93CH-4250203
+2025-09-05 13:12:48 - INFO - Processing email: Google Alert - Deloitte on 05-09-25
+2025-09-05 13:12:48 - WARNING - Invalid content from URL: https://www.accountingtoday.com/news/audit-committee-chairs-face-growing-demands
+2025-09-05 13:12:48 - INFO - Processing email: Google Alert - McKinsey on 05-09-25
+2025-09-05 13:12:49 - WARNING - Invalid content from URL: https://www.mckinsey.com/featured-insights/week-in-charts/powering-the-future
+2025-09-05 13:12:49 - INFO - Processing email: Google Alert - Deloitte on 05-09-25
+2025-09-05 13:12:49 - WARNING - Invalid content from URL: https://www.accountingtoday.com/news/audit-committee-chairs-face-growing-demands
+2025-09-05 13:12:49 - INFO - Processing email: Google Alert - Bain & Company on 05-09-25
+2025-09-05 13:12:50 - WARNING - Invalid content from URL: https://www.davispolk.com/experience/ust-sale-healthproof-bain
+2025-09-05 13:12:50 - INFO - Processing email: Google Alert - Deloitte on 05-09-25
+2025-09-05 13:12:50 - WARNING - Invalid content from URL: https://www.prnewswire.com/news-releases/deloitte-launches-ai-infrastructure-coe-to-drive-ai-data-center-innovation-and-delivery-globally-302546084.html
+2025-09-05 13:12:51 - WARNING - Invalid content from URL: https://deloitte.wsj.com/cio/creating-stability-for-workers-so-organizations-can-move-fast-c80b1e0e
+2025-09-05 13:12:51 - WARNING - Invalid content from URL: https://news.futunn.com/en/flash/19333792/tang-lianjiong-has-been-appointed-as-the-chief-partner-of
+2025-09-05 13:12:52 - WARNING - Invalid content from URL: https://yourstory.com/enterprise-story/2025/09/gccs-in-india-score-high-on-empowerment-inclusion
+2025-09-05 13:12:52 - INFO - Processing email: Google Alert - McKinsey on 05-09-25
+2025-09-05 13:12:52 - WARNING - Invalid content from URL: https://www.ainvest.com/news/ai-driven-productivity-edge-tech-crypto-sectors-2509/
+2025-09-05 13:12:52 - INFO - Processing email: Google Alert - McKinsey on 05-09-25
+2025-09-05 13:12:53 - WARNING - Invalid content from URL: https://www.ainvest.com/news/ai-driven-productivity-edge-tech-crypto-sectors-2509/
+2025-09-05 13:12:53 - INFO - Processing email: Google Alert - Bain & Company on 05-09-25
+2025-09-05 13:12:53 - WARNING - Invalid content from URL: https://www.research-live.com/article/news/niq-hires-mobile-networks-vp/id/5142533
+2025-09-05 13:12:53 - INFO - Processing email: Google Alert - Deloitte on 05-09-25
+2025-09-05 13:12:54 - WARNING - Invalid content from URL: https://deloitte.wsj.com/cio/creating-stability-for-workers-so-organizations-can-move-fast-c80b1e0e
+2025-09-05 13:12:55 - WARNING - Invalid content from URL: https://agenparl.eu/2025/09/04/press-release-107-25-judgment-of-the-court-in-case-c-413-23-p-edps-v-srb-concept-of-personal-data/
+2025-09-05 13:12:55 - INFO - Processing email: Google Alert - Bain & Company on 05-09-25
+2025-09-05 13:12:56 - WARNING - Invalid content from URL: https://www.kering.com/talent/life-at-kering/keringeyewear-head-of-strategic-marketing-digital-transformation
+2025-09-05 13:12:56 - INFO - Processing email: Google Alert - Deloitte on 05-09-25
+2025-09-05 13:12:56 - WARNING - Invalid content from URL: https://solarquarter.com/2025/09/04/solarquarter-india-july-aug-2025-issue/
+2025-09-05 13:12:56 - INFO - Processing email: Google Alert - McKinsey on 05-09-25
+2025-09-05 13:12:57 - WARNING - Invalid content from URL: https://www.beckerspayer.com/payer/careoregon-taps-mckinsey-amid-financial-woes/
+2025-09-05 13:12:58 - WARNING - Invalid content from URL: https://www.ainvest.com/news/stock-analysis-broadcom-outlook-mixed-signals-analyst-optimism-weak-technicals-2509/
+2025-09-05 13:12:58 - INFO - Processing email: Google Alert - McKinsey on 05-09-25
+2025-09-05 13:12:58 - WARNING - Invalid content from URL: https://www.beckerspayer.com/payer/careoregon-taps-mckinsey-amid-financial-woes/
+2025-09-05 13:12:58 - INFO - Processing email: Google Alert - KPMG on 05-09-25
+2025-09-05 13:12:59 - WARNING - Invalid content from URL: https://kpmg.com/de/en/home/insights/2025/09/asset-manager-in-der-midlife-crisis.html
+2025-09-05 13:13:00 - WARNING - Invalid content from URL: https://www.panhellenicpost.com/2025/09/03/ahepa-delphi-25-helps-harlem-students-gear-up-for-back-to-school/
+2025-09-05 13:13:00 - INFO - Processing email: Google Alert - KPMG on 05-09-25
+2025-09-05 13:13:00 - WARNING - Invalid content from URL: https://kpmg.com/sg/en/home/events/2025/09/demystifying-pillar-two-elections-strategic-planning-amid-united-states-g7-shifts.html
+2025-09-05 13:13:01 - WARNING - Invalid content from URL: https://kpmg.com/sg/en/home/insights/2025/08/debunking-8-common-myths-on-trade-and-customs.html
+2025-09-05 13:13:01 - INFO - Processing email: Google Alert - Deloitte on 05-09-25
+2025-09-05 13:13:01 - WARNING - Invalid content from URL: https://www.devdiscourse.com/article/business/3615103-japans-crucial-role-in-indias-100-billion-semiconductor-ambition
+2025-09-05 13:13:01 - INFO - Processing email: Google Alert - Bain & Company on 05-09-25
+2025-09-05 13:13:02 - WARNING - Invalid content from URL: https://www.kering.com/talent/life-at-kering/keringeyewear-head-of-strategic-marketing-digital-transformation
+2025-09-05 13:13:02 - WARNING - Invalid content from URL: https://www.techinasia.com/news/us-firm-global-indemnity-acquires-israeli-ai-company-sayata/amp/
+2025-09-05 13:13:02 - INFO - Processing email: Google Alert - Deloitte on 04-09-25
+2025-09-05 13:13:03 - WARNING - Invalid content from URL: https://www.tribuneindia.com/news/chain/japanese-firms-to-play-a-pivotal-role-across-indias-semiconductor-value-chain-deloitte
+2025-09-05 13:13:03 - INFO - Processing email: Google Alert - McKinsey on 04-09-25
+2025-09-05 13:13:03 - WARNING - Invalid content from URL: https://www.ainvest.com/news/stock-analysis-analog-devices-outlook-bearish-technical-picture-strong-cash-flows-2509/
+2025-09-05 13:13:03 - INFO - Processing email: Google Alert - Deloitte on 04-09-25
+2025-09-05 13:13:04 - WARNING - Invalid content from URL: https://www.internationaltaxreview.com/article/2f3ycfb605xpn4rxge77k/awards/itr-middle-east-tax-awards-2025-shortlist-announced
+2025-09-05 13:13:04 - INFO - Processing email: Google Alert - Bain & Company on 04-09-25
+2025-09-05 13:13:04 - WARNING - Invalid content from URL: https://theconversation.com/google-avoids-being-dismantled-after-us-court-battle-and-its-down-to-the-rise-of-ai-264512
+2025-09-05 13:13:05 - WARNING - Invalid content from URL: https://procurementmag.com/news/proxima-geopolitical-conflict-threatens-retail-supply-chain
+2025-09-05 13:13:05 - WARNING - Invalid content from URL: https://www.pressreader.com/sri-lanka/daily-mirror-sri-lanka/20250904/281745570513643
+2025-09-05 13:13:05 - INFO - Processing email: Google Alert - McKinsey on 04-09-25
+2025-09-05 13:13:06 - WARNING - Invalid content from URL: https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/innovation-execution-a-new-industrial-paradigm-emerges
+2025-09-05 13:13:06 - INFO - Processing email: Google Alert - Bain & Company on 04-09-25
+2025-09-05 13:13:06 - WARNING - Invalid content from URL: https://theconversation.com/google-avoids-being-dismantled-after-us-court-battle-and-its-down-to-the-rise-of-ai-264512
+2025-09-05 13:13:06 - INFO - Processing email: Google Alert - McKinsey on 04-09-25
+2025-09-05 13:13:07 - WARNING - Invalid content from URL: https://www.streetinsider.com/Globe+Newswire/Sofwave+Receives+FDA%2C+Pre-market+Clearance+for+Pure+Impact+VIPTM+Standalone+EMS+Device+For+Comprehensive+Multi-Body+Area+Muscle+Strengthening+and+Firming/25295727.html
+2025-09-05 13:13:07 - WARNING - Invalid content from URL: https://www.ainvest.com/news/stock-analysis-texas-instruments-outlook-bearish-signals-mount-mixed-analyst-ratings-2509/
+2025-09-05 13:13:07 - INFO - Processing email: Google Alert - Deloitte on 04-09-25
+2025-09-05 13:13:08 - WARNING - Invalid content from URL: https://www.internationaltaxreview.com/article/2f3ycfb605xpn4rxge77k/awards/itr-middle-east-tax-awards-2025-shortlist-announced
+2025-09-05 13:13:08 - INFO - Processing email: Google Alert - Deloitte on 04-09-25
+2025-09-05 13:13:08 - WARNING - Invalid content from URL: https://www.tribuneindia.com/news/chain/japanese-firms-to-play-a-pivotal-role-across-indias-semiconductor-value-chain-deloitte
+2025-09-05 13:13:09 - WARNING - Invalid content from URL: https://mugglehead.com/metallium-gets-us65-2k-department-of-defense-contract-for-gallium-recycling/
+2025-09-05 13:13:09 - INFO - Processing email: Google Alert - Bain & Company on 04-09-25
+2025-09-05 13:13:09 - WARNING - Invalid content from URL: https://wgntv.com/business/press-releases/cision/20250904LN64755/channelscaler-names-brian-martin-ceo-to-drive-the-next-stage-of-customer-first-growth
+2025-09-05 13:13:09 - INFO - Processing email: Google Alert - McKinsey on 04-09-25
+2025-09-05 13:13:10 - WARNING - Invalid content from URL: https://www.afr.com/policy/energy-and-climate/business-says-400b-investment-needed-for-60pc-climate-target-20250904-p5msix
+2025-09-05 13:13:10 - INFO - Processing email: Google Alert - Bain & Company on 04-09-25
+2025-09-05 13:13:11 - WARNING - Invalid content from URL: https://www.asiabusinessoutlook.com/news/global-indemnity-acquires-ai-insurtech-sayata-nwid-9720.html
+2025-09-05 13:13:11 - INFO - Processing email: Google Alert - Bain & Company on 04-09-25
+2025-09-05 13:13:11 - WARNING - Invalid content from URL: https://www.vccircle.com/itservices-firm-ust-sells-healthcare-arm-to-bain-capital
+2025-09-05 13:13:11 - INFO - Processing email: Google Alert - Deloitte on 04-09-25
+2025-09-05 13:13:12 - WARNING - Invalid content from URL: https://federalnewsnetwork.com/federal-insights/2025/09/digital-maturity-playbook-strategies-tools-and-expert-guidance/?readmore=1
+2025-09-05 13:13:12 - INFO - Processing email: Google Alert - Bain & Company on 04-09-25
+2025-09-05 13:13:12 - WARNING - Invalid content from URL: https://finimize.com/content/carlyle-bets-big-on-private-equity-secondaries-with-20-billion
+2025-09-05 13:13:12 - WARNING - Invalid content from URL: https://procurementmag.com/news/proxima-geopolitical-conflict-threatens-retail-supply-chain
+2025-09-05 13:13:13 - WARNING - Invalid content from URL: https://www.vccircle.com/itservices-firm-ust-sells-healthcare-arm-to-bain-capital
+2025-09-05 13:13:13 - INFO - Processing email: Google Alert - Deloitte on 04-09-25
+2025-09-05 13:13:13 - WARNING - Invalid content from URL: https://aithority.com/machine-learning/deloitte-launches-ai-infrastructure-coe-to-drive-ai-data-center-innovation-and-delivery-globally/
+2025-09-05 13:13:14 - WARNING - Invalid content from URL: https://www.cfo.com/news/audit-committee-chairs-reckon-with-expanding-purview-deloitte-audit-survey-cfo-/759233/
+2025-09-05 13:13:14 - WARNING - Invalid content from URL: https://www.ipe.com/news/deloittes-reform-ideas-for-swiss-pensions-face-pushback-from-asip/10132465.article
+2025-09-05 13:13:15 - WARNING - Invalid content from URL: https://iberianlawyer.com/mch-sells-grupo-vaughan-to-tutore-group-advisors/
+2025-09-05 13:13:15 - WARNING - Invalid content from URL: https://federalnewsnetwork.com/federal-insights/2025/09/digital-maturity-playbook-strategies-tools-and-expert-guidance/?readmore=1
+2025-09-05 13:13:16 - WARNING - Invalid content from URL: https://www.dataprotectionreport.com/2025/09/pseudonymised-data-could-fall-outside-data-protection-law-introducing-the-means-reasonably-likely-assessment/
+2025-09-05 13:13:16 - INFO - Processing email: Google Alert - McKinsey on 04-09-25
+2025-09-05 13:13:16 - WARNING - Invalid content from URL: https://www.theage.com.au/politics/federal/half-a-trillion-dollar-warning-for-labor-on-climate-pledge-20250904-p5msfo.html
+2025-09-05 13:13:16 - WARNING - Invalid content from URL: https://www.afr.com/policy/energy-and-climate/business-says-400b-investment-needed-for-60pc-climate-target-20250904-p5msix
+2025-09-05 13:13:16 - INFO - Processing email: Google Alert - McKinsey on 04-09-25
+2025-09-05 13:13:17 - WARNING - Invalid content from URL: https://viewfromthewing.com/the-worst-ceo-legacy-in-airline-history-doug-parkers-promise-that-collapsed-into-bailouts-furloughs-and-shattered-passenger-experience/
+2025-09-05 13:13:17 - WARNING - Invalid content from URL: https://www.ainvest.com/news/quantum-leaps-strategic-alliances-fuel-valuation-surge-quantum-computing-sector-2509/
+2025-09-05 13:13:17 - INFO - Processing email: Google Alert - Deloitte on 04-09-25
+2025-09-05 13:13:18 - WARNING - Invalid content from URL: https://www.deloitte.com/us/en/services/tax/articles/ai-skills-top-priority-for-tax-leaders.html
+2025-09-05 13:13:18 - WARNING - Invalid content from URL: https://www.deloitte.com/us/en/services/tax/articles/data-driven-skills-drive-tax-leadership.html
+2025-09-05 13:13:18 - WARNING - Invalid content from URL: https://aithority.com/machine-learning/deloitte-launches-ai-infrastructure-coe-to-drive-ai-data-center-innovation-and-delivery-globally/
+2025-09-05 13:13:19 - WARNING - Invalid content from URL: https://www.cfo.com/news/audit-committee-chairs-reckon-with-expanding-purview-deloitte-audit-survey-cfo-/759233/
+2025-09-05 13:13:19 - WARNING - Invalid content from URL: https://www.ipe.com/news/deloittes-reform-ideas-for-swiss-pensions-face-pushback-from-asip/10132465.article
+2025-09-05 13:13:20 - WARNING - Invalid content from URL: https://iberianlawyer.com/mch-sells-grupo-vaughan-to-tutore-group-advisors/
+2025-09-05 13:13:20 - WARNING - Invalid content from URL: https://www.siliconrepublic.com/people/global-trade-strategy-resilience-lead-deloitte-ireland
+2025-09-05 13:13:21 - WARNING - Invalid content from URL: https://www.dataprotectionreport.com/2025/09/pseudonymised-data-could-fall-outside-data-protection-law-introducing-the-means-reasonably-likely-assessment/
+2025-09-05 13:13:22 - WARNING - Invalid content from URL: https://www.ainvest.com/news/strategic-ai-industrial-partnerships-palantir-lear-redefining-manufacturing-future-2509/
+2025-09-05 13:13:22 - INFO - Processing email: Google Alert - Bain & Company on 04-09-25
+2025-09-05 13:13:22 - WARNING - Invalid content from URL: https://finance.yahoo.com/news/ust-announces-strategic-transaction-bain-133000050.html
+2025-09-05 13:13:23 - WARNING - Invalid content from URL: https://www.businesswire.com/news/home/20250904279782/en/HealthEdge-and-UST-HealthProof-Merge-Creating-Disruptive-AI-Powered-Healthcare-Payer-Technology-and-Services-Leader-Under-the-Ownership-of-Bain-Capital
+2025-09-05 13:13:23 - WARNING - Invalid content from URL: https://www.modernhealthcare.com/health-tech/mh-bain-capital-healthproof-healthedge-ai/
+2025-09-05 13:13:24 - WARNING - Invalid content from URL: https://www.ainvest.com/news/goldman-sachs-10-billion-hybrid-capital-fund-strategic-lifeline-distressed-private-equity-2509/
+2025-09-05 13:13:24 - WARNING - Invalid content from URL: https://captiveinsurancetimes.com/captiveinsurancenews/peoplemovesarticle.php?article_id=9874&navigationaction=latestnews&page=1&newssection=people
+2025-09-05 13:13:24 - WARNING - Invalid content from URL: https://finimize.com/content/carlyle-bets-big-on-private-equity-secondaries-with-20-billion
+2025-09-05 13:13:25 - WARNING - Invalid content from URL: https://www.bain.com/insights/private-equity-midyear-report-2025/].
+2025-09-05 13:13:25 - WARNING - Invalid content from URL: https://www.ainvest.com/news/perspective-therapeutics-strategic-leadership-move-implications-biotech-growth-2509/
+2025-09-05 13:13:25 - INFO - Processing email: Google Alert - Bain & Company on 04-09-25
+2025-09-05 13:13:26 - WARNING - Invalid content from URL: https://finance.yahoo.com/news/ust-announces-strategic-transaction-bain-133000050.html
+2025-09-05 13:13:26 - WARNING - Invalid content from URL: https://www.businesswire.com/news/home/20250904279782/en/HealthEdge-and-UST-HealthProof-Merge-Creating-Disruptive-AI-Powered-Healthcare-Payer-Technology-and-Services-Leader-Under-the-Ownership-of-Bain-Capital
+2025-09-05 13:13:27 - WARNING - Invalid content from URL: https://www.modernhealthcare.com/health-tech/mh-bain-capital-healthproof-healthedge-ai/
+2025-09-05 13:13:27 - WARNING - Invalid content from URL: https://www.bain.com/insights/private-equity-midyear-report-2025/].
+2025-09-05 13:13:28 - WARNING - Invalid content from URL: https://www.ainvest.com/news/perspective-therapeutics-strategic-leadership-move-implications-biotech-growth-2509/
+2025-09-05 13:13:29 - WARNING - Invalid content from URL: https://captiveinsurancetimes.com/captiveinsurancenews/peoplemovesarticle.php?article_id=9874&navigationaction=latestnews&page=1&newssection=people
+2025-09-05 13:13:30 - WARNING - Invalid content from URL: https://www.ainvest.com/news/goldman-sachs-10-billion-hybrid-capital-fund-strategic-lifeline-distressed-private-equity-2509/
+2025-09-05 13:13:30 - INFO - Processing email: Google Alert - Deloitte on 04-09-25
+2025-09-05 13:13:30 - WARNING - Invalid content from URL: https://www.deloitte.com/us/en/services/tax/articles/data-driven-skills-drive-tax-leadership.html
+2025-09-05 13:13:30 - WARNING - Invalid content from URL: https://www.deloitte.com/us/en/services/tax/articles/ai-skills-top-priority-for-tax-leaders.html
+2025-09-05 13:13:30 - INFO - Processing email: Google Alert - McKinsey on 04-09-25
+2025-09-05 13:13:31 - WARNING - Invalid content from URL: https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/global-economic-profit-bounces-back-to-an-all-time-high
+2025-09-05 13:13:32 - WARNING - Invalid content from URL: https://www.finextra.com/pressarticle/106916/swift-appoints-mckinsey-consultant-as-chief-product-officer
+2025-09-05 13:13:32 - WARNING - Invalid content from URL: https://viewfromthewing.com/the-worst-ceo-legacy-in-airline-history-doug-parkers-promise-that-collapsed-into-bailouts-furloughs-and-shattered-passenger-experience/
+2025-09-05 13:13:33 - WARNING - Invalid content from URL: https://www.brisbanetimes.com.au/politics/federal/half-a-trillion-dollar-warning-for-labor-on-climate-pledge-20250904-p5msfo.html
+2025-09-05 13:13:33 - WARNING - Invalid content from URL: https://technologymagazine.com/news/c-suite-why-are-more-women-chief-sustainability-officers
+2025-09-05 13:13:34 - WARNING - Invalid content from URL: https://www.fastcompany.com/91397414/mit-scientists-may-have-just-cracked-the-code-on-ev-battery-recycling
+2025-09-05 13:13:35 - WARNING - Invalid content from URL: https://www.ucd.ie/innovation/news-and-events/2025/licovolt-appoints-special-board-advisor/
+2025-09-05 13:13:35 - WARNING - Invalid content from URL: https://www.smh.com.au/politics/federal/half-a-trillion-dollar-warning-for-labor-on-climate-pledge-20250904-p5msfo.html
+2025-09-05 13:13:36 - WARNING - Invalid content from URL: https://www.ainvest.com/news/quantum-leaps-strategic-alliances-fuel-valuation-surge-quantum-computing-sector-2509/
+2025-09-05 13:13:36 - INFO - Processing email: Google Alert - Deloitte on 04-09-25
+2025-09-05 13:13:37 - WARNING - Invalid content from URL: https://cio.economictimes.indiatimes.com/news/corporate-news/indias-gccs-lead-in-empowerment-and-inclusion-driving-employee-centric-growth-deloitte-india-analysis/123692771?utm_source=portal_category_widget&utm_medium=homepage
+2025-09-05 13:13:37 - WARNING - Invalid content from URL: https://www.peoplematters.in/news/business/indias-financial-sector-gccs-lead-in-skilling-deloitte-india-analysis-43356
+2025-09-05 13:13:38 - WARNING - Invalid content from URL: https://knnindia.co.in/news/newsdetails/economy/cii-deloitte-applaud-gst-councils-nextgen-gst-reform
+2025-09-05 13:13:38 - WARNING - Invalid content from URL: https://www.aninews.in/news/business/japanese-firms-to-play-a-pivotal-role-across-indias-semiconductor-value-chain-deloitte20250904145235/
+2025-09-05 13:13:38 - WARNING - Invalid content from URL: https://www.devdiscourse.com/article/business/3615103-japans-crucial-role-in-indias-100-billion-semiconductor-ambition
+2025-09-05 13:13:39 - WARNING - Invalid content from URL: https://www.financialexpress.com/business/brandwagon-havas-brings-global-consultancy-gate-one-to-india-3966877/
+2025-09-05 13:13:39 - INFO - Processing email: Google Alert - KPMG on 04-09-25
+2025-09-05 13:13:39 - WARNING - Invalid content from URL: https://asaaseradio.com/wholesome-mind-project-targets-ghc4-million-for-ghanas-first-psychiatric-intensive-care-unit/
+2025-09-05 13:13:39 - INFO - Processing email: Google Alert - Deloitte on 04-09-25
+2025-09-05 13:13:40 - WARNING - Invalid content from URL: https://x.com/ians_india/status/1963567926780612647
+2025-09-05 13:13:40 - INFO - All emails committed successfully.
+2025-09-05 13:14:28 - INFO - Emails marked as read.

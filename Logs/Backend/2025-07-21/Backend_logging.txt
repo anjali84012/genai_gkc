@@ -1,0 +1,42 @@
+2025-07-21 10:52:34 - INFO - Use pytorch device_name: cpu
+2025-07-21 10:52:34 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-07-21 10:52:38 - INFO - Database tables created or already exist.
+2025-07-21 10:52:39 - INFO - WebScraper class instantiated.
+2025-07-21 10:53:13 - INFO - Extracted items for https://www.mckinsey.com/about-us/new-at-mckinsey-blog: 0
+2025-07-21 10:53:56 - INFO - Extracted items for https://www.mckinsey.com/jp/our-insights: 0
+2025-07-21 10:54:25 - INFO - Extracted items for https://www.bcg.com/about/corporate-newsroom: 0
+2025-07-21 10:54:57 - INFO - Extracted items for https://www.bain.com/about/media-center/press-releases/: 0
+2025-07-21 10:55:07 - INFO - Extracted items for https://www.ey.com/en_gl/newsroom: 0
+2025-07-21 10:55:07 - INFO - Flattened articles: 0 items in total.
+2025-07-21 10:55:07 - INFO - All articles committed successfully.
+2025-07-21 10:55:07 - INFO - Web scraping pipeline completed successfully.
+2025-07-21 16:08:02 - INFO - Use pytorch device_name: cpu
+2025-07-21 16:08:02 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-07-21 16:08:08 - INFO - Database tables created or already exist.
+2025-07-21 16:08:09 - INFO - WebScraper class instantiated.
+2025-07-21 16:08:24 - INFO - Extracted items for https://kpmg.com/xx/en/home/media/press-releases.html: 2
+2025-07-21 16:09:30 - INFO - Unique article: Global VC investment holds steady in Q2’25 amid AI surge – with some regional divergence, according to KPMG’s Venture Pulse
+2025-07-21 16:09:30 - INFO - LLM secondary extraction success for: https://kpmg.com/xx/en/media/press-releases/2025/07/global-vc-investment-holds-steady-in-q2-25-amid-ai-surge.html
+2025-07-21 16:10:12 - INFO - Unique article: KPMG and Hippocratic AI announce collaboration to transform healthcare delivery using AI healthcare agents to tackle global sector staffing shortages
+2025-07-21 16:10:12 - INFO - LLM secondary extraction success for: https://kpmg.com/xx/en/media/press-releases/2025/07/kpmg-and-hippocratic-ai-announce-collaboration-to-transform-healthcare.html
+2025-07-21 16:10:23 - INFO - Extracted items for https://kpmg.com/jp/ja/home/media/press-releases.html: 0
+2025-07-21 16:10:28 - INFO - Extracted items for https://www.mri.co.jp/news/index.html: 0
+2025-07-21 16:10:32 - INFO - Extracted items for https://www.consulting.us/: 0
+2025-07-21 16:10:36 - INFO - Extracted items for https://www.consultancy.uk/: 1
+2025-07-21 16:10:55 - INFO - Unique article: Delta Capita launches Elaris OTC platform to automate derivatives post-trade
+2025-07-21 16:10:55 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/40970/delta-capita-launches-elaris-otc-platform-to-automate-derivatives-post-trade
+2025-07-21 16:10:57 - INFO - Extracted items for https://www.consultancy.asia/country/japan: 0
+2025-07-21 16:11:01 - INFO - Extracted items for https://www.consultancy.in/: 0
+2025-07-21 16:11:02 - INFO - Extracted items for https://www.consultancy.com.au/: 0
+2025-07-21 16:11:05 - INFO - Extracted items for https://www.consultancy.eu/: 0
+2025-07-21 16:11:07 - INFO - Extracted items for https://www.consultancy.asia/: 0
+2025-07-21 16:11:09 - INFO - Extracted items for https://www.consultancy-me.com/: 0
+2025-07-21 16:11:11 - INFO - Extracted items for https://www.consultancy.nl/: 0
+2025-07-21 16:11:13 - INFO - Extracted items for https://www.consultancy.co.za/: 0
+2025-07-21 16:11:15 - INFO - Extracted items for https://www.consultancy.lat/: 0
+2025-07-21 16:11:15 - INFO - Flattened articles: 3 items in total.
+2025-07-21 16:11:19 - INFO - Prepared to insert article: Consulting.org (https://kpmg.com/xx/en/media/press-releases/2025/07/global-vc-investment-holds-steady-in-q2-25-amid-ai-surge.html)
+2025-07-21 16:11:20 - INFO - Prepared to insert article: Consulting.org (https://kpmg.com/xx/en/media/press-releases/2025/07/kpmg-and-hippocratic-ai-announce-collaboration-to-transform-healthcare.html)
+2025-07-21 16:11:21 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.uk/news/40970/delta-capita-launches-elaris-otc-platform-to-automate-derivatives-post-trade)
+2025-07-21 16:11:22 - INFO - All articles committed successfully.
+2025-07-21 16:11:22 - INFO - Web scraping pipeline completed successfully.

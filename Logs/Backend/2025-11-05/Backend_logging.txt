@@ -1,0 +1,70 @@
+2025-11-05 13:49:55 - INFO - Use pytorch device_name: cpu
+2025-11-05 13:49:55 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-11-05 13:50:03 - INFO - Starting Gmail authentication.
+2025-11-05 13:50:03 - INFO - Loaded credentials from token.json.
+2025-11-05 13:50:03 - INFO - Gmail authentication successful.
+2025-11-05 13:50:03 - INFO - Fetching unread emails from Gmail.
+2025-11-05 13:50:04 - INFO - Found 5 unread emails. Processing...
+2025-11-05 13:50:09 - INFO - Skipping \u91ce\u6751\u7dcf\u5408\u7814\u7a76\u6240 (normalized: \u91ce\u6751\u7dcf\u5408\u7814\u7a76\u6240) - not in target list.
+2025-11-05 13:50:12 - WARNING - Translation failed: 'NoneType' object has no attribute 'send'
+2025-11-05 13:50:12 - INFO - Skipping \u30d9\u30a4\u30f3 (normalized: \u30d9\u30a4\u30f3) - not in target list.
+2025-11-05 13:50:12 - INFO - Retrieved 3 unread emails.
+2025-11-05 13:50:12 - INFO - Processing email: Google Alert - EY on 03-11-25
+2025-11-05 13:50:14 - WARNING - Invalid content from URL: https://flyteam.jp/photo/4300682
+2025-11-05 13:50:18 - WARNING - Invalid content from URL: https://jp.linkedin.com/in/naito-shoto-460855390
+2025-11-05 13:50:43 - INFO - Unique article detected. Added \uff5e\u304a\u76c6\u4f11\u696d\u306e\u304a\u77e5\u3089\u305b\uff5e to the database
+2025-11-05 13:50:43 - INFO - Prepared email insertion: Google Alert - EY from https://duc-10.co.jp/?c=0223335654d932b
+2025-11-05 13:51:02 - INFO - Unique article detected. Added \u30102025\u5e74\u65b0\u578b\u3011Eyoyo \u30d0\u30fc\u30b3\u30fc\u30c9\u30ea\u30fc\u30c0\u30fc \u30ef\u30a4\u30e4\u30ec\u30b9 \U0001d410\U0001d411\u30b3\u30fc\u30c9\u30ea\u30fc\u30c0\u30fc \u30d0\u30fc\u30b3\u30fc\u30c9\u30b9\u30ad\u30e3\u30ca\u30fc \u30b9\u30bf\u30f3\u30c9\u4ed8\u304d Bluetooth usb \u6709\u7dda \u7121\u7dda \U0001d410\U0001d411\u30b3\u30fc\u30c9 \U0001d7d0\u6b21\u5143 \U0001d7cf\u6b21\u5143 \u65e5\u672c\u8a9e\U0001d410\U0001d411\u30b3\u30fc\u30c9 \u65e5\u672c\u8a9e\u30b3\u30fc\u30c9\u5bfe\u5fdc \u30cf\u30f3\u30ba\u30d5\u30ea\u30fc \u81ea\u52d5\u30b9\u30ad\u30e3\u30f3 \u56f3\u66f8\u9928\u30fb\u5e97\u8217\u30fb\u30aa\u30d5\u30a3\u30b9\u30fb\u7269\u6d41\u30fb\u5009\u5eab\u306a\u3069\u306b\u9069\u7528 \u65e5\u672c\u8a9e\u53d6\u6271\u8aac\u660e\u66f8 to the database
+2025-11-05 13:51:02 - INFO - Prepared email insertion: Google Alert - EY from https://jisaku.com/parts/62516
+2025-11-05 13:51:20 - WARNING - Invalid content from URL: https://www.muji.com/jp/ja/store/search/cmdty/EY%E6%97%A7%E9%87%91%E5%B1%B1%E9%99%84%E8%BF%91%E5%93%AA%E4%B8%AA%E5%9C%B0%E6%96%B9%E6%9C%89%E6%9C%8D%E5%8A%A1%E7%94%B5%E8%AF%9DV(131%5E1588%5E7736)
+2025-11-05 13:54:04 - INFO - Retrying request to /chat/completions in 0.489111 seconds
+2025-11-05 13:54:19 - INFO - Duplicate article detected, skipping: \uff5e\u304a\u76c6\u4f11\u696d\u306e\u304a\u77e5\u3089\u305b\uff5e
+2025-11-05 13:54:19 - INFO - Prepared email insertion: Google Alert - EY from https://duc-10.co.jp/?c=0119222149751e2
+2025-11-05 13:54:19 - INFO - Processing email: Google Alert - PwC on 03-11-25
+2025-11-05 13:54:39 - INFO - Duplicate article detected, skipping: \u304a\u76c6\u4f11\u696d\u306e\u304a\u77e5\u3089\u305b
+2025-11-05 13:54:39 - INFO - Prepared email insertion: Google Alert - PwC from https://duc-10.co.jp/?c=046458544adcb7
+2025-11-05 13:54:51 - WARNING - Invalid content from URL: https://www.hakase-no-chikara.jp/shopping/612195647420
+2025-11-05 13:55:19 - INFO - Duplicate article detected, skipping: \u304a\u76c6\u4f11\u696d\u306e\u304a\u77e5\u3089\u305b
+2025-11-05 13:55:19 - INFO - Prepared email insertion: Google Alert - PwC from https://duc-10.co.jp/?c=0220014f0774b
+2025-11-05 13:56:10 - INFO - Unique article detected. Added \u300c\u30e6\u30ad\u3061\u3083\u3093\u306e\u30df\u30eb\u30af\u300d\u306f\u30e4\u30ae\u306e\u30df\u30eb\u30af\u304b\u3089\u4f5c\u3089\u308c\u3066\u3044\u307e\u3059\u3002 to the database
+2025-11-05 13:56:10 - INFO - Prepared email insertion: Google Alert - PwC from https://www.milkhompo.jp/?g=082249922421eab
+2025-11-05 13:56:10 - INFO - Processing email: Google Alert - \u30a2\u30af\u30bb\u30f3\u30c1\u30e5\u30a2 on 02-11-25
+2025-11-05 13:56:37 - INFO - Unique article detected. Added \u300c\u846c\u5f0f\u306e\u6642\u3001\u3069\u306e\u3088\u3046\u306b\u7d39\u4ecb\u3055\u308c\u305f\u3044\u304b\u300d\u3000\u5b66\u751f\u304c\u30ae\u30e7\u30c3\u3068\u3059\u308b\u5b87\u90fd\u5bae\u5927\u306e\u30ad\u30e3\u30ea\u30a2\u6559\u80b2 to the database
+2025-11-05 13:56:37 - INFO - Prepared email insertion: Google Alert - \u30a2\u30af\u30bb\u30f3\u30c1\u30e5\u30a2 from https://dot.asahi.com/articles/-/268504
+2025-11-05 13:56:58 - INFO - Unique article detected. Added \u5927\u753b\u9762\u5316\u306b\u8235\u5207\u3063\u305fiPhone 6 Plus\u3001\u8584\u578b\u5316\u3078\u306e\u8ab2\u984c\u306f\u30ab\u30e1\u30e9\u3068\u30d8\u30c3\u30c9\u30d5\u30a9\u30f3 to the database
+2025-11-05 13:56:58 - INFO - Prepared email insertion: Google Alert - \u30a2\u30af\u30bb\u30f3\u30c1\u30e5\u30a2 from https://xtech.nikkei.com/it/atcl/column/14/120200115/120200002/?P=3&fieldSubSeg=fdxKEYWORDWindowsKEYWORDD
+2025-11-05 13:56:58 - INFO - All emails committed successfully.
+2025-11-05 13:56:58 - WARNING - Error marking email 19a48502a8d81dce as read: [Errno 10054] An existing connection was forcibly closed by the remote host
+2025-11-05 13:56:58 - WARNING - Error marking email 19a484d6f0864c24 as read: [Errno 10054] An existing connection was forcibly closed by the remote host
+2025-11-05 13:56:59 - INFO - Emails marked as read.
+2025-11-05 14:01:12 - INFO - Use pytorch device_name: cpu
+2025-11-05 14:01:12 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-11-05 14:01:33 - INFO - Starting Gmail authentication.
+2025-11-05 14:01:33 - INFO - Loaded credentials from token.json.
+2025-11-05 14:01:33 - INFO - Gmail authentication successful.
+2025-11-05 14:01:34 - INFO - Fetching unread emails from Gmail.
+2025-11-05 14:01:34 - INFO - Found 6 unread emails. Processing...
+2025-11-05 14:01:43 - INFO - Skipping \u91ce\u6751\u7dcf\u5408\u7814\u7a76\u6240 (normalized: \u91ce\u6751\u7dcf\u5408\u7814\u7a76\u6240) - not in target list.
+2025-11-05 14:01:45 - INFO - Skipping \u30d9\u30a4\u30f3 (normalized: bane) - not in target list.
+2025-11-05 14:01:45 - INFO - Retrieved 4 unread emails.
+2025-11-05 14:01:45 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 05-11-25
+2025-11-05 14:01:52 - WARNING - Invalid content from URL: https://www.bcg.com/press/4november2025-car-buyers-five-trends-reshaping-auto-industry
+2025-11-05 14:02:21 - INFO - Unique article detected. Added GCC ranks 2nd globally as an AI powerhouse: High adoption, strong leadership, and bold transformation to the database
+2025-11-05 14:02:21 - INFO - Prepared email insertion: Google Alert - "Boston Consulting Group" "BCG" from https://www.zawya.com/en/press-release/research-and-studies/gcc-ranks-2nd-globally-as-an-ai-powerhouse-high-adoption-strong-leadership-and-bold-transformation-hy9lie0g
+2025-11-05 14:02:51 - INFO - Unique article detected. Added Global car-buyer behaviour shifts: five key trends automakers can’t ignore to the database
+2025-11-05 14:02:51 - INFO - Prepared email insertion: Google Alert - "Boston Consulting Group" "BCG" from https://telematicswire.net/global-car-buyer-behaviour-shifts-five-key-trends-automakers-cant-ignore/
+2025-11-05 14:03:17 - INFO - Unique article detected. Added Industrial Transition Accelerator Launches India Project Support Programme to Unlock $150 Billion Clean Industrial Opportunity to the database
+2025-11-05 14:03:17 - INFO - Prepared email insertion: Google Alert - "Boston Consulting Group" "BCG" from https://thecsruniverse.com/articles/industrial-transition-accelerator-launches-india-project-support-programme-to-unlock-150-billion-clean-industrial-opportunity
+2025-11-05 14:04:03 - INFO - Duplicate article detected, skipping: ITA launches India Project Support Programme; focuses on 65 commercial projects with $150 bn investment potential
+2025-11-05 14:04:03 - INFO - Prepared email insertion: Google Alert - "Boston Consulting Group" "BCG" from https://www.indianchemicalnews.com/renewable/ita-launches-india-project-support-programme-focuses-on-65-commercial-projects-with-150-bn-investment-potential-28058
+2025-11-05 14:04:03 - INFO - Processing email: Google Alert - Bain & Company on 05-11-25
+2025-11-05 14:04:35 - INFO - Unique article detected. Added Finding belonging as a first-generation professional at Bain to the database
+2025-11-05 14:04:35 - INFO - Prepared email insertion: Google Alert - Bain & Company from https://www.bain.com/careers/life-at-bain/careers-blog/finding-belonging-as-a-first-generation-professional-at-bain/
+2025-11-05 14:04:35 - INFO - Processing email: Google Alert - EY on 03-11-25
+2025-11-05 14:04:37 - WARNING - Invalid content from URL: https://flyteam.jp/photo/4300682
+2025-11-05 14:04:40 - WARNING - Invalid content from URL: https://jp.linkedin.com/in/naito-shoto-460855390
+2025-11-05 14:04:56 - WARNING - Invalid content from URL: https://www.muji.com/jp/ja/store/search/cmdty/EY%E6%97%A7%E9%87%91%E5%B1%B1%E9%99%84%E8%BF%91%E5%93%AA%E4%B8%AA%E5%9C%B0%E6%96%B9%E6%9C%89%E6%9C%8D%E5%8A%A1%E7%94%B5%E8%AF%9DV(131%5E1588%5E7736)
+2025-11-05 14:04:56 - INFO - Processing email: Google Alert - PwC on 03-11-25
+2025-11-05 14:05:10 - WARNING - Invalid content from URL: https://www.hakase-no-chikara.jp/shopping/612195647420
+2025-11-05 14:05:10 - INFO - All emails committed successfully.
+2025-11-05 14:05:13 - INFO - Emails marked as read.

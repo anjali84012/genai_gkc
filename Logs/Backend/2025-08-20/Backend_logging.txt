@@ -1,0 +1,691 @@
+2025-08-20 11:21:35 - INFO - Use pytorch device_name: cpu
+2025-08-20 11:21:35 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-08-20 11:21:40 - INFO - Starting Gmail authentication.
+2025-08-20 11:21:41 - INFO - Loaded credentials from token.json.
+2025-08-20 11:21:41 - INFO - Gmail authentication successful.
+2025-08-20 11:21:41 - INFO - Fetching unread emails from Gmail.
+2025-08-20 11:21:41 - INFO - Found 100 unread emails. Processing...
+2025-08-20 11:21:42 - INFO - Processing company: Accenture
+2025-08-20 11:21:42 - INFO - Processing company: Deloitte
+2025-08-20 11:21:43 - INFO - Processing company: Deloitte
+2025-08-20 11:21:43 - INFO - Processing company: Accenture
+2025-08-20 11:21:44 - INFO - Processing company: Accenture
+2025-08-20 11:21:44 - INFO - Processing company: Accenture
+2025-08-20 11:21:45 - INFO - Processing company: Accenture
+2025-08-20 11:21:45 - INFO - Processing company: Accenture
+2025-08-20 11:21:46 - INFO - Processing company: \u30de\u30c3\u30ad\u30f3\u30bc\u30fc
+2025-08-20 11:21:46 - INFO - Skipping \u30de\u30c3\u30ad\u30f3\u30bc\u30fc - not in target list.
+2025-08-20 11:21:46 - INFO - Processing company: \u30c7\u30ed\u30a4\u30c8
+2025-08-20 11:21:46 - INFO - Skipping \u30c7\u30ed\u30a4\u30c8 - not in target list.
+2025-08-20 11:21:47 - INFO - Processing company: BCG
+2025-08-20 11:21:47 - INFO - Processing company: EY
+2025-08-20 11:21:48 - INFO - Processing company: \u91ce\u6751\u7dcf\u5408\u7814\u7a76\u6240
+2025-08-20 11:21:48 - INFO - Skipping \u91ce\u6751\u7dcf\u5408\u7814\u7a76\u6240 - not in target list.
+2025-08-20 11:21:49 - INFO - Processing company: Deloitte
+2025-08-20 11:21:49 - INFO - Processing company: Deloitte
+2025-08-20 11:21:49 - INFO - Processing company: Deloitte
+2025-08-20 11:21:50 - INFO - Processing company: Deloitte
+2025-08-20 11:21:50 - INFO - Processing company: Deloitte
+2025-08-20 11:21:51 - INFO - Processing company: Deloitte
+2025-08-20 11:21:51 - INFO - Processing company: Deloitte
+2025-08-20 11:21:52 - INFO - Processing company: Deloitte
+2025-08-20 11:21:52 - INFO - Processing company: Deloitte
+2025-08-20 11:21:53 - INFO - Processing company: Deloitte
+2025-08-20 11:21:53 - INFO - Processing company: Accenture
+2025-08-20 11:21:54 - INFO - Processing company: Deloitte
+2025-08-20 11:21:54 - INFO - Processing company: Deloitte
+2025-08-20 11:21:55 - INFO - Processing company: Deloitte
+2025-08-20 11:21:55 - INFO - Processing company: Deloitte
+2025-08-20 11:21:56 - INFO - Processing company: Deloitte
+2025-08-20 11:21:56 - INFO - Processing company: Deloitte
+2025-08-20 11:21:57 - INFO - Processing company: Deloitte
+2025-08-20 11:21:57 - INFO - Processing company: Deloitte
+2025-08-20 11:21:58 - INFO - Processing company: Deloitte
+2025-08-20 11:21:58 - INFO - Processing company: Accenture
+2025-08-20 11:21:59 - INFO - Processing company: Accenture
+2025-08-20 11:21:59 - INFO - Processing company: Accenture
+2025-08-20 11:22:00 - INFO - Processing company: Accenture
+2025-08-20 11:22:00 - INFO - Processing company: Deloitte
+2025-08-20 11:22:01 - INFO - Processing company: Accenture
+2025-08-20 11:22:01 - INFO - Processing company: Deloitte
+2025-08-20 11:22:02 - INFO - Processing company: Deloitte
+2025-08-20 11:22:02 - INFO - Processing company: Deloitte
+2025-08-20 11:22:03 - INFO - Processing company: Deloitte
+2025-08-20 11:22:03 - INFO - Processing company: Deloitte
+2025-08-20 11:22:04 - INFO - Processing company: Deloitte
+2025-08-20 11:22:04 - INFO - Processing company: Deloitte
+2025-08-20 11:22:05 - INFO - Processing company: Deloitte
+2025-08-20 11:22:06 - INFO - Processing company: Deloitte
+2025-08-20 11:22:06 - INFO - Processing company: Deloitte
+2025-08-20 11:22:07 - INFO - Processing company: Deloitte
+2025-08-20 11:22:07 - INFO - Processing company: Deloitte
+2025-08-20 11:22:08 - INFO - Processing company: Deloitte
+2025-08-20 11:22:08 - INFO - Processing company: Deloitte
+2025-08-20 11:22:09 - INFO - Processing company: Deloitte
+2025-08-20 11:22:09 - INFO - Processing company: Deloitte
+2025-08-20 11:22:10 - INFO - Processing company: Deloitte
+2025-08-20 11:22:10 - INFO - Processing company: Deloitte
+2025-08-20 11:22:11 - INFO - Processing company: Deloitte
+2025-08-20 11:22:11 - INFO - Processing company: Deloitte
+2025-08-20 11:22:12 - INFO - Processing company: Deloitte
+2025-08-20 11:22:12 - INFO - Processing company: Deloitte
+2025-08-20 11:22:13 - INFO - Processing company: Deloitte
+2025-08-20 11:23:03 - INFO - Processing company: Deloitte
+2025-08-20 11:23:03 - INFO - Processing company: Deloitte
+2025-08-20 11:23:04 - INFO - Processing company: Deloitte
+2025-08-20 11:23:04 - INFO - Processing company: Deloitte
+2025-08-20 11:23:05 - INFO - Processing company: Deloitte
+2025-08-20 11:23:05 - INFO - Processing company: Deloitte
+2025-08-20 11:23:06 - INFO - Processing company: Deloitte
+2025-08-20 11:23:06 - INFO - Processing company: Deloitte
+2025-08-20 11:23:07 - INFO - Processing company: Deloitte
+2025-08-20 11:23:07 - INFO - Processing company: Deloitte
+2025-08-20 11:23:08 - INFO - Processing company: Deloitte
+2025-08-20 11:23:08 - INFO - Processing company: Deloitte
+2025-08-20 11:23:09 - INFO - Processing company: Deloitte
+2025-08-20 11:23:09 - INFO - Processing company: Deloitte
+2025-08-20 11:23:10 - INFO - Processing company: Deloitte
+2025-08-20 11:23:10 - INFO - Processing company: Deloitte
+2025-08-20 11:23:11 - INFO - Processing company: Deloitte
+2025-08-20 11:23:11 - INFO - Processing company: Deloitte
+2025-08-20 11:23:12 - INFO - Processing company: Deloitte
+2025-08-20 11:23:12 - INFO - Processing company: Deloitte
+2025-08-20 11:23:12 - INFO - Processing company: Deloitte
+2025-08-20 11:23:13 - INFO - Processing company: Deloitte
+2025-08-20 11:23:13 - INFO - Processing company: Deloitte
+2025-08-20 11:23:14 - INFO - Processing company: Deloitte
+2025-08-20 11:23:14 - INFO - Processing company: Deloitte
+2025-08-20 11:23:15 - INFO - Processing company: Deloitte
+2025-08-20 11:23:15 - INFO - Processing company: Deloitte
+2025-08-20 11:23:16 - INFO - Processing company: Deloitte
+2025-08-20 11:23:16 - INFO - Processing company: Deloitte
+2025-08-20 11:23:17 - INFO - Processing company: Deloitte
+2025-08-20 11:23:17 - INFO - Processing company: Deloitte
+2025-08-20 11:23:18 - INFO - Processing company: Deloitte
+2025-08-20 11:23:18 - INFO - Processing company: Deloitte
+2025-08-20 11:23:19 - INFO - Processing company: Deloitte
+2025-08-20 11:23:19 - INFO - Processing company: Deloitte
+2025-08-20 11:23:20 - INFO - Processing company: Deloitte
+2025-08-20 11:23:20 - INFO - Processing company: Deloitte
+2025-08-20 11:23:21 - INFO - Processing company: Deloitte
+2025-08-20 11:23:21 - INFO - Retrieved 97 unread emails.
+2025-08-20 11:23:21 - INFO - Processing email: Google Alert - Accenture on 20-08-25
+2025-08-20 11:23:44 - INFO - Unique article detected. Added Accenture (ACN) To Acquire an Australian Cybersecurity Firm, CyberCX to the database
+2025-08-20 11:23:44 - INFO - Prepared email insertion: Google Alert - Accenture from https://uk.finance.yahoo.com/news/accenture-acn-acquire-australian-cybersecurity-031536551.html
+2025-08-20 11:27:14 - INFO - Use pytorch device_name: cpu
+2025-08-20 11:27:14 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-08-20 11:27:20 - INFO - Starting Gmail authentication.
+2025-08-20 11:27:20 - INFO - Loaded credentials from token.json.
+2025-08-20 11:27:20 - INFO - Gmail authentication successful.
+2025-08-20 11:27:20 - INFO - Fetching unread emails from Gmail.
+2025-08-20 11:27:21 - INFO - Found 100 unread emails. Processing...
+2025-08-20 11:27:21 - INFO - Processing company: Accenture
+2025-08-20 11:27:22 - INFO - Processing company: Deloitte
+2025-08-20 11:27:22 - INFO - Processing company: Deloitte
+2025-08-20 11:27:23 - INFO - Processing company: Accenture
+2025-08-20 11:27:23 - INFO - Processing company: Accenture
+2025-08-20 11:27:24 - INFO - Processing company: Accenture
+2025-08-20 11:27:24 - INFO - Processing company: Accenture
+2025-08-20 11:27:25 - INFO - Processing company: Accenture
+2025-08-20 11:27:25 - INFO - Processing company: \u30de\u30c3\u30ad\u30f3\u30bc\u30fc
+2025-08-20 11:27:25 - INFO - Skipping \u30de\u30c3\u30ad\u30f3\u30bc\u30fc - not in target list.
+2025-08-20 11:27:26 - INFO - Processing company: \u30c7\u30ed\u30a4\u30c8
+2025-08-20 11:27:26 - INFO - Skipping \u30c7\u30ed\u30a4\u30c8 - not in target list.
+2025-08-20 11:27:26 - INFO - Processing company: BCG
+2025-08-20 11:27:27 - INFO - Processing company: EY
+2025-08-20 11:27:27 - INFO - Processing company: \u91ce\u6751\u7dcf\u5408\u7814\u7a76\u6240
+2025-08-20 11:27:27 - INFO - Skipping \u91ce\u6751\u7dcf\u5408\u7814\u7a76\u6240 - not in target list.
+2025-08-20 11:27:28 - INFO - Processing company: Deloitte
+2025-08-20 11:27:28 - INFO - Processing company: Deloitte
+2025-08-20 11:27:29 - INFO - Processing company: Deloitte
+2025-08-20 11:27:29 - INFO - Processing company: Deloitte
+2025-08-20 11:27:30 - INFO - Processing company: Deloitte
+2025-08-20 11:27:30 - INFO - Processing company: Deloitte
+2025-08-20 11:27:31 - INFO - Processing company: Deloitte
+2025-08-20 11:27:31 - INFO - Processing company: Deloitte
+2025-08-20 11:27:31 - INFO - Processing company: Deloitte
+2025-08-20 11:27:32 - INFO - Processing company: Deloitte
+2025-08-20 11:27:32 - INFO - Processing company: Accenture
+2025-08-20 11:27:33 - INFO - Processing company: Deloitte
+2025-08-20 11:27:33 - INFO - Processing company: Deloitte
+2025-08-20 11:27:34 - INFO - Processing company: Deloitte
+2025-08-20 11:27:34 - INFO - Processing company: Deloitte
+2025-08-20 11:27:35 - INFO - Processing company: Deloitte
+2025-08-20 11:27:35 - INFO - Processing company: Deloitte
+2025-08-20 11:27:36 - INFO - Processing company: Deloitte
+2025-08-20 11:27:36 - INFO - Processing company: Deloitte
+2025-08-20 11:27:37 - INFO - Processing company: Deloitte
+2025-08-20 11:27:37 - INFO - Processing company: Accenture
+2025-08-20 11:27:38 - INFO - Processing company: Accenture
+2025-08-20 11:27:38 - INFO - Processing company: Accenture
+2025-08-20 11:27:39 - INFO - Processing company: Accenture
+2025-08-20 11:27:39 - INFO - Processing company: Deloitte
+2025-08-20 11:27:40 - INFO - Processing company: Accenture
+2025-08-20 11:27:40 - INFO - Processing company: Deloitte
+2025-08-20 11:27:41 - INFO - Processing company: Deloitte
+2025-08-20 11:27:41 - INFO - Processing company: Deloitte
+2025-08-20 11:27:42 - INFO - Processing company: Deloitte
+2025-08-20 11:27:42 - INFO - Processing company: Deloitte
+2025-08-20 11:27:43 - INFO - Processing company: Deloitte
+2025-08-20 11:27:43 - INFO - Processing company: Deloitte
+2025-08-20 11:27:44 - INFO - Processing company: Deloitte
+2025-08-20 11:27:44 - INFO - Processing company: Deloitte
+2025-08-20 11:27:44 - INFO - Processing company: Deloitte
+2025-08-20 11:27:45 - INFO - Processing company: Deloitte
+2025-08-20 11:27:45 - INFO - Processing company: Deloitte
+2025-08-20 11:27:46 - INFO - Processing company: Deloitte
+2025-08-20 11:27:46 - INFO - Processing company: Deloitte
+2025-08-20 11:27:47 - INFO - Processing company: Deloitte
+2025-08-20 11:27:47 - INFO - Processing company: Deloitte
+2025-08-20 11:27:48 - INFO - Processing company: Deloitte
+2025-08-20 11:27:48 - INFO - Processing company: Deloitte
+2025-08-20 11:27:49 - INFO - Processing company: Deloitte
+2025-08-20 11:27:49 - INFO - Processing company: Deloitte
+2025-08-20 11:27:50 - INFO - Processing company: Deloitte
+2025-08-20 11:27:50 - INFO - Processing company: Deloitte
+2025-08-20 11:27:50 - INFO - Processing company: Deloitte
+2025-08-20 11:27:51 - INFO - Processing company: Deloitte
+2025-08-20 11:27:51 - INFO - Processing company: Deloitte
+2025-08-20 11:27:52 - INFO - Processing company: Deloitte
+2025-08-20 11:27:52 - INFO - Processing company: Deloitte
+2025-08-20 11:27:53 - INFO - Processing company: Deloitte
+2025-08-20 11:27:53 - INFO - Processing company: Deloitte
+2025-08-20 11:27:54 - INFO - Processing company: Deloitte
+2025-08-20 11:27:54 - INFO - Processing company: Deloitte
+2025-08-20 11:27:55 - INFO - Processing company: Deloitte
+2025-08-20 11:27:55 - INFO - Processing company: Deloitte
+2025-08-20 11:27:56 - INFO - Processing company: Deloitte
+2025-08-20 11:27:56 - INFO - Processing company: Deloitte
+2025-08-20 11:27:57 - INFO - Processing company: Deloitte
+2025-08-20 11:27:57 - INFO - Processing company: Deloitte
+2025-08-20 11:27:57 - INFO - Processing company: Deloitte
+2025-08-20 11:27:58 - INFO - Processing company: Deloitte
+2025-08-20 11:27:59 - INFO - Processing company: Deloitte
+2025-08-20 11:27:59 - INFO - Processing company: Deloitte
+2025-08-20 11:27:59 - INFO - Processing company: Deloitte
+2025-08-20 11:28:00 - INFO - Processing company: Deloitte
+2025-08-20 11:28:00 - INFO - Processing company: Deloitte
+2025-08-20 11:28:01 - INFO - Processing company: Deloitte
+2025-08-20 11:28:01 - INFO - Processing company: Deloitte
+2025-08-20 11:28:02 - INFO - Processing company: Deloitte
+2025-08-20 11:28:02 - INFO - Processing company: Deloitte
+2025-08-20 11:28:03 - INFO - Processing company: Deloitte
+2025-08-20 11:28:03 - INFO - Processing company: Deloitte
+2025-08-20 11:28:04 - INFO - Processing company: Deloitte
+2025-08-20 11:28:04 - INFO - Processing company: Deloitte
+2025-08-20 11:28:05 - INFO - Processing company: Deloitte
+2025-08-20 11:28:05 - INFO - Processing company: Deloitte
+2025-08-20 11:28:05 - INFO - Processing company: Deloitte
+2025-08-20 11:28:06 - INFO - Processing company: Deloitte
+2025-08-20 11:28:06 - INFO - Processing company: Deloitte
+2025-08-20 11:28:07 - INFO - Processing company: Deloitte
+2025-08-20 11:28:07 - INFO - Processing company: Deloitte
+2025-08-20 11:28:08 - INFO - Processing company: Deloitte
+2025-08-20 11:28:08 - INFO - Processing company: Deloitte
+2025-08-20 11:28:08 - INFO - Retrieved 97 unread emails.
+2025-08-20 11:28:08 - INFO - Processing email: Google Alert - Accenture on 20-08-25
+2025-08-20 11:28:18 - INFO - Unique article detected. Added Accenture (ACN) To Acquire an Australian Cybersecurity Firm, CyberCX to the database
+2025-08-20 11:28:18 - INFO - Prepared email insertion: Google Alert - Accenture from https://uk.finance.yahoo.com/news/accenture-acn-acquire-australian-cybersecurity-031536551.html
+2025-08-20 11:28:37 - INFO - Unique article detected. Added Earnings call transcript: Accenture Q3 2025 sees EPS growth, stock stable to the database
+2025-08-20 11:28:37 - INFO - Prepared email insertion: Google Alert - Accenture from https://uk.investing.com/news/transcripts/earnings-call-transcript-accenture-q3-2025-sees-eps-growth-stock-stable-93CH-4227235
+2025-08-20 11:29:21 - INFO - Unique article detected. Added Proudly Irish: Concern Worldwide Tackles Global Poverty to the database
+2025-08-20 11:29:21 - INFO - Prepared email insertion: Google Alert - Accenture from https://lbbonline.com/news/Concern-Worldwide-Tackles-Global-Poverty
+2025-08-20 11:29:21 - INFO - Processing email: Google Alert - Deloitte on 19-08-25
+2025-08-20 11:29:42 - INFO - Unique article detected. Added Optio appoints Deloitte's Hallett to lead insurer partnerships to the database
+2025-08-20 11:29:42 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.theinsurer.com/program-manager/news/optio-appoints-deloittes-hallett-to-lead-insurer-partnerships-2025-08-19/
+2025-08-20 11:29:42 - INFO - Processing email: Google Alert - Deloitte on 19-08-25
+2025-08-20 11:30:02 - INFO - Unique article detected. Added ISB Dean Madan Pillutla, ex-Deloitte India Chairman P R Ramesh join Cyient board to the database
+2025-08-20 11:30:02 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.thehindubusinessline.com/info-tech/isb-dean-madan-pillutla-ex-deloitte-india-chairman-p-r-ramesh-join-cyient-board/article69950759.ece
+2025-08-20 11:30:24 - INFO - Unique article detected. Added Three more troubled banks to come under AQR this week to the database
+2025-08-20 11:30:24 - INFO - Prepared email insertion: Google Alert - Deloitte from https://today.thefinancialexpress.com.bd/last-page/three-more-troubled-banks-to-come-under-aqr-this-week-1755540322
+2025-08-20 11:30:24 - INFO - Processing email: Google Alert - Accenture on 19-08-25
+2025-08-20 11:30:43 - INFO - Duplicate article detected, skipping: Accenture Acquires The Highlands Consulting Group
+2025-08-20 11:30:43 - INFO - Prepared email insertion: Google Alert - Accenture from https://newsroom.accenture.com/news/2025/accenture-acquires-the-highlands-consulting-group
+2025-08-20 11:31:08 - INFO - Duplicate article detected, skipping: Accenture acquires CyberCX, marking significant push to secure APAC enterprises, critical infrastructure
+2025-08-20 11:31:08 - INFO - Prepared email insertion: Google Alert - Accenture from https://industrialcyber.co/news/accenture-acquires-cybercx-marking-significant-push-to-secure-apac-enterprises-critical-infrastructure/
+2025-08-20 11:31:38 - INFO - Duplicate article detected, skipping: Accenture to buy CyberCX
+2025-08-20 11:31:38 - INFO - Prepared email insertion: Google Alert - Accenture from https://finance.yahoo.com/news/accenture-buy-cybercx-092733431.html
+2025-08-20 11:31:57 - INFO - Duplicate article detected, skipping: Accenture Acquires The Highlands Consulting Group
+2025-08-20 11:31:57 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.citybiz.co/article/733145/accenture-acquires-the-highlands-consulting-group/?abkw=citybiznewyork
+2025-08-20 11:33:02 - INFO - Unique article detected. Added Morgan Stanley Maintained Hold Rating on Accenture (ACN) Stock to the database
+2025-08-20 11:33:02 - INFO - Prepared email insertion: Google Alert - Accenture from https://finance.yahoo.com/news/morgan-stanley-maintained-hold-rating-042304692.html
+2025-08-20 11:33:22 - INFO - Duplicate article detected, skipping: Accenture lands £19.5m Home Office deal
+2025-08-20 11:33:22 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.techmarketview.com/ukhotviews/archive/2025/08/18/accenture-lands-195m-home-office-deal
+2025-08-20 11:33:54 - INFO - Duplicate article detected, skipping: Accenture Acquires CyberCX for Over A$1B to Boost APAC Cybersecurity
+2025-08-20 11:33:54 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.webpronews.com/accenture-acquires-cybercx-for-over-a1b-to-boost-apac-cybersecurity/
+2025-08-20 11:34:24 - INFO - Unique article detected. Added Aerchain Wins Accenture Ventures Tech Next Challenge 2025 to the database
+2025-08-20 11:34:24 - INFO - Prepared email insertion: Google Alert - Accenture from https://whnt.com/business/press-releases/ein-presswire/839726485/aerchain-wins-accenture-ventures-tech-next-challenge-2025
+2025-08-20 11:34:56 - ERROR - Error processing email 'Google Alert - Accenture' with URL 'https://www.bizjournals.com/sacramento/news/2025/08/18/accenture-highlands-consulting-acquisition.html': 'title'
+2025-08-20 11:35:16 - INFO - Duplicate article detected, skipping: Accenture to acquire CyberCX in $650Mn cybersecurity deal
+2025-08-20 11:35:16 - INFO - Prepared email insertion: Google Alert - Accenture from https://news.outsourceaccelerator.com/accenture-to-acquire-cybercx-cybersecurity/
+2025-08-20 11:36:42 - INFO - Unique article detected. Added Shivani Vora, Accenture & Jim Anderson, Google Cloud to the database
+2025-08-20 11:36:42 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.thecube.net/events/google/partner-ai-series/content/Videos/2f4588b2-e4ff-4a88-b06e-fabc148135ae
+2025-08-20 11:36:42 - INFO - Processing email: Google Alert - Accenture on 19-08-25
+2025-08-20 11:36:52 - INFO - Duplicate article detected, skipping: Accenture to Acquire CyberCX, Boost Cybersecurity Strength in Asia Pacific
+2025-08-20 11:36:52 - INFO - Prepared email insertion: Google Alert - Accenture from https://analyticsindiamag.com/ai-news-updates/accenture-to-acquire-cybercx-boost-cybersecurity-strength-in-asia-pacific/
+2025-08-20 11:37:44 - INFO - Unique article detected. Added Pentagon cancels Accenture, Oracle HR software after $800m spend to the database
+2025-08-20 11:37:44 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.peoplematters.in/news/business/pentagon-cancels-accenture-oracle-hr-software-after-dollar800m-spend-43018
+2025-08-20 11:38:06 - INFO - Duplicate article detected, skipping: Accenture to buy CyberCX for reported $650M
+2025-08-20 11:38:06 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.communicationstoday.co.in/accenture-to-buy-cybercx-for-reported-650m/
+2025-08-20 11:38:56 - INFO - Duplicate article detected, skipping: KOGO Wins Accenture Ventures Tech Next 2025 for Enterprise-Focused Autonomous Platform
+2025-08-20 11:38:56 - INFO - Prepared email insertion: Google Alert - Accenture from https://themachinemaker.com/news/kogo-wins-accenture-ventures-tech-next-2025-for-enterprise-focused-autonomous-platform/
+2025-08-20 11:39:16 - INFO - Unique article detected. Added Indian IT should take a leaf from Accenture’s M&A strategy to the database
+2025-08-20 11:39:16 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.moneycontrol.com/news/opinion/indian-it-should-take-a-leaf-from-accenture-s-m-a-strategy-13465077.html
+2025-08-20 11:39:29 - INFO - Unique article detected. Added Qatar Airways, Accenture Launch ‘AI Skyways’ to Transform Aviation Operations to the database
+2025-08-20 11:39:29 - INFO - Prepared email insertion: Google Alert - Accenture from https://analyticsindiamag.com/ai-news-updates/qatar-airways-accenture-launch-ai-skyways-to-transform-aviation-operations/
+2025-08-20 11:39:51 - INFO - Unique article detected. Added Accenture Song ANZ Appoints Fabio Buresti to Expanded Leadership Role to the database
+2025-08-20 11:39:51 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.ceoinsightsasia.com/news/accenture-song-anz-appoints-fabio-buresti-to-expanded-leadership-role-nwid-13831.html
+2025-08-20 11:41:00 - INFO - Unique article detected. Added Top 10 Non-IIM MBA Schools in India: Check Placements and Rankings to the database
+2025-08-20 11:41:00 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.jagranjosh.com/colleges/top-10-non-iim-mba-schools-in-india-check-placements-and-rankings-clga-1870000181-1
+2025-08-20 11:41:00 - INFO - Processing email: Google Alert - Accenture on 19-08-25
+2025-08-20 11:41:24 - INFO - Duplicate article detected, skipping: Accenture (ACN) To Acquire an Australian Cybersecurity Firm, CyberCX
+2025-08-20 11:41:24 - INFO - Prepared email insertion: Google Alert - Accenture from https://finance.yahoo.com/news/accenture-acn-acquire-australian-cybersecurity-031536551.html
+2025-08-20 11:41:43 - INFO - Unique article detected. Added Home Office signs Accenture in new migration and borders data deal to the database
+2025-08-20 11:41:43 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.ukauthority.com/articles/home-office-signs-accenture-in-new-migration-and-borders-data-deal
+2025-08-20 11:41:43 - INFO - Processing email: Google Alert - Accenture on 19-08-25
+2025-08-20 11:42:28 - INFO - Duplicate article detected, skipping: Accenture Song expands Fabio Buresti's leadership role - AdNews
+2025-08-20 11:42:28 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.adnews.com.au/news/accenture-song-expands-fabio-buresti-s-leadership-role
+2025-08-20 11:42:53 - INFO - Duplicate article detected, skipping: Australian cyber firm CyberCX acquired by Accenture
+2025-08-20 11:42:53 - INFO - Prepared email insertion: Google Alert - Accenture from https://ia.acs.org.au/article/2025/australian-cyber-firm-cybercx-acquired-by-accenture.html
+2025-08-20 11:43:05 - ERROR - Error processing email 'Google Alert - Accenture' with URL 'https://mumbrella.com.au/accenture-song-anz-widens-fabio-burestis-remit-885711': 'title'
+2025-08-20 11:43:52 - INFO - Duplicate article detected, skipping: Expanded strategy remit for Fabio Buresti across Accenture Song and Droga5
+2025-08-20 11:43:52 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.mediaweek.com.au/accenture-song-appoints-fabio-buresti-strategy-and-design-lead/
+2025-08-20 11:44:05 - INFO - Duplicate article detected, skipping: Fabio Buresti joins Accenture Song ANZ as MD of customer strategy, design and digital products | Mi3
+2025-08-20 11:44:05 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.mi-3.com.au/18-08-2025/fabio-buresti-joins-accenture-song-anz-md-customer-strategy
+2025-08-20 11:44:45 - INFO - Unique article detected. Added Venture capital funds: Advance VC offers liquidity to investors seeking early returns to the database
+2025-08-20 11:44:45 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.afr.com/technology/new-fund-looks-to-snap-up-stakes-in-ageing-vc-funds-20250722-p5mgsb
+2025-08-20 11:44:45 - INFO - Processing email: Google Alert - Accenture on 19-08-25
+2025-08-20 11:45:10 - INFO - Duplicate article detected, skipping: Accenture Song Appoints Fabio Buresti to Lead Customer Strategy, Design and Digital Products
+2025-08-20 11:45:10 - INFO - Prepared email insertion: Google Alert - Accenture from https://campaignbrief.com/accenture-song-appoints-fabio-buresti-to-lead-customer-strategy-design-and-digital-products/
+2025-08-20 11:45:10 - INFO - Processing email: Google Alert - BCG on 19-08-25
+2025-08-20 11:45:40 - INFO - Unique article detected. Added \u3010\u65e5\u672c\u306e\u5bcc\u88d5\u5c64\u3011\u300c\u7d14\u91d1\u878d\u8cc7\u75231\u5104\u5186\u4ee5\u4e0a\u300d\u306e\u5bcc\u88d5\u5c64\u306f\u3069\u308c\u304f\u3089\u3044\u3044\u308b\uff1f\u300a\u9ad8\u984d\u6240\u5f97\u8005\u5c64\u300b\u300c\u8cfc\u8cb7\u884c\u52d5\u300d\u306b\u5909\u5316\u306f\u3042\u3063\u305f\uff1f\uff08LIMO\uff09 to the database
+2025-08-20 11:45:40 - INFO - Prepared email insertion: Google Alert - BCG from https://news.yahoo.co.jp/articles/a9cd52f174e14364dd2e44d331316429f39e36d6?page=2
+2025-08-20 11:45:40 - INFO - Processing email: Google Alert - EY on 19-08-25
+2025-08-20 11:45:59 - INFO - Unique article detected. Added \u65b0\u30fb\u7d4c\u7406\u5b9f\u52d9\u6700\u524d\u7dda\uff01\uff31\uff06\uff21\u3000\u76e3\u67fb\u306e\u73fe\u5834\u304b\u3089\u3000\u7b2c27\u56de\u3000\u9023\u7d50\u5b50\u4f1a\u793e\u3068\u306e\u6c7a\u7b97\u65e5\u7d71\u4e00\u306b\u4f34\u3046\u30ad\u30e3\u30c3\u30b7\u30e5\u30fb\u30d5\u30ed\u30fc\u8a08\u7b97\u66f8\u306e\u4f5c\u6210\u65b9\u6cd5\u3068\u958b\u793a to the database
+2025-08-20 11:45:59 - INFO - Prepared email insertion: Google Alert - EY from https://www.zeiken.co.jp/keieizaimu/article/no3715/ZA00037151401.php
+2025-08-20 11:46:33 - INFO - Unique article detected. Added \u7c73\u56fd\u76e3\u67fb\u6cd5\u4ebaGuzmanGray\u3001\u30b8\u30e3\u30d1\u30f3\u30b5\u30fc\u30d3\u30b9\u30b0\u30eb\u30fc\u30d7\u306e\u76e3\u67fb\u30d1\u30fc\u30c8\u30ca\u30fc\u306b\u4e0a\u7530\u5b88\u8aa0\u6c0f\u3092\u8fce\u3048\u3001\u7c73\u56fdIPO\u30fbNASDAQ/NYSE\u4e0a\u5834\u4f01\u696d\u30fb\u30af\u30ed\u30b9\u30dc\u30fc\u30c0\u30fc\u4f01\u696d\u3078\u306e\u76e3\u67fb\u30b5\u30fc\u30d3\u30b9\u3092\u5f37\u5316 to the database
+2025-08-20 11:46:33 - INFO - Prepared email insertion: Google Alert - EY from https://news.nicovideo.jp/watch/nw18121684?news_ref=20_20
+2025-08-20 11:47:04 - INFO - Unique article detected. Added \u3010JPI\u30bb\u30df\u30ca\u30fc\u3011\u300c\u4e0a\u4e0b\u6c34\u9053\u30a6\u30a9\u30fc\u30bf\u30fcPPP\u4e8b\u696d\u63a8\u9032\u306b\u95a2\u3059\u308b\u57fa\u790e\u3068\u6700\u65b0\u52d5\u5411\u300d9\u670813\u65e5(\u91d1)\u958b\u50ac to the database
+2025-08-20 11:47:04 - INFO - Prepared email insertion: Google Alert - EY from https://www.sannichi.co.jp/prtimes/others/c42328_r1050
+2025-08-20 11:47:11 - ERROR - Error processing email 'Google Alert - EY' with URL 'https://eggu.jp/blogs/news/ey-japan%E4%B8%BB%E5%82%AC-%E3%81%8B%E3%82%89%E3%81%A0%E8%BB%B8%E3%81%A7%E8%80%83%E3%81%88%E3%82%8B%E3%83%AF%E3%83%BC%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%95%E3%83%97%E3%83%A9%E3%83%B3-%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88': 'title'
+2025-08-20 11:47:49 - INFO - Unique article detected. Added EY\u30b9\u30c8\u30e9\u30c6\u30b8\u30fc\u30fb\u30a2\u30f3\u30c9\u30fb\u30b3\u30f3\u30b5\u30eb\u30c6\u30a3\u30f3\u30b0\u306e\u9000\u8077\u7406\u7531\u300c\u826f\u304f\u3082\u60aa\u304f\u3082\u7de9\u304f\u3001\u30e9\u30f3\u30af\u3068\u30b9\u30ad\u30eb\u30a2\u30f3\u30de\u30c3\u30c1\u306e\u30b3\u30f3\u30b5\u30eb\u304c\u591a\u304f\u3001\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30ef...\u300d to the database
+2025-08-20 11:47:49 - INFO - Prepared email insertion: Google Alert - EY from https://openmoney.jp/career_path_reports/Dlhw8x/resignation_reason
+2025-08-20 11:48:09 - INFO - Unique article detected. Added \u82f1\u8a9e\u529b\u304c\u6b66\u5668\u306b\u306a\u308b\u6c42\u4eba to the database
+2025-08-20 11:48:09 - INFO - Prepared email insertion: Google Alert - EY from https://mlg.kaien-lab.com/special/230912_4?sort=release_period_start&page=3
+2025-08-20 11:48:52 - INFO - Unique article detected. Added \u30ac\u30e9\u30af\u30bf\u3067\u594f\u3067\u308b\u3001\u4e0d\u601d\u8b70\u306a\u97f3\u306e\u30ef\u30af\u30ef\u30af\u97f3\u697d\u4f1a to the database
+2025-08-20 11:48:52 - INFO - Prepared email insertion: Google Alert - EY from https://www.minyu-net.com/release/prwire?pageNum_Recordset1=15&qrkydpg_paris2024_page=MEDAL-RANKING----------------------&totalRows_Recordset1=693&page=418
+2025-08-20 11:49:41 - INFO - Unique article detected. Added \u8c61\u5370 EY-SB60-XH\u3068EY-JF50\u306e\u9055\u3044\u3092\u6bd4\u8f03\uff01\u304a\u3059\u3059\u3081\u306e\u98df\u5668\u4e7e\u71e5\u5668\u3069\u3063\u3061\uff1f to the database
+2025-08-20 11:49:41 - INFO - Prepared email insertion: Google Alert - EY from https://ameblo.jp/sono-simple-life/entry-12923323602.html
+2025-08-20 11:50:14 - INFO - Unique article detected. Added \u30a8\u30c6\u30a3\u30cf\u30c9\u822a\u7a7a(EY) \u30a8\u30a2\u30d0\u30b9A321LR\u5c0e\u5165\u306e\u6226\u7565\u7684\u610f\u5473 to the database
+2025-08-20 11:50:14 - INFO - Prepared email insertion: Google Alert - EY from https://voyageavance.global/ey-a321lr-strategy
+2025-08-20 11:50:36 - INFO - Unique article detected. Added EY \u30aa\u30ea\u30b8\u30ca\u30eb \u30c8\u30fc\u30c8\u30d0\u30c3\u30b0 \u30a8\u30b3\u30d0\u30c3\u30b0 \u30cd\u30a4\u30d3\u30fc \u30b5\u30b9\u30c6\u30ca\u30d3\u30ea\u30c6\u30a3\uff5cYahoo!\u30d5\u30ea\u30de\uff08\u65e7PayPay\u30d5\u30ea\u30de\uff09 to the database
+2025-08-20 11:50:36 - INFO - Prepared email insertion: Google Alert - EY from https://paypayfleamarket.yahoo.co.jp/item/z475120824
+2025-08-20 11:50:50 - INFO - Unique article detected. Added \u5e97\u8217\u306e\u3054\u6848\u5185 to the database
+2025-08-20 11:50:50 - INFO - Prepared email insertion: Google Alert - EY from https://shinkou2005.co.jp/?_g=4941886
+2025-08-20 11:50:50 - INFO - Processing email: Google Alert - Deloitte on 19-08-25
+2025-08-20 11:51:13 - INFO - Unique article detected. Added Singapore Pools raises S$1.2 million for 7 charities; Deloitte Singapore raises S$700,000 for SPD to the database
+2025-08-20 11:51:13 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.businesstimes.com.sg/lifestyle/singapore-pools-raises-s1-2-million-7-charities-deloitte-singapore-raises-s700000-spd
+2025-08-20 11:51:45 - INFO - Unique article detected. Added Prediction: Nvidia's New China Deal Will Be a Game-Changer. Here's Why to the database
+2025-08-20 11:51:45 - INFO - Prepared email insertion: Google Alert - Deloitte from https://longportapp.com/news/253361574
+2025-08-20 11:51:45 - INFO - Processing email: Google Alert - Deloitte on 19-08-25
+2025-08-20 11:52:00 - INFO - Unique article detected. Added Deloitte probed over audits of scandal-hit commodities giant Glencore to the database
+2025-08-20 11:52:00 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.msn.com/en-us/money/taxes/deloitte-probed-over-audits-of-scandal-hit-commodities-giant-glencore/ar-AA1JahgQ
+2025-08-20 11:52:00 - INFO - Processing email: Google Alert - Deloitte on 19-08-25
+2025-08-20 11:52:00 - INFO - Processing email: Google Alert - Deloitte on 19-08-25
+2025-08-20 11:52:25 - INFO - Unique article detected. Added Building Resilience: How AI Can Protect Construction and Infrastructure from Climate Risk to the database
+2025-08-20 11:52:25 - INFO - Prepared email insertion: Google Alert - Deloitte from https://groundbreakcarolinas.com/building-resilience-how-ai-can-protect-construction-and-infrastructure-from-climate-risk/
+2025-08-20 11:52:43 - INFO - Unique article detected. Added FloQast Forms Strategic Alliance with Deloitte Australia to Accelerate Financial Transformation to the database
+2025-08-20 11:52:43 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.bdtonline.com/news/nation_world/floqast-forms-strategic-alliance-with-deloitte-australia-to-accelerate-financial-transformation/article_259999a7-0913-5f9d-8ffe-01c63872116c.html
+2025-08-20 11:52:43 - INFO - Processing email: Google Alert - Deloitte on 19-08-25
+2025-08-20 11:52:43 - INFO - Processing email: Google Alert - Deloitte on 19-08-25
+2025-08-20 11:53:11 - INFO - Duplicate article detected, skipping: FloQast Forms Strategic Alliance with Deloitte Australia to Accelerate Financial Transformation
+2025-08-20 11:53:11 - INFO - Prepared email insertion: Google Alert - Deloitte from https://finance.yahoo.com/news/floqast-forms-strategic-alliance-deloitte-200000233.html
+2025-08-20 11:53:40 - INFO - Duplicate article detected, skipping: FloQast Forms Strategic Alliance with Deloitte Australia to Accelerate Financial Transformation
+2025-08-20 11:53:40 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.bakersfield.com/ap/news/floqast-forms-strategic-alliance-with-deloitte-australia-to-accelerate-financial-transformation/article_71d06bfc-533b-5982-8abe-2f9c323bc783.html
+2025-08-20 11:53:40 - INFO - Processing email: Google Alert - Deloitte on 19-08-25
+2025-08-20 11:54:21 - ERROR - Error processing email 'Google Alert - Deloitte' with URL 'https://deloitte.wsj.com/cmo/amid-uncertainty-ai-is-helping-some-retailers-rethink-holiday-buying-strategies-927aa404': 'title'
+2025-08-20 11:54:25 - ERROR - Error processing email 'Google Alert - Deloitte' with URL 'https://deloitte.wsj.com/cfo/the-momentum-driving-alternative-cre-investment-6d955af6': 'title'
+2025-08-20 11:54:25 - INFO - Processing email: Google Alert - Deloitte on 19-08-25
+2025-08-20 11:54:52 - ERROR - Error processing email 'Google Alert - Deloitte' with URL 'https://deloitte.wsj.com/cmo/amid-uncertainty-ai-is-helping-some-retailers-rethink-holiday-buying-strategies-927aa404': 'title'
+2025-08-20 11:54:56 - ERROR - Error processing email 'Google Alert - Deloitte' with URL 'https://deloitte.wsj.com/cfo/the-momentum-driving-alternative-cre-investment-6d955af6': 'title'
+2025-08-20 11:54:56 - INFO - Processing email: Google Alert - Deloitte on 19-08-25
+2025-08-20 11:55:34 - INFO - Unique article detected. Added Deloitte highlights strategic recommendations for 2025 Policy Address to accelerate Hong Kong's economic transformation to the database
+2025-08-20 11:55:34 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.deloitte.com/cn/en/about/press-room//2025-policy-address-recommendations.html
+2025-08-20 11:56:04 - INFO - Unique article detected. Added Governance And AI: Are Boards Keeping Up? to the database
+2025-08-20 11:56:04 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.forbes.com/sites/deloitte/2025/08/18/governance-and-ai-are-boards-keeping-up/
+2025-08-20 11:56:51 - INFO - Unique article detected. Added A New Digitally-Enabled Workforce Era: How AI Agents Can Help Deliver Functional Efficiency And Value Across The Enterprise to the database
+2025-08-20 11:56:51 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.forbes.com/sites/deloitte/2025/08/18/a-new-digitally-enabled-workforce-era-how-ai-agents-can-help-deliver-functional-efficiency-and-value-across-the-enterprise/
+2025-08-20 11:56:57 - ERROR - Error processing email 'Google Alert - Deloitte' with URL 'https://www.theaustralian.com.au/business/cfo-journal/digital-financial-reporting-australias-quiet-productivity-gamechanger-for-cfos/news-story/83b42dbecb3cf2cfed77e68af9a75aca': 'title'
+2025-08-20 11:56:57 - INFO - Processing email: Google Alert - Deloitte on 19-08-25
+2025-08-20 11:57:01 - ERROR - Error processing email 'Google Alert - Deloitte' with URL 'https://www.theaustralian.com.au/business/cfo-journal/what-its-really-like-to-become-a-female-cfo-in-australia/news-story/0d59fe0b4d3de6f70c783a81650c87a6': 'title'
+2025-08-20 11:57:09 - ERROR - Error processing email 'Google Alert - Deloitte' with URL 'https://www.theaustralian.com.au/business/cfo-journal/digital-financial-reporting-australias-quiet-productivity-gamechanger-for-cfos/news-story/83b42dbecb3cf2cfed77e68af9a75aca': 'title'
+2025-08-20 11:57:09 - INFO - Processing email: Google Alert - Accenture on 19-08-25
+2025-08-20 11:57:32 - INFO - Unique article detected. Added Droga5 London Appoints Charlotte Farrington as Managing Director | LBBOnline to the database
+2025-08-20 11:57:32 - INFO - Prepared email insertion: Google Alert - Accenture from https://lbbonline.com/news/Droga5-London-Part-of-Accenture-Song-Appoints-Charlotte-Farrington-as-Managing-Director
+2025-08-20 11:57:54 - INFO - Unique article detected. Added Ann-Christine Diaz joins Droga5 to the database
+2025-08-20 11:57:54 - INFO - Prepared email insertion: Google Alert - Accenture from https://magazine.shots.net/news/view/ann-christine-diaz-joins-droga5
+2025-08-20 11:57:54 - INFO - Processing email: Google Alert - Deloitte on 19-08-25
+2025-08-20 11:58:09 - INFO - Unique article detected. Added Newton Emerson: Let’s arm police with a new weapon: Google Translate to the database
+2025-08-20 11:58:09 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.msn.com/en-us/news/world/newton-emerson-let-s-arm-police-with-a-new-weapon-google-translate/ar-AA1KCBah
+2025-08-20 11:58:09 - INFO - Processing email: Google Alert - Deloitte on 19-08-25
+2025-08-20 11:58:36 - INFO - Unique article detected. Added AUSP Joins Deloitte, Embassy of Israel, and Ukrainian Institute in Supporting Bouquet Kyiv Stage at Saint Sophia Cathedral to the database
+2025-08-20 11:58:36 - INFO - Prepared email insertion: Google Alert - Deloitte from https://finance.yahoo.com/news/ausp-joins-deloitte-embassy-israel-143300925.html
+2025-08-20 11:59:40 - INFO - Unique article detected. Added The Projector owes S$1.2 million to creditors; Golden Mile cinema put up for rent to the database
+2025-08-20 11:59:40 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.businesstimes.com.sg/pulse/article/7366838
+2025-08-20 11:59:40 - INFO - Processing email: Google Alert - Deloitte on 18-08-25
+2025-08-20 12:00:07 - INFO - Duplicate article detected, skipping: Deloitte highlights strategic recommendations for 2025 Policy Address to accelerate Hong Kong's economic transformation
+2025-08-20 12:00:07 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.deloitte.com/cn/en/about/press-room/2025-policy-address-recommendations.html
+2025-08-20 12:00:24 - INFO - Duplicate article detected, skipping: AUSP Joins Deloitte, Embassy of Israel, and Ukrainian Institute in Supporting Bouquet Kyiv Stage at Saint Sophia Cathedral
+2025-08-20 12:00:24 - INFO - Prepared email insertion: Google Alert - Deloitte from https://finance.yahoo.com/news/ausp-joins-deloitte-embassy-israel-143300925.html
+2025-08-20 12:00:24 - INFO - Processing email: Google Alert - Deloitte on 18-08-25
+2025-08-20 12:00:47 - INFO - Unique article detected. Added Data Visualization Engineer Senior Consultant | Deloitte Technology Delivery Center to the database
+2025-08-20 12:00:47 - INFO - Prepared email insertion: Google Alert - Deloitte from https://apply.deloittece.com/en_US/careers/JobDetail/Data-Visualization-Engineer-Senior-Consultant-Deloitte-Technology-Delivery-Center/17604
+2025-08-20 12:00:47 - INFO - Processing email: Google Alert - Deloitte on 18-08-25
+2025-08-20 12:00:59 - INFO - Duplicate article detected, skipping: Generative AI in enterprise software: Don't expect a revenue boom just yet
+2025-08-20 12:00:59 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.deloitte.com/us/en/insights/multimedia/videos/gen-ai-revenue-software.html
+2025-08-20 12:00:59 - INFO - Processing email: Google Alert - Deloitte on 18-08-25
+2025-08-20 12:01:32 - INFO - Unique article detected. Added Deloitte Books DOD Contract for Logistics Office Support to the database
+2025-08-20 12:01:32 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.executivebiz.com/articles/deloitte-washington-headquarters-services-contract-72m
+2025-08-20 12:01:32 - INFO - Processing email: Google Alert - Deloitte on 18-08-25
+2025-08-20 12:01:53 - INFO - Unique article detected. Added Deloitte: 23% of CFOs Plan Crypto Adoption Within Two Years to the database
+2025-08-20 12:01:53 - INFO - Prepared email insertion: Google Alert - Deloitte from https://fintechmagazine.com/news/deloitte-23-of-cfos-plan-crypto-adoption-within-two-years
+2025-08-20 13:43:53 - INFO - Retrying request to /chat/completions in 0.433926 seconds
+2025-08-20 13:43:54 - INFO - Retrying request to /chat/completions in 0.816302 seconds
+2025-08-20 13:43:55 - ERROR - Error processing email 'Google Alert - Deloitte' with URL 'https://www.deloitte.com/nz/en/services/tax/perspectives/snapshots-of-recent-developments-august-2025.html': 'title'
+2025-08-20 13:43:55 - WARNING - Invalid content from URL: https://www.wboy.com/business/press-releases/cision/20250818NY53487/ausp-joins-deloitte-embassy-of-israel-and-ukrainian-institute-in-supporting-bouquet-kyiv-stage-at-saint-sophia-cathedral
+2025-08-20 13:43:55 - WARNING - Invalid content from URL: https://www.morningstar.com/news/pr-newswire/20250818ny53487/ausp-joins-deloitte-embassy-of-israel-and-ukrainian-institute-in-supporting-bouquet-kyiv-stage-at-saint-sophia-cathedral
+2025-08-20 13:43:55 - WARNING - Invalid content from URL: https://greenstreetnews.com/article/deloitte-leases-8000-sq-m-in-leipzigs-ostforum/
+2025-08-20 13:43:55 - WARNING - Invalid content from URL: https://telegrafi.com/en/deloitte-macedonia-does-not-attract-foreign-investors/?noamp=mobile
+2025-08-20 13:43:55 - WARNING - Invalid content from URL: https://www.pressreader.com/philippines/manila-times/20250818/281801405053586
+2025-08-20 13:43:55 - WARNING - Invalid content from URL: https://www.ainvest.com/news/google-reintroduces-person-interviews-counter-ai-cheating-hiring-process-2508/
+2025-08-20 13:43:56 - WARNING - Invalid content from URL: https://www.ainvest.com/news/uk-consumer-confidence-impact-monetary-policy-easing-navigating-opportunities-shifting-landscape-2508/
+2025-08-20 13:43:56 - INFO - Processing email: Google Alert - Deloitte on 18-08-25
+2025-08-20 13:43:56 - WARNING - Invalid content from URL: https://www.sustainabletimes.co.uk/post/deloitte-ai-may-save-the-world-110-billion-in-disaster-damages
+2025-08-20 13:43:56 - WARNING - Invalid content from URL: https://www.chinadailyasia.com/article/618131
+2025-08-20 13:43:56 - WARNING - Invalid content from URL: https://ktla.com/business/press-releases/cision/20250818NY53487/ausp-joins-deloitte-embassy-of-israel-and-ukrainian-institute-in-supporting-bouquet-kyiv-stage-at-saint-sophia-cathedral
+2025-08-20 13:43:56 - WARNING - Invalid content from URL: https://www.morningstar.com/news/pr-newswire/20250818ny53487/ausp-joins-deloitte-embassy-of-israel-and-ukrainian-institute-in-supporting-bouquet-kyiv-stage-at-saint-sophia-cathedral
+2025-08-20 13:43:56 - WARNING - Invalid content from URL: https://www.thestandard.com.hk/market/article/309198/Deloitte-advises-extending-the-stock-market-close-to-6-pm
+2025-08-20 13:43:56 - WARNING - Invalid content from URL: https://economynext.com/brand_voice/deloitte-decision-points-how-to-get-your-organisation-ready-for-ai/
+2025-08-20 13:43:56 - WARNING - Invalid content from URL: https://www.businesstimes.com.sg/lifestyle/singapore-pools-raises-s1-2-million-7-charities-deloitte-singapore-raises-s700000-spd
+2025-08-20 13:43:56 - WARNING - Invalid content from URL: https://telegrafi.com/en/deloitte-macedonia-does-not-attract-foreign-investors/?noamp=mobile
+2025-08-20 13:43:56 - WARNING - Invalid content from URL: https://www.theaustralian.com.au/business/cfo-journal/what-its-really-like-to-become-a-female-cfo-in-australia/news-story/0d59fe0b4d3de6f70c783a81650c87a6
+2025-08-20 13:43:56 - INFO - Processing email: Google Alert - Deloitte on 18-08-25
+2025-08-20 13:43:56 - WARNING - Invalid content from URL: https://greenstreetnews.com/article/deloitte-leases-8000-sq-m-in-leipzigs-ostforum/
+2025-08-20 13:43:56 - WARNING - Invalid content from URL: https://www.ainvest.com/news/google-reintroduces-person-interviews-counter-ai-cheating-hiring-process-2508/
+2025-08-20 13:43:56 - INFO - Processing email: Google Alert - Accenture on 18-08-25
+2025-08-20 13:43:56 - WARNING - Invalid content from URL: https://www.startupdaily.net/topic/cyber-security/accenture-set-to-acquire-sovereign-cybersecurity-scaleup-cybercx-is-1-billion-deal/
+2025-08-20 13:43:56 - WARNING - Invalid content from URL: https://www.pymnts.com/cpi-posts/accenture-strikes-650-million-deal-to-acquire-cybercx-amid-rising-cyber-threats/
+2025-08-20 13:43:56 - WARNING - Invalid content from URL: https://seekingalpha.com/article/4814317-accenture-genai-growth-reinvention-services-multi-year-upside
+2025-08-20 13:43:56 - WARNING - Invalid content from URL: https://www.ainvest.com/news/accenture-genai-driven-reinvention-catalyst-long-term-shareholder-2508/
+2025-08-20 13:43:56 - WARNING - Invalid content from URL: https://www.brandinginasia.com/accenture-song-anz-appoints-fabio-buresti-to-expanded-leadership-role/
+2025-08-20 13:43:56 - WARNING - Invalid content from URL: https://www.defenseworld.net/2025/08/17/what-is-zacks-researchs-forecast-for-accenture-q3-earnings.html
+2025-08-20 13:43:56 - WARNING - Invalid content from URL: https://www.newstrail.com/bpo-business-analytics-market-touching-new-development-level-accenture-capgemini/
+2025-08-20 13:43:56 - WARNING - Invalid content from URL: https://www.aviationanalysis.net/qatar-airways-and-accenture-launch-ai-skyways-to-transform-global-aviation/
+2025-08-20 13:43:56 - INFO - Processing email: Google Alert - Accenture on 18-08-25
+2025-08-20 13:43:56 - WARNING - Invalid content from URL: https://www.indianweb2.com/2025/08/accenture-announces-its-largest-ever.html
+2025-08-20 13:43:56 - WARNING - Invalid content from URL: https://www.indianweb2.com/2025/08/ai-skyways-takes-flight-qatar-airways.html
+2025-08-20 13:43:56 - INFO - Processing email: Google Alert - Accenture on 18-08-25
+2025-08-20 13:43:56 - WARNING - Invalid content from URL: https://www.startupdaily.net/topic/cyber-security/accenture-set-to-acquire-sovereign-cybersecurity-scaleup-cybercx-is-1-billion-deal/
+2025-08-20 13:43:56 - WARNING - Invalid content from URL: https://www.pymnts.com/cpi-posts/accenture-strikes-650-million-deal-to-acquire-cybercx-amid-rising-cyber-threats/
+2025-08-20 13:43:57 - WARNING - Invalid content from URL: https://seekingalpha.com/article/4814317-accenture-genai-growth-reinvention-services-multi-year-upside
+2025-08-20 13:43:57 - WARNING - Invalid content from URL: https://securitybrief.com.au/story/accenture-to-acquire-cybercx-strengthening-asia-pacific-security
+2025-08-20 13:43:57 - WARNING - Invalid content from URL: https://www.indianweb2.com/2025/08/accenture-announces-its-largest-ever.html
+2025-08-20 13:43:57 - WARNING - Invalid content from URL: https://www.ainvest.com/news/accenture-genai-driven-reinvention-catalyst-long-term-shareholder-2508/
+2025-08-20 13:43:57 - WARNING - Invalid content from URL: https://www.themandarin.com.au/297823-trusted-government-cyber-adviser-cybercx-sells-to-accenture-for-1bn/
+2025-08-20 13:43:57 - WARNING - Invalid content from URL: https://newscentral.africa/accenture-to-acquire-cybercx-for-650m/
+2025-08-20 13:43:57 - WARNING - Invalid content from URL: https://www.marketbeat.com/instant-alerts/filing-dimensional-fund-advisors-lp-lowers-position-in-accenture-plc-nyseacn-2025-08-15/
+2025-08-20 13:43:57 - WARNING - Invalid content from URL: https://lbbonline.com/news/accenture-song-anz-fabio-buresti-creative-digital
+2025-08-20 13:43:57 - INFO - Processing email: Google Alert - Accenture on 18-08-25
+2025-08-20 13:43:57 - WARNING - Invalid content from URL: https://www.itnews.com.au/news/accenture-to-buy-australian-cyber-security-firm-cybercx-619634
+2025-08-20 13:43:57 - WARNING - Invalid content from URL: https://securitybrief.com.au/story/accenture-to-acquire-cybercx-strengthening-asia-pacific-security
+2025-08-20 13:43:57 - WARNING - Invalid content from URL: https://www.themandarin.com.au/297823-trusted-government-cyber-adviser-cybercx-sells-to-accenture-for-1bn/
+2025-08-20 13:43:57 - WARNING - Invalid content from URL: https://www.afr.com/technology/australian-space-firm-eyeing-an-ipo-but-needs-to-reach-orbit-first-20250813-p5mmr4
+2025-08-20 13:43:57 - INFO - Processing email: Google Alert - Deloitte on 18-08-25
+2025-08-20 13:43:57 - WARNING - Invalid content from URL: https://www.deloitte.com/nz/en/services/tax/perspectives/snapshots-of-recent-developments-august-2025.html
+2025-08-20 13:43:57 - WARNING - Invalid content from URL: https://www.deloitte.com/nz/en/services/tax/perspectives/participating-advisor-pioneering-a-strong-transparent-tax-system.html
+2025-08-20 13:43:58 - WARNING - Invalid content from URL: https://www.geekzone.co.nz/forums.asp?forumid=49&topicid=321461
+2025-08-20 13:43:58 - WARNING - Invalid content from URL: https://www.nucamp.co/blog/coding-bootcamp-columbus-oh-government-how-ai-is-helping-government-companies-in-columbus-cut-costs-and-improve-efficiency
+2025-08-20 13:43:58 - WARNING - Invalid content from URL: https://www.pressreader.com/philippines/manila-times/20250818/281801405053586
+2025-08-20 13:43:58 - INFO - Processing email: Google Alert - Accenture on 18-08-25
+2025-08-20 13:43:58 - WARNING - Invalid content from URL: https://www.ukauthority.com/articles/home-office-signs-accenture-in-new-migration-and-borders-data-deal
+2025-08-20 13:43:58 - WARNING - Invalid content from URL: https://lbbonline.com/news/accenture-song-anz-fabio-buresti-creative-digital
+2025-08-20 13:43:58 - WARNING - Invalid content from URL: https://www.digit.fyi/uk-ai-adoption-accenture-gdp/
+2025-08-20 13:43:58 - INFO - Processing email: Google Alert - Deloitte on 18-08-25
+2025-08-20 13:43:58 - WARNING - Invalid content from URL: https://www.nucamp.co/blog/coding-bootcamp-columbus-oh-government-how-ai-is-helping-government-companies-in-columbus-cut-costs-and-improve-efficiency
+2025-08-20 13:43:58 - INFO - Processing email: Google Alert - Deloitte on 18-08-25
+2025-08-20 13:43:58 - WARNING - Invalid content from URL: https://www.deloitte.com/nz/en/services/tax/perspectives/pillar-two-faqs.html
+2025-08-20 13:43:58 - INFO - Processing email: Google Alert - Deloitte on 18-08-25
+2025-08-20 13:43:58 - WARNING - Invalid content from URL: https://www.deloitte.com/nz/en/services/tax/perspectives/pillar-two-faqs.html
+2025-08-20 13:43:58 - INFO - Processing email: Google Alert - Deloitte on 18-08-25
+2025-08-20 13:43:58 - WARNING - Invalid content from URL: https://www.thehindubusinessline.com/specials/clean-tech/cross-sector-climate-solution/article69944437.ece
+2025-08-20 13:43:58 - INFO - Processing email: Google Alert - Deloitte on 18-08-25
+2025-08-20 13:43:58 - WARNING - Invalid content from URL: https://www.indexbox.io/blog/deloitte-launches-first-big-four-satellite-into-space/
+2025-08-20 13:43:58 - INFO - Processing email: Google Alert - Deloitte on 18-08-25
+2025-08-20 13:43:58 - WARNING - Invalid content from URL: https://www.indexbox.io/blog/deloitte-launches-first-big-four-satellite-into-space/
+2025-08-20 13:43:58 - INFO - Processing email: Google Alert - Deloitte on 18-08-25
+2025-08-20 13:43:58 - WARNING - Invalid content from URL: https://www.robbreport.com.sg/seized-luxury-goods-for-sale-deloitte/
+2025-08-20 13:43:58 - INFO - Processing email: Google Alert - Deloitte on 17-08-25
+2025-08-20 15:46:09 - WARNING - Invalid content from URL: https://www.robbreport.com.sg/seized-luxury-goods-for-sale-deloitte/
+2025-08-20 15:46:09 - INFO - Processing email: Google Alert - Deloitte on 17-08-25
+2025-08-20 15:46:09 - WARNING - Invalid content from URL: https://www.manilatimes.net/2025/08/18/business/top-business/when-ai-takes-the-entry-level-job/2169179
+2025-08-20 15:46:09 - INFO - Processing email: Google Alert - Deloitte on 17-08-25
+2025-08-20 15:46:09 - WARNING - Invalid content from URL: https://www.manilatimes.net/2025/08/18/business/top-business/when-ai-takes-the-entry-level-job/2169179
+2025-08-20 15:46:09 - INFO - Processing email: Google Alert - Deloitte on 17-08-25
+2025-08-20 15:46:09 - WARNING - Invalid content from URL: https://www.msn.com/en-us/foodanddrink/foodnews/school-lunches-are-costing-families-more-than-ever-heres-why/ar-AA1Kwkla
+2025-08-20 15:46:09 - INFO - Processing email: Google Alert - Deloitte on 17-08-25
+2025-08-20 15:46:09 - WARNING - Invalid content from URL: https://www.msn.com/en-us/foodanddrink/foodnews/school-lunches-are-costing-families-more-than-ever-heres-why/ar-AA1Kwkla
+2025-08-20 15:46:09 - INFO - Processing email: Google Alert - Deloitte on 17-08-25
+2025-08-20 15:46:09 - WARNING - Invalid content from URL: https://www.businessinsider.com/big-four-projects-deloitte-kpmg-ey-pwc-consulting-accountacy-2025-8
+2025-08-20 15:46:09 - WARNING - Invalid content from URL: https://fortune.com/2025/08/17/how-i-went-from-kindergarten-teacher-to-consulting-principal-deloitte-culture/
+2025-08-20 15:46:09 - INFO - Processing email: Google Alert - Deloitte on 17-08-25
+2025-08-20 15:46:09 - WARNING - Invalid content from URL: https://fortune.com/2025/08/17/how-i-went-from-kindergarten-teacher-to-consulting-principal-deloitte-culture/
+2025-08-20 15:46:09 - WARNING - Invalid content from URL: https://mashdigi.com/en/nvidia-reiterates-its-determination-to-let-the-ominverse-platform-drive-computing-applications-such-as-the-future-metaverse-and-strengthens-cloud-information-security/
+2025-08-20 15:46:09 - INFO - Processing email: Google Alert - Deloitte on 17-08-25
+2025-08-20 15:46:09 - WARNING - Invalid content from URL: https://www.businessinsider.com/big-four-projects-deloitte-kpmg-ey-pwc-consulting-accountacy-2025-8
+2025-08-20 15:46:09 - WARNING - Invalid content from URL: https://www.timesnownews.com/lifestyle/books/5-life-changing-fiction-books-under-50-pages-that-will-break-your-old-beliefs-article-152475644
+2025-08-20 15:46:09 - INFO - Processing email: Google Alert - Deloitte on 17-08-25
+2025-08-20 15:46:09 - WARNING - Invalid content from URL: https://www.timesnownews.com/lifestyle/books/5-life-changing-fiction-books-under-50-pages-that-will-break-your-old-beliefs-article-152475644
+2025-08-20 15:46:09 - INFO - Processing email: Google Alert - Deloitte on 17-08-25
+2025-08-20 15:46:09 - WARNING - Invalid content from URL: https://www.ainvest.com/news/kennametal-strategic-position-macroeconomic-stabilization-rating-making-2508/
+2025-08-20 15:46:09 - INFO - Processing email: Google Alert - Deloitte on 17-08-25
+2025-08-20 15:46:09 - WARNING - Invalid content from URL: https://www.ainvest.com/news/kennametal-strategic-position-macroeconomic-stabilization-rating-making-2508/
+2025-08-20 15:46:09 - INFO - Processing email: Google Alert - Deloitte on 17-08-25
+2025-08-20 15:46:09 - WARNING - Invalid content from URL: https://www.sportskeeda.com/us/wnba/i-loved-it-wnba-legend-sue-bird-s-wife-megan-rapinoe-reveals-reaction-thruple-seattle-storm-game
+2025-08-20 15:46:09 - INFO - Processing email: Google Alert - Deloitte on 17-08-25
+2025-08-20 15:46:09 - WARNING - Invalid content from URL: https://m.economictimes.com/jobs/c-suite/more-big-four-pros-landing-at-c-suite-spot-as-firms-become-leadership-pipeline/amp_articleshow/123337887.cms
+2025-08-20 15:46:09 - WARNING - Invalid content from URL: https://www.sportskeeda.com/us/wnba/i-loved-it-wnba-legend-sue-bird-s-wife-megan-rapinoe-reveals-reaction-thruple-seattle-storm-game
+2025-08-20 15:46:09 - INFO - Processing email: Google Alert - Deloitte on 17-08-25
+2025-08-20 15:46:09 - WARNING - Invalid content from URL: https://m.economictimes.com/jobs/c-suite/more-big-four-pros-landing-at-c-suite-spot-as-firms-become-leadership-pipeline/articleshow/123337887.cms
+2025-08-20 15:46:09 - INFO - Processing email: Google Alert - Deloitte on 17-08-25
+2025-08-20 15:46:10 - WARNING - Invalid content from URL: https://www.pressreader.com/singapore/the-straits-times/20250816/282196542041976
+2025-08-20 15:46:10 - INFO - Processing email: Google Alert - Deloitte on 17-08-25
+2025-08-20 15:46:10 - WARNING - Invalid content from URL: https://www.pressreader.com/singapore/the-straits-times/20250816/282196542041976
+2025-08-20 15:46:10 - INFO - Processing email: Google Alert - Deloitte on 17-08-25
+2025-08-20 15:46:10 - WARNING - Invalid content from URL: https://www.timesnownews.com/lifestyle/fashion/cushion-foundations-are-the-hottest-makeup-obsession-right-now-but-do-they-really-work-on-indian-skin-article-152474150
+2025-08-20 15:46:10 - INFO - Processing email: Google Alert - Deloitte on 16-08-25
+2025-08-20 15:46:10 - WARNING - Invalid content from URL: https://www.deloitte.com/us/en/programs/center-for-board-effectiveness/articles/digital-twins-board-of-directors.html
+2025-08-20 15:46:10 - INFO - Processing email: Google Alert - Deloitte on 16-08-25
+2025-08-20 15:46:10 - WARNING - Invalid content from URL: https://www.timesnownews.com/lifestyle/people/meet-23-year-old-sana-ganguly-daughter-of-indian-cricket-legend-sourav-ganguly-how-her-ucl-education-internship-stints-at-pwc-and-deloitte-are-turning-her-into-corporate-powerhouse-article-152471437
+2025-08-20 15:46:10 - INFO - Processing email: Google Alert - Deloitte on 16-08-25
+2025-08-20 15:46:10 - WARNING - Invalid content from URL: https://www.deloitte.com/us/en/programs/center-for-board-effectiveness/articles/digital-twins-board-of-directors.html
+2025-08-20 15:46:10 - INFO - Processing email: Google Alert - Deloitte on 16-08-25
+2025-08-20 15:46:10 - WARNING - Invalid content from URL: https://deloitte.wsj.com/sustainable-business/americans-want-to-eat-their-way-to-wellness-business-leaders-can-help-bba52917
+2025-08-20 15:46:10 - WARNING - Invalid content from URL: https://www.timesnownews.com/lifestyle/people/meet-23-year-old-sana-ganguly-daughter-of-indian-cricket-legend-sourav-ganguly-how-her-ucl-education-internship-stints-at-pwc-and-deloitte-are-turning-her-into-corporate-powerhouse-article-152471437
+2025-08-20 15:46:10 - WARNING - Invalid content from URL: https://www.pressreader.com/australia/townsville-weekend-9v1a/20250816/281805700017846
+2025-08-20 15:46:10 - INFO - Processing email: Google Alert - Deloitte on 16-08-25
+2025-08-20 15:46:10 - WARNING - Invalid content from URL: https://www.pressreader.com/australia/townsville-weekend-9v1a/20250816/281805700017846
+2025-08-20 15:46:10 - INFO - Processing email: Google Alert - Deloitte on 16-08-25
+2025-08-20 15:46:10 - WARNING - Invalid content from URL: https://deloitte.wsj.com/sustainable-business/americans-want-to-eat-their-way-to-wellness-business-leaders-can-help-bba52917
+2025-08-20 15:46:10 - INFO - Processing email: Google Alert - Deloitte on 16-08-25
+2025-08-20 15:46:10 - WARNING - Invalid content from URL: https://www.peoplemanagement.co.uk/article/1929003/wellbeing-%E2%80%93-not-know
+2025-08-20 15:46:10 - INFO - Processing email: Google Alert - Deloitte on 16-08-25
+2025-08-20 15:46:10 - WARNING - Invalid content from URL: https://www.ainvest.com/news/stock-analysis-berkley-outlook-mixed-signals-fundamentals-outpace-weak-technicals-2508/
+2025-08-20 15:46:10 - INFO - Processing email: Google Alert - Deloitte on 16-08-25
+2025-08-20 15:46:10 - WARNING - Invalid content from URL: https://www.ainvest.com/news/stock-analysis-berkley-outlook-mixed-signals-fundamentals-outpace-weak-technicals-2508/
+2025-08-20 15:46:10 - INFO - Processing email: Google Alert - Deloitte on 16-08-25
+2025-08-20 15:46:10 - WARNING - Invalid content from URL: https://www.aol.com/report-shows-kid-lunches-could-193042080.html
+2025-08-20 15:46:10 - INFO - Processing email: Google Alert - Deloitte on 16-08-25
+2025-08-20 15:46:10 - WARNING - Invalid content from URL: https://www.aol.com/report-shows-kid-lunches-could-193042080.html
+2025-08-20 15:46:10 - INFO - Processing email: Google Alert - Deloitte on 16-08-25
+2025-08-20 15:46:10 - WARNING - Invalid content from URL: https://www.msn.com/en-us/money/other/meet-thom-mpinganjira-the-entrepreneur-who-has-just-been-named-malawi-s-first-dollar-billionaire/ar-AA1KxYoW
+2025-08-20 15:46:10 - INFO - Processing email: Google Alert - Deloitte on 16-08-25
+2025-08-20 15:46:10 - WARNING - Invalid content from URL: https://www.consultancy.com.au/news/11486/grant-thornton-adds-two-new-partners-in-sydney-and-brisbane
+2025-08-20 15:46:10 - INFO - Processing email: Google Alert - Deloitte on 16-08-25
+2025-08-20 15:46:10 - WARNING - Invalid content from URL: https://www.goingconcern.com/friday-footnotes-plenty-of-jobs-to-be-had-at-pwc-india-firms-are-recruiting-directors-off-tiktok-now-8-15-25/
+2025-08-20 15:46:10 - INFO - Processing email: Google Alert - Deloitte on 16-08-25
+2025-08-20 15:46:10 - WARNING - Invalid content from URL: https://www.goingconcern.com/friday-footnotes-plenty-of-jobs-to-be-had-at-pwc-india-firms-are-recruiting-directors-off-tiktok-now-8-15-25/
+2025-08-20 15:46:10 - INFO - Processing email: Google Alert - Deloitte on 16-08-25
+2025-08-20 15:46:10 - WARNING - Invalid content from URL: https://www.deloitte.com/us/en/dbriefs-webcasts/tariffs-pricing-tax-policies-considerations-for-the-health-care-industry.html
+2025-08-20 15:46:10 - WARNING - Invalid content from URL: https://www.cbsnews.com/news/school-lunch-prices-rise-deloitte-report-2025/
+2025-08-20 15:46:10 - WARNING - Invalid content from URL: https://deloitte.wsj.com/cfo/measuring-generative-ais-economic-impacts-b8fcad5e
+2025-08-20 15:46:10 - INFO - Processing email: Google Alert - Deloitte on 16-08-25
+2025-08-20 15:46:10 - WARNING - Invalid content from URL: https://www.deloitte.com/us/en/dbriefs-webcasts/tariffs-pricing-tax-policies-considerations-for-the-health-care-industry.html
+2025-08-20 15:46:10 - WARNING - Invalid content from URL: https://www.cbsnews.com/news/school-lunch-prices-rise-deloitte-report-2025/
+2025-08-20 15:46:10 - WARNING - Invalid content from URL: https://www.theglobeandmail.com/investing/markets/stocks/ACI/pressreleases/34162437/albertsons-companies-holds-annual-stockholders-meeting/
+2025-08-20 15:46:10 - INFO - Processing email: Google Alert - Deloitte on 16-08-25
+2025-08-20 15:46:10 - WARNING - Invalid content from URL: https://www.straitstimes.com/sport/sport-changed-their-lives-now-these-students-want-to-give-back-through-deloittes-fundraising-run
+2025-08-20 15:46:10 - WARNING - Invalid content from URL: https://www.ricemedia.co/ai-singaporeans-communicators/
+2025-08-20 15:46:10 - INFO - Processing email: Google Alert - Deloitte on 16-08-25
+2025-08-20 15:46:11 - WARNING - Invalid content from URL: https://deloitte.wsj.com/cmo/stop-read-and-act-how-to-make-health-messages-matter-82d7d96e
+2025-08-20 15:46:11 - WARNING - Invalid content from URL: https://deloitte.wsj.com/riskandcompliance/ciso-essentials-a-checklist-for-outwitting-time-bandits-6eeac68b
+2025-08-20 15:46:11 - INFO - Processing email: Google Alert - Deloitte on 16-08-25
+2025-08-20 15:46:11 - WARNING - Invalid content from URL: https://deloitte.wsj.com/cmo/stop-read-and-act-how-to-make-health-messages-matter-82d7d96e
+2025-08-20 15:46:11 - WARNING - Invalid content from URL: https://deloitte.wsj.com/cfo/measuring-generative-ais-economic-impacts-b8fcad5e
+2025-08-20 15:46:11 - INFO - Processing email: Google Alert - Deloitte on 16-08-25
+2025-08-20 15:46:11 - WARNING - Invalid content from URL: https://www.axios.com/local/philadelphia/2025/08/15/back-to-school-shopping-philly-deloitte-survey
+2025-08-20 15:46:11 - INFO - Processing email: Google Alert - Deloitte on 15-08-25
+2025-08-20 15:46:11 - WARNING - Invalid content from URL: https://www.axios.com/local/philadelphia/2025/08/15/back-to-school-shopping-philly-deloitte-survey
+2025-08-20 15:46:11 - WARNING - Invalid content from URL: https://www.consultancy.com.au/news/11486/grant-thornton-adds-two-new-partners-in-sydney-and-brisbane
+2025-08-20 15:46:11 - INFO - Processing email: Google Alert - Deloitte on 15-08-25
+2025-08-20 15:46:11 - WARNING - Invalid content from URL: https://x.com/DeloitteSA/status/1956370293062087162
+2025-08-20 15:46:11 - INFO - Processing email: Google Alert - Deloitte on 15-08-25
+2025-08-20 15:46:11 - WARNING - Invalid content from URL: https://programbusiness.com/news/winning-the-fight-against-pc-insurance-fraud-with-ai-powered-multimodal-technologies/
+2025-08-20 15:46:11 - INFO - Processing email: Google Alert - Deloitte on 15-08-25
+2025-08-20 15:46:11 - WARNING - Invalid content from URL: https://x.com/DeloitteSA/status/1956370293062087162
+2025-08-20 15:46:11 - INFO - Processing email: Google Alert - Deloitte on 15-08-25
+2025-08-20 15:46:40 - INFO - Unique article detected. Added Winning the Fight Against P&C Insurance Fraud with AI-Powered Multimodal Technologies to the database
+2025-08-20 15:46:40 - INFO - Prepared email insertion: Google Alert - Deloitte from https://programbusiness.com/news/winning-the-fight-against-pc-insurance-fraud-with-ai-powered-multimodal-technologies/
+2025-08-20 15:46:40 - INFO - Processing email: Google Alert - Deloitte on 15-08-25
+2025-08-20 15:47:04 - INFO - Unique article detected. Added Dodgy welfare penalties must end, Greens urge Labor after second damning report in two weeks to the database
+2025-08-20 15:47:04 - INFO - Prepared email insertion: Google Alert - Deloitte from https://greens.org.au/news/dodgy-welfare-penalties-must-end-greens-urge-labor-after-second-damning-report-two-weeks
+2025-08-20 15:47:04 - INFO - Processing email: Google Alert - Deloitte on 15-08-25
+2025-08-20 15:47:50 - INFO - Unique article detected. Added Jackie Bezos, who funded her son Jeff’s startup, dies at 78 to the database
+2025-08-20 15:47:50 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.businesstimes.com.sg/pulse/article/7357396
+2025-08-20 15:47:50 - INFO - Processing email: Google Alert - Deloitte on 15-08-25
+2025-08-20 15:48:07 - INFO - Unique article detected. Added Incogni’s Data Removal Service Validated by Deloitte Audit to the database
+2025-08-20 15:48:07 - INFO - Prepared email insertion: Google Alert - Deloitte from https://cyberinsider.com/incognis-data-removal-service-validated-by-deloitte-audit/
+2025-08-20 15:48:07 - INFO - Processing email: Google Alert - Deloitte on 15-08-25
+2025-08-20 15:48:38 - INFO - Unique article detected. Added Sport changed their lives, now these students want to give back through Deloitte’s fund-raising run to the database
+2025-08-20 15:48:38 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.straitstimes.com/sport/sport-changed-their-lives-now-these-students-want-to-give-back-through-deloittes-fundraising-run
+2025-08-20 15:48:55 - INFO - Duplicate article detected, skipping: While adoption of Agentic AI is still gradual, Indian IT giants are ramping up efforts, with Deloitte’s latest report showing over 80% of organisations exploring autonomous agents.
+2025-08-20 15:48:55 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.linkedin.com/posts/analytics-india-magazine_while-adoption-of-agentic-ai-is-still-gradual-activity-7362052941257560064-5KVX
+2025-08-20 15:49:40 - INFO - Unique article detected. Added TSMC Releases Mid-Year Financial Statements for 2025 to the database
+2025-08-20 15:49:40 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.theglobeandmail.com/investing/markets/stocks/TSM/pressreleases/34175506/tsmc-releases-mid-year-financial-statements-for-2025/
+2025-08-20 15:50:21 - INFO - Unique article detected. Added Finalists Announced Ahead of 27th Annual Cnect Wales Awards to the database
+2025-08-20 15:50:21 - INFO - Prepared email insertion: Google Alert - Deloitte from https://businessnewswales.com/finalists-announced-ahead-of-27th-annual-cnect-wales-awards/
+2025-08-20 15:50:21 - INFO - Processing email: Google Alert - Deloitte on 15-08-25
+2025-08-20 15:50:26 - ERROR - Error processing email 'Google Alert - Deloitte' with URL 'https://deloitte.wsj.com/cfo/how-the-united-states-can-enhance-critical-minerals-supply-99468263': 'title'
+2025-08-20 15:51:16 - INFO - Duplicate article detected, skipping: Par­ents pri­or­it­ize school lunches amid price hikes
+2025-08-20 15:51:16 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.pressreader.com/usa/reno-gazette-journal/20250815/281874419492805
+2025-08-20 15:51:16 - INFO - Processing email: Google Alert - Deloitte on 15-08-25
+2025-08-20 15:51:16 - INFO - Processing email: Google Alert - Deloitte on 15-08-25
+2025-08-20 15:52:04 - INFO - Unique article detected. Added How Independent Financial Advisors Can Drive Smart, Sustainable Growth to the database
+2025-08-20 15:52:04 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.marketwatch.com/press-release/how-independent-financial-advisors-can-drive-smart-sustainable-growth-e69fcbde
+2025-08-20 15:52:04 - INFO - Processing email: Google Alert - Deloitte on 15-08-25
+2025-08-20 15:52:32 - INFO - Unique article detected. Added Is the Xbox server down right now? to the database
+2025-08-20 15:52:32 - INFO - Prepared email insertion: Google Alert - Deloitte from https://timesofindia.indiatimes.com/sports/esports/news/is-the-xbox-server-down-right-now/articleshow/123309532.cms
+2025-08-20 15:52:32 - INFO - Processing email: Google Alert - Deloitte on 15-08-25
+2025-08-20 15:52:48 - INFO - Unique article detected. Added Singapore to sell Hermes handbags, gold bars seized in $2.3B money laundering case to the database
+2025-08-20 15:52:48 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.msn.com/en-xl/money/other/singapore-to-sell-hermes-handbags-gold-bars-seized-in-2-3b-money-laundering-case/ar-AA1Ky7pT
+2025-08-20 15:52:48 - INFO - Processing email: Google Alert - Deloitte on 15-08-25
+2025-08-20 15:52:56 - ERROR - Error processing email 'Google Alert - Deloitte' with URL 'https://deloitte.wsj.com/cfo/how-the-united-states-can-enhance-critical-minerals-supply-99468263': 'title'
+2025-08-20 15:53:29 - INFO - Unique article detected. Added SAP & PwC: Make Supply Chain Management a Tier-One Priority to the database
+2025-08-20 15:53:29 - INFO - Prepared email insertion: Google Alert - Deloitte from https://procurementmag.com/news/top-five-stories-in-procurement-august-15
+2025-08-20 15:54:03 - INFO - Unique article detected. Added Is AI Making Singaporeans Better Communicators, or Just More Fake? to the database
+2025-08-20 15:54:03 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.ricemedia.co/ai-singaporeans-communicators/
+2025-08-20 15:54:03 - INFO - Processing email: Google Alert - Deloitte on 15-08-25
+2025-08-20 15:54:07 - ERROR - Error processing email 'Google Alert - Deloitte' with URL 'https://deloitte.wsj.com/riskandcompliance/dialogue-not-a-monologue-9-questions-board-members-can-ask-tech-leaders-dccec4f2': 'title'
+2025-08-20 15:54:13 - ERROR - Error processing email 'Google Alert - Deloitte' with URL 'https://deloitte.wsj.com/sustainable-business/how-americas-ai-action-plan-may-help-shape-ai-governance-globally-4b3a054e': 'title'
+2025-08-20 15:54:31 - INFO - Duplicate article detected, skipping: Strategic use of AI could prevent $70bn worth of losses from natural disasters - Sustainability Online
+2025-08-20 15:54:31 - INFO - Prepared email insertion: Google Alert - Deloitte from https://sustainabilityonline.net/news/strategic-use-of-ai-could-prevent-70bn-worth-of-losses-from-natural-disasters/
+2025-08-20 15:55:13 - INFO - Unique article detected. Added How brands like Nuuly and JanSport are targeting Gen Z for back-to-school to the database
+2025-08-20 15:55:13 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.glossy.co/fashion/how-brands-like-nuuly-and-jansport-are-targeting-gen-z-for-back-to-school/
+2025-08-20 15:55:48 - INFO - Unique article detected. Added Data Watts Partners Inc. Follow-On Release: Strategic Significance of Agilitas Advisory Acquisition to the database
+2025-08-20 15:55:48 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.streetinsider.com/Newsfile/Data+Watts+Partners+Inc.+Follow-On+Release%3A+Strategic+Significance+of+Agilitas+Advisory+Acquisition/25203545.html
+2025-08-20 15:55:48 - INFO - All emails committed successfully.
+2025-08-20 15:55:49 - WARNING - Error marking email 198c3c80556346ef as read: [Errno 10053] An established connection was aborted by the software in your host machine
+2025-08-20 15:55:49 - WARNING - Error marking email 198c1c444a70a306 as read: [Errno 10053] An established connection was aborted by the software in your host machine
+2025-08-20 15:57:15 - INFO - Emails marked as read.
+2025-08-20 16:18:56 - INFO - Use pytorch device_name: cpu
+2025-08-20 16:18:56 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-08-20 16:19:01 - INFO - Database tables created or already exist.
+2025-08-20 16:19:02 - INFO - WebScraper class instantiated.
+2025-08-20 16:19:10 - INFO - Extracted items for https://kpmg.com/xx/en/home/media/press-releases.html: 2
+2025-08-20 16:19:44 - INFO - Unique article: Building on excellence: KPMG appoints new Global Sector Heads across key growth sectors
+2025-08-20 16:19:44 - INFO - LLM secondary extraction success for: https://kpmg.com/xx/en/media/press-releases/2025/08/building-on-excellence-kpmg-appoints-new-global-sector-heads-across-key-growth-sectors.html
+2025-08-20 16:20:34 - INFO - Unique article: Digital Assets and AI see hot interest as Fintech attracts $44.7 billion globally
+2025-08-20 16:20:34 - INFO - LLM secondary extraction success for: https://kpmg.com/xx/en/media/press-releases/2025/08/digital-assets-and-ai-see-hot-interest-as-fintech-attracts-44-7-billion-globally-according-to-kpmg-pulse-of-fintech-h1-25.html
+2025-08-20 16:20:41 - INFO - Extracted items for https://kpmg.com/jp/ja/home/media/press-releases.html: 1
+2025-08-20 16:21:01 - INFO - Unique article: KPMG\u30b3\u30f3\u30b5\u30eb\u30c6\u30a3\u30f3\u30b0\u3001\u7af6\u4e89\u6cd5\u9055\u53cd\u30ea\u30b9\u30af\u306b\u95a2\u3059\u308b\u5185\u90e8\u76e3\u67fb\u652f\u63f4\u30b5\u30fc\u30d3\u30b9\u306e\u63d0\u4f9b\u3092\u958b\u59cb
+2025-08-20 16:21:01 - INFO - LLM secondary extraction success for: https://kpmg.com/jp/ja/home/media/press-releases/2025/08/kc-competition-law.html
+2025-08-20 16:21:12 - INFO - Extracted items for https://www.mri.co.jp/news/index.html: 0
+2025-08-20 16:21:16 - INFO - Extracted items for https://www.consulting.us/: 2
+2025-08-20 16:21:30 - INFO - Unique article: Grant Thornton US to acquire M&A consultancy Stax
+2025-08-20 16:21:30 - INFO - LLM secondary extraction success for: https://www.consulting.us/news/12279/grant-thornton-us-to-acquire-ma-consultancy-stax
+2025-08-20 16:21:52 - INFO - Unique article: Cornerstone Research promotes seven to SVP, 15 to principal
+2025-08-20 16:21:52 - INFO - LLM secondary extraction success for: https://www.consulting.us/news/12273/cornerstone-research-promotes-seven-to-svp-15-to-principal
+2025-08-20 16:21:59 - INFO - Extracted items for https://www.consultancy.uk/: 3
+2025-08-20 16:22:28 - INFO - Unique article: MHA enjoys record 2025 results following successful IPO
+2025-08-20 16:22:28 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41308/mha-enjoys-record-2025-results-following-successful-ipo
+2025-08-20 16:22:57 - INFO - Unique article: What does good tech leadership really look like?
+2025-08-20 16:22:57 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41311/what-does-good-tech-leadership-really-look-like
+2025-08-20 16:23:13 - INFO - Unique article: Melanie Reed named head of advisory at Moore Kingston Smith
+2025-08-20 16:23:13 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41314/melanie-reed-named-head-of-advisory-at-moore-kingston-smith
+2025-08-20 16:23:19 - INFO - Extracted items for https://www.consultancy.asia/country/japan: 0
+2025-08-20 16:23:25 - INFO - Extracted items for https://www.consultancy.in/: 0
+2025-08-20 16:23:30 - INFO - Extracted items for https://www.consultancy.com.au/: 0
+2025-08-20 16:23:36 - INFO - Extracted items for https://www.consultancy.eu/: 2
+2025-08-20 16:23:55 - INFO - Unique article: HSO welcomes Bain Capital for next growth chapter at €1 billion valuation
+2025-08-20 16:23:55 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12295/hso-welcomes-bain-capital-for-next-growth-chapter-at-1-billion-valuation
+2025-08-20 16:24:15 - ERROR - Failed in secondary LLM parsing (https://www.consultancy.eu/news/12274/financial-institutions-seeking-improvements-to-csrd-reporting-cycle): 'title'
+2025-08-20 16:24:19 - INFO - Extracted items for https://www.consultancy.asia/: 0
+2025-08-20 16:24:28 - INFO - Extracted items for https://www.consultancy-me.com/: 3
+2025-08-20 16:24:49 - INFO - Unique article: FTI Consulting deepens Strategy & Transformation capabilities with senior hires
+2025-08-20 16:24:49 - INFO - LLM secondary extraction success for: https://www.consultancy-me.com/news/11323/fti-consulting-deepens-strategy-transformation-capabilities-with-senior-hires
+2025-08-20 16:25:05 - INFO - Unique article: Zane Hedge joins Kroll as Senior Director in the Expert Services practice
+2025-08-20 16:25:05 - INFO - LLM secondary extraction success for: https://www.consultancy-me.com/news/11314/zane-hedge-joins-kroll-as-senior-director-in-the-expert-services-practice
+2025-08-20 16:25:22 - INFO - Unique article: Adrian Hudson to lead AESG’s biodiversity and ecology services
+2025-08-20 16:25:22 - INFO - LLM secondary extraction success for: https://www.consultancy-me.com/news/11311/adrian-hudson-to-lead-aesgs-biodiversity-and-ecology-services
+2025-08-20 16:25:32 - INFO - Extracted items for https://www.consultancy.nl/: 5
+2025-08-20 16:25:48 - INFO - Unique article: ITDS benoemt Eline Bos tot director van Data & AI
+2025-08-20 16:25:48 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/62212/itds-benoemt-eline-bos-tot-director-van-businessline-data-ai
+2025-08-20 16:26:09 - INFO - Unique article: Beveiliging regelen op een dedicated server: 6 tips
+2025-08-20 16:26:09 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/62227/beveiliging-regelen-op-een-dedicated-server-6-tips
+2025-08-20 16:26:34 - INFO - Unique article: Valcon versterkt positie in Denemarken met overname Beyond Advisors
+2025-08-20 16:26:34 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/62209/valcon-versterkt-positie-in-denemarken-met-overname-beyond-advisors
+2025-08-20 16:26:51 - INFO - Unique article: Pipple vernieuwt top: Jeroen de Haas draagt operationele rol over aan Wouter Leenen
+2025-08-20 16:26:51 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/62218/pipple-vernieuwt-top-jeroen-de-haas-draagt-operationele-rol-over-aan-wouter-leenen
+2025-08-20 16:27:09 - INFO - Unique article: Valid8 Consulting benoemt David Martoredjo, Hanaa Tachikirt en Joanita Eizenga Cubas
+2025-08-20 16:27:09 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/62215/valid8-consulting-benoemt-david-martoredjo-hanaa-tachikirt-en-joanita-eizenga-cubas
+2025-08-20 16:27:15 - INFO - Extracted items for https://www.consultancy.co.za/: 0
+2025-08-20 16:27:18 - INFO - Extracted items for https://www.consultancy.lat/: 0
+2025-08-20 16:27:18 - INFO - Flattened articles: 17 items in total.
+2025-08-20 16:27:20 - INFO - Prepared to insert article: Press Release (https://kpmg.com/xx/en/media/press-releases/2025/08/building-on-excellence-kpmg-appoints-new-global-sector-heads-across-key-growth-sectors.html)
+2025-08-20 16:27:20 - INFO - Prepared to insert article: Consulting.org (https://kpmg.com/xx/en/media/press-releases/2025/08/digital-assets-and-ai-see-hot-interest-as-fintech-attracts-44-7-billion-globally-according-to-kpmg-pulse-of-fintech-h1-25.html)
+2025-08-20 16:27:22 - INFO - Prepared to insert article: Press Release (https://kpmg.com/jp/ja/home/media/press-releases/2025/08/kc-competition-law.html)
+2025-08-20 16:27:23 - INFO - Skipping Others - not in target list.
+2025-08-20 16:27:25 - INFO - Skipping Others - not in target list.
+2025-08-20 16:27:27 - INFO - Skipping Others - not in target list.
+2025-08-20 16:27:29 - INFO - Skipping Others - not in target list.
+2025-08-20 16:27:30 - INFO - Skipping Others - not in target list.
+2025-08-20 16:27:31 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.eu/news/12295/hso-welcomes-bain-capital-for-next-growth-chapter-at-1-billion-valuation)
+2025-08-20 16:27:33 - INFO - Skipping Others - not in target list.
+2025-08-20 16:27:34 - INFO - Skipping Others - not in target list.
+2025-08-20 16:27:35 - INFO - Skipping Others - not in target list.
+2025-08-20 16:27:37 - INFO - Skipping Others - not in target list.
+2025-08-20 16:27:38 - INFO - Skipping Others - not in target list.
+2025-08-20 17:06:30 - INFO - Skipping Others - not in target list.
+2025-08-20 17:06:30 - INFO - Skipping Others - not in target list.
+2025-08-20 17:06:30 - INFO - Skipping Others - not in target list.
+2025-08-20 17:06:30 - INFO - All articles committed successfully.
+2025-08-20 17:06:30 - INFO - Web scraping pipeline completed successfully.

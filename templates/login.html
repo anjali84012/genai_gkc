@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login Page</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+
+    <!--Stylesheet-->
+    <style>
+        /* Reset and base styles */
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            overflow: hidden;
+            background: #0d0d0d;
+            color: #fff;
+        }
+
+        /* Particles container */
+        #particles-js {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: #0d0d0d;
+            z-index: -1;
+            top: 0;
+            left: 0;
+        }
+
+        /* Login form styles */
+        form {
+            position: relative;
+            width: 400px;
+            margin: 100px auto;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        form h3 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 32px;
+            font-weight: 500;
+            color: #fff;
+        }
+
+        label {
+            display: block;
+            font-size: 16px;
+            margin-bottom: 8px;
+            color: #ddd;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.2);
+            color: #fff;
+            font-size: 16px;
+        }
+
+        input::placeholder {
+            color: #ccc;
+        }
+
+        button {
+            width: 100%;
+            padding: 15px;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Error message styles */
+        .error-message {
+            color: #ff6b6b;
+            font-size: 14px;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        /* Responsive design */
+        @media (max-width: 500px) {
+            form {
+                width: 90%;
+                margin: 50px auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+
+    <form method="POST" action="/login" id="loginForm">
+        <h3>Login Here</h3>
+
+        <label for="username">Email</label>
+        <input type="text" name="email" placeholder="Email" id="username" required>
+
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="Password" id="password" required>
+
+        <button type="submit">Log In</button>
+
+        <!-- Placeholder for error messages -->
+        <div class="error-message" id="errorMessage"></div>
+    </form>
+
+    <!-- Scripts -->
+    <!-- Include Particles.js library via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+    <!-- Initialize Particles.js -->
+    <script>
+        /* ParticlesJS Config */
+        particlesJS("particles-js", {
+            "particles": {
+                "number": {
+                    "value": 80,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false,
+                },
+                "size": {
+                    "value": 3,
+                    "random": true,
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 6,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "repulse": {
+                        "distance": 100,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+
+    <!-- LOGGING FUNCTION (ADDED) -->
+    <script>
+        function logAction(actionDescription) {
+            console.log("LOG:", actionDescription);
+            fetch('/frontend_log', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ message: actionDescription })
+            });
+        }
+    </script>
+
+    <!-- JavaScript to handle form submission -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            logAction("Login page loaded");
+        });
+
+        document.getElementById('loginForm').addEventListener('submit', function (e) {
+            e.preventDefault(); // Prevent the default form submission
+            logAction("Login form submitted");
+
+            // Optional: Validate input fields here if needed
+
+            // Get the form element
+            const form = document.getElementById('loginForm');
+            const errorMessage = document.getElementById('errorMessage');
+
+            // Clear any previous error messages
+            errorMessage.textContent = '';
+
+            // Add the fade-out class to start the animation
+            form.classList.add('fade-out');
+
+            // Wait for the animation to complete (0.5s in this case)
+            setTimeout(function () {
+                // Create a new form data object
+                const formData = new FormData(form);
+
+                // Send the form data using Fetch API
+                fetch('/login', {
+                    method: 'POST',
+                    body: formData
+                })
+                    .then(response => {
+                        if (response.redirected) {
+                            logAction("Login successful, redirecting...");
+                            window.location.href = response.url;
+                        } else {
+                            return response.text().then(text => {
+                                // Handle login failure
+                                logAction("Invalid email or password");
+                                errorMessage.textContent = 'Invalid email or password.';
+                                // Remove the fade-out class to show the form again
+                                form.classList.remove('fade-out');
+                            });
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        logAction("An error occurred during login: " + error);
+                        errorMessage.textContent = 'An error occurred. Please try again.';
+                        form.classList.remove('fade-out');
+                    });
+            }, 500); // Match this duration with the CSS transition duration
+        });
+    </script>
+</body>
+
+</html>

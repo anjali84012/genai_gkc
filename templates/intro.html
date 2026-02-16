@@ -1,0 +1,214 @@
+<!-- templates/intro.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading....</title>
+    <style>
+        /* Intro Page Styles */
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: #1e3c72;
+            background-image: linear-gradient(315deg, #1e3c72 0%, #2a5298 74%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            /* Prevent scrollbar from appearing during animations */
+            font-family: "Poppins", sans-serif;
+        }
+
+        /* Card Styles */
+        .card {
+            /* Color used to softly clip top and bottom of the .words container */
+            --bg-color: #212121;
+            background-color: var(--bg-color);
+            padding: 5rem 10rem;
+            /* Increased padding for larger size */
+            border-radius: 1.25rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+            box-sizing: border-box;
+        }
+
+        .loader {
+            color: rgb(124, 124, 124);
+            font-weight: 500;
+            font-size: 50px;
+            /* Increased font size */
+            box-sizing: content-box;
+            height: 120px;
+            /* Increased height */
+            padding: 20px 20px;
+            /* Increased padding */
+            display: flex;
+            align-items: center;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            /* Added margin for spacing */
+            background-color: #2a2a2a;
+            /* Optional: Slight background for contrast */
+        }
+
+        .words {
+            overflow: hidden;
+            position: relative;
+            width: 300px;
+            /* Increased width for larger display */
+            height: 60px;
+            /* Increased height based on font-size */
+            margin-left: 15px;
+            /* Spacing between "Loading" and words */
+        }
+
+        .words::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(var(--bg-color) 10%,
+                    transparent 30%,
+                    transparent 70%,
+                    var(--bg-color) 90%);
+            z-index: 20;
+        }
+
+        .word {
+            display: block;
+            height: 60px;
+            /* Match the .words height */
+            padding-left: 10px;
+            /* Increased padding for better spacing */
+            color: #956afa;
+            font-size: 50px;
+            /* Ensure words are larger */
+            animation: spin_4991 5s infinite;
+            white-space: nowrap;
+            /* Prevent words from wrapping */
+            line-height: 60px;
+            /* Vertically center text within the container */
+        }
+
+        @keyframes spin_4991 {
+            10% {
+                transform: translateY(-102%);
+            }
+
+            25% {
+                transform: translateY(-100%);
+            }
+
+            35% {
+                transform: translateY(-202%);
+            }
+
+            50% {
+                transform: translateY(-200%);
+            }
+
+            60% {
+                transform: translateY(-302%);
+            }
+
+            75% {
+                transform: translateY(-300%);
+            }
+
+            85% {
+                transform: translateY(-402%);
+            }
+
+            100% {
+                transform: translateY(-400%);
+            }
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 800px) {
+            .card {
+                padding: 3rem 5rem;
+                /* Adjust padding for smaller screens */
+            }
+
+            .loader {
+                font-size: 40px;
+                /* Slightly smaller font size */
+                height: 100px;
+                /* Adjust height accordingly */
+                padding: 15px 15px;
+            }
+
+            .words {
+                width: 250px;
+                height: 50px;
+                margin-left: 10px;
+            }
+
+            .word {
+                font-size: 40px;
+                height: 50px;
+                line-height: 50px;
+            }
+        }
+
+        @media (max-width: 500px) {
+            .card {
+                padding: 2rem 3rem;
+                /* Further adjust padding for very small screens */
+            }
+
+            .loader {
+                font-size: 30px;
+                /* Reduce font size for better fit */
+                height: 80px;
+                /* Adjust height */
+                padding: 10px 10px;
+            }
+
+            .words {
+                width: 200px;
+                height: 40px;
+                margin-left: 5px;
+            }
+
+            .word {
+                font-size: 30px;
+                height: 40px;
+                line-height: 40px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="loader">
+            <p>Loading</p>
+            <div class="words">
+                <span class="word">buttons</span>
+                <span class="word">filters</span>
+                <span class="word">database</span>
+                <span class="word">cards</span>
+                <span class="word">buttons</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Redirect to the dashboard after 5 seconds (5000 milliseconds)
+        setTimeout(function () {
+            window.location.href = "dashboard"; // Change this URL to your actual dashboard URL
+        }, 5000);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,197 @@
+2025-09-04 13:52:12 - INFO - Use pytorch device_name: cpu
+2025-09-04 13:52:12 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-09-04 13:52:24 - INFO - Database tables created or already exist.
+2025-09-04 13:52:25 - INFO - WebScraper class instantiated.
+2025-09-04 13:52:35 - INFO - Extracted items for https://www.nri.com/jp/News: 0
+2025-09-04 13:52:37 - INFO - Extracted items for https://www.mckinsey.com/about-us/new-at-mckinsey-blog: 0
+2025-09-04 13:53:10 - INFO - Extracted items for https://www.mckinsey.com/jp/our-insights: 0
+2025-09-04 13:53:14 - INFO - Extracted items for https://www.bcg.com/about/corporate-newsroom: 0
+2025-09-04 13:53:18 - INFO - Extracted items for https://www.bcg.com/ja-jp/about/news/press/default?00000173-7007-d959-afff-79c791c80008-page=1: 0
+2025-09-04 13:53:50 - INFO - Extracted items for https://www.bain.com/about/media-center/press-releases/: 0
+2025-09-04 13:54:23 - INFO - Extracted items for https://www.bain.com/ja/about-bain/media-center/press-releases/: 0
+2025-09-04 13:54:39 - INFO - Extracted items for https://newsroom.accenture.com/: 0
+2025-09-04 13:54:53 - INFO - Extracted items for https://newsroom.accenture.jp/: 0
+2025-09-04 13:54:59 - INFO - Extracted items for https://www.deloitte.com/global/en/about/press-room.html: 0
+2025-09-04 13:55:06 - INFO - Extracted items for https://www2.deloitte.com/jp/ja/footerlinks/nr.html: 0
+2025-09-04 13:55:12 - INFO - Extracted items for https://www.ey.com/en_gl/newsroom: 0
+2025-09-04 13:55:25 - INFO - Extracted items for https://www.ey.com/ja_jp/newsroom: 1
+2025-09-04 13:56:57 - INFO - Unique article: EY\u65b0\u65e5\u672c\u3001\u7d4c\u6e08\u7523\u696d\u7701\u306e\u4ee4\u548c7\u5e74\u5ea6\u300c\u306a\u3067\u3057\u3053\u9298\u67c4\u300d\u300cNext\u306a\u3067\u3057\u3053 \u5171\u50cd\u304d\u30fb\u5171\u80b2\u3066\u652f\u63f4\u4f01\u696d\u300d\u9078\u5b9a\u3092\u652f\u63f4
+2025-09-04 13:56:57 - INFO - LLM secondary extraction success for: https://www.ey.com/ja_jp/newsroom/2025/09/ey-japan-news-release-2025-09-03
+2025-09-04 13:57:05 - INFO - Extracted items for https://www.pwc.com/gx/en/news-room.html: 0
+2025-09-04 13:57:18 - INFO - Extracted items for https://www.pwc.com/jp/ja/press-room.html#press: 0
+2025-09-04 13:57:30 - INFO - Extracted items for https://kpmg.com/xx/en/home/media/press-releases.html: 2
+2025-09-04 13:57:51 - INFO - Duplicate article: KPMG International appoints two senior leaders to drive its Global Advisory and AI strategy
+2025-09-04 13:57:51 - INFO - LLM secondary extraction success for: https://kpmg.com/xx/en/media/press-releases/2025/09/kpmg-international-appoints-two-senior-leaders-to-drive-its-global-advisory-and-ai-strategy.html
+2025-09-04 13:58:18 - INFO - Duplicate article: Companies sees tangible business value from ESG Assurance
+2025-09-04 13:58:18 - INFO - LLM secondary extraction success for: https://kpmg.com/xx/en/media/press-releases/2025/09/companies-sees-tangible-business-value-from-esg-assurance.html
+2025-09-04 13:58:25 - INFO - Extracted items for https://kpmg.com/jp/ja/home/media/press-releases.html: 0
+2025-09-04 13:58:31 - INFO - Extracted items for https://www.mri.co.jp/news/index.html: 1
+2025-09-04 13:58:48 - INFO - Unique article: JBS\u3001\u6771\u4eac\u8a3c\u5238\u53d6\u5f15\u6240\u30d7\u30e9\u30a4\u30e0\u5e02\u5834\u3078\u306e\u4e0a\u5834\u5e02\u5834\u533a\u5206\u5909\u66f4\u306b\u95a2\u3059\u308b\u304a\u77e5\u3089\u305b
+2025-09-04 13:58:48 - INFO - LLM secondary extraction success for: https://www.jbs.co.jp/news/2025/0903
+2025-09-04 13:58:51 - INFO - Extracted items for https://www.consulting.us/: 0
+2025-09-04 13:59:03 - INFO - Extracted items for https://www.consultancy.uk/: 5
+2025-09-04 13:59:19 - INFO - Unique article: Chris Thoms and Mark Hewett named directors at BFY Group
+2025-09-04 13:59:19 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41469/chris-thoms-and-mark-hewett-named-directors-at-bfy-group
+2025-09-04 13:59:46 - INFO - Duplicate article: UK CEOs optimistic on prospects despite wider economic performance
+2025-09-04 13:59:46 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41463/uk-ceos-optimistic-on-prospects-despite-wider-economic-performance
+2025-09-04 14:00:25 - INFO - Duplicate article: Taj Lalli joins Bishop Fleming as partner in Birmingham
+2025-09-04 14:00:25 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41454/taj-lalli-joins-bishop-fleming-as-partner-in-birmingham
+2025-09-04 14:01:08 - INFO - Duplicate article: Emma O’Brien on 15 years of growth at Embridge Consulting
+2025-09-04 14:01:08 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41445/emma-obrien-on-15-years-of-growth-at-embridge-consulting
+2025-09-04 14:01:30 - INFO - Unique article: Sam Hart new leader of Deloitte’s 700-person team in Bristol
+2025-09-04 14:01:30 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41451/sam-hart-new-leader-of-deloittes-700-person-team-in-bristol
+2025-09-04 14:01:35 - INFO - Extracted items for https://www.consultancy.asia/country/japan: 3
+2025-09-04 14:02:14 - INFO - Unique article: McKinsey: Indonesia could reach high-income status by boosting its productivity
+2025-09-04 14:02:14 - INFO - LLM secondary extraction success for: https://www.consultancy.asia/news/6182/mckinsey-indonesia-could-reach-high-income-status-by-boosting-its-productivity
+2025-09-04 14:02:36 - INFO - Unique article: Alvarez & Marsal hires Sanath Kumar to help grow Healthcare practice
+2025-09-04 14:02:36 - INFO - LLM secondary extraction success for: https://www.consultancy.asia/news/6185/alvarez-marsal-hires-sanath-kumar-to-help-grow-healthcare-practice
+2025-09-04 14:02:57 - INFO - Duplicate article: FTI Consulting adds Hitesh Tak to Corporate Finance & Restructuring team
+2025-09-04 14:02:57 - INFO - LLM secondary extraction success for: https://www.consultancy.asia/news/6188/fti-consulting-adds-hitesh-tak-to-corporate-finance-restructuring-team
+2025-09-04 14:02:59 - INFO - Extracted items for https://www.consultancy.in/: 0
+2025-09-04 14:03:02 - INFO - Extracted items for https://www.consultancy.com.au/: 0
+2025-09-04 14:03:10 - INFO - Extracted items for https://www.consultancy.eu/: 4
+2025-09-04 14:03:44 - INFO - Unique article: Sofindev acquires Euphoria Mobility: Meet the M&A advisors behind the deal
+2025-09-04 14:03:44 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12402/sofindev-acquires-euphoria-mobility-meet-the-ma-advisors-behind-the-deal
+2025-09-04 14:04:13 - INFO - Duplicate article: FTI Consulting adds Sébastien Flageollet to Business Transformation team
+2025-09-04 14:04:13 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12399/fti-consulting-adds-sebastien-flageollet-to-business-transformation-team
+2025-09-04 14:04:30 - INFO - Unique article: Projective Group appoints Bart Claeys as Data Lead for Belgian market
+2025-09-04 14:04:30 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12393/projective-group-appoints-bart-claeys-as-data-lead-for-belgian-market
+2025-09-04 14:04:47 - INFO - Unique article: Zanders appoints Lars Frisell as partner in Nordic business
+2025-09-04 14:04:47 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12390/zanders-appoints-lars-frisell-as-partner-in-nordic-business
+2025-09-04 14:04:52 - INFO - Extracted items for https://www.consultancy.asia/: 3
+2025-09-04 14:05:08 - INFO - Duplicate article: McKinsey: Indonesia could reach high-income status by boosting its productivity
+2025-09-04 14:05:08 - INFO - LLM secondary extraction success for: https://www.consultancy.asia/news/6182/mckinsey-indonesia-could-reach-high-income-status-by-boosting-its-productivity
+2025-09-04 14:05:15 - ERROR - Failed in secondary LLM parsing (https://www.consultancy.asia/news/6185/alvarez-marsal-hires-sanath-kumar-to-help-grow-healthcare-practice): 'title'
+2025-09-04 14:05:27 - INFO - Duplicate article: FTI Consulting adds Hitesh Tak to Corporate Finance & Restructuring team
+2025-09-04 14:05:27 - INFO - LLM secondary extraction success for: https://www.consultancy.asia/news/6188/fti-consulting-adds-hitesh-tak-to-corporate-finance-restructuring-team
+2025-09-04 14:05:35 - INFO - Extracted items for https://www.consultancy-me.com/: 6
+2025-09-04 14:05:55 - INFO - Unique article: Gallagher strengthens Middle East leadership team with Andy Winwood
+2025-09-04 14:05:55 - INFO - LLM secondary extraction success for: https://www.consultancy-me.com/news/11613/gallagher-strengthens-middle-east-leadership-team-with-andy-winwood
+2025-09-04 14:06:25 - INFO - Unique article: NTT Data appoints Jafar Kuruniyan as CFO for Middle East and Africa
+2025-09-04 14:06:25 - INFO - LLM secondary extraction success for: https://www.consultancy-me.com/news/11604/ntt-data-appoints-jafar-kuruniyan-as-cfo-for-middle-east-and-africa
+2025-09-04 14:06:46 - INFO - Unique article: IBM Consulting appoints Ibrahim Shouman as Leader of Abu Dhabi business
+2025-09-04 14:06:46 - INFO - LLM secondary extraction success for: https://www.consultancy-me.com/news/11601/ibm-consulting-appoints-ibrahim-shouman-as-leader-of-abu-dhabi-business
+2025-09-04 14:07:26 - INFO - Unique article: UOWD and Andersen collaborate for Job Shadowing and Mentorship program
+2025-09-04 14:07:26 - INFO - LLM secondary extraction success for: https://www.consultancy-me.com/news/11610/uowd-and-andersen-collaborate-for-job-shadowing-and-mentorship-program
+2025-09-04 14:08:49 - INFO - Unique article: Climate risk stress-testing: Why mid-sized banks must keep it proportionate
+2025-09-04 14:08:49 - INFO - LLM secondary extraction success for: https://www.consultancy-me.com/news/11607/climate-risk-stress-testing-why-mid-sized-banks-must-keep-it-proportionate
+2025-09-04 14:09:03 - INFO - Duplicate article: NTT Data appoints Jafar Kuruniyan as CFO for Middle East and Africa
+2025-09-04 14:09:03 - INFO - LLM secondary extraction success for: https://www.consultancy-me.com/news/11604/ntt-data-appoints-jafar-kuruniyan-as-cfo-for-middle-east-and-africa
+2025-09-04 14:09:13 - INFO - Extracted items for https://www.consultancy.nl/: 8
+2025-09-04 14:09:35 - INFO - Unique article: SINCERIUS ondersteunt Berk Partners met due diligence bij Ganzeboom-transactie
+2025-09-04 14:09:35 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/62439/sincerius-ondersteunt-berk-partners-met-due-diligence-bij-ganzeboom-transactie
+2025-09-04 14:10:00 - INFO - Duplicate article: FTI Consulting voegt Sébastien Flageollet toe aan Business Transformation-team
+2025-09-04 14:10:00 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/62436/fti-consulting-voegt-sebastien-flageollet-toe-aan-business-transformation-team
+2025-09-04 14:10:41 - INFO - Unique article: Verdere achteruitgang ondernemersklimaat wijst op zorgwekkende trend
+2025-09-04 14:10:41 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/62415/verdere-achteruitgang-ondernemersklimaat-wijst-op-zorgwekkende-trend
+2025-09-04 14:11:11 - INFO - Unique article: Energyprofs verwelkomt vijf nieuwe business consultants
+2025-09-04 14:11:11 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/62424/energyprofs-verwelkomt-vijf-nieuwe-business-consultants
+2025-09-04 14:11:33 - INFO - Duplicate article: IMAP benoemt Olaf van Tuijl tot partner
+2025-09-04 14:11:33 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/62418/imap-benoemt-olaf-van-tuijl-tot-partner
+2025-09-04 14:11:52 - INFO - Unique article: M&A-adviseur Match Plan breidt team uit met Alexander Helmer
+2025-09-04 14:11:52 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/62442/ma-adviseur-match-plan-breidt-team-uit-met-alexander-helmer
+2025-09-04 14:12:17 - INFO - Duplicate article: FGS Global breidt partnerteam uit met Maartje Snellen en Jeanette Hamster
+2025-09-04 14:12:17 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/62427/fgs-global-breidt-partnerteam-uit-met-maartje-snellen-en-jeanette-hamster
+2025-09-04 14:12:46 - ERROR - Failed in secondary LLM parsing (https://www.consultancy.nl/nieuws/62385/giftige-dynamiek-binnen-lokale-politiek-verlamt-gemeente-roosendaal): 'NoneType' object does not support item assignment
+2025-09-04 14:12:49 - INFO - Extracted items for https://www.consultancy.co.za/: 0
+2025-09-04 14:12:51 - INFO - Extracted items for https://www.consultancy.lat/: 0
+2025-09-04 14:12:53 - INFO - Extracted items for https://www.consultancy.africa/: 0
+2025-09-04 14:12:55 - INFO - Extracted items for https://www.consulting.ca/: 0
+2025-09-04 14:13:00 - INFO - Extracted items for https://www.consultancy.asia/country/singapore: 3
+2025-09-04 14:13:17 - INFO - Duplicate article: Alvarez & Marsal hires Sanath Kumar to help grow Healthcare practice
+2025-09-04 14:13:17 - INFO - LLM secondary extraction success for: https://www.consultancy.asia/news/6185/alvarez-marsal-hires-sanath-kumar-to-help-grow-healthcare-practice
+2025-09-04 14:13:36 - INFO - Duplicate article: McKinsey: Indonesia could reach high-income status by boosting its productivity
+2025-09-04 14:13:36 - INFO - LLM secondary extraction success for: https://www.consultancy.asia/news/6182/mckinsey-indonesia-could-reach-high-income-status-by-boosting-its-productivity
+2025-09-04 14:13:50 - INFO - Duplicate article: FTI Consulting adds Hitesh Tak to Corporate Finance & Restructuring team
+2025-09-04 14:13:50 - INFO - LLM secondary extraction success for: https://www.consultancy.asia/news/6188/fti-consulting-adds-hitesh-tak-to-corporate-finance-restructuring-team
+2025-09-04 14:13:55 - INFO - Extracted items for https://www.consultancy.asia/country/china: 3
+2025-09-04 14:14:13 - INFO - Duplicate article: McKinsey: Indonesia could reach high-income status by boosting its productivity
+2025-09-04 14:14:13 - INFO - LLM secondary extraction success for: https://www.consultancy.asia/news/6182/mckinsey-indonesia-could-reach-high-income-status-by-boosting-its-productivity
+2025-09-04 14:14:21 - ERROR - Failed in secondary LLM parsing (https://www.consultancy.asia/news/6185/alvarez-marsal-hires-sanath-kumar-to-help-grow-healthcare-practice): 'title'
+2025-09-04 14:14:35 - INFO - Duplicate article: FTI Consulting adds Hitesh Tak to Corporate Finance & Restructuring team
+2025-09-04 14:14:35 - INFO - LLM secondary extraction success for: https://www.consultancy.asia/news/6188/fti-consulting-adds-hitesh-tak-to-corporate-finance-restructuring-team
+2025-09-04 14:14:44 - INFO - Extracted items for https://www.consultancy.eu/country/france: 5
+2025-09-04 14:15:04 - INFO - Unique article: Jean-Marie Passelande and Guillaume Silvy-Leligois to lead BPCE Partenaire Conseil
+2025-09-04 14:15:04 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12387/jean-marie-passelande-and-guillaume-silvy-leligois-to-lead-bpce-partenaire-conseil
+2025-09-04 14:15:19 - INFO - Duplicate article: Sofindev acquires Euphoria Mobility: Meet the M&A advisors behind the deal
+2025-09-04 14:15:19 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12402/sofindev-acquires-euphoria-mobility-meet-the-ma-advisors-behind-the-deal
+2025-09-04 14:15:51 - INFO - Duplicate article: FTI Consulting adds Sébastien Flageollet to Business Transformation team
+2025-09-04 14:15:51 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12399/fti-consulting-adds-sebastien-flageollet-to-business-transformation-team
+2025-09-04 14:16:31 - INFO - Unique article: IDOM partners with H&Z for growth strategy in space sector
+2025-09-04 14:16:31 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12396/idom-partners-with-hz-for-growth-strategy-in-space-sector
+2025-09-04 14:16:58 - INFO - Duplicate article: Projective Group appoints Bart Claeys as Data Lead for Belgian market
+2025-09-04 14:16:58 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12393/projective-group-appoints-bart-claeys-as-data-lead-for-belgian-market
+2025-09-04 14:17:04 - INFO - Extracted items for https://www.consultancy.eu/country/germany: 4
+2025-09-04 14:17:21 - INFO - Duplicate article: Sofindev acquires Euphoria Mobility: Meet the M&A advisors behind the deal
+2025-09-04 14:17:21 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12402/sofindev-acquires-euphoria-mobility-meet-the-ma-advisors-behind-the-deal
+2025-09-04 14:17:47 - INFO - Duplicate article: FTI Consulting adds Sébastien Flageollet to Business Transformation team
+2025-09-04 14:17:47 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12399/fti-consulting-adds-sebastien-flageollet-to-business-transformation-team
+2025-09-04 14:18:10 - INFO - Duplicate article: IDOM partners with H&Z for growth strategy in space sector
+2025-09-04 14:18:10 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12396/idom-partners-with-hz-for-growth-strategy-in-space-sector
+2025-09-04 14:18:40 - INFO - Duplicate article: Projective Group appoints Bart Claeys as Data Lead for Belgian market
+2025-09-04 14:18:40 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12393/projective-group-appoints-bart-claeys-as-data-lead-for-belgian-market
+2025-09-04 14:18:45 - INFO - Extracted items for https://www.consultancy.uk/: 5
+2025-09-04 14:19:12 - INFO - Duplicate article: Chris Thoms and Mark Hewett named directors at BFY Group
+2025-09-04 14:19:12 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41469/chris-thoms-and-mark-hewett-named-directors-at-bfy-group
+2025-09-04 14:19:36 - INFO - Duplicate article: UK CEOs optimistic on prospects despite wider economic performance
+2025-09-04 14:19:36 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41463/uk-ceos-optimistic-on-prospects-despite-wider-economic-performance
+2025-09-04 14:28:00 - INFO - Retrying request to /chat/completions in 0.421242 seconds
+2025-09-04 14:28:26 - INFO - Duplicate article: Taj Lalli joins Bishop Fleming as partner in Birmingham
+2025-09-04 14:28:26 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41454/taj-lalli-joins-bishop-fleming-as-partner-in-birmingham
+2025-09-04 14:29:21 - INFO - Duplicate article: Emma O’Brien on 15 years of growth at Embridge Consulting
+2025-09-04 14:29:21 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41445/emma-obrien-on-15-years-of-growth-at-embridge-consulting
+2025-09-04 14:29:55 - INFO - Duplicate article: Sam Hart new leader of Deloitte’s 700-person team in Bristol
+2025-09-04 14:29:55 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41451/sam-hart-new-leader-of-deloittes-700-person-team-in-bristol
+2025-09-04 14:29:55 - INFO - Flattened articles: 50 items in total.
+2025-09-04 14:29:57 - INFO - Skipping EY (Ernst & Young) - not in target list.
+2025-09-04 14:29:58 - INFO - Prepared to insert article: Press Release (https://kpmg.com/xx/en/media/press-releases/2025/09/kpmg-international-appoints-two-senior-leaders-to-drive-its-global-advisory-and-ai-strategy.html)
+2025-09-04 14:30:00 - INFO - Prepared to insert article: Consulting.org (https://kpmg.com/xx/en/media/press-releases/2025/09/companies-sees-tangible-business-value-from-esg-assurance.html)
+2025-09-04 14:30:01 - INFO - Skipping Others - not in target list.
+2025-09-04 14:30:02 - INFO - Skipping Others - not in target list.
+2025-09-04 14:30:03 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.uk/news/41463/uk-ceos-optimistic-on-prospects-despite-wider-economic-performance)
+2025-09-04 14:30:04 - INFO - Skipping Others - not in target list.
+2025-09-04 14:30:05 - INFO - Skipping Others - not in target list.
+2025-09-04 14:30:06 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.uk/news/41451/sam-hart-new-leader-of-deloittes-700-person-team-in-bristol)
+2025-09-04 14:30:08 - INFO - Skipping McKinsey & Co. - not in target list.
+2025-09-04 14:30:09 - INFO - Skipping Others - not in target list.
+2025-09-04 14:30:11 - INFO - Skipping FTI Consulting - not in target list.
+2025-09-04 14:30:12 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.eu/news/12402/sofindev-acquires-euphoria-mobility-meet-the-ma-advisors-behind-the-deal)
+2025-09-04 14:30:13 - INFO - Skipping Others - not in target list.
+2025-09-04 14:30:15 - INFO - Skipping Others - not in target list.
+2025-09-04 14:30:16 - INFO - Skipping Others - not in target list.
+2025-09-04 14:30:17 - INFO - Skipping McKinsey & Co. - not in target list.
+2025-09-04 14:30:18 - INFO - Skipping Others - not in target list.
+2025-09-04 14:30:20 - INFO - Skipping Others - not in target list.
+2025-09-04 14:30:21 - INFO - Skipping Others - not in target list.
+2025-09-04 14:30:22 - INFO - Skipping Others - not in target list.
+2025-09-04 14:30:24 - INFO - Skipping Others - not in target list.
+2025-09-04 14:30:27 - INFO - Skipping Others - not in target list.
+2025-09-04 14:30:28 - INFO - Skipping Others - not in target list.
+2025-09-04 14:30:29 - INFO - Skipping Others - not in target list.
+2025-09-04 14:30:31 - INFO - Skipping Others - not in target list.
+2025-09-04 14:30:32 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.nl/nieuws/62415/verdere-achteruitgang-ondernemersklimaat-wijst-op-zorgwekkende-trend)
+2025-09-04 14:30:33 - INFO - Skipping Others - not in target list.
+2025-09-04 14:30:35 - INFO - Skipping Others - not in target list.
+2025-09-04 14:30:36 - INFO - Skipping Others - not in target list.
+2025-09-04 14:30:37 - INFO - Skipping Others - not in target list.
+2025-09-04 14:30:39 - INFO - Skipping Others - not in target list.
+2025-09-04 14:30:40 - INFO - Skipping McKinsey & Co. - not in target list.
+2025-09-04 14:30:41 - INFO - Skipping Others - not in target list.
+2025-09-04 14:30:43 - INFO - Skipping McKinsey & Co. - not in target list.
+2025-09-04 14:30:44 - INFO - Skipping FTI Consulting - not in target list.
+2025-09-04 14:30:45 - INFO - Skipping Others - not in target list.
+2025-09-04 14:30:47 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.eu/news/12402/sofindev-acquires-euphoria-mobility-meet-the-ma-advisors-behind-the-deal)
+2025-09-04 14:30:48 - INFO - Skipping Others - not in target list.
+2025-09-04 14:30:50 - INFO - Skipping H&Z Management Consulting - not in target list.
+2025-09-04 14:30:51 - INFO - Skipping Others - not in target list.
+2025-09-04 14:30:52 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.eu/news/12402/sofindev-acquires-euphoria-mobility-meet-the-ma-advisors-behind-the-deal)
+2025-09-04 14:30:54 - INFO - Skipping Others - not in target list.
+2025-09-04 14:30:55 - INFO - Skipping Others - not in target list.
+2025-09-04 14:30:56 - INFO - Skipping Others - not in target list.
+2025-09-04 14:30:57 - INFO - Skipping Others - not in target list.
+2025-09-04 14:30:58 - INFO - Skipping Others - not in target list.
+2025-09-04 14:30:59 - INFO - Skipping Others - not in target list.
+2025-09-04 14:31:00 - INFO - Skipping Others - not in target list.
+2025-09-04 14:31:01 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.uk/news/41451/sam-hart-new-leader-of-deloittes-700-person-team-in-bristol)
+2025-09-04 14:31:01 - INFO - All articles committed successfully.
+2025-09-04 14:31:01 - INFO - Web scraping pipeline completed successfully.

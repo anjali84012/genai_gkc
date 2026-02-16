@@ -1,0 +1,729 @@
+2026-02-15 12:45:08 - INFO - Loading faiss with AVX2 support.
+2026-02-15 12:45:09 - INFO - Successfully loaded faiss with AVX2 support.
+2026-02-15 12:45:17 - INFO - Starting Gmail authentication.
+2026-02-15 12:45:17 - INFO - Loaded credentials from token.json.
+2026-02-15 12:45:17 - INFO - Gmail authentication successful.
+2026-02-15 12:45:19 - INFO - Gmail watch registered successfully. Response: {'historyId': '3892531', 'expiration': '1771744518427'}
+2026-02-15 12:45:19 - INFO - Fetching unread emails from Gmail.
+2026-02-15 12:45:19 - INFO - No unread emails found.
+2026-02-15 12:45:19 - INFO - Retrieved 0 relevant emails from 0 total unread.
+2026-02-15 12:45:19 - INFO - No unread emails to process.
+2026-02-15 12:45:55 - INFO - Loading faiss with AVX2 support.
+2026-02-15 12:45:55 - INFO - Successfully loaded faiss with AVX2 support.
+2026-02-15 12:46:09 - INFO - Database tables created or already exist.
+2026-02-15 12:46:12 - INFO - WebScraper class instantiated.
+2026-02-15 12:46:12 - INFO - All articles committed successfully.
+2026-02-15 12:46:12 - INFO - FAISS index saved successfully.
+2026-02-15 12:46:12 - INFO - Web scraping pipeline completed successfully.
+2026-02-15 12:52:07 - INFO - Loading faiss with AVX2 support.
+2026-02-15 12:52:07 - INFO - Successfully loaded faiss with AVX2 support.
+2026-02-15 12:52:12 - INFO - Starting Gmail authentication.
+2026-02-15 12:52:12 - INFO - Loaded credentials from token.json.
+2026-02-15 12:52:12 - INFO - Gmail authentication successful.
+2026-02-15 12:52:14 - INFO - Gmail watch registered successfully. Response: {'historyId': '3892533', 'expiration': '1771744933900'}
+2026-02-15 12:52:14 - INFO - Fetching unread emails from Gmail.
+2026-02-15 12:52:15 - INFO - No unread emails found.
+2026-02-15 12:52:15 - INFO - Retrieved 0 relevant emails from 0 total unread.
+2026-02-15 12:52:15 - INFO - No unread emails to process.
+2026-02-15 15:47:14 - INFO - Loading faiss with AVX2 support.
+2026-02-15 15:47:14 - INFO - Successfully loaded faiss with AVX2 support.
+2026-02-15 15:47:22 - INFO - Starting Gmail authentication.
+2026-02-15 15:47:22 - INFO - Loaded credentials from token.json.
+2026-02-15 15:47:22 - INFO - Gmail authentication successful.
+2026-02-15 15:47:23 - INFO - Gmail watch registered successfully. Response: {'historyId': '3893792', 'expiration': '1771755442512'}
+2026-02-15 15:47:23 - INFO - Fetching unread emails from Gmail.
+2026-02-15 15:47:23 - INFO - Found 5 unread emails on this page. Processing...
+2026-02-15 15:47:29 - INFO - Retrieved 5 relevant emails from 5 total unread.
+2026-02-15 15:47:29 - INFO - Processing email: Google Alert - Accenture on 13-02-26
+2026-02-15 15:47:29 - INFO - Skipping duplicate link from DB: https://finance.yahoo.com/news/story-behind-accenture-acn-shifting-043011551.html
+2026-02-15 15:47:31 - WARNING - Invalid content from URL: https://uk.investing.com/news/company-news/accenture-stock-hits-52week-low-at-22922-amid-market-fluctuations-93CH-4502831
+2026-02-15 15:47:42 - INFO - Loading faiss with AVX2 support.
+2026-02-15 15:47:42 - INFO - Successfully loaded faiss with AVX2 support.
+2026-02-15 15:47:48 - WARNING - Invalid content from URL: https://martechseries.com/predictive-ai/ai-platforms-machine-learning/accenture-appoints-rachel-frey-chief-communications-officer/
+2026-02-15 15:47:48 - INFO - Skipping duplicate link from DB: https://www.zacks.com/stock/news/2853896/investors-heavily-search-accenture-plc-acn-here-is-what-you-need-to-know
+2026-02-15 15:47:48 - INFO - Database tables created or already exist.
+2026-02-15 15:47:48 - INFO - WebScraper class instantiated.
+2026-02-15 15:47:48 - INFO - All articles committed successfully.
+2026-02-15 15:47:48 - INFO - FAISS index saved successfully.
+2026-02-15 15:47:48 - INFO - Web scraping pipeline completed successfully.
+2026-02-15 15:47:57 - WARNING - Invalid content from URL: https://www.bandt.com.au/accenture-song-taps-wpp-medias-ryan-goldsworthy-for-senior-role/
+2026-02-15 15:47:57 - INFO - Skipping duplicate link from DB: https://finance.yahoo.com/news/zacks-earnings-trends-highlights-gartner-141300170.html
+2026-02-15 15:47:57 - INFO - Skipping duplicate link from DB: https://www.peoplematters.in/news/strategic-hr/telstra-accenture-jv-to-cut-around-200-jobs-and-shift-some-work-to-india-48386
+2026-02-15 15:48:05 - WARNING - Invalid content from URL: https://www.bez-kabli.pl/accenture-stock-price-slides-nearly-4-as-ceo-share-sale-ai-jitters-weigh-on-acn/
+2026-02-15 15:48:05 - INFO - Skipping duplicate link from DB: http://prweek.com/article/1948190/accenture-names-chief-communications-officer
+2026-02-15 15:48:16 - WARNING - Invalid content from URL: https://www.nasdaq.com/articles/accenture-acn-shares-cross-3-yield-mark
+2026-02-15 15:48:16 - INFO - Processing email: Google Alert - Accenture on 13-02-26
+2026-02-15 15:48:16 - INFO - Skipping duplicate link from DB: https://www.peoplematters.in/news/strategic-hr/telstra-accenture-jv-to-cut-around-200-jobs-and-shift-some-work-to-india-48386
+2026-02-15 15:48:16 - INFO - Skipping duplicate link from DB: https://hr.economictimes.indiatimes.com/news/industry/the-future-of-work-insights-from-accentures-swati-sharma-on-ai-and-leadership/128241495
+2026-02-15 15:48:25 - WARNING - Invalid content from URL: https://news.careers360.com/iim-ahmedabad-concludes-pgp-2026-final-placements-144-recruiters-hire-across-three-clusters-accenture-exl-management-offers-cisco
+2026-02-15 15:48:25 - INFO - Skipping duplicate link from DB: https://www.telegraphindia.com/edugraph/news/iim-ahmedabad-concludes-third-cluster-of-pgp-2026-placements-144-firms-participate/cid/2147025
+2026-02-15 15:48:34 - WARNING - Invalid content from URL: https://www.jagranjosh.com/colleges/xlri-final-placements-202426-highest-package-pgdm-bm-hrm-clga-1870000991-1
+2026-02-15 15:48:34 - INFO - Processing email: Google Alert - Accenture on 13-02-26
+2026-02-15 15:48:34 - INFO - Skipping duplicate link from DB: https://finance.yahoo.com/news/story-behind-accenture-acn-shifting-043011551.html
+2026-02-15 15:48:34 - INFO - Skipping duplicate link from DB: https://www.zacks.com/stock/news/2853896/investors-heavily-search-accenture-plc-acn-here-is-what-you-need-to-know
+2026-02-15 15:48:48 - WARNING - Invalid content from URL: https://martechseries.com/predictive-ai/ai-platforms-machine-learning/accenture-appoints-rachel-frey-chief-communications-officer/
+2026-02-15 15:48:48 - INFO - Skipping duplicate link from DB: https://www.webwire.com/ViewPressRel.asp?aId=350536
+2026-02-15 15:48:59 - WARNING - Invalid content from URL: https://www.nasdaq.com/articles/accenture-acn-shares-cross-3-yield-mark
+2026-02-15 15:49:02 - WARNING - Invalid content from URL: https://www.youtube.com/watch?v=dX3eIMaWO0U
+2026-02-15 15:49:02 - INFO - Skipping duplicate link from DB: https://www.globalgovernmentforum.com/reinventing-public-service-experience-as-the-engine-of-transformation/
+2026-02-15 15:49:03 - INFO - Skipping duplicate link from DB: https://www.marketbeat.com/instant-alerts/filing-accenture-plc-acn-stake-boosted-by-illinois-municipal-retirement-fund-2026-02-12/
+2026-02-15 15:49:04 - WARNING - Invalid content from URL: https://www.gurufocus.com/news/8605901/goldman-sachs-marketbeta-us-equity-etf-buys-218-shares-of-accenture-plc-acn?utm_source=marketwatch&utm_medium=syndication&utm_campaign=headlines&r=4bf001661e6fdd88d0cd7a5659ff9748&mod=mw_quote_news
+2026-02-15 15:49:06 - WARNING - Invalid content from URL: https://www.gurufocus.com/news/8610281/xtrackers-sp-500-scored-screened-etf-buys-1305-shares-of-accenture-plc-acn
+2026-02-15 15:49:06 - INFO - Processing email: Google Alert - Accenture on 13-02-26
+2026-02-15 15:49:14 - WARNING - Invalid content from URL: https://www.bandt.com.au/accenture-song-taps-wpp-medias-ryan-goldsworthy-for-senior-role/
+2026-02-15 15:49:26 - WARNING - Invalid content from URL: https://newshub.medianet.com.au/2026/02/former-aws-and-accenture-ai-leader-joins-australian-healthtech-i-screen-as-ai-push-accelerates/139660/
+2026-02-15 15:49:27 - WARNING - Invalid content from URL: https://www.hcamag.com/au/specialisation/industrial-relations/telstra-flags-hundreds-of-job-cuts-in-fresh-restructure/565094
+2026-02-15 15:49:36 - WARNING - Invalid content from URL: https://www.bandt.com.au/all-bets-on-tabcorp-begins-media-agency-review/
+2026-02-15 15:49:36 - INFO - Skipping duplicate link from DB: https://www.ibtimes.com.au/barbeques-galore-enters-voluntary-administration-1861552
+2026-02-15 15:49:45 - WARNING - Invalid content from URL: https://www.msn.com/en-au/money/news/telstra-to-outsource-hundreds-of-jobs/ar-AA1W6EMp?cvid=698dc456fb1b4b1ca5678f5b212699e1&ocid=hpmsn
+2026-02-15 15:49:45 - INFO - Processing email: Google Alert - Accenture on 13-02-26
+2026-02-15 15:49:55 - WARNING - Invalid content from URL: https://uk.finance.yahoo.com/news/story-behind-accenture-acn-shifting-043011551.html
+2026-02-15 15:49:55 - INFO - All emails committed successfully.
+2026-02-15 15:49:58 - INFO - Emails marked as read.
+2026-02-15 17:47:17 - INFO - Loading faiss with AVX2 support.
+2026-02-15 17:47:17 - INFO - Successfully loaded faiss with AVX2 support.
+2026-02-15 17:47:18 - INFO - Loading faiss with AVX2 support.
+2026-02-15 17:47:18 - INFO - Successfully loaded faiss with AVX2 support.
+2026-02-15 17:47:24 - INFO - Database tables created or already exist.
+2026-02-15 17:47:26 - INFO - WebScraper class instantiated.
+2026-02-15 17:47:26 - INFO - Processing URL: https://www.nri.com/jp/News
+2026-02-15 17:47:26 - INFO - Starting Gmail authentication.
+2026-02-15 17:47:26 - INFO - Loaded credentials from token.json.
+2026-02-15 17:47:26 - INFO - Gmail authentication successful.
+2026-02-15 17:47:28 - INFO - Gmail watch registered successfully. Response: {'historyId': '3894123', 'expiration': '1771762647622'}
+2026-02-15 17:47:28 - INFO - Fetching unread emails from Gmail.
+2026-02-15 17:47:28 - INFO - Found 3 unread emails on this page. Processing...
+2026-02-15 17:47:31 - INFO - Extracted items for https://www.nri.com/jp/News: 1
+2026-02-15 17:47:31 - INFO - Retrieved 3 relevant emails from 3 total unread.
+2026-02-15 17:47:31 - INFO - Processing email: Google Alert - "PricewaterhouseCoopers" "PwC" on 15-02-26
+2026-02-15 17:47:33 - WARNING - Invalid content from URL: https://www.tipranks.com/news/company-announcements/arrail-replaces-pwc-as-auditor-amid-delayed-interim-review-and-ongoing-probe
+2026-02-15 17:47:33 - INFO - Processing email: Google Alert - McKinsey on 15-02-26
+2026-02-15 17:47:35 - WARNING - Invalid content from URL: https://www.pressreader.com/canada/winnipeg-sun/20260215/281689736268358
+2026-02-15 17:47:35 - INFO - Processing email: Google Alert - McKinsey on 15-02-26
+2026-02-15 17:47:37 - WARNING - Invalid content from URL: https://www.pressreader.com/canada/winnipeg-sun/20260215/281689736268358
+2026-02-15 17:47:37 - INFO - All emails committed successfully.
+2026-02-15 17:47:39 - INFO - Emails marked as read.
+2026-02-15 17:47:47 - INFO - Unique article: Fundmark Report  \u6700\u65b0\u53f7\uff082026\u5e742\u6708\u53f7\uff09
+2026-02-15 17:47:47 - INFO - Successfully processed article: Fundmark Report  \u6700\u65b0\u53f7\uff082026\u5e742\u6708\u53f7\uff09
+2026-02-15 17:47:47 - INFO - Processing URL: https://www.mckinsey.com/about-us/new-at-mckinsey-blog
+2026-02-15 17:48:19 - INFO - Extracted items for https://www.mckinsey.com/about-us/new-at-mckinsey-blog: 0
+2026-02-15 17:48:19 - INFO - Processing URL: https://www.mckinsey.com/jp/our-insights
+2026-02-15 17:48:48 - INFO - Extracted items for https://www.mckinsey.com/jp/our-insights: 0
+2026-02-15 17:48:48 - INFO - Processing URL: https://www.bcg.com/about/corporate-newsroom
+2026-02-15 17:48:49 - INFO - Extracted items for https://www.bcg.com/about/corporate-newsroom: 0
+2026-02-15 17:48:49 - INFO - Processing URL: https://www.bcg.com/ja-jp/about/news/press/default?00000173-7007-d959-afff-79c791c80008-page=1
+2026-02-15 17:48:51 - INFO - Extracted items for https://www.bcg.com/ja-jp/about/news/press/default?00000173-7007-d959-afff-79c791c80008-page=1: 0
+2026-02-15 17:48:51 - INFO - Processing URL: https://www.bain.com/about/media-center/press-releases/
+2026-02-15 17:48:53 - INFO - Extracted items for https://www.bain.com/about/media-center/press-releases/: 0
+2026-02-15 17:48:53 - INFO - Processing URL: https://www.bain.com/ja/about-bain/media-center/press-releases/
+2026-02-15 17:48:57 - INFO - Extracted items for https://www.bain.com/ja/about-bain/media-center/press-releases/: 0
+2026-02-15 17:48:57 - INFO - Processing URL: https://newsroom.accenture.com/
+2026-02-15 17:48:58 - INFO - Extracted items for https://newsroom.accenture.com/: 0
+2026-02-15 17:48:58 - INFO - Processing URL: https://newsroom.accenture.jp/
+2026-02-15 17:49:00 - INFO - Extracted items for https://newsroom.accenture.jp/: 0
+2026-02-15 17:49:00 - INFO - Processing URL: https://www.deloitte.com/global/en/about/press-room.html
+2026-02-15 17:49:03 - INFO - Extracted items for https://www.deloitte.com/global/en/about/press-room.html: 0
+2026-02-15 17:49:03 - INFO - Processing URL: https://www2.deloitte.com/jp/ja/footerlinks/nr.html
+2026-02-15 17:49:07 - INFO - Extracted items for https://www2.deloitte.com/jp/ja/footerlinks/nr.html: 2
+2026-02-15 17:49:10 - WARNING - Invalid content from URL: https://www2.deloitte.com/jp/ja/about/press-room.html?icid=top_press-room
+2026-02-15 17:49:14 - WARNING - Invalid content from URL: https://www2.deloitte.com/jp/ja/about/press-room.html?icid=bn_press-room
+2026-02-15 17:49:14 - INFO - Processing URL: https://www.ey.com/en_gl/newsroom
+2026-02-15 17:49:19 - INFO - Extracted items for https://www.ey.com/en_gl/newsroom: 2
+2026-02-15 17:49:59 - INFO - Unique article: Global financial services CEOs upbeat on revenue, profitability and productivity growth in 2026, as ROI in AI exceeds expectations
+2026-02-15 17:49:59 - INFO - Successfully processed article: Global financial services CEOs upbeat on revenue, profitability and productivity growth in 2026, as ROI in AI exceeds expectations
+2026-02-15 17:50:24 - INFO - Unique article: EY announces the launch of a global Innovation Center for Snowflake to power the next era of AI-driven enterprise transformation
+2026-02-15 17:50:24 - INFO - Successfully processed article: EY announces the launch of a global Innovation Center for Snowflake to power the next era of AI-driven enterprise transformation
+2026-02-15 17:50:24 - INFO - Processing URL: https://www.ey.com/ja_jp/newsroom
+2026-02-15 17:50:33 - INFO - Extracted items for https://www.ey.com/ja_jp/newsroom: 1
+2026-02-15 17:50:53 - INFO - Unique article: EY \u65b0\u65e5\u672c\u3001\u74b0\u5883\u7701\u306e\u4ee4\u548c\uff17\u5e74\u5ea6\u8131\u70ad\u7d20\u793e\u4f1a\u5b9f\u73fe\u306b\u5411\u3051\u305f\u79fb\u884c\u8a08\u753b\u7b56\u5b9a\u652f\u63f4\u5b9f\u8df5\u30d7\u30ed\u30b0\u30e9\u30e0 \uff08\u5730\u57df\u91d1\u878d\u6a5f\u95a2\u5411\u3051\uff09\u6210\u679c\u5831\u544a\u4f1a\u3092\u958b\u50ac
+2026-02-15 17:50:53 - INFO - Successfully processed article: EY \u65b0\u65e5\u672c\u3001\u74b0\u5883\u7701\u306e\u4ee4\u548c\uff17\u5e74\u5ea6\u8131\u70ad\u7d20\u793e\u4f1a\u5b9f\u73fe\u306b\u5411\u3051\u305f\u79fb\u884c\u8a08\u753b\u7b56\u5b9a\u652f\u63f4\u5b9f\u8df5\u30d7\u30ed\u30b0\u30e9\u30e0 \uff08\u5730\u57df\u91d1\u878d\u6a5f\u95a2\u5411\u3051\uff09\u6210\u679c\u5831\u544a\u4f1a\u3092\u958b\u50ac
+2026-02-15 17:50:53 - INFO - Processing URL: https://www.pwc.com/gx/en/news-room.html
+2026-02-15 17:50:58 - INFO - Extracted items for https://www.pwc.com/gx/en/news-room.html: 2
+2026-02-15 17:51:33 - INFO - Duplicate article: CEO confidence in revenue outlook hits five-year low – as AI becomes a defining divide between leaders and laggards: PwC 2026 Global CEO Survey
+2026-02-15 17:51:33 - INFO - Successfully processed article: CEO confidence in revenue outlook hits five-year low – as AI becomes a defining divide between leaders and laggards: PwC 2026 Global CEO Survey
+2026-02-15 17:52:05 - INFO - Unique article: Time for change
+2026-02-15 17:52:05 - INFO - Successfully processed article: Time for change
+2026-02-15 17:52:05 - INFO - Processing URL: https://www.pwc.com/jp/ja/press-room.html#press
+2026-02-15 17:52:13 - INFO - Extracted items for https://www.pwc.com/jp/ja/press-room.html#press: 0
+2026-02-15 17:52:13 - INFO - Processing URL: https://kpmg.com/xx/en/home/media/press-releases.html
+2026-02-15 17:52:22 - INFO - Extracted items for https://kpmg.com/xx/en/home/media/press-releases.html: 2
+2026-02-15 17:53:10 - INFO - Unique article: Global fintech investment rebounds in 2025, supported by stronger exit activity
+2026-02-15 17:53:10 - INFO - Successfully processed article: Global fintech investment rebounds in 2025, supported by stronger exit activity
+2026-02-15 17:53:59 - INFO - Unique article: KPMG strengthens global collaboration with SAP as an SAP Global Strategic Service Partner to drive measurable client value
+2026-02-15 17:53:59 - INFO - Successfully processed article: KPMG strengthens global collaboration with SAP as an SAP Global Strategic Service Partner to drive measurable client value
+2026-02-15 17:53:59 - INFO - Processing URL: https://kpmg.com/jp/ja/home/media/press-releases.html
+2026-02-15 17:54:07 - INFO - Extracted items for https://kpmg.com/jp/ja/home/media/press-releases.html: 2
+2026-02-15 17:54:09 - WARNING - Invalid content from URL: https://kpmg.com/jp/ja/media/press-releases/2026/02/kc-nishinomiya-storks.html
+2026-02-15 17:54:12 - WARNING - Invalid content from URL: https://kpmg.com/jp/ja/media/press-releases/2026/02/companies-act19.html
+2026-02-15 17:54:12 - INFO - Processing URL: https://www.mri.co.jp/news/index.html
+2026-02-15 17:54:15 - INFO - Extracted items for https://www.mri.co.jp/news/index.html: 0
+2026-02-15 17:54:15 - INFO - Processing URL: https://www.consulting.us/
+2026-02-15 17:54:21 - INFO - Extracted items for https://www.consulting.us/: 5
+2026-02-15 17:54:51 - INFO - Unique article: Simon-Kucher recognized on Vault Consulting 50 in North America list
+2026-02-15 17:54:51 - INFO - Successfully processed article: Simon-Kucher recognized on Vault Consulting 50 in North America list
+2026-02-15 17:55:27 - INFO - Duplicate article: Travel takes off again in 2026, with AI now an imperative
+2026-02-15 17:55:27 - INFO - Successfully processed article: Travel takes off again in 2026, with AI now an imperative
+2026-02-15 17:55:53 - INFO - Unique article: Altman Solon promotes Robert Elliott to associate partner
+2026-02-15 17:55:53 - INFO - Successfully processed article: Altman Solon promotes Robert Elliott to associate partner
+2026-02-15 17:56:25 - INFO - Unique article: BDO USA appoints new leaders for assurance and tax
+2026-02-15 17:56:25 - INFO - Successfully processed article: BDO USA appoints new leaders for assurance and tax
+2026-02-15 17:56:49 - INFO - Unique article: Rimkus appoints Chris Rayasam as chief executive officer
+2026-02-15 17:56:49 - INFO - Successfully processed article: Rimkus appoints Chris Rayasam as chief executive officer
+2026-02-15 17:56:49 - INFO - Processing URL: https://www.consultancy.uk/
+2026-02-15 17:56:56 - INFO - Extracted items for https://www.consultancy.uk/: 9
+2026-02-15 17:57:29 - INFO - Unique article: UK consultancy builds outcome-based delivery infrastructure
+2026-02-15 17:57:29 - INFO - Successfully processed article: UK consultancy builds outcome-based delivery infrastructure
+2026-02-15 17:58:12 - INFO - Unique article: Croftstone and Drumacross complete engineering consultancy merger
+2026-02-15 17:58:12 - INFO - Successfully processed article: Croftstone and Drumacross complete engineering consultancy merger
+2026-02-15 17:58:52 - INFO - Unique article: Logika Group Toby Gibbs on the firm’s meteoric 31% headcount growth
+2026-02-15 17:58:52 - INFO - Successfully processed article: Logika Group Toby Gibbs on the firm’s meteoric 31% headcount growth
+2026-02-15 17:59:21 - INFO - Unique article: Evelyn Partners poised for sale to NatWest Group
+2026-02-15 17:59:21 - INFO - Successfully processed article: Evelyn Partners poised for sale to NatWest Group
+2026-02-15 17:59:39 - INFO - Unique article: Procurato appoints former Efficio COO Alex Klein as board advisor
+2026-02-15 17:59:39 - INFO - Successfully processed article: Procurato appoints former Efficio COO Alex Klein as board advisor
+2026-02-15 18:00:18 - INFO - Unique article: UK’s cultural and creative industries are strategic national asset
+2026-02-15 18:00:18 - INFO - Successfully processed article: UK’s cultural and creative industries are strategic national asset
+2026-02-15 18:00:42 - INFO - Unique article: AAB adds Kreston Reeves in latest UK acquisition
+2026-02-15 18:00:42 - INFO - Successfully processed article: AAB adds Kreston Reeves in latest UK acquisition
+2026-02-15 18:01:17 - INFO - Unique article: Andersen Consulting adds forensics expert Lighthouse Consulting to UK offering
+2026-02-15 18:01:17 - INFO - Successfully processed article: Andersen Consulting adds forensics expert Lighthouse Consulting to UK offering
+2026-02-15 18:01:46 - INFO - Unique article: EY appoints Robert Pyle as restaurant sector leader
+2026-02-15 18:01:46 - INFO - Successfully processed article: EY appoints Robert Pyle as restaurant sector leader
+2026-02-15 18:01:46 - INFO - Processing URL: https://www.consultancy.asia/country/japan
+2026-02-15 18:01:50 - INFO - Extracted items for https://www.consultancy.asia/country/japan: 0
+2026-02-15 18:01:50 - INFO - Processing URL: https://www.consultancy.in/
+2026-02-15 18:01:52 - INFO - Extracted items for https://www.consultancy.in/: 0
+2026-02-15 18:01:52 - INFO - Processing URL: https://www.consultancy.com.au/
+2026-02-15 18:01:55 - INFO - Extracted items for https://www.consultancy.com.au/: 0
+2026-02-15 18:01:55 - INFO - Processing URL: https://www.consultancy.eu/
+2026-02-15 18:02:02 - INFO - Extracted items for https://www.consultancy.eu/: 5
+2026-02-15 18:02:30 - INFO - Unique article: Electric trucks gain ground in Europe despite adoption challenges
+2026-02-15 18:02:30 - INFO - Successfully processed article: Electric trucks gain ground in Europe despite adoption challenges
+2026-02-15 18:03:15 - INFO - Duplicate article: Altman Solon strengthens senior team in Europe with new partners
+2026-02-15 18:03:15 - INFO - Successfully processed article: Altman Solon strengthens senior team in Europe with new partners
+2026-02-15 18:03:42 - INFO - Unique article: Boutique Swedish consultancy Ctrl Digital bought by multinational Havas
+2026-02-15 18:03:42 - INFO - Successfully processed article: Boutique Swedish consultancy Ctrl Digital bought by multinational Havas
+2026-02-15 18:04:40 - INFO - Unique article: How brand DNA is changing the way marketing leaders innovate
+2026-02-15 18:04:40 - INFO - Successfully processed article: How brand DNA is changing the way marketing leaders innovate
+2026-02-15 18:05:12 - INFO - Unique article: Zanders boosts Treasury practice with hire of Alexander Odenthal
+2026-02-15 18:05:12 - INFO - Successfully processed article: Zanders boosts Treasury practice with hire of Alexander Odenthal
+2026-02-15 18:05:12 - INFO - Processing URL: https://www.consultancy.asia/
+2026-02-15 18:05:16 - INFO - Extracted items for https://www.consultancy.asia/: 0
+2026-02-15 18:05:16 - INFO - Processing URL: https://www.consultancy-me.com/
+2026-02-15 18:05:25 - INFO - Extracted items for https://www.consultancy-me.com/: 9
+2026-02-15 18:06:06 - INFO - Unique article: TDK SensEI partners with Mindsets to bring edge AI to industrial markets in EMEA
+2026-02-15 18:06:06 - INFO - Successfully processed article: TDK SensEI partners with Mindsets to bring edge AI to industrial markets in EMEA
+2026-02-15 18:07:11 - INFO - Unique article: KPMG launches policy tool to ensure national readiness of critical industries
+2026-02-15 18:07:11 - INFO - Successfully processed article: KPMG launches policy tool to ensure national readiness of critical industries
+2026-02-15 18:07:53 - INFO - Unique article: Survey: Worker satisfaction and confidence has declined in the Middle East
+2026-02-15 18:07:53 - INFO - Successfully processed article: Survey: Worker satisfaction and confidence has declined in the Middle East
+2026-02-15 18:08:18 - INFO - Unique article: SAP consulting partner Business Line expands into Saudi market
+2026-02-15 18:08:18 - INFO - Successfully processed article: SAP consulting partner Business Line expands into Saudi market
+2026-02-15 18:09:41 - INFO - Unique article: David Sharashenidze on NEOS Advisory’s growth and global impact in energy, water & utilities
+2026-02-15 18:09:41 - INFO - Successfully processed article: David Sharashenidze on NEOS Advisory’s growth and global impact in energy, water & utilities
+2026-02-15 18:10:14 - INFO - Unique article: PMP Strategy appoints Housni Zniber and Zakaria Chouaib as partner
+2026-02-15 18:10:14 - INFO - Successfully processed article: PMP Strategy appoints Housni Zniber and Zakaria Chouaib as partner
+2026-02-15 18:10:50 - INFO - Unique article: UAE and Saudi Arabia are setting the benchmark in Gulf’s growing IPO scene
+2026-02-15 18:10:50 - INFO - Successfully processed article: UAE and Saudi Arabia are setting the benchmark in Gulf’s growing IPO scene
+2026-02-15 18:11:51 - INFO - Unique article: Reimagining the DNA of Internal Audit through technology enablement and AI
+2026-02-15 18:11:51 - INFO - Successfully processed article: Reimagining the DNA of Internal Audit through technology enablement and AI
+2026-02-15 18:12:37 - INFO - Duplicate article: How businesses can harness AI beyond the hype: Lessons from Strategic Gears
+2026-02-15 18:12:37 - INFO - Successfully processed article: How businesses can harness AI beyond the hype: Lessons from Strategic Gears
+2026-02-15 18:12:37 - INFO - Processing URL: https://www.consultancy.nl/
+2026-02-15 18:12:54 - INFO - Extracted items for https://www.consultancy.nl/: 13
+2026-02-15 18:13:41 - INFO - Unique article: Stedin stroomlijnt projectmanagement in co-creatie met Conclusion Consulting
+2026-02-15 18:13:41 - INFO - Successfully processed article: Stedin stroomlijnt projectmanagement in co-creatie met Conclusion Consulting
+2026-02-15 18:14:48 - INFO - Unique article: ‘Ieders stem meenemen’: Hoe diversiteit de advieskracht van Morgens versterkt
+2026-02-15 18:14:48 - INFO - Successfully processed article: ‘Ieders stem meenemen’: Hoe diversiteit de advieskracht van Morgens versterkt
+2026-02-15 18:15:56 - INFO - Unique article: Operational excellence: Een stappenplan en tips voor succes
+2026-02-15 18:15:56 - INFO - Successfully processed article: Operational excellence: Een stappenplan en tips voor succes
+2026-02-15 18:16:26 - INFO - Unique article: Generation C herpositioneert zich als data- en AI-partner voor het mkb
+2026-02-15 18:16:26 - INFO - Successfully processed article: Generation C herpositioneert zich als data- en AI-partner voor het mkb
+2026-02-15 18:16:58 - WARNING - Invalid content from URL: https://www.consultancy.nl/nieuws/65767/common-eye-adviseur-rik-weeting-over-de-kern-van-samenwerken
+2026-02-15 18:17:28 - INFO - Unique article: PwC en Nedscaper bundelen de krachten voor integrale cybersecurity
+2026-02-15 18:17:28 - INFO - Successfully processed article: PwC en Nedscaper bundelen de krachten voor integrale cybersecurity
+2026-02-15 18:17:43 - WARNING - Invalid content from URL: https://www.consultancy.nl/nieuws/65785/bright-cubes-versterkt-managementteam-met-martin-de-smit
+2026-02-15 18:18:11 - INFO - Unique article: OneRetail scherpt positionering en merkidentiteit aan
+2026-02-15 18:18:11 - INFO - Successfully processed article: OneRetail scherpt positionering en merkidentiteit aan
+2026-02-15 18:18:43 - INFO - Unique article: Barry Laan gestart als nieuwe Commercieel Manager IT bij Ventus
+2026-02-15 18:18:43 - INFO - Successfully processed article: Barry Laan gestart als nieuwe Commercieel Manager IT bij Ventus
+2026-02-15 18:19:15 - INFO - Unique article: Michiel Rubenkamp benoemd tot commissaris bij Baker Tilly
+2026-02-15 18:19:15 - INFO - Successfully processed article: Michiel Rubenkamp benoemd tot commissaris bij Baker Tilly
+2026-02-15 18:19:49 - INFO - Unique article: Highberg benoemt Caroline Janssens en Laura Natrop tot partner
+2026-02-15 18:19:49 - INFO - Successfully processed article: Highberg benoemt Caroline Janssens en Laura Natrop tot partner
+2026-02-15 18:20:40 - WARNING - Invalid content from URL: https://www.consultancy.nl/nieuws/65743/omarm-het-onverwachte-jacco-van-de-griek-over-zijn-reis-van-trainee-tot-director-bij-improven
+2026-02-15 18:21:20 - INFO - Unique article: Valcon ondersteunt CZ bij implementatie van gen AI binnen customer service
+2026-02-15 18:21:20 - INFO - Successfully processed article: Valcon ondersteunt CZ bij implementatie van gen AI binnen customer service
+2026-02-15 18:21:20 - INFO - Processing URL: https://www.consultancy.co.za/
+2026-02-15 18:21:24 - INFO - Extracted items for https://www.consultancy.co.za/: 1
+2026-02-15 18:22:00 - INFO - Unique article: Joyce Nkini-Iwisi joins HKA’s partner team in Johannesburg office
+2026-02-15 18:22:00 - INFO - Successfully processed article: Joyce Nkini-Iwisi joins HKA’s partner team in Johannesburg office
+2026-02-15 18:22:00 - INFO - Processing URL: https://www.consultancy.lat/
+2026-02-15 18:22:04 - INFO - Extracted items for https://www.consultancy.lat/: 0
+2026-02-15 18:22:04 - INFO - Processing URL: https://www.consultancy.africa/
+2026-02-15 18:22:06 - INFO - Extracted items for https://www.consultancy.africa/: 0
+2026-02-15 18:22:06 - INFO - Processing URL: https://www.consulting.ca/
+2026-02-15 18:22:10 - INFO - Extracted items for https://www.consulting.ca/: 2
+2026-02-15 18:22:45 - INFO - Unique article: KPMG: Canada’s automotive industry restructuring
+2026-02-15 18:22:45 - INFO - Successfully processed article: KPMG: Canada’s automotive industry restructuring
+2026-02-15 18:23:03 - INFO - Unique article: MNP acquires Platinum Business Services in Winnipeg
+2026-02-15 18:23:03 - INFO - Successfully processed article: MNP acquires Platinum Business Services in Winnipeg
+2026-02-15 18:23:03 - INFO - Processing URL: https://www.consultancy.asia/country/singapore
+2026-02-15 18:23:06 - INFO - Extracted items for https://www.consultancy.asia/country/singapore: 0
+2026-02-15 18:23:06 - INFO - Processing URL: https://www.consultancy.asia/country/china
+2026-02-15 18:23:08 - INFO - Extracted items for https://www.consultancy.asia/country/china: 0
+2026-02-15 18:23:08 - INFO - Processing URL: https://www.consultancy.eu/country/france
+2026-02-15 18:23:18 - INFO - Extracted items for https://www.consultancy.eu/country/france: 9
+2026-02-15 18:23:49 - INFO - Duplicate article: Electric trucks gain ground in Europe despite adoption challenges
+2026-02-15 18:23:49 - INFO - Successfully processed article: Electric trucks gain ground in Europe despite adoption challenges
+2026-02-15 18:24:20 - WARNING - Invalid content from URL: https://www.consultancy.eu/news/13201/altman-solon-strengthens-senior-team-in-europe-with-new-partners
+2026-02-15 18:24:46 - INFO - Duplicate article: Boutique Swedish consultancy Ctrl Digital bought by multinational Havas
+2026-02-15 18:24:46 - INFO - Successfully processed article: Boutique Swedish consultancy Ctrl Digital bought by multinational Havas
+2026-02-15 18:25:35 - INFO - Duplicate article: How brand DNA is changing the way marketing leaders innovate
+2026-02-15 18:25:35 - INFO - Successfully processed article: How brand DNA is changing the way marketing leaders innovate
+2026-02-15 18:26:06 - INFO - Unique article: Europeans agree: global competitiveness is an issue and must be strengthened
+2026-02-15 18:26:06 - INFO - Successfully processed article: Europeans agree: global competitiveness is an issue and must be strengthened
+2026-02-15 18:26:40 - INFO - Unique article: PwC appoints Philippe Trouchaud as new Chair of France and Maghreb business
+2026-02-15 18:26:40 - INFO - Successfully processed article: PwC appoints Philippe Trouchaud as new Chair of France and Maghreb business
+2026-02-15 18:27:30 - INFO - Unique article: Gen AI in procurement is shifting from broad experimentation to more high-impact areas
+2026-02-15 18:27:30 - INFO - Successfully processed article: Gen AI in procurement is shifting from broad experimentation to more high-impact areas
+2026-02-15 18:28:40 - INFO - Unique article: The hidden cost of AI: New report warns over energy use and environmental impact
+2026-02-15 18:28:40 - INFO - Successfully processed article: The hidden cost of AI: New report warns over energy use and environmental impact
+2026-02-15 18:29:36 - INFO - Unique article: What 300,000 people say about the future of work and consumer behaviour
+2026-02-15 18:29:36 - INFO - Successfully processed article: What 300,000 people say about the future of work and consumer behaviour
+2026-02-15 18:29:36 - INFO - Processing URL: https://www.consultancy.eu/country/germany
+2026-02-15 18:29:50 - INFO - Extracted items for https://www.consultancy.eu/country/germany: 5
+2026-02-15 18:30:53 - INFO - Duplicate article: Altman Solon strengthens senior team in Europe with new partners
+2026-02-15 18:30:53 - INFO - Successfully processed article: Altman Solon strengthens senior team in Europe with new partners
+2026-02-15 18:31:23 - INFO - Duplicate article: Zanders boosts Treasury practice with hire of Alexander Odenthal
+2026-02-15 18:31:23 - INFO - Successfully processed article: Zanders boosts Treasury practice with hire of Alexander Odenthal
+2026-02-15 18:32:01 - INFO - Duplicate article: Electric trucks gain ground in Europe despite adoption challenges
+2026-02-15 18:32:01 - INFO - Successfully processed article: Electric trucks gain ground in Europe despite adoption challenges
+2026-02-15 18:32:37 - INFO - Duplicate article: Boutique Swedish consultancy Ctrl Digital bought by multinational Havas
+2026-02-15 18:32:37 - INFO - Successfully processed article: Boutique Swedish consultancy Ctrl Digital bought by multinational Havas
+2026-02-15 18:33:47 - INFO - Duplicate article: How brand DNA is changing the way marketing leaders innovate
+2026-02-15 18:33:47 - INFO - Successfully processed article: How brand DNA is changing the way marketing leaders innovate
+2026-02-15 18:33:47 - INFO - Processing URL: https://www.consultancy.uk/
+2026-02-15 18:34:03 - INFO - Extracted items for https://www.consultancy.uk/: 10
+2026-02-15 18:35:00 - INFO - Duplicate article: UK consultancy builds outcome-based delivery infrastructure
+2026-02-15 18:35:00 - INFO - Successfully processed article: UK consultancy builds outcome-based delivery infrastructure
+2026-02-15 18:35:56 - INFO - Duplicate article: Croftstone and Drumacross complete engineering consultancy merger
+2026-02-15 18:35:56 - INFO - Successfully processed article: Croftstone and Drumacross complete engineering consultancy merger
+2026-02-15 18:36:39 - INFO - Duplicate article: Toby Gibbs on the firm’s meteoric 31% headcount growth
+2026-02-15 18:36:39 - INFO - Successfully processed article: Toby Gibbs on the firm’s meteoric 31% headcount growth
+2026-02-15 18:37:22 - INFO - Duplicate article: Evelyn Partners poised for sale to NatWest Group
+2026-02-15 18:37:22 - INFO - Successfully processed article: Evelyn Partners poised for sale to NatWest Group
+2026-02-15 18:37:54 - INFO - Duplicate article: Procurato appoints former Efficio COO Alex Klein as board advisor
+2026-02-15 18:37:54 - INFO - Successfully processed article: Procurato appoints former Efficio COO Alex Klein as board advisor
+2026-02-15 18:38:54 - INFO - Duplicate article: UK’s cultural and creative industries are strategic national asset
+2026-02-15 18:38:54 - INFO - Successfully processed article: UK’s cultural and creative industries are strategic national asset
+2026-02-15 18:39:37 - INFO - Duplicate article: AAB adds Kreston Reeves in latest UK acquisition
+2026-02-15 18:39:37 - INFO - Successfully processed article: AAB adds Kreston Reeves in latest UK acquisition
+2026-02-15 18:40:23 - INFO - Duplicate article: Andersen Consulting adds forensics expert Lighthouse Consulting to UK offering
+2026-02-15 18:40:23 - INFO - Successfully processed article: Andersen Consulting adds forensics expert Lighthouse Consulting to UK offering
+2026-02-15 18:41:00 - INFO - Unique article: Wipro unveils AI-powered operating model to revolutionise enterprise functions
+2026-02-15 18:41:00 - INFO - Successfully processed article: Wipro unveils AI-powered operating model to revolutionise enterprise functions
+2026-02-15 18:41:28 - INFO - Duplicate article: EY appoints Robert Pyle as restaurant sector leader
+2026-02-15 18:41:28 - INFO - Successfully processed article: EY appoints Robert Pyle as restaurant sector leader
+2026-02-15 18:41:30 - INFO - Prepared to insert article: Fundmark Report  \u6700\u65b0\u53f7\uff082026\u5e742\u6708\u53f7\uff09 (https://www.nri.com/jp/knowledge/report/20260213.html)
+2026-02-15 18:41:32 - INFO - Prepared to insert article: Global financial services CEOs upbeat on revenue, profitability and productivity growth in 2026, as ROI in AI exceeds expectations (https://www.ey.com/en_gl/newsroom/2026/02/global-financial-services-ceos-upbeat-on-revenue-profitability-and-productivity-growth-in-2026-as-roi-in-ai-exceeds-expectations)
+2026-02-15 18:41:35 - INFO - Prepared to insert article: EY announces the launch of a global Innovation Center for Snowflake to power the next era of AI-driven enterprise transformation (https://www.ey.com/en_gl/newsroom/2026/02/ey-announces-the-launch-of-a-global-innovation-center-for-snowflake-to-power-the-next-era-of-ai-driven-enterprise-transformation)
+2026-02-15 18:41:36 - INFO - Prepared to insert article: EY \u65b0\u65e5\u672c\u3001\u74b0\u5883\u7701\u306e\u4ee4\u548c\uff17\u5e74\u5ea6\u8131\u70ad\u7d20\u793e\u4f1a\u5b9f\u73fe\u306b\u5411\u3051\u305f\u79fb\u884c\u8a08\u753b\u7b56\u5b9a\u652f\u63f4\u5b9f\u8df5\u30d7\u30ed\u30b0\u30e9\u30e0 \uff08\u5730\u57df\u91d1\u878d\u6a5f\u95a2\u5411\u3051\uff09\u6210\u679c\u5831\u544a\u4f1a\u3092\u958b\u50ac (https://www.ey.com/ja_jp/industries/government-public-sector/public-projects/2026/ey-japan-pp-2026-02-12)
+2026-02-15 18:41:38 - INFO - Prepared to insert article: CEO confidence in revenue outlook hits five-year low – as AI becomes a defining divide between leaders and laggards: PwC 2026 Global CEO Survey (https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-global-ceo-survey.html)
+2026-02-15 18:41:40 - INFO - Prepared to insert article: Time for change (https://www.pwc.com/gx/en/news-room/time-for-change.html)
+2026-02-15 18:41:42 - INFO - Prepared to insert article: Global fintech investment rebounds in 2025, supported by stronger exit activity (https://kpmg.com/xx/en/media/press-releases/2026/02/global-fintech-investment-rebounds-in-2025-supported-by-stronger-exit-activity.html)
+2026-02-15 18:41:43 - INFO - Prepared to insert article: KPMG strengthens global collaboration with SAP as an SAP Global Strategic Service Partner to drive measurable client value (https://kpmg.com/xx/en/media/press-releases/2026/02/kpmg-strengthens-global-collaboration-with-sap-as-an-sap-global-strategic-service-partner-to-drive-measurable-client-value.html)
+2026-02-15 18:41:45 - WARNING - Skipping article 'Simon-Kucher recognized on Vault Consulting 50 in North America list' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:41:47 - WARNING - Skipping article 'Travel takes off again in 2026, with AI now an imperative' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:41:47 - INFO - Skipped duplicate article in DB: Altman Solon promotes Robert Elliott to associate partner https://www.consulting.us/news/12977/altman-solon-promotes-robert-elliott-to-associate-partner
+2026-02-15 18:41:49 - WARNING - Skipping article 'BDO USA appoints new leaders for assurance and tax' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:41:51 - WARNING - Skipping article 'Rimkus appoints Chris Rayasam as chief executive officer' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:41:52 - WARNING - Skipping article 'UK consultancy builds outcome-based delivery infrastructure' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:41:54 - WARNING - Skipping article 'Croftstone and Drumacross complete engineering consultancy merger' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:41:56 - WARNING - Skipping article 'Logika Group Toby Gibbs on the firm’s meteoric 31% headcount growth' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:41:58 - WARNING - Skipping article 'Evelyn Partners poised for sale to NatWest Group' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:41:59 - WARNING - Skipping article 'Procurato appoints former Efficio COO Alex Klein as board advisor' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:42:01 - WARNING - Skipping article 'UK’s cultural and creative industries are strategic national asset' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:42:03 - WARNING - Skipping article 'AAB adds Kreston Reeves in latest UK acquisition' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:42:04 - WARNING - Skipping article 'Andersen Consulting adds forensics expert Lighthouse Consulting to UK offering' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:42:04 - INFO - Skipped duplicate article in DB: EY appoints Robert Pyle as restaurant sector leader https://www.consultancy.uk/news/43138/ey-appoints-robert-pyle-as-restaurant-sector-leader
+2026-02-15 18:42:06 - WARNING - Skipping article 'Electric trucks gain ground in Europe despite adoption challenges' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:42:07 - WARNING - Skipping article 'Altman Solon strengthens senior team in Europe with new partners' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:42:09 - WARNING - Skipping article 'Boutique Swedish consultancy Ctrl Digital bought by multinational Havas' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:42:11 - WARNING - Skipping article 'How brand DNA is changing the way marketing leaders innovate' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:42:13 - WARNING - Skipping article 'Zanders boosts Treasury practice with hire of Alexander Odenthal' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:42:15 - WARNING - Skipping article 'TDK SensEI partners with Mindsets to bring edge AI to industrial markets in EMEA' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:42:17 - INFO - Prepared to insert article: KPMG launches policy tool to ensure national readiness of critical industries (https://www.consultancy-me.com/news/12742/kpmg-launches-policy-tool-to-ensure-national-readiness-of-critical-industries)
+2026-02-15 18:42:19 - WARNING - Skipping article 'Survey: Worker satisfaction and confidence has declined in the Middle East' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:42:21 - WARNING - Skipping article 'SAP consulting partner Business Line expands into Saudi market' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:42:22 - WARNING - Skipping article 'David Sharashenidze on NEOS Advisory’s growth and global impact in energy, water & utilities' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:42:24 - WARNING - Skipping article 'PMP Strategy appoints Housni Zniber and Zakaria Chouaib as partner' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:42:27 - WARNING - Skipping article 'UAE and Saudi Arabia are setting the benchmark in Gulf’s growing IPO scene' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:42:29 - INFO - Prepared to insert article: Reimagining the DNA of Internal Audit through technology enablement and AI (https://www.consultancy-me.com/news/12721/reimagining-the-dna-of-internal-audit-through-technology-enablement-and-ai)
+2026-02-15 18:42:31 - WARNING - Skipping article 'How businesses can harness AI beyond the hype: Lessons from Strategic Gears' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:42:33 - WARNING - Skipping article 'Stedin stroomlijnt projectmanagement in co-creatie met Conclusion Consulting' - Company 'Conclusion Consulting' (norm: 'conclusion consulting') not in target list.
+2026-02-15 18:42:35 - WARNING - Skipping article '‘Ieders stem meenemen’: Hoe diversiteit de advieskracht van Morgens versterkt' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:42:36 - WARNING - Skipping article 'Operational excellence: Een stappenplan en tips voor succes' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:42:39 - WARNING - Skipping article 'Generation C herpositioneert zich als data- en AI-partner voor het mkb' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:42:41 - INFO - Prepared to insert article: PwC en Nedscaper bundelen de krachten voor integrale cybersecurity (https://www.consultancy.nl/nieuws/65788/pwc-en-nedscaper-bundelen-de-krachten-voor-integrale-cybersecurity)
+2026-02-15 18:42:43 - WARNING - Skipping article 'OneRetail scherpt positionering en merkidentiteit aan' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:42:45 - WARNING - Skipping article 'Barry Laan gestart als nieuwe Commercieel Manager IT bij Ventus' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:42:46 - WARNING - Skipping article 'Michiel Rubenkamp benoemd tot commissaris bij Baker Tilly' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:42:48 - WARNING - Skipping article 'Highberg benoemt Caroline Janssens en Laura Natrop tot partner' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:42:49 - WARNING - Skipping article 'Valcon ondersteunt CZ bij implementatie van gen AI binnen customer service' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:42:51 - WARNING - Skipping article 'Joyce Nkini-Iwisi joins HKA’s partner team in Johannesburg office' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:42:53 - INFO - Prepared to insert article: KPMG: Canada’s automotive industry restructuring (https://www.consulting.ca/news/4856/kpmg-canadas-automotive-industry-restructuring)
+2026-02-15 18:42:55 - WARNING - Skipping article 'MNP acquires Platinum Business Services in Winnipeg' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:42:56 - WARNING - Skipping article 'Electric trucks gain ground in Europe despite adoption challenges' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:42:58 - WARNING - Skipping article 'Boutique Swedish consultancy Ctrl Digital bought by multinational Havas' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:43:00 - WARNING - Skipping article 'How brand DNA is changing the way marketing leaders innovate' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:43:00 - INFO - Skipped duplicate article in DB: Europeans agree: global competitiveness is an issue and must be strengthened https://www.consultancy.eu/news/13138/europeans-agree-global-competitiveness-is-an-issue-and-must-be-strengthened
+2026-02-15 18:43:03 - INFO - Prepared to insert article: PwC appoints Philippe Trouchaud as new Chair of France and Maghreb business (https://www.consultancy.eu/news/13135/pwc-appoints-philippe-trouchaud-as-new-chair-of-france-and-maghreb-business)
+2026-02-15 18:43:04 - WARNING - Skipping article 'Gen AI in procurement is shifting from broad experimentation to more high-impact areas' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:43:06 - WARNING - Skipping article 'The hidden cost of AI: New report warns over energy use and environmental impact' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:43:07 - WARNING - Skipping article 'What 300,000 people say about the future of work and consumer behaviour' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:43:09 - WARNING - Skipping article 'Altman Solon strengthens senior team in Europe with new partners' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:43:11 - WARNING - Skipping article 'Zanders boosts Treasury practice with hire of Alexander Odenthal' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:43:13 - WARNING - Skipping article 'Electric trucks gain ground in Europe despite adoption challenges' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:43:15 - WARNING - Skipping article 'Boutique Swedish consultancy Ctrl Digital bought by multinational Havas' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:43:16 - WARNING - Skipping article 'How brand DNA is changing the way marketing leaders innovate' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:43:18 - WARNING - Skipping article 'UK consultancy builds outcome-based delivery infrastructure' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:43:20 - WARNING - Skipping article 'Croftstone and Drumacross complete engineering consultancy merger' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:43:22 - WARNING - Skipping article 'Toby Gibbs on the firm’s meteoric 31% headcount growth' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:43:24 - WARNING - Skipping article 'Evelyn Partners poised for sale to NatWest Group' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:43:26 - WARNING - Skipping article 'Procurato appoints former Efficio COO Alex Klein as board advisor' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:43:27 - WARNING - Skipping article 'UK’s cultural and creative industries are strategic national asset' - Company 'FTI Consulting' (norm: 'fti consulting') not in target list.
+2026-02-15 18:43:29 - WARNING - Skipping article 'AAB adds Kreston Reeves in latest UK acquisition' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:43:31 - WARNING - Skipping article 'Andersen Consulting adds forensics expert Lighthouse Consulting to UK offering' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:43:32 - WARNING - Skipping article 'Wipro unveils AI-powered operating model to revolutionise enterprise functions' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 18:43:32 - INFO - Skipped duplicate article in DB: EY appoints Robert Pyle as restaurant sector leader https://www.consultancy.uk/news/43138/ey-appoints-robert-pyle-as-restaurant-sector-leader
+2026-02-15 18:43:32 - INFO - All articles committed successfully.
+2026-02-15 18:43:32 - INFO - FAISS index saved successfully.
+2026-02-15 18:43:32 - INFO - Web scraping pipeline completed successfully.
+2026-02-15 19:47:17 - INFO - Loading faiss with AVX2 support.
+2026-02-15 19:47:17 - INFO - Successfully loaded faiss with AVX2 support.
+2026-02-15 19:47:17 - INFO - Loading faiss with AVX2 support.
+2026-02-15 19:47:18 - INFO - Successfully loaded faiss with AVX2 support.
+2026-02-15 19:47:27 - INFO - Database tables created or already exist.
+2026-02-15 19:47:28 - INFO - WebScraper class instantiated.
+2026-02-15 19:47:28 - INFO - Processing URL: https://www.nri.com/jp/News
+2026-02-15 19:47:28 - INFO - Starting Gmail authentication.
+2026-02-15 19:47:28 - INFO - Loaded credentials from token.json.
+2026-02-15 19:47:28 - INFO - Gmail authentication successful.
+2026-02-15 19:47:30 - INFO - Gmail watch registered successfully. Response: {'historyId': '3894419', 'expiration': '1771769849708'}
+2026-02-15 19:47:30 - INFO - Fetching unread emails from Gmail.
+2026-02-15 19:47:30 - INFO - Found 3 unread emails on this page. Processing...
+2026-02-15 19:47:32 - INFO - Retrieved 3 relevant emails from 3 total unread.
+2026-02-15 19:47:32 - INFO - Processing email: Google Alert - Deloitte on 15-02-26
+2026-02-15 19:47:33 - INFO - Extracted items for https://www.nri.com/jp/News: 1
+2026-02-15 19:47:50 - INFO - Duplicate article: Fundmark Report \u6700\u65b0\u53f7\uff082026\u5e742\u6708\u53f7\uff09
+2026-02-15 19:47:50 - INFO - Successfully processed article: Fundmark Report \u6700\u65b0\u53f7\uff082026\u5e742\u6708\u53f7\uff09
+2026-02-15 19:47:50 - INFO - Processing URL: https://www.mckinsey.com/about-us/new-at-mckinsey-blog
+2026-02-15 19:48:05 - INFO - Unique article detected. Added Powering progress through Deloitte’s ServiceNow journey to the database
+2026-02-15 19:48:05 - INFO - Prepared email insertion: Google Alert - Deloitte from https://www.deloitte.com/lu/en/alliances/servicenow/case-studies/powering-progress-through-deloitte-servicenow-journey.html
+2026-02-15 19:48:05 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 15-02-26
+2026-02-15 19:48:07 - WARNING - Invalid content from URL: https://www.bcg.com/publications/2026/saudi-arabia-key-economic-indicators-in-the-cybersecurity-sector
+2026-02-15 19:48:08 - WARNING - Invalid content from URL: https://www.telegraphindia.com/business/ai-in-india-will-drive-productivity-not-lead-to-mass-unemployment-says-boston-consulting-group/cid/2147438
+2026-02-15 19:48:08 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 15-02-26
+2026-02-15 19:48:21 - INFO - Extracted items for https://www.mckinsey.com/about-us/new-at-mckinsey-blog: 0
+2026-02-15 19:48:21 - INFO - Processing URL: https://www.mckinsey.com/jp/our-insights
+2026-02-15 19:48:27 - INFO - Unique article detected. Added Nagpur region has big opportunity to develop all six districts with city as nucleus: Fadnavis to the database
+2026-02-15 19:48:27 - INFO - Prepared email insertion: Google Alert - "Boston Consulting Group" "BCG" from https://www.thehitavada.com/Encyc/2026/2/15/nagpur-region-has-big-opportunity-to-develop-all-six-districts-with-city-as-nucleus-fadnavis.html
+2026-02-15 19:48:27 - INFO - All emails committed successfully.
+2026-02-15 19:48:30 - INFO - Emails marked as read.
+2026-02-15 19:49:11 - INFO - Extracted items for https://www.mckinsey.com/jp/our-insights: 0
+2026-02-15 19:49:11 - INFO - Processing URL: https://www.bcg.com/about/corporate-newsroom
+2026-02-15 19:49:13 - INFO - Extracted items for https://www.bcg.com/about/corporate-newsroom: 0
+2026-02-15 19:49:13 - INFO - Processing URL: https://www.bcg.com/ja-jp/about/news/press/default?00000173-7007-d959-afff-79c791c80008-page=1
+2026-02-15 19:49:15 - INFO - Extracted items for https://www.bcg.com/ja-jp/about/news/press/default?00000173-7007-d959-afff-79c791c80008-page=1: 0
+2026-02-15 19:49:15 - INFO - Processing URL: https://www.bain.com/about/media-center/press-releases/
+2026-02-15 19:49:17 - INFO - Extracted items for https://www.bain.com/about/media-center/press-releases/: 0
+2026-02-15 19:49:17 - INFO - Processing URL: https://www.bain.com/ja/about-bain/media-center/press-releases/
+2026-02-15 19:49:20 - INFO - Extracted items for https://www.bain.com/ja/about-bain/media-center/press-releases/: 0
+2026-02-15 19:49:20 - INFO - Processing URL: https://newsroom.accenture.com/
+2026-02-15 19:49:24 - INFO - Extracted items for https://newsroom.accenture.com/: 0
+2026-02-15 19:49:24 - INFO - Processing URL: https://newsroom.accenture.jp/
+2026-02-15 19:49:26 - INFO - Extracted items for https://newsroom.accenture.jp/: 0
+2026-02-15 19:49:26 - INFO - Processing URL: https://www.deloitte.com/global/en/about/press-room.html
+2026-02-15 19:49:29 - INFO - Extracted items for https://www.deloitte.com/global/en/about/press-room.html: 0
+2026-02-15 19:49:29 - INFO - Processing URL: https://www2.deloitte.com/jp/ja/footerlinks/nr.html
+2026-02-15 19:49:32 - INFO - Extracted items for https://www2.deloitte.com/jp/ja/footerlinks/nr.html: 0
+2026-02-15 19:49:32 - INFO - Processing URL: https://www.ey.com/en_gl/newsroom
+2026-02-15 19:49:38 - INFO - Extracted items for https://www.ey.com/en_gl/newsroom: 2
+2026-02-15 19:50:13 - INFO - Duplicate article: Global financial services CEOs upbeat on revenue, profitability and productivity growth in 2026, as ROI in AI exceeds expectations
+2026-02-15 19:50:13 - INFO - Successfully processed article: Global financial services CEOs upbeat on revenue, profitability and productivity growth in 2026, as ROI in AI exceeds expectations
+2026-02-15 19:50:39 - INFO - Duplicate article: EY announces the launch of a global Innovation Center for Snowflake to power the next era of AI-driven enterprise transformation
+2026-02-15 19:50:39 - INFO - Successfully processed article: EY announces the launch of a global Innovation Center for Snowflake to power the next era of AI-driven enterprise transformation
+2026-02-15 19:50:39 - INFO - Processing URL: https://www.ey.com/ja_jp/newsroom
+2026-02-15 19:50:44 - INFO - Extracted items for https://www.ey.com/ja_jp/newsroom: 1
+2026-02-15 19:51:09 - INFO - Duplicate article: EY \u65b0\u65e5\u672c\u3001\u74b0\u5883\u7701\u306e\u4ee4\u548c\uff17\u5e74\u5ea6\u8131\u70ad\u7d20\u793e\u4f1a\u5b9f\u73fe\u306b\u5411\u3051\u305f\u79fb\u884c\u8a08\u753b\u7b56\u5b9a\u652f\u63f4\u5b9f\u8df5\u30d7\u30ed\u30b0\u30e9\u30e0 \uff08\u5730\u57df\u91d1\u878d\u6a5f\u95a2\u5411\u3051\uff09\u6210\u679c\u5831\u544a\u4f1a\u3092\u958b\u50ac
+2026-02-15 19:51:09 - INFO - Successfully processed article: EY \u65b0\u65e5\u672c\u3001\u74b0\u5883\u7701\u306e\u4ee4\u548c\uff17\u5e74\u5ea6\u8131\u70ad\u7d20\u793e\u4f1a\u5b9f\u73fe\u306b\u5411\u3051\u305f\u79fb\u884c\u8a08\u753b\u7b56\u5b9a\u652f\u63f4\u5b9f\u8df5\u30d7\u30ed\u30b0\u30e9\u30e0 \uff08\u5730\u57df\u91d1\u878d\u6a5f\u95a2\u5411\u3051\uff09\u6210\u679c\u5831\u544a\u4f1a\u3092\u958b\u50ac
+2026-02-15 19:51:09 - INFO - Processing URL: https://www.pwc.com/gx/en/news-room.html
+2026-02-15 19:51:14 - INFO - Extracted items for https://www.pwc.com/gx/en/news-room.html: 2
+2026-02-15 19:51:45 - INFO - Duplicate article: CEO confidence in revenue outlook hits five-year low – as AI becomes a defining divide between leaders and laggards: PwC 2026 Global CEO Survey
+2026-02-15 19:51:45 - INFO - Successfully processed article: CEO confidence in revenue outlook hits five-year low – as AI becomes a defining divide between leaders and laggards: PwC 2026 Global CEO Survey
+2026-02-15 19:52:07 - INFO - Duplicate article: Time for change
+2026-02-15 19:52:07 - INFO - Successfully processed article: Time for change
+2026-02-15 19:52:07 - INFO - Processing URL: https://www.pwc.com/jp/ja/press-room.html#press
+2026-02-15 19:52:09 - INFO - Extracted items for https://www.pwc.com/jp/ja/press-room.html#press: 0
+2026-02-15 19:52:09 - INFO - Processing URL: https://kpmg.com/xx/en/home/media/press-releases.html
+2026-02-15 19:52:18 - INFO - Extracted items for https://kpmg.com/xx/en/home/media/press-releases.html: 2
+2026-02-15 19:52:56 - INFO - Duplicate article: Global fintech investment rebounds in 2025, supported by stronger exit activity
+2026-02-15 19:52:56 - INFO - Successfully processed article: Global fintech investment rebounds in 2025, supported by stronger exit activity
+2026-02-15 19:53:33 - INFO - Duplicate article: KPMG strengthens global collaboration with SAP as an SAP Global Strategic Service Partner to drive measurable client value
+2026-02-15 19:53:33 - INFO - Successfully processed article: KPMG strengthens global collaboration with SAP as an SAP Global Strategic Service Partner to drive measurable client value
+2026-02-15 19:53:33 - INFO - Processing URL: https://kpmg.com/jp/ja/home/media/press-releases.html
+2026-02-15 19:53:40 - INFO - Extracted items for https://kpmg.com/jp/ja/home/media/press-releases.html: 3
+2026-02-15 19:53:42 - WARNING - Invalid content from URL: https://kpmg.com/jp/ja/media/press-releases/2026/02/kc-nishinomiya-storks.html
+2026-02-15 19:53:44 - WARNING - Invalid content from URL: https://kpmg.com/jp/ja/media/press-releases/2026/02/kc-chaibora-support.html
+2026-02-15 19:53:47 - WARNING - Invalid content from URL: https://kpmg.com/jp/ja/media/press-releases/2026/02/fas-publication-202602.html
+2026-02-15 19:53:47 - INFO - Processing URL: https://www.mri.co.jp/news/index.html
+2026-02-15 19:53:49 - INFO - Extracted items for https://www.mri.co.jp/news/index.html: 0
+2026-02-15 19:53:49 - INFO - Processing URL: https://www.consulting.us/
+2026-02-15 19:53:54 - INFO - Extracted items for https://www.consulting.us/: 5
+2026-02-15 19:54:18 - INFO - Duplicate article: Simon-Kucher recognized on Vault Consulting 50 in North America list
+2026-02-15 19:54:18 - INFO - Successfully processed article: Simon-Kucher recognized on Vault Consulting 50 in North America list
+2026-02-15 19:54:48 - INFO - Duplicate article: Travel takes off again in 2026, with AI now an imperative
+2026-02-15 19:54:48 - INFO - Successfully processed article: Travel takes off again in 2026, with AI now an imperative
+2026-02-15 19:55:15 - INFO - Duplicate article: Altman Solon promotes Robert Elliott to associate partner
+2026-02-15 19:55:15 - INFO - Successfully processed article: Altman Solon promotes Robert Elliott to associate partner
+2026-02-15 19:55:57 - INFO - Duplicate article: BDO USA appoints new leaders for assurance and tax
+2026-02-15 19:55:57 - INFO - Successfully processed article: BDO USA appoints new leaders for assurance and tax
+2026-02-15 19:56:31 - INFO - Duplicate article: Rimkus appoints Chris Rayasam as chief executive officer
+2026-02-15 19:56:31 - INFO - Successfully processed article: Rimkus appoints Chris Rayasam as chief executive officer
+2026-02-15 19:56:31 - INFO - Processing URL: https://www.consultancy.uk/
+2026-02-15 19:56:40 - INFO - Extracted items for https://www.consultancy.uk/: 9
+2026-02-15 19:57:25 - INFO - Duplicate article: UK’s cultural and creative industries are strategic national asset
+2026-02-15 19:57:25 - INFO - Successfully processed article: UK’s cultural and creative industries are strategic national asset
+2026-02-15 19:57:54 - INFO - Duplicate article: AAB adds Kreston Reeves in latest UK acquisition
+2026-02-15 19:57:54 - INFO - Successfully processed article: AAB adds Kreston Reeves in latest UK acquisition
+2026-02-15 19:58:39 - INFO - Duplicate article: Andersen Consulting adds forensics expert Lighthouse Consulting to UK offering
+2026-02-15 19:58:39 - INFO - Successfully processed article: Andersen Consulting adds forensics expert Lighthouse Consulting to UK offering
+2026-02-15 19:59:13 - INFO - Duplicate article: EY appoints Robert Pyle as restaurant sector leader
+2026-02-15 19:59:13 - INFO - Successfully processed article: EY appoints Robert Pyle as restaurant sector leader
+2026-02-15 19:59:31 - INFO - Duplicate article: Procurato appoints former Efficio COO Alex Klein as board advisor
+2026-02-15 19:59:31 - INFO - Successfully processed article: Procurato appoints former Efficio COO Alex Klein as board advisor
+2026-02-15 20:00:04 - INFO - Duplicate article: Evelyn Partners poised for sale to NatWest Group
+2026-02-15 20:00:04 - INFO - Successfully processed article: Evelyn Partners poised for sale to NatWest Group
+2026-02-15 20:00:40 - INFO - Duplicate article: Logika Group Toby Gibbs on the firm’s meteoric 31% headcount growth
+2026-02-15 20:00:40 - INFO - Successfully processed article: Logika Group Toby Gibbs on the firm’s meteoric 31% headcount growth
+2026-02-15 20:01:20 - INFO - Duplicate article: Croftstone and Drumacross complete engineering consultancy merger
+2026-02-15 20:01:20 - INFO - Successfully processed article: Croftstone and Drumacross complete engineering consultancy merger
+2026-02-15 20:01:57 - INFO - Duplicate article: UK consultancy builds outcome-based delivery infrastructure
+2026-02-15 20:01:57 - INFO - Successfully processed article: UK consultancy builds outcome-based delivery infrastructure
+2026-02-15 20:01:57 - INFO - Processing URL: https://www.consultancy.asia/country/japan
+2026-02-15 20:02:00 - INFO - Extracted items for https://www.consultancy.asia/country/japan: 0
+2026-02-15 20:02:00 - INFO - Processing URL: https://www.consultancy.in/
+2026-02-15 20:02:03 - INFO - Extracted items for https://www.consultancy.in/: 0
+2026-02-15 20:02:03 - INFO - Processing URL: https://www.consultancy.com.au/
+2026-02-15 20:02:06 - INFO - Extracted items for https://www.consultancy.com.au/: 0
+2026-02-15 20:02:06 - INFO - Processing URL: https://www.consultancy.eu/
+2026-02-15 20:02:13 - INFO - Extracted items for https://www.consultancy.eu/: 5
+2026-02-15 20:02:47 - INFO - Duplicate article: Electric trucks gain ground in Europe despite adoption challenges
+2026-02-15 20:02:47 - INFO - Successfully processed article: Electric trucks gain ground in Europe despite adoption challenges
+2026-02-15 20:03:37 - INFO - Duplicate article: Altman Solon strengthens senior team in Europe with new partners
+2026-02-15 20:03:37 - INFO - Successfully processed article: Altman Solon strengthens senior team in Europe with new partners
+2026-02-15 20:04:10 - INFO - Duplicate article: Boutique Swedish consultancy Ctrl Digital bought by multinational Havas
+2026-02-15 20:04:10 - INFO - Successfully processed article: Boutique Swedish consultancy Ctrl Digital bought by multinational Havas
+2026-02-15 20:05:11 - INFO - Duplicate article: How brand DNA is changing the way marketing leaders innovate
+2026-02-15 20:05:11 - INFO - Successfully processed article: How brand DNA is changing the way marketing leaders innovate
+2026-02-15 20:05:55 - INFO - Duplicate article: Zanders boosts Treasury practice with hire of Alexander Odenthal
+2026-02-15 20:05:55 - INFO - Successfully processed article: Zanders boosts Treasury practice with hire of Alexander Odenthal
+2026-02-15 20:05:55 - INFO - Processing URL: https://www.consultancy.asia/
+2026-02-15 20:05:58 - INFO - Extracted items for https://www.consultancy.asia/: 0
+2026-02-15 20:05:58 - INFO - Processing URL: https://www.consultancy-me.com/
+2026-02-15 20:06:08 - INFO - Extracted items for https://www.consultancy-me.com/: 9
+2026-02-15 20:06:52 - INFO - Duplicate article: TDK SensEI partners with Mindsets to bring edge AI to industrial markets in EMEA
+2026-02-15 20:06:52 - INFO - Successfully processed article: TDK SensEI partners with Mindsets to bring edge AI to industrial markets in EMEA
+2026-02-15 20:07:51 - INFO - Duplicate article: KPMG launches policy tool to ensure national readiness of critical industries
+2026-02-15 20:07:51 - INFO - Successfully processed article: KPMG launches policy tool to ensure national readiness of critical industries
+2026-02-15 20:08:30 - INFO - Duplicate article: Survey: Worker satisfaction and confidence has declined in the Middle East
+2026-02-15 20:08:30 - INFO - Successfully processed article: Survey: Worker satisfaction and confidence has declined in the Middle East
+2026-02-15 20:09:07 - INFO - Duplicate article: SAP consulting partner Business Line expands into Saudi market
+2026-02-15 20:09:07 - INFO - Successfully processed article: SAP consulting partner Business Line expands into Saudi market
+2026-02-15 20:09:57 - INFO - Duplicate article: David Sharashenidze on NEOS Advisory’s growth and global impact in energy, water & utilities
+2026-02-15 20:09:57 - INFO - Successfully processed article: David Sharashenidze on NEOS Advisory’s growth and global impact in energy, water & utilities
+2026-02-15 20:10:36 - INFO - Duplicate article: PMP Strategy appoints Housni Zniber and Zakaria Chouaib as partner
+2026-02-15 20:10:36 - INFO - Successfully processed article: PMP Strategy appoints Housni Zniber and Zakaria Chouaib as partner
+2026-02-15 20:11:21 - INFO - Duplicate article: UAE and Saudi Arabia are setting the benchmark in Gulf’s growing IPO scene
+2026-02-15 20:11:21 - INFO - Successfully processed article: UAE and Saudi Arabia are setting the benchmark in Gulf’s growing IPO scene
+2026-02-15 20:12:42 - INFO - Duplicate article: Reimagining the DNA of Internal Audit through technology enablement and AI
+2026-02-15 20:12:42 - INFO - Successfully processed article: Reimagining the DNA of Internal Audit through technology enablement and AI
+2026-02-15 20:13:27 - INFO - Duplicate article: How businesses can harness AI beyond the hype: Lessons from Strategic Gears
+2026-02-15 20:13:27 - INFO - Successfully processed article: How businesses can harness AI beyond the hype: Lessons from Strategic Gears
+2026-02-15 20:13:27 - INFO - Processing URL: https://www.consultancy.nl/
+2026-02-15 20:13:45 - INFO - Extracted items for https://www.consultancy.nl/: 13
+2026-02-15 20:14:18 - INFO - Duplicate article: Stedin stroomlijnt projectmanagement in co-creatie met Conclusion Consulting
+2026-02-15 20:14:18 - INFO - Successfully processed article: Stedin stroomlijnt projectmanagement in co-creatie met Conclusion Consulting
+2026-02-15 20:14:56 - INFO - Duplicate article: ‘Ieders stem meenemen’: Hoe diversiteit de advieskracht van Morgens versterkt
+2026-02-15 20:14:56 - INFO - Successfully processed article: ‘Ieders stem meenemen’: Hoe diversiteit de advieskracht van Morgens versterkt
+2026-02-15 20:15:45 - INFO - Duplicate article: Operational excellence: Een stappenplan en tips voor succes
+2026-02-15 20:15:45 - INFO - Successfully processed article: Operational excellence: Een stappenplan en tips voor succes
+2026-02-15 20:16:07 - INFO - Duplicate article: Generation C herpositioneert zich als data- en AI-partner voor het mkb
+2026-02-15 20:16:07 - INFO - Successfully processed article: Generation C herpositioneert zich als data- en AI-partner voor het mkb
+2026-02-15 20:16:38 - WARNING - Invalid content from URL: https://www.consultancy.nl/nieuws/65767/common-eye-adviseur-rik-weeting-over-de-kern-van-samenwerken
+2026-02-15 20:17:16 - INFO - Duplicate article: PwC en Nedscaper bundelen de krachten voor integrale cybersecurity
+2026-02-15 20:17:16 - INFO - Successfully processed article: PwC en Nedscaper bundelen de krachten voor integrale cybersecurity
+2026-02-15 20:17:35 - INFO - Unique article: Bright Cubes versterkt managementteam met Martin de Smit
+2026-02-15 20:17:35 - INFO - Successfully processed article: Bright Cubes versterkt managementteam met Martin de Smit
+2026-02-15 20:18:00 - INFO - Duplicate article: OneRetail scherpt positionering en merkidentiteit aan
+2026-02-15 20:18:00 - INFO - Successfully processed article: OneRetail scherpt positionering en merkidentiteit aan
+2026-02-15 20:18:24 - INFO - Duplicate article: Barry Laan gestart als nieuwe Commercieel Manager IT bij Ventus
+2026-02-15 20:18:24 - INFO - Successfully processed article: Barry Laan gestart als nieuwe Commercieel Manager IT bij Ventus
+2026-02-15 20:18:47 - INFO - Duplicate article: Michiel Rubenkamp benoemd tot commissaris bij Baker Tilly
+2026-02-15 20:18:47 - INFO - Successfully processed article: Michiel Rubenkamp benoemd tot commissaris bij Baker Tilly
+2026-02-15 20:19:13 - INFO - Duplicate article: Highberg benoemt Caroline Janssens en Laura Natrop tot partner
+2026-02-15 20:19:13 - INFO - Successfully processed article: Highberg benoemt Caroline Janssens en Laura Natrop tot partner
+2026-02-15 20:20:03 - WARNING - Invalid content from URL: https://www.consultancy.nl/nieuws/65743/omarm-het-onverwachte-jacco-van-de-griek-over-zijn-reis-van-trainee-tot-director-bij-improven
+2026-02-15 20:20:39 - INFO - Duplicate article: Valcon ondersteunt CZ bij implementatie van gen AI binnen customer service
+2026-02-15 20:20:39 - INFO - Successfully processed article: Valcon ondersteunt CZ bij implementatie van gen AI binnen customer service
+2026-02-15 20:20:39 - INFO - Processing URL: https://www.consultancy.co.za/
+2026-02-15 20:20:43 - INFO - Extracted items for https://www.consultancy.co.za/: 1
+2026-02-15 20:21:08 - INFO - Duplicate article: Joyce Nkini-Iwisi joins HKA’s partner team in Johannesburg office
+2026-02-15 20:21:08 - INFO - Successfully processed article: Joyce Nkini-Iwisi joins HKA’s partner team in Johannesburg office
+2026-02-15 20:21:08 - INFO - Processing URL: https://www.consultancy.lat/
+2026-02-15 20:21:10 - INFO - Extracted items for https://www.consultancy.lat/: 0
+2026-02-15 20:21:10 - INFO - Processing URL: https://www.consultancy.africa/
+2026-02-15 20:21:13 - INFO - Extracted items for https://www.consultancy.africa/: 0
+2026-02-15 20:21:13 - INFO - Processing URL: https://www.consulting.ca/
+2026-02-15 20:21:16 - INFO - Extracted items for https://www.consulting.ca/: 2
+2026-02-15 20:21:44 - INFO - Duplicate article: KPMG: Canada’s automotive industry restructuring
+2026-02-15 20:21:44 - INFO - Successfully processed article: KPMG: Canada’s automotive industry restructuring
+2026-02-15 20:22:03 - INFO - Duplicate article: MNP acquires Platinum Business Services in Winnipeg
+2026-02-15 20:22:03 - INFO - Successfully processed article: MNP acquires Platinum Business Services in Winnipeg
+2026-02-15 20:22:03 - INFO - Processing URL: https://www.consultancy.asia/country/singapore
+2026-02-15 20:22:10 - INFO - Extracted items for https://www.consultancy.asia/country/singapore: 4
+2026-02-15 20:22:39 - INFO - Unique article: HCLTech acquires Singapore-based wealth consulting boutique Finergic
+2026-02-15 20:22:39 - INFO - Successfully processed article: HCLTech acquires Singapore-based wealth consulting boutique Finergic
+2026-02-15 20:23:20 - INFO - Unique article: Japanese manufacturers face hurdles in shift to digital operations and smart factories
+2026-02-15 20:23:20 - INFO - Successfully processed article: Japanese manufacturers face hurdles in shift to digital operations and smart factories
+2026-02-15 20:23:56 - INFO - Unique article: Southeast Asian consumer market set for $5 trillion boom despite headwinds
+2026-02-15 20:23:56 - INFO - Successfully processed article: Southeast Asian consumer market set for $5 trillion boom despite headwinds
+2026-02-15 20:24:23 - INFO - Unique article: Teneo boosts Forensic business with senior hire Richard Williams
+2026-02-15 20:24:23 - INFO - Successfully processed article: Teneo boosts Forensic business with senior hire Richard Williams
+2026-02-15 20:24:23 - INFO - Processing URL: https://www.consultancy.asia/country/china
+2026-02-15 20:24:26 - INFO - Extracted items for https://www.consultancy.asia/country/china: 0
+2026-02-15 20:24:26 - INFO - Processing URL: https://www.consultancy.eu/country/france
+2026-02-15 20:24:33 - INFO - Extracted items for https://www.consultancy.eu/country/france: 6
+2026-02-15 20:25:03 - INFO - Duplicate article: Electric trucks gain ground in Europe despite adoption challenges
+2026-02-15 20:25:03 - INFO - Successfully processed article: Electric trucks gain ground in Europe despite adoption challenges
+2026-02-15 20:25:43 - INFO - Duplicate article: Altman Solon strengthens senior team in Europe with new partners
+2026-02-15 20:25:43 - INFO - Successfully processed article: Altman Solon strengthens senior team in Europe with new partners
+2026-02-15 20:26:07 - INFO - Duplicate article: Boutique Swedish consultancy Ctrl Digital bought by multinational Havas
+2026-02-15 20:26:07 - INFO - Successfully processed article: Boutique Swedish consultancy Ctrl Digital bought by multinational Havas
+2026-02-15 20:26:50 - INFO - Duplicate article: How brand DNA is changing the way marketing leaders innovate
+2026-02-15 20:26:50 - INFO - Successfully processed article: How brand DNA is changing the way marketing leaders innovate
+2026-02-15 20:27:35 - INFO - Duplicate article: Gen AI in procurement is shifting from broad experimentation to more high-impact areas
+2026-02-15 20:27:35 - INFO - Successfully processed article: Gen AI in procurement is shifting from broad experimentation to more high-impact areas
+2026-02-15 20:28:30 - INFO - Duplicate article: The hidden cost of AI: New report warns over energy use and environmental impact
+2026-02-15 20:28:30 - INFO - Successfully processed article: The hidden cost of AI: New report warns over energy use and environmental impact
+2026-02-15 20:28:30 - INFO - Processing URL: https://www.consultancy.eu/country/germany
+2026-02-15 20:28:37 - INFO - Extracted items for https://www.consultancy.eu/country/germany: 5
+2026-02-15 20:29:29 - INFO - Duplicate article: Altman Solon strengthens senior team in Europe with new partners
+2026-02-15 20:29:29 - INFO - Successfully processed article: Altman Solon strengthens senior team in Europe with new partners
+2026-02-15 20:30:09 - INFO - Duplicate article: Zanders boosts Treasury practice with hire of Alexander Odenthal
+2026-02-15 20:30:09 - INFO - Successfully processed article: Zanders boosts Treasury practice with hire of Alexander Odenthal
+2026-02-15 20:30:46 - INFO - Duplicate article: Electric trucks gain ground in Europe despite adoption challenges
+2026-02-15 20:30:46 - INFO - Successfully processed article: Electric trucks gain ground in Europe despite adoption challenges
+2026-02-15 20:31:14 - INFO - Duplicate article: Boutique Swedish consultancy Ctrl Digital bought by multinational Havas
+2026-02-15 20:31:14 - INFO - Successfully processed article: Boutique Swedish consultancy Ctrl Digital bought by multinational Havas
+2026-02-15 20:32:09 - WARNING - Invalid content from URL: https://www.consultancy.eu/news/13195/how-brand-dna-is-changing-the-way-marketing-leaders-innovate
+2026-02-15 20:32:09 - INFO - Processing URL: https://www.consultancy.uk/
+2026-02-15 20:32:28 - INFO - Extracted items for https://www.consultancy.uk/: 10
+2026-02-15 20:33:17 - INFO - Duplicate article: UK consultancy builds outcome-based delivery infrastructure
+2026-02-15 20:33:17 - INFO - Successfully processed article: UK consultancy builds outcome-based delivery infrastructure
+2026-02-15 20:33:59 - INFO - Duplicate article: Croftstone and Drumacross complete engineering consultancy merger
+2026-02-15 20:33:59 - INFO - Successfully processed article: Croftstone and Drumacross complete engineering consultancy merger
+2026-02-15 20:34:37 - INFO - Duplicate article: Logika Group Toby Gibbs on the firm’s meteoric 31% headcount growth
+2026-02-15 20:34:37 - INFO - Successfully processed article: Logika Group Toby Gibbs on the firm’s meteoric 31% headcount growth
+2026-02-15 20:35:27 - INFO - Duplicate article: Evelyn Partners poised for sale to NatWest Group
+2026-02-15 20:35:27 - INFO - Successfully processed article: Evelyn Partners poised for sale to NatWest Group
+2026-02-15 20:35:55 - INFO - Duplicate article: Procurato appoints former Efficio COO Alex Klein as board advisor
+2026-02-15 20:35:55 - INFO - Successfully processed article: Procurato appoints former Efficio COO Alex Klein as board advisor
+2026-02-15 20:36:33 - INFO - Duplicate article: UK’s cultural and creative industries are strategic national asset
+2026-02-15 20:36:33 - INFO - Successfully processed article: UK’s cultural and creative industries are strategic national asset
+2026-02-15 20:37:10 - INFO - Duplicate article: AAB adds Kreston Reeves in latest UK acquisition
+2026-02-15 20:37:10 - INFO - Successfully processed article: AAB adds Kreston Reeves in latest UK acquisition
+2026-02-15 20:37:35 - INFO - Duplicate article: Andersen Consulting adds forensics expert Lighthouse Consulting to UK offering
+2026-02-15 20:37:35 - INFO - Successfully processed article: Andersen Consulting adds forensics expert Lighthouse Consulting to UK offering
+2026-02-15 20:38:26 - INFO - Duplicate article: Wipro unveils AI-powered operating model to revolutionise enterprise functions
+2026-02-15 20:38:26 - INFO - Successfully processed article: Wipro unveils AI-powered operating model to revolutionise enterprise functions
+2026-02-15 20:38:58 - INFO - Duplicate article: EY appoints Robert Pyle as restaurant sector leader
+2026-02-15 20:38:58 - INFO - Successfully processed article: EY appoints Robert Pyle as restaurant sector leader
+2026-02-15 20:38:58 - INFO - Skipped duplicate article in DB: Fundmark Report \u6700\u65b0\u53f7\uff082026\u5e742\u6708\u53f7\uff09 https://www.nri.com/jp/knowledge/report/20260213.html
+2026-02-15 20:38:58 - INFO - Skipped duplicate article in DB: Global financial services CEOs upbeat on revenue, profitability and productivity growth in 2026, as ROI in AI exceeds expectations https://www.ey.com/en_gl/newsroom/2026/02/global-financial-services-ceos-upbeat-on-revenue-profitability-and-productivity-growth-in-2026-as-roi-in-ai-exceeds-expectations
+2026-02-15 20:38:58 - INFO - Skipped duplicate article in DB: EY announces the launch of a global Innovation Center for Snowflake to power the next era of AI-driven enterprise transformation https://www.ey.com/en_gl/newsroom/2026/02/ey-announces-the-launch-of-a-global-innovation-center-for-snowflake-to-power-the-next-era-of-ai-driven-enterprise-transformation
+2026-02-15 20:38:58 - INFO - Skipped duplicate article in DB: EY \u65b0\u65e5\u672c\u3001\u74b0\u5883\u7701\u306e\u4ee4\u548c\uff17\u5e74\u5ea6\u8131\u70ad\u7d20\u793e\u4f1a\u5b9f\u73fe\u306b\u5411\u3051\u305f\u79fb\u884c\u8a08\u753b\u7b56\u5b9a\u652f\u63f4\u5b9f\u8df5\u30d7\u30ed\u30b0\u30e9\u30e0 \uff08\u5730\u57df\u91d1\u878d\u6a5f\u95a2\u5411\u3051\uff09\u6210\u679c\u5831\u544a\u4f1a\u3092\u958b\u50ac https://www.ey.com/ja_jp/industries/government-public-sector/public-projects/2026/ey-japan-pp-2026-02-12
+2026-02-15 20:38:58 - INFO - Skipped duplicate article in DB: CEO confidence in revenue outlook hits five-year low – as AI becomes a defining divide between leaders and laggards: PwC 2026 Global CEO Survey https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-global-ceo-survey.html
+2026-02-15 20:38:58 - INFO - Skipped duplicate article in DB: Time for change https://www.pwc.com/gx/en/news-room/time-for-change.html
+2026-02-15 20:38:58 - INFO - Skipped duplicate article in DB: Global fintech investment rebounds in 2025, supported by stronger exit activity https://kpmg.com/xx/en/media/press-releases/2026/02/global-fintech-investment-rebounds-in-2025-supported-by-stronger-exit-activity.html
+2026-02-15 20:38:58 - INFO - Skipped duplicate article in DB: KPMG strengthens global collaboration with SAP as an SAP Global Strategic Service Partner to drive measurable client value https://kpmg.com/xx/en/media/press-releases/2026/02/kpmg-strengthens-global-collaboration-with-sap-as-an-sap-global-strategic-service-partner-to-drive-measurable-client-value.html
+2026-02-15 20:39:00 - WARNING - Skipping article 'Simon-Kucher recognized on Vault Consulting 50 in North America list' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:39:02 - WARNING - Skipping article 'Travel takes off again in 2026, with AI now an imperative' - Company 'OC&C Strategy Consultants' (norm: 'oc&c strategy consultants') not in target list.
+2026-02-15 20:39:02 - INFO - Skipped duplicate article in DB: Altman Solon promotes Robert Elliott to associate partner https://www.consulting.us/news/12977/altman-solon-promotes-robert-elliott-to-associate-partner
+2026-02-15 20:39:03 - WARNING - Skipping article 'BDO USA appoints new leaders for assurance and tax' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:39:05 - WARNING - Skipping article 'Rimkus appoints Chris Rayasam as chief executive officer' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:39:07 - WARNING - Skipping article 'UK’s cultural and creative industries are strategic national asset' - Company 'FTI Consulting' (norm: 'fti consulting') not in target list.
+2026-02-15 20:39:09 - WARNING - Skipping article 'AAB adds Kreston Reeves in latest UK acquisition' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:39:11 - WARNING - Skipping article 'Andersen Consulting adds forensics expert Lighthouse Consulting to UK offering' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:39:11 - INFO - Skipped duplicate article in DB: EY appoints Robert Pyle as restaurant sector leader https://www.consultancy.uk/news/43138/ey-appoints-robert-pyle-as-restaurant-sector-leader
+2026-02-15 20:39:13 - WARNING - Skipping article 'Procurato appoints former Efficio COO Alex Klein as board advisor' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:39:15 - WARNING - Skipping article 'Evelyn Partners poised for sale to NatWest Group' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:39:16 - WARNING - Skipping article 'Logika Group Toby Gibbs on the firm’s meteoric 31% headcount growth' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:39:18 - WARNING - Skipping article 'Croftstone and Drumacross complete engineering consultancy merger' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:39:20 - WARNING - Skipping article 'UK consultancy builds outcome-based delivery infrastructure' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:39:22 - WARNING - Skipping article 'Electric trucks gain ground in Europe despite adoption challenges' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:39:24 - WARNING - Skipping article 'Altman Solon strengthens senior team in Europe with new partners' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:39:25 - WARNING - Skipping article 'Boutique Swedish consultancy Ctrl Digital bought by multinational Havas' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:39:27 - WARNING - Skipping article 'How brand DNA is changing the way marketing leaders innovate' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:39:29 - WARNING - Skipping article 'Zanders boosts Treasury practice with hire of Alexander Odenthal' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:39:31 - WARNING - Skipping article 'TDK SensEI partners with Mindsets to bring edge AI to industrial markets in EMEA' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:39:31 - INFO - Skipped duplicate article in DB: KPMG launches policy tool to ensure national readiness of critical industries https://www.consultancy-me.com/news/12742/kpmg-launches-policy-tool-to-ensure-national-readiness-of-critical-industries
+2026-02-15 20:39:33 - WARNING - Skipping article 'Survey: Worker satisfaction and confidence has declined in the Middle East' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:39:35 - WARNING - Skipping article 'SAP consulting partner Business Line expands into Saudi market' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:39:36 - WARNING - Skipping article 'David Sharashenidze on NEOS Advisory’s growth and global impact in energy, water & utilities' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:39:37 - WARNING - Skipping article 'PMP Strategy appoints Housni Zniber and Zakaria Chouaib as partner' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:39:38 - WARNING - Skipping article 'UAE and Saudi Arabia are setting the benchmark in Gulf’s growing IPO scene' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:39:39 - INFO - Skipped duplicate article in DB: Reimagining the DNA of Internal Audit through technology enablement and AI https://www.consultancy-me.com/news/12721/reimagining-the-dna-of-internal-audit-through-technology-enablement-and-ai
+2026-02-15 20:39:40 - WARNING - Skipping article 'How businesses can harness AI beyond the hype: Lessons from Strategic Gears' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:39:42 - WARNING - Skipping article 'Stedin stroomlijnt projectmanagement in co-creatie met Conclusion Consulting' - Company 'Conclusion Consulting' (norm: 'conclusion consulting') not in target list.
+2026-02-15 20:39:43 - WARNING - Skipping article '‘Ieders stem meenemen’: Hoe diversiteit de advieskracht van Morgens versterkt' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:39:45 - WARNING - Skipping article 'Operational excellence: Een stappenplan en tips voor succes' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:39:51 - WARNING - Skipping article 'Generation C herpositioneert zich als data- en AI-partner voor het mkb' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:39:51 - INFO - Skipped duplicate article in DB: PwC en Nedscaper bundelen de krachten voor integrale cybersecurity https://www.consultancy.nl/nieuws/65788/pwc-en-nedscaper-bundelen-de-krachten-voor-integrale-cybersecurity
+2026-02-15 20:39:53 - WARNING - Skipping article 'Bright Cubes versterkt managementteam met Martin de Smit' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:39:55 - WARNING - Skipping article 'OneRetail scherpt positionering en merkidentiteit aan' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:39:57 - WARNING - Skipping article 'Barry Laan gestart als nieuwe Commercieel Manager IT bij Ventus' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:39:59 - WARNING - Skipping article 'Michiel Rubenkamp benoemd tot commissaris bij Baker Tilly' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:40:01 - WARNING - Skipping article 'Highberg benoemt Caroline Janssens en Laura Natrop tot partner' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:40:03 - WARNING - Skipping article 'Valcon ondersteunt CZ bij implementatie van gen AI binnen customer service' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:40:05 - WARNING - Skipping article 'Joyce Nkini-Iwisi joins HKA’s partner team in Johannesburg office' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:40:05 - INFO - Skipped duplicate article in DB: KPMG: Canada’s automotive industry restructuring https://www.consulting.ca/news/4856/kpmg-canadas-automotive-industry-restructuring
+2026-02-15 20:40:07 - WARNING - Skipping article 'MNP acquires Platinum Business Services in Winnipeg' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:40:08 - WARNING - Skipping article 'HCLTech acquires Singapore-based wealth consulting boutique Finergic' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:40:11 - WARNING - Skipping article 'Japanese manufacturers face hurdles in shift to digital operations and smart factories' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:40:12 - INFO - Prepared to insert article: Southeast Asian consumer market set for $5 trillion boom despite headwinds (https://www.consultancy.asia/news/6434/southeast-asian-consumer-market-set-for-5-trillion-boom-despite-headwinds)
+2026-02-15 20:40:14 - WARNING - Skipping article 'Teneo boosts Forensic business with senior hire Richard Williams' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:40:16 - WARNING - Skipping article 'Electric trucks gain ground in Europe despite adoption challenges' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:40:18 - WARNING - Skipping article 'Altman Solon strengthens senior team in Europe with new partners' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:40:19 - WARNING - Skipping article 'Boutique Swedish consultancy Ctrl Digital bought by multinational Havas' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:40:21 - WARNING - Skipping article 'How brand DNA is changing the way marketing leaders innovate' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:40:24 - WARNING - Skipping article 'Gen AI in procurement is shifting from broad experimentation to more high-impact areas' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:40:25 - WARNING - Skipping article 'The hidden cost of AI: New report warns over energy use and environmental impact' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:40:27 - WARNING - Skipping article 'Altman Solon strengthens senior team in Europe with new partners' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:40:29 - WARNING - Skipping article 'Zanders boosts Treasury practice with hire of Alexander Odenthal' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:40:30 - WARNING - Skipping article 'Electric trucks gain ground in Europe despite adoption challenges' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:40:32 - WARNING - Skipping article 'Boutique Swedish consultancy Ctrl Digital bought by multinational Havas' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:40:35 - WARNING - Skipping article 'UK consultancy builds outcome-based delivery infrastructure' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:40:37 - WARNING - Skipping article 'Croftstone and Drumacross complete engineering consultancy merger' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:40:38 - WARNING - Skipping article 'Logika Group Toby Gibbs on the firm’s meteoric 31% headcount growth' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:40:40 - WARNING - Skipping article 'Evelyn Partners poised for sale to NatWest Group' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:40:41 - WARNING - Skipping article 'Procurato appoints former Efficio COO Alex Klein as board advisor' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:40:43 - WARNING - Skipping article 'UK’s cultural and creative industries are strategic national asset' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:40:45 - WARNING - Skipping article 'AAB adds Kreston Reeves in latest UK acquisition' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:40:47 - WARNING - Skipping article 'Andersen Consulting adds forensics expert Lighthouse Consulting to UK offering' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:40:49 - WARNING - Skipping article 'Wipro unveils AI-powered operating model to revolutionise enterprise functions' - Company 'Others' (norm: 'others') not in target list.
+2026-02-15 20:40:49 - INFO - Skipped duplicate article in DB: EY appoints Robert Pyle as restaurant sector leader https://www.consultancy.uk/news/43138/ey-appoints-robert-pyle-as-restaurant-sector-leader
+2026-02-15 20:40:49 - INFO - All articles committed successfully.
+2026-02-15 20:40:49 - INFO - FAISS index saved successfully.
+2026-02-15 20:40:49 - INFO - Web scraping pipeline completed successfully.

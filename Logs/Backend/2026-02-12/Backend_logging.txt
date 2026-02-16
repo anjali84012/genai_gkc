@@ -1,0 +1,44 @@
+2026-02-12 13:49:32 - INFO - Use pytorch device_name: cpu
+2026-02-12 13:49:32 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2026-02-12 13:49:38 - INFO - Starting Gmail authentication.
+2026-02-12 13:49:38 - INFO - Loaded credentials from token.json.
+2026-02-12 13:49:38 - INFO - Gmail authentication successful.
+2026-02-12 13:49:38 - INFO - Fetching unread emails from Gmail.
+2026-02-12 13:49:38 - INFO - Found 2 unread emails on this page. Processing...
+2026-02-12 13:49:44 - INFO - Retrieved 2 relevant emails from 2 total unread.
+2026-02-12 13:49:44 - INFO - Processing email: Google Alert - "Deloitte" on 12-02-26
+2026-02-12 13:49:48 - ERROR - Error processing email 'Google Alert - "Deloitte"' with URL 'https://www2.deloitte.com/uk/en/about/press-room/uk-property-insurance-claims-expected-to-hit-record-high-for-2025.html': 'title'
+2026-02-12 13:49:54 - ERROR - Error processing email 'Google Alert - "Deloitte"' with URL 'https://www.charitytimes.com/ct/Deloitte-senior-partner-to-lead-Dormant-Assets-oversight-body.php': 'title'
+2026-02-12 13:50:05 - WARNING - Invalid content from URL: https://www.msn.com/en-gb/money/other/deloitte-probed-over-audits-of-scandal-hit-commodities-giant-glencore/ar-AA1Ja9VE?ocid=finance-verthp-feeds&apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1
+2026-02-12 13:50:09 - ERROR - Error processing email 'Google Alert - "Deloitte"' with URL 'https://www.thebusinessdesk.com/scotland/news/1987-standard-life-completes-700m-annuity-deal-with-deloitte-pension-scheme': 'title'
+2026-02-12 13:50:18 - WARNING - Invalid content from URL: https://fundselectorasia.com/hong-kong-sfos-grew-25-in-two-years-survey/
+2026-02-12 15:46:12 - INFO - Use pytorch device_name: cpu
+2026-02-12 15:46:12 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2026-02-12 15:46:19 - INFO - Starting Gmail authentication.
+2026-02-12 15:46:19 - INFO - Loaded credentials from token.json.
+2026-02-12 15:46:19 - INFO - Gmail authentication successful.
+2026-02-12 15:46:19 - INFO - Fetching unread emails from Gmail.
+2026-02-12 15:46:19 - INFO - Found 1 unread emails on this page. Processing...
+2026-02-12 15:46:20 - INFO - Retrieved 1 relevant emails from 1 total unread.
+2026-02-12 15:46:20 - INFO - Processing email: Google Alert - BCG on 12-02-26
+2026-02-12 15:46:31 - WARNING - Invalid content from URL: https://academia.carenet.com/share/news/b817c339-c92d-4e0e-9cb3-0a7c9f4bac15
+2026-02-12 15:47:05 - INFO - Unique article detected. Added BCG\u30ef\u30af\u30c1\u30f3\u52b9\u679c\u306a\u3057\u3002\u8840\u5727\u57fa\u6e96\u5024\u3092\u4e0b\u3052\u308b\u3068\u6b7b\u8005\u304c\u5897\u3048\u308b\u3002\u533b\u7642\u8cbb\u306f5\u5146\u5186\u524a\u308c\u308b\u3010\u533b\u5b66\u5e38\u8b58\u306e\u30a6\u30bd\u2461\u3011 to the database
+2026-02-12 15:47:05 - INFO - Prepared email insertion: Google Alert - BCG from https://news.yahoo.co.jp/articles/4eeb045a78c503ba3a9b75ea135f68d958bdd38e?page=2
+2026-02-12 15:47:14 - WARNING - Invalid content from URL: https://innovatopia.jp/tech-economy/tech-economynews/80024/
+2026-02-12 15:47:24 - WARNING - Invalid content from URL: https://academia.carenet.com/share/news/e7e64e5e-cbc0-4e82-9790-8f0c3dd72f4e
+2026-02-12 15:47:34 - INFO - Unique article detected. Added BCG\u30c8\u30c3\u30d7\u30b3\u30f3\u30b5\u30eb\u304c\u6559\u3048\u308b\u300c\u5e73\u5747\u300d\u306e\u308f\u306a \u898b\u9003\u3057\u304c\u3061\u306a\u4e8b\u5b9f\u3092\u6349\u3048\u308b\u30c4\u30fc\u30eb to the database
+2026-02-12 15:47:34 - INFO - Prepared email insertion: Google Alert - BCG from https://business.nikkei.com/atcl/gen/19/00461/012600563/?SS=imgview&FD=1421851125
+2026-02-12 15:47:45 - WARNING - Invalid content from URL: https://shuhaly.co.jp/post-99984-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/
+2026-02-12 15:47:57 - ERROR - Error processing email 'Google Alert - BCG' with URL 'https://www.city.akita.akita.jp/city/fn/cn/00yodo/KoboU01021_01070/speckU01047.pdf': 'title'
+2026-02-12 15:48:07 - INFO - Unique article detected. Added BCG\uff08\u30ab\u30eb\u30e1\u30c3\u30c8\u30fb\u30b2\u30e9\u30f3\u687f\u83cc\uff09\u30ef\u30af\u30c1\u30f3\u306e\u4e16\u754c\u5e02\u5834 to the database
+2026-02-12 15:48:07 - INFO - Prepared email insertion: Google Alert - BCG from https://www.atpress.ne.jp/tags/BCG?ct_1I61546c0e0IM827=15.2.365.DxAaqTPAPjkAIAW8.365.DwOIb02APjDZwyhy.DxAaqTPAPjkAIAW8.null&catsConversionApi=true
+2026-02-12 15:48:20 - WARNING - Invalid content from URL: https://fukutei-curry.jp/view/item/220542108714
+2026-02-12 15:48:34 - INFO - Unique article detected. Added \u7684\u4e2d\u3057\u3059\u304e\u3067\u5927\u30b5\u30fc\u30d3\u30b9\uff01\uff1f[BCG\u63d0\u4f9b] \u6c17\u307e\u3050\u308c\u7af6\u8247\u7121\u6599\u4e88\u60f3 to the database
+2026-02-12 15:48:34 - INFO - Prepared email insertion: Google Alert - BCG from https://ameblo.jp/wv013047/entry-12956443960.html
+2026-02-12 15:49:10 - INFO - Unique article detected. Added \u30ea\u30b5\u30fc\u30c1\u30d1\u30cd\u30eb\u3010\u516c\u5f0f\u3011 | \u30a2\u30f3\u30b1\u30fc\u30c8\u30e2\u30cb\u30bf\u30fc\u52df\u96c6\u4e2d to the database
+2026-02-12 15:49:10 - INFO - Prepared email insertion: Google Alert - BCG from https://research-panel.jp/community/question/895275
+2026-02-12 15:49:25 - INFO - Duplicate article detected, skipping: \u7684\u4e2d\u3057\u3059\u304e\u3067\u5927\u30b5\u30fc\u30d3\u30b9\uff01\uff1f[BCG\u63d0\u4f9b] \u6c17\u307e\u3050\u308c\u7af6\u8247\u7121\u6599\u4e88\u60f3
+2026-02-12 15:49:25 - INFO - Prepared email insertion: Google Alert - BCG from https://ameblo.jp/wv013047/entry-12956346333.html
+2026-02-12 15:49:35 - WARNING - Invalid content from URL: https://buyee.jp/mercari/item/m29747653489?conversionType=item_recommend_list_category
+2026-02-12 15:49:35 - INFO - All emails committed successfully.
+2026-02-12 15:49:35 - INFO - Emails marked as read.

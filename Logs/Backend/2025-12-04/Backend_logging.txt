@@ -1,0 +1,67 @@
+2025-12-04 15:37:26 - INFO - Use pytorch device_name: cpu
+2025-12-04 15:37:26 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-12-04 15:37:31 - INFO - Database tables created or already exist.
+2025-12-04 15:37:31 - INFO - WebScraper class instantiated.
+2025-12-04 15:37:38 - INFO - Extracted items for https://www.nri.com/jp/News: 3
+2025-12-04 15:38:24 - ERROR - Failed in secondary LLM parsing (https://www.nri.com/jp/news/newsrelease/20251203_1.html): 'str' object has no attribute 'strftime'
+2025-12-04 15:38:45 - ERROR - Failed in secondary LLM parsing (https://www.nri.com/jp/knowledge/book/20251203_2.html): 'str' object has no attribute 'strftime'
+2025-12-04 15:39:05 - ERROR - Failed in secondary LLM parsing (https://www.nri.com/jp/knowledge/book/20251203.html): 'str' object has no attribute 'strftime'
+2025-12-04 15:39:27 - INFO - Extracted items for https://www.mckinsey.com/about-us/new-at-mckinsey-blog: 0
+2025-12-04 15:39:48 - INFO - Extracted items for https://www.mckinsey.com/jp/our-insights: 0
+2025-12-04 15:40:05 - INFO - Retrying request to /chat/completions in 0.426490 seconds
+2025-12-04 15:40:09 - ERROR - Failed to parse LLM initial content from https://www.bcg.com/about/corporate-newsroom: Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 208788 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2025-12-04 15:40:24 - ERROR - Failed to parse LLM initial content from https://www.bcg.com/ja-jp/about/news/press/default?00000173-7007-d959-afff-79c791c80008-page=1: Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 212882 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2025-12-04 15:40:30 - INFO - Extracted items for https://www.bain.com/about/media-center/press-releases/: 0
+2025-12-04 15:40:37 - INFO - Extracted items for https://www.bain.com/ja/about-bain/media-center/press-releases/: 0
+2025-12-04 15:40:39 - INFO - Extracted items for https://newsroom.accenture.com/: 0
+2025-12-04 15:40:43 - INFO - Extracted items for https://newsroom.accenture.jp/: 0
+2025-12-04 15:40:52 - INFO - Extracted items for https://www.deloitte.com/global/en/about/press-room.html: 0
+2025-12-04 15:41:00 - INFO - Extracted items for https://www2.deloitte.com/jp/ja/footerlinks/nr.html: 0
+2025-12-04 15:41:11 - INFO - Extracted items for https://www.ey.com/en_gl/newsroom: 2
+2025-12-04 15:41:38 - ERROR - Failed in secondary LLM parsing (https://www.ey.com/en_gl/newsroom/2025/12/ey-study-households-worried-about-annual-broadband-price-increases): 'str' object has no attribute 'strftime'
+2025-12-04 15:42:07 - ERROR - Failed in secondary LLM parsing (https://www.ey.com/en_gl/newsroom/2025/12/ey-announces-rollout-of-new-physical-ai-platform-opening-of-ey-ai-lab-and-ey-global-robotics-and-physical-ai-leader-appointment): 'str' object has no attribute 'strftime'
+2025-12-04 15:42:17 - INFO - Extracted items for https://www.ey.com/ja_jp/newsroom: 1
+2025-12-04 15:42:40 - ERROR - Failed in secondary LLM parsing (https://www.ey.com/ja_jp/newsroom/2025/12/ey-japan-news-release-2025-12-03): 'str' object has no attribute 'strftime'
+2025-12-04 15:42:46 - ERROR - Failed to parse LLM initial content from https://www.pwc.com/gx/en/news-room.html: Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 220457 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2025-12-04 15:42:53 - INFO - Extracted items for https://www.pwc.com/jp/ja/press-room.html#press: 0
+2025-12-04 15:43:01 - ERROR - Failed to parse LLM initial content from https://kpmg.com/xx/en/home/media/press-releases.html: Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 253388 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2025-12-04 15:43:08 - INFO - Extracted items for https://kpmg.com/jp/ja/home/media/press-releases.html: 0
+2025-12-04 15:43:11 - INFO - Extracted items for https://www.mri.co.jp/news/index.html: 0
+2025-12-04 15:43:17 - INFO - Extracted items for https://www.consulting.us/: 2
+2025-12-04 15:43:34 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12729/bcg-senior-partner-amanda-brimmer-joins-jll-as-head-of-corporate-development): 'str' object has no attribute 'strftime'
+2025-12-04 15:43:51 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12726/ankura-adds-healthcare-consultant-charles-baker-as-senior-managing-director): 'str' object has no attribute 'strftime'
+2025-12-04 15:44:04 - INFO - Extracted items for https://www.consultancy.uk/: 4
+2025-12-04 15:44:43 - ERROR - Failed in secondary LLM parsing (https://www.consultancy.uk/news/42343/valliance-co-founder-tarek-nseir-on-how-the-firm-aims-to-fix-ais-expectations-gap): 'str' object has no attribute 'strftime'
+2025-12-04 15:45:10 - ERROR - Failed in secondary LLM parsing (https://www.consultancy.uk/news/42355/carney-consultancy-aims-for-rapid-expansion-amid-construction-changes): 'str' object has no attribute 'strftime'
+2025-12-04 15:45:39 - ERROR - Failed in secondary LLM parsing (https://www.consultancy.uk/news/42376/optima-partners-receives-fresh-backing-from-growth-capital-partners): 'str' object has no attribute 'strftime'
+2025-12-04 15:46:01 - ERROR - Failed in secondary LLM parsing (https://www.consultancy.uk/news/42373/simplify-consulting-adds-mark-andrews-and-michael-james-as-directors): 'str' object has no attribute 'strftime'
+2025-12-04 15:46:06 - INFO - Extracted items for https://www.consultancy.asia/country/japan: 0
+2025-12-04 15:46:11 - INFO - Extracted items for https://www.consultancy.in/: 0
+2025-12-04 15:46:15 - INFO - Extracted items for https://www.consultancy.com.au/: 0
+2025-12-04 15:46:23 - INFO - Extracted items for https://www.consultancy.eu/: 1
+2025-12-04 15:46:51 - ERROR - Failed in secondary LLM parsing (https://www.consultancy.eu/news/12832/nextcontinent-president-francois-pouzeratte-sets-course-for-global-growth-in-second-term): 'str' object has no attribute 'strftime'
+2025-12-04 15:46:57 - INFO - Extracted items for https://www.consultancy.asia/: 0
+2025-12-04 15:47:02 - INFO - Extracted items for https://www.consultancy-me.com/: 0
+2025-12-04 15:47:11 - INFO - Extracted items for https://www.consultancy.nl/: 3
+2025-12-04 15:47:32 - ERROR - Failed in secondary LLM parsing (https://www.consultancy.nl/nieuws/64279/jurriaan-taat-gestart-als-nieuwe-directeur-bij-atomeus): 'str' object has no attribute 'strftime'
+2025-12-04 15:47:57 - ERROR - Failed in secondary LLM parsing (https://www.consultancy.nl/nieuws/64303/ben-dassen-versterkt-significant-synergy-als-senior-consultant): 'str' object has no attribute 'strftime'
+2025-12-04 15:48:21 - ERROR - Failed in secondary LLM parsing (https://www.consultancy.nl/nieuws/64240/4supplychain-verwelkomt-drie-nieuwe-consultants): 'str' object has no attribute 'strftime'
+2025-12-04 15:48:26 - INFO - Extracted items for https://www.consultancy.co.za/: 0
+2025-12-04 15:48:36 - INFO - Extracted items for https://www.consultancy.lat/: 0
+2025-12-04 15:48:41 - INFO - Extracted items for https://www.consultancy.africa/: 0
+2025-12-04 15:48:46 - INFO - Extracted items for https://www.consulting.ca/: 1
+2025-12-04 15:49:02 - ERROR - Failed in secondary LLM parsing (https://www.consulting.ca/news/4755/atkinsrealis-acquires-australia-based-adg-engineers): 'str' object has no attribute 'strftime'
+2025-12-04 15:49:06 - INFO - Extracted items for https://www.consultancy.asia/country/singapore: 0
+2025-12-04 15:49:11 - INFO - Extracted items for https://www.consultancy.asia/country/china: 0
+2025-12-04 15:49:16 - INFO - Extracted items for https://www.consultancy.eu/country/france: 1
+2025-12-04 15:49:37 - ERROR - Failed in secondary LLM parsing (https://www.consultancy.eu/news/12832/nextcontinent-president-francois-pouzeratte-sets-course-for-global-growth-in-second-term): 'title'
+2025-12-04 15:49:44 - INFO - Extracted items for https://www.consultancy.eu/country/germany: 1
+2025-12-04 15:50:02 - ERROR - Failed in secondary LLM parsing (https://www.consultancy.eu/news/12832/nextcontinent-president-francois-pouzeratte-sets-course-for-global-growth-in-second-term): 'title'
+2025-12-04 15:50:10 - INFO - Extracted items for https://www.consultancy.uk/: 4
+2025-12-04 15:50:32 - ERROR - Failed in secondary LLM parsing (https://www.consultancy.uk/news/42376/optima-partners-receives-fresh-backing-from-growth-capital-partners): 'str' object has no attribute 'strftime'
+2025-12-04 15:50:59 - ERROR - Failed in secondary LLM parsing (https://www.consultancy.uk/news/42343/valliance-co-founder-tarek-nseir-on-how-the-firm-aims-to-fix-ais-expectations-gap): 'str' object has no attribute 'strftime'
+2025-12-04 15:51:22 - ERROR - Failed in secondary LLM parsing (https://www.consultancy.uk/news/42355/carney-consultancy-aims-for-rapid-expansion-amid-construction-changes): 'str' object has no attribute 'strftime'
+2025-12-04 15:51:45 - ERROR - Failed in secondary LLM parsing (https://www.consultancy.uk/news/42373/simplify-consulting-adds-mark-andrews-and-michael-james-as-directors): 'str' object has no attribute 'strftime'
+2025-12-04 15:51:45 - INFO - Flattened articles: 0 items in total.
+2025-12-04 15:51:45 - INFO - All articles committed successfully.
+2025-12-04 15:51:45 - INFO - Web scraping pipeline completed successfully.

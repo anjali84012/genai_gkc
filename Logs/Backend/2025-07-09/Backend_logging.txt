@@ -1,0 +1,237 @@
+2025-07-09 12:05:49 - INFO - Database tables created or already exist.
+2025-07-09 12:05:49 - INFO - WebScraper class instantiated.
+2025-07-09 12:06:26 - INFO - Extracted items for https://www.nri.com/jp/News: 1
+2025-07-09 12:07:34 - ERROR - Failed in secondary LLM parsing (https://www.nri.com/jp/knowledge/glossary/perovskite_solar_cell.html): 'str' object has no attribute 'strftime'
+2025-07-09 12:07:43 - INFO - Extracted items for https://www.consulting.us/: 3
+2025-07-09 12:08:11 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12064/clutch-hires-james-regan-as-chief-strategy-officer): 'str' object has no attribute 'strftime'
+2025-07-09 12:08:31 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12061/alvarez-marsal-hires-michael-golichowski-as-corporate-real-estate-leader): 'str' object has no attribute 'strftime'
+2025-07-09 12:09:07 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12073/low-earth-orbit-economy-could-add-1-trillion-by-2040): 'str' object has no attribute 'strftime'
+2025-07-09 12:09:07 - INFO - Flattened articles: 0 items in total.
+2025-07-09 12:09:07 - INFO - All articles committed successfully.
+2025-07-09 12:09:07 - INFO - Web scraping pipeline completed successfully.
+2025-07-09 13:19:43 - INFO - Database tables created or already exist.
+2025-07-09 13:19:43 - INFO - WebScraper class instantiated.
+2025-07-09 13:20:17 - INFO - Extracted items for https://www.nri.com/jp/News: 1
+2025-07-09 13:21:04 - ERROR - Date parsing error: time data '2025-07-08' does not match format '%Y-%m-%d %H:%M:%S'
+2025-07-09 13:21:04 - ERROR - Failed in secondary LLM parsing (https://www.nri.com/jp/knowledge/glossary/perovskite_solar_cell.html): 'str' object has no attribute 'strftime'
+2025-07-09 13:21:10 - INFO - Extracted items for https://www.consulting.us/: 3
+2025-07-09 13:21:25 - ERROR - Date parsing error: time data '2025-07-08' does not match format '%Y-%m-%d %H:%M:%S'
+2025-07-09 13:21:25 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12064/clutch-hires-james-regan-as-chief-strategy-officer): 'str' object has no attribute 'strftime'
+2025-07-09 13:27:22 - INFO - Database tables created or already exist.
+2025-07-09 13:27:22 - INFO - WebScraper class instantiated.
+2025-07-09 13:27:27 - INFO - Extracted items for https://www.nri.com/jp/News: 1
+2025-07-09 13:28:10 - ERROR - Failed to format date: time data '2025-07-08' does not match format '%Y-%m-%d %H:%M:%S'
+2025-07-09 13:28:11 - ERROR - Failed in secondary LLM parsing (https://www.nri.com/jp/knowledge/glossary/perovskite_solar_cell.html): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e2113-27c6903d068efb4d348b57c2;dd0a3c27-f8eb-446f-9644-f5e39f6397a1)
+2025-07-09 13:28:16 - INFO - Extracted items for https://www.consulting.us/: 3
+2025-07-09 13:28:32 - ERROR - Failed to format date: time data '2025-07-08' does not match format '%Y-%m-%d %H:%M:%S'
+2025-07-09 13:28:32 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12064/clutch-hires-james-regan-as-chief-strategy-officer): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e2128-1e8ace646d05eb122006e43b;bebf8091-42f3-4754-844a-5130ee6eac48)
+2025-07-09 13:28:51 - ERROR - Failed to format date: time data '2025-07-08' does not match format '%Y-%m-%d %H:%M:%S'
+2025-07-09 13:28:52 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12061/alvarez-marsal-hires-michael-golichowski-as-corporate-real-estate-leader): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e213c-6105ef6a4383fdfb0e47dc9b;346990a0-c984-4faf-96fb-d261c6176fd4)
+2025-07-09 13:29:21 - ERROR - Failed to format date: time data '2025-07-08' does not match format '%Y-%m-%d %H:%M:%S'
+2025-07-09 13:29:21 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12073/low-earth-orbit-economy-could-add-1-trillion-by-2040): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e2159-65f201153c0bdf3f5d2c4de0;635d9fff-8749-45f4-a9e0-7bc0b8a5f0e4)
+2025-07-09 13:29:21 - INFO - Flattened articles: 0 items in total.
+2025-07-09 13:29:21 - INFO - All articles committed successfully.
+2025-07-09 13:29:21 - INFO - Web scraping pipeline completed successfully.
+2025-07-09 13:34:25 - INFO - Database tables created or already exist.
+2025-07-09 13:34:26 - INFO - WebScraper class instantiated.
+2025-07-09 13:34:29 - INFO - Extracted items for https://www.nri.com/jp/News: 1
+2025-07-09 13:35:02 - ERROR - Failed in secondary LLM parsing (https://www.nri.com/jp/knowledge/glossary/perovskite_solar_cell.html): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e22ae-22d4d0fd5183fb3a3aa8a49d;1c904278-48bc-4cea-abbf-44d4500657a6)
+2025-07-09 13:35:08 - INFO - Extracted items for https://www.consulting.us/: 3
+2025-07-09 13:35:26 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12064/clutch-hires-james-regan-as-chief-strategy-officer): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e22c6-70bb2ceb621ea64541abab34;530ab026-ea9d-47ff-9f4c-25fe6f5b40b1)
+2025-07-09 13:35:45 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12061/alvarez-marsal-hires-michael-golichowski-as-corporate-real-estate-leader): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e22d9-0d611107399c54dd0de85c0f;dab0a7d9-9f5f-4a23-b707-80b74ecb66d3)
+2025-07-09 13:36:15 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12073/low-earth-orbit-economy-could-add-1-trillion-by-2040): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e22f7-62c94d4369d9c0fb1117dfe9;a2c5d06c-aa3b-4321-85b0-ece8d45025fd)
+2025-07-09 13:36:16 - INFO - Flattened articles: 0 items in total.
+2025-07-09 13:36:16 - INFO - All articles committed successfully.
+2025-07-09 13:36:16 - INFO - Web scraping pipeline completed successfully.
+2025-07-09 13:41:25 - INFO - Database tables created or already exist.
+2025-07-09 13:41:25 - INFO - WebScraper class instantiated.
+2025-07-09 13:41:28 - INFO - Extracted items for https://www.nri.com/jp/News: 1
+2025-07-09 13:41:53 - ERROR - Failed in secondary LLM parsing (https://www.nri.com/jp/knowledge/glossary/perovskite_solar_cell.html): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e2449-4c90fd1129d619b07b489a7b;0b303616-cdf2-48f8-b2f4-d456d8530f05)
+2025-07-09 13:41:57 - INFO - Extracted items for https://www.consulting.us/: 3
+2025-07-09 13:42:14 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12064/clutch-hires-james-regan-as-chief-strategy-officer): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e245d-16a2fb6206ec2aca2fc2f64c;ab929a9c-7e98-430b-980f-57c47e2e02ac)
+2025-07-09 13:42:31 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12061/alvarez-marsal-hires-michael-golichowski-as-corporate-real-estate-leader): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e246f-60d243fb07696d763722aead;0968b924-2651-4c2c-a477-598e1b99538f)
+2025-07-09 13:43:12 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12073/low-earth-orbit-economy-could-add-1-trillion-by-2040): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e2498-5994ff20112cb38d58e970c8;f4a57cdb-8898-4bdd-acff-6a5fcdce6703)
+2025-07-09 13:43:12 - INFO - Flattened articles: 0 items in total.
+2025-07-09 13:43:12 - INFO - All articles committed successfully.
+2025-07-09 13:43:12 - INFO - Web scraping pipeline completed successfully.
+2025-07-09 13:55:05 - INFO - Database tables created or already exist.
+2025-07-09 13:55:06 - INFO - WebScraper class instantiated.
+2025-07-09 13:55:09 - INFO - Extracted items for https://www.nri.com/jp/News: 1
+2025-07-09 13:55:43 - ERROR - Failed in secondary LLM parsing (https://www.nri.com/jp/knowledge/glossary/perovskite_solar_cell.html): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e2787-2471b08d7518d0d06ef670b0;3b06158a-a2f5-4e37-baa9-0006d33d8599)
+2025-07-09 13:55:49 - INFO - Extracted items for https://www.consulting.us/: 3
+2025-07-09 13:56:03 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12064/clutch-hires-james-regan-as-chief-strategy-officer): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e279b-454f65273bfb42e0314e1a4a;14f9b021-7621-4973-b654-ba5c64b98156)
+2025-07-09 13:56:21 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12061/alvarez-marsal-hires-michael-golichowski-as-corporate-real-estate-leader): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e27ad-317a0bb405fbed5c35e782b9;2055c4c7-f166-4410-9a9f-e5262da40ac3)
+2025-07-09 13:56:44 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12073/low-earth-orbit-economy-could-add-1-trillion-by-2040): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e27c3-52c83da62f24124248cbd300;fcfe3aff-4891-4d08-8112-90cdf086953e)
+2025-07-09 13:56:44 - INFO - Flattened articles: 0 items in total.
+2025-07-09 13:56:44 - INFO - All articles committed successfully.
+2025-07-09 13:56:44 - INFO - Web scraping pipeline completed successfully.
+2025-07-09 14:01:49 - INFO - Database tables created or already exist.
+2025-07-09 14:01:49 - INFO - WebScraper class instantiated.
+2025-07-09 14:01:52 - INFO - Extracted items for https://www.nri.com/jp/News: 1
+2025-07-09 14:02:15 - ERROR - Failed in secondary LLM parsing (https://www.nri.com/jp/knowledge/glossary/perovskite_solar_cell.html): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e290f-453b49f57ef693ad016fee32;271b87b2-e9fa-45b4-baaa-bc6a59ebf61b)
+2025-07-09 14:02:19 - INFO - Extracted items for https://www.consulting.us/: 3
+2025-07-09 14:02:35 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12064/clutch-hires-james-regan-as-chief-strategy-officer): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e2923-75ca7d36150fc5d670d3bce3;463d0d0b-4206-4e6b-9c4e-4af48414c069)
+2025-07-09 14:02:49 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12061/alvarez-marsal-hires-michael-golichowski-as-corporate-real-estate-leader): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e2931-572b7b7174b612a03aeb711c;f7892408-8394-4b7b-9c7c-be2b5a9b5229)
+2025-07-09 14:03:13 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12073/low-earth-orbit-economy-could-add-1-trillion-by-2040): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e2949-7c99bf454bad808051c1ac6e;54a66b30-8300-4d0e-883c-69f4bbb1ee8a)
+2025-07-09 14:03:13 - INFO - Flattened articles: 0 items in total.
+2025-07-09 14:03:13 - INFO - All articles committed successfully.
+2025-07-09 14:03:13 - INFO - Web scraping pipeline completed successfully.
+2025-07-09 14:16:02 - INFO - Database tables created or already exist.
+2025-07-09 14:16:02 - INFO - WebScraper class instantiated.
+2025-07-09 14:16:06 - INFO - Extracted items for https://www.nri.com/jp/News: 1
+2025-07-09 14:16:47 - ERROR - Failed in secondary LLM parsing (https://www.nri.com/jp/knowledge/glossary/perovskite_solar_cell.html): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e2c77-1a78b8680607344017d2f04e;27c78378-3657-4c38-a4be-9a8985740ee4)
+2025-07-09 14:16:54 - INFO - Extracted items for https://www.consulting.us/: 3
+2025-07-09 14:17:06 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12064/clutch-hires-james-regan-as-chief-strategy-officer): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e2c8a-2b905107630c7d1b3bbd386b;9a10731f-efff-4994-973b-9b5a5ad64937)
+2025-07-09 14:17:20 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12061/alvarez-marsal-hires-michael-golichowski-as-corporate-real-estate-leader): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e2c98-674dbf53311b936e4d26fc99;7ac57550-cc71-4685-97f5-c8861ef16ce9)
+2025-07-09 14:17:41 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12073/low-earth-orbit-economy-could-add-1-trillion-by-2040): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e2cad-40795b7453d9260e2b3728a6;22a20ed0-868a-46f0-8c02-c2c3b85d55c2)
+2025-07-09 14:17:41 - INFO - Flattened articles: 0 items in total.
+2025-07-09 14:17:41 - INFO - All articles committed successfully.
+2025-07-09 14:17:41 - INFO - Web scraping pipeline completed successfully.
+2025-07-09 14:39:07 - INFO - Database tables created or already exist.
+2025-07-09 14:39:07 - INFO - WebScraper class instantiated.
+2025-07-09 14:39:12 - INFO - Extracted items for https://www.nri.com/jp/News: 1
+2025-07-09 14:39:39 - ERROR - Failed in secondary LLM parsing (https://www.nri.com/jp/knowledge/glossary/perovskite_solar_cell.html): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e31d3-32acfad259ea52b9079f8bc1;3c143dfa-af74-451e-834d-86799bf21de8)
+2025-07-09 14:39:45 - INFO - Extracted items for https://www.consulting.us/: 3
+2025-07-09 14:39:58 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12064/clutch-hires-james-regan-as-chief-strategy-officer): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e31e6-27b0720f2987915534355511;0706ab1f-e251-4173-a114-f5c004756933)
+2025-07-09 14:40:19 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12061/alvarez-marsal-hires-michael-golichowski-as-corporate-real-estate-leader): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e31fa-59bbfb0e722fcbfc0c2c2cff;90aa040d-8571-4792-9f43-7850b4784833)
+2025-07-09 14:40:44 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12073/low-earth-orbit-economy-could-add-1-trillion-by-2040): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e3214-44be30e44ccd4cdc0eec4de2;6a08d551-54fc-4dfb-b314-234c465cf8ea)
+2025-07-09 14:40:44 - INFO - Flattened articles: 0 items in total.
+2025-07-09 14:40:44 - INFO - All articles committed successfully.
+2025-07-09 14:40:44 - INFO - Web scraping pipeline completed successfully.
+2025-07-09 14:46:33 - INFO - Database tables created or already exist.
+2025-07-09 14:46:34 - INFO - WebScraper class instantiated.
+2025-07-09 14:46:37 - INFO - Extracted items for https://www.nri.com/jp/News: 1
+2025-07-09 14:47:04 - ERROR - Failed in secondary LLM parsing (https://www.nri.com/jp/knowledge/glossary/perovskite_solar_cell.html): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e338f-35ac54b37a01411706fb0d4a;0e681ccc-b274-44c3-af86-793146573763)
+2025-07-09 14:47:09 - INFO - Extracted items for https://www.consulting.us/: 3
+2025-07-09 14:47:24 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12064/clutch-hires-james-regan-as-chief-strategy-officer): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e33a4-78a41a4b3abc1d8c1270f3fb;7b06157a-6793-4856-97fe-472d42d6fe38)
+2025-07-09 14:47:39 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12061/alvarez-marsal-hires-michael-golichowski-as-corporate-real-estate-leader): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e33b3-411fe7932d0bbd84786e5006;d68a812f-b581-4b73-a57b-f8b28a6ce104)
+2025-07-09 15:01:52 - INFO - Use pytorch device_name: cpu
+2025-07-09 15:01:52 - INFO - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2025-07-09 15:01:57 - INFO - Database tables created or already exist.
+2025-07-09 15:01:57 - INFO - WebScraper class instantiated.
+2025-07-09 15:02:01 - INFO - Extracted items for https://www.nri.com/jp/News: 1
+2025-07-09 15:02:28 - INFO - Unique article: \u30da\u30ed\u30d6\u30b9\u30ab\u30a4\u30c8\u592a\u967d\u96fb\u6c60
+2025-07-09 15:02:28 - INFO - LLM secondary extraction success for: https://www.nri.com/jp/knowledge/glossary/perovskite_solar_cell.html
+2025-07-09 15:02:33 - INFO - Extracted items for https://www.consulting.us/: 3
+2025-07-09 15:02:54 - INFO - Unique article: Clutch hires James Regan as chief strategy officer
+2025-07-09 15:02:54 - INFO - LLM secondary extraction success for: https://www.consulting.us/news/12064/clutch-hires-james-regan-as-chief-strategy-officer
+2025-07-09 15:03:08 - INFO - Unique article: Alvarez & Marsal hires Michael Golichowski as corporate real estate leader
+2025-07-09 15:03:08 - INFO - LLM secondary extraction success for: https://www.consulting.us/news/12061/alvarez-marsal-hires-michael-golichowski-as-corporate-real-estate-leader
+2025-07-09 15:03:34 - INFO - Unique article: Low Earth orbit economy could add €1 trillion by 2040
+2025-07-09 15:03:34 - INFO - LLM secondary extraction success for: https://www.consulting.us/news/12073/low-earth-orbit-economy-could-add-1-trillion-by-2040
+2025-07-09 15:03:34 - INFO - Flattened articles: 4 items in total.
+2025-07-09 15:03:37 - INFO - Japanese articles detected generating only japanese summary
+2025-07-09 15:03:37 - INFO - Prepared to insert article: Press Release (https://www.nri.com/jp/knowledge/glossary/perovskite_solar_cell.html)
+2025-07-09 15:03:39 - INFO - Prepared to insert article: Consulting.org (https://www.consulting.us/news/12064/clutch-hires-james-regan-as-chief-strategy-officer)
+2025-07-09 15:03:41 - INFO - Prepared to insert article: Consulting.org (https://www.consulting.us/news/12061/alvarez-marsal-hires-michael-golichowski-as-corporate-real-estate-leader)
+2025-07-09 15:03:43 - INFO - Prepared to insert article: Press Release (https://www.consulting.us/news/12073/low-earth-orbit-economy-could-add-1-trillion-by-2040)
+2025-07-09 15:03:43 - INFO - All articles committed successfully.
+2025-07-09 15:03:43 - INFO - Web scraping pipeline completed successfully.
+2025-07-09 15:31:45 - INFO - Database tables created or already exist.
+2025-07-09 15:31:45 - INFO - WebScraper class instantiated.
+2025-07-09 15:31:49 - INFO - Extracted items for https://www.nri.com/jp/News: 1
+2025-07-09 15:32:20 - INFO - Unique article: \u30da\u30ed\u30d6\u30b9\u30ab\u30a4\u30c8\u592a\u967d\u96fb\u6c60
+2025-07-09 15:32:20 - INFO - LLM secondary extraction success for: https://www.nri.com/jp/knowledge/glossary/perovskite_solar_cell.html
+2025-07-09 15:32:25 - INFO - Extracted items for https://www.consulting.us/: 3
+2025-07-09 15:32:42 - INFO - Unique article: Clutch hires James Regan as chief strategy officer
+2025-07-09 15:32:42 - INFO - LLM secondary extraction success for: https://www.consulting.us/news/12064/clutch-hires-james-regan-as-chief-strategy-officer
+2025-07-09 15:32:57 - INFO - Unique article: Alvarez & Marsal hires Michael Golichowski as corporate real estate leader
+2025-07-09 15:32:57 - INFO - LLM secondary extraction success for: https://www.consulting.us/news/12061/alvarez-marsal-hires-michael-golichowski-as-corporate-real-estate-leader
+2025-07-09 15:33:18 - INFO - Unique article: Low Earth orbit economy could add €1 trillion by 2040
+2025-07-09 15:33:18 - INFO - LLM secondary extraction success for: https://www.consulting.us/news/12073/low-earth-orbit-economy-could-add-1-trillion-by-2040
+2025-07-09 15:33:18 - INFO - Flattened articles: 4 items in total.
+2025-07-09 15:33:21 - INFO - Japanese articles detected generating only japanese summary
+2025-07-09 15:33:21 - INFO - Prepared to insert article: Press Release (https://www.nri.com/jp/knowledge/glossary/perovskite_solar_cell.html)
+2025-07-09 15:33:22 - INFO - Prepared to insert article: Consulting.org (https://www.consulting.us/news/12064/clutch-hires-james-regan-as-chief-strategy-officer)
+2025-07-09 15:33:23 - INFO - Prepared to insert article: Consulting.org (https://www.consulting.us/news/12061/alvarez-marsal-hires-michael-golichowski-as-corporate-real-estate-leader)
+2025-07-09 15:33:26 - INFO - Prepared to insert article: Press Release (https://www.consulting.us/news/12073/low-earth-orbit-economy-could-add-1-trillion-by-2040)
+2025-07-09 15:33:31 - ERROR - DB commit failed: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO email (company_name, subject, date, time, link, body, response_generated, category, category_code, summary, summary_japanese, decision, reasoning, satake_score, kajikawa_score, satake_done_scoring, kajikawa_done_scoring, total_score, final_flag, remove_flag, disapproved, duplicated_or_not, reason_of_duplication) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING id]
+[parameters: ('Others', 'Press Release', '2025-07-09', '', 'https://www.nri.com/jp/knowledge/glossary/perovskite_solar_cell.html', 'Title:\n\u30da\u30ed\u30d6\u30b9\u30ab\u30a4\u30c8\u592a\u967d\u96fb\u6c60\n\nText:\n\u767a\u96fb\u5c64\u306b\u30da\u30ed\u30d6\u30b9\u30ab\u30a4\u30c8\u7d50\u6676\u69cb\u9020\u3092\u6301\u3064\u5316\u5408\u7269\u3067\u88fd\u9020\u3055\u308c\u305f\u592a\u967d\u96fb\u6c60\u3067\u3059\u3002\u30b7\u30ea\u30b3\u30f3\u7cfb\u592a\u967d\u96fb\u6c60\u3084\u5316\u5408\u7269\u7cfb\u592a\u967d\u96fb\u6c60\u3068\u3044\u3063\u305f\u5f93\u6765\u578b\u306e\u592a\u967d\u96fb\u6c60\u3068\u6bd4\u3079\u3001\u5909\u63db\u52b9\u7387\u304c\u540c\u30ec\u30d9\u30eb\u3067\u3042\u308a\u306a\u304c\u3089\u3001\u8efd\u91cf\u304b\u3064\u67d4\u8edf\u306a\u7d20\u6750\u3067\u3042\u308a\u3001\u65e2\u5b58\u306e\u30b7\u30ea\u30b3\u30f3\u7cfb\u592a\u967d\u96fb\u6c60\u304c\u8a2d\u7f6e\u3067\u304d\u306a\u304b\u3063\u305f\u5834 ... (5 characters truncated) ... \u304c\u53ef\u80fd\u306b\u306a\u308b\u3053\u3068\u304b\u3089\u3001\u30ab\u30fc\u30dc\u30f3\u30cb\u30e5\u30fc\u30c8\u30e9\u30eb\u306e\u5b9f\u73fe\u3084GX\uff08\u30b0\u30ea\u30fc\u30f3\u30c8\u30e9\u30f3\u30b9\u30d5\u30a9\u30fc\u30e1\u30fc\u30b7\u30e7\u30f3\uff09\u306e\u89b3\u70b9\u304b\u3089\u3082\u6b21\u4e16\u4ee3\u592a\u967d\u96fb\u6c60\u3068\u3057\u3066\u306e\u5c0e\u5165\u304c\u671f\u5f85\u3055\u308c\u3066\u3044\u307e\u3059\u3002\u30da\u30ed\u30d6\u30b9\u30ab\u30a4\u30c8\u3068\u306f\u3001\u30ed\u30b7\u30a2\u4eba\u79d1\u5b66\u8005\u30ec\u30d5\u30fb\u30da\u30ed\u30d5\u30b9\u30ad\u30fc\u304c\u767a\u898b\u3057\u305f\u7070\u30c1\u30bf\u30f3\u77f3\uff08CaTiO3\uff09\u3068\u3044\u3046\u9178\u5316\u9271\u7269\u306e\u3053\u3068\u3067\u3042\u308a\u3001\u305d\u306e\u7d50\u6676\u69cb\u9020\u3092\u6307\u3059\u3053\u3068\u3082\u3042\u308a\u307e\u3059\u3002', 0, 'NA', 'C10', '', '\u30da\u30ed\u30d6\u30b9\u30ab\u30a4\u30c8\u592a\u967d\u96fb\u6c60\u306f\u3001\u8efd\u91cf\u3067\u67d4\u8edf\u306a\u7d20\u6750\u3092\u7528\u3044\u305f\u6b21\u4e16\u4ee3\u306e\u592a\u967d\u96fb\u6c60\u3067\u3059\u3002\u5909\u63db\u52b9\u7387\u306f\u5f93\u6765\u306e\u30b7\u30ea\u30b3\u30f3\u7cfb\u592a\u967d\u96fb\u6c60\u3068\u540c\u7b49\u3067\u3001\u8a2d\u7f6e\u5834\u6240\u304c\u62e1\u304c\u308b\u3053\u3068\u304b\u3089\u3001\u30ab\u30fc\u30dc\u30f3\u30cb\u30e5\u30fc\u30c8\u30e9\u30eb\u3084\u30b0\u30ea\u30fc\u30f3\u30c8\u30e9\u30f3\u30b9\u30d5\u30a9\u30fc\u30e1\u30fc\u30b7\u30e7\u30f3\u306b\u8ca2\u732e\u304c\u671f\u5f85\u3055\u308c\u3066\u3044\u307e\u3059\u3002', 'NON-CONSULTING', '- The article discusses perovskite solar cells which concerns a technology rather than a consulting service. - It does not relate to advising busines ... (337 characters truncated) ... consulting unit? Answer: No - No consulting context present; Question: Does it focus on external clients? Answer: No - Focus is on technology itself.', 0, 0, 0, 0, 0, 0, 0, 0, 0, None)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-09 15:33:31 - INFO - Web scraping pipeline completed successfully.
+2025-07-09 15:39:00 - INFO - Database tables created or already exist.
+2025-07-09 15:39:00 - INFO - WebScraper class instantiated.
+2025-07-09 15:39:03 - INFO - Extracted items for https://www.nri.com/jp/News: 1
+2025-07-09 15:39:34 - INFO - Unique article: \u30da\u30ed\u30d6\u30b9\u30ab\u30a4\u30c8\u592a\u967d\u96fb\u6c60
+2025-07-09 15:39:34 - INFO - LLM secondary extraction success for: https://www.nri.com/jp/knowledge/glossary/perovskite_solar_cell.html
+2025-07-09 15:39:50 - INFO - Extracted items for https://www.consulting.us/: 0
+2025-07-09 15:39:50 - INFO - Flattened articles: 1 items in total.
+2025-07-09 15:39:54 - INFO - Japanese articles detected generating only japanese summary
+2025-07-09 15:39:54 - INFO - Prepared to insert article: Press Release (https://www.nri.com/jp/knowledge/glossary/perovskite_solar_cell.html)
+2025-07-09 15:39:59 - ERROR - DB commit failed: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO email (company_name, subject, date, time, link, body, response_generated, category, category_code, summary, summary_japanese, decision, reasoning, satake_score, kajikawa_score, satake_done_scoring, kajikawa_done_scoring, total_score, final_flag, remove_flag, disapproved, duplicated_or_not, reason_of_duplication) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('Others', 'Press Release', '2025-07-09', '', 'https://www.nri.com/jp/knowledge/glossary/perovskite_solar_cell.html', 'Title:\n\u30da\u30ed\u30d6\u30b9\u30ab\u30a4\u30c8\u592a\u967d\u96fb\u6c60\n\nText:\n\u767a\u96fb\u5c64\u306b\u30da\u30ed\u30d6\u30b9\u30ab\u30a4\u30c8\u7d50\u6676\u69cb\u9020\u3092\u6301\u3064\u5316\u5408\u7269\u3067\u88fd\u9020\u3055\u308c\u305f\u592a\u967d\u96fb\u6c60\u3067\u3059\u3002 \u30b7\u30ea\u30b3\u30f3\u7cfb\u592a\u967d\u96fb\u6c60\u3084\u5316\u5408\u7269\u7cfb\u592a\u967d\u96fb\u6c60\u3068\u3044\u3063\u305f\u5f93\u6765\u578b\u306e\u592a\u967d\u96fb\u6c60\u3068\u6bd4\u3079\u3001\u5909\u63db\u52b9\u7387\u304c\u540c\u30ec\u30d9\u30eb\u3067\u3042\u308a\u306a\u304c\u3089\u3001\u8efd\u91cf\u304b\u3064\u67d4\u8edf\u306a\u7d20\u6750\u3067\u3042\u308a\u3001\u65e2\u5b58\u306e\u30b7\u30ea\u30b3\u30f3\u7cfb\u592a\u967d\u96fb\u6c60\u304c\u8a2d\u7f6e\u3067\u304d\u306a\u304b\u3063\u305f ... (7 characters truncated) ... \u53ef\u80fd\u306b\u306a\u308b\u3053\u3068\u304b\u3089\u3001\u30ab\u30fc\u30dc\u30f3\u30cb\u30e5\u30fc\u30c8\u30e9\u30eb\u306e\u5b9f\u73fe\u3084GX\uff08\u30b0\u30ea\u30fc\u30f3\u30c8\u30e9\u30f3\u30b9\u30d5\u30a9\u30fc\u30e1\u30fc\u30b7\u30e7\u30f3\uff09\u306e\u89b3\u70b9\u304b\u3089\u3082\u6b21\u4e16\u4ee3\u592a\u967d\u96fb\u6c60\u3068\u3057\u3066\u306e\u5c0e\u5165\u304c\u671f\u5f85\u3055\u308c\u3066\u3044\u307e\u3059\u3002 \u30da\u30ed\u30d6\u30b9\u30ab\u30a4\u30c8\u3068\u306f\u3001\u30ed\u30b7\u30a2\u4eba\u79d1\u5b66\u8005\u30ec\u30d5\u30fb\u30da\u30ed\u30d5\u30b9\u30ad\u30fc\u304c\u767a\u898b\u3057\u305f\u7070\u30c1\u30bf\u30f3\u77f3\uff08CaTiO3\uff09\u3068\u3044\u3046\u9178\u5316\u9271\u7269\u306e\u3053\u3068\u3067\u3042\u308a\u3001\u305d\u306e\u7d50\u6676\u69cb\u9020\u3092\u6307\u3059\u3053\u3068\u3082\u3042\u308a\u307e\u3059\u3002', 0, 'NA', 'C10', '', '\u30da\u30ed\u30d6\u30b9\u30ab\u30a4\u30c8\u592a\u967d\u96fb\u6c60\u306f\u3001\u30da\u30ed\u30d6\u30b9\u30ab\u30a4\u30c8\u7d50\u6676\u69cb\u9020\u3092\u7528\u3044\u305f\u65b0\u3057\u3044\u30bf\u30a4\u30d7\u306e\u592a\u967d\u96fb\u6c60\u3067\u3059\u3002\u8efd\u91cf\u3067\u67d4\u8edf\u306a\u7d20\u6750\u3068\u3057\u3066\u3001\u30b7\u30ea\u30b3\u30f3\u7cfb\u592a\u967d\u96fb\u6c60\u3068\u540c\u7b49\u306e\u52b9\u7387\u3092\u6301\u3061\u3001\u8a2d\u7f6e\u5834\u6240\u306e\u591a\u69d8\u5316\u304c\u53ef\u80fd\u306b\u306a\u308a\u3001\u30ab\u30fc\u30dc\u30f3\u30cb\u30e5\u30fc\u30c8\u30e9\u30eb\u306b\u5bc4\u4e0e\u304c\u671f\u5f85\u3055\u308c\u3066\u3044\u307e\u3059\u3002', 'NON-CONSULTING', "- The article discusses perovskite solar cells, not advising another organization; - Focuses on technology rather than strategy or business improveme ... (393 characters truncated) ... or team? Answer: No - technology topic; Question: Does it focus on external clients, not internal operations? Answer: No - it’s a product discussion.", 0, 0, 0, 0, 0, 0, 0, 0, 0, None)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-09 15:39:59 - INFO - Web scraping pipeline completed successfully.
+2025-07-09 15:41:28 - INFO - Database tables created or already exist.
+2025-07-09 15:41:29 - INFO - WebScraper class instantiated.
+2025-07-09 15:41:32 - INFO - Extracted items for https://www.nri.com/jp/News: 1
+2025-07-09 15:42:19 - ERROR - Failed in secondary LLM parsing (https://www.nri.com/jp/knowledge/glossary/perovskite_solar_cell.html): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-MiniLM-L6-v2 (Request ID: Root=1-686e4083-21c027ef70d2bb3a7bc42242;960c9b2f-46a5-4584-ad37-27037ba7d495)
+2025-07-09 15:42:23 - INFO - Extracted items for https://www.consulting.us/: 3
+2025-07-09 15:48:00 - INFO - Use pytorch device_name: cpu
+2025-07-09 15:48:00 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-09 15:48:03 - INFO - Database tables created or already exist.
+2025-07-09 15:48:03 - INFO - WebScraper class instantiated.
+2025-07-09 15:48:07 - INFO - Extracted items for https://www.nri.com/jp/News: 1
+2025-07-09 15:48:50 - ERROR - Failed in secondary LLM parsing (https://www.nri.com/jp/knowledge/glossary/perovskite_solar_cell.html): 'ArticleDeduplicator' object has no attribute 'model_name'
+2025-07-09 15:48:56 - INFO - Extracted items for https://www.consulting.us/: 3
+2025-07-09 15:49:09 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12064/clutch-hires-james-regan-as-chief-strategy-officer): 'ArticleDeduplicator' object has no attribute 'model_name'
+2025-07-09 15:52:30 - INFO - Database tables created or already exist.
+2025-07-09 15:52:30 - INFO - WebScraper class instantiated.
+2025-07-09 15:52:34 - INFO - Extracted items for https://www.nri.com/jp/News: 1
+2025-07-09 15:53:12 - ERROR - Failed in secondary LLM parsing (https://www.nri.com/jp/knowledge/glossary/perovskite_solar_cell.html): 'ArticleDeduplicator' object has no attribute 'model_name'
+2025-07-09 15:53:18 - INFO - Extracted items for https://www.consulting.us/: 3
+2025-07-09 15:53:34 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12064/clutch-hires-james-regan-as-chief-strategy-officer): 'ArticleDeduplicator' object has no attribute 'model_name'
+2025-07-09 15:53:52 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12061/alvarez-marsal-hires-michael-golichowski-as-corporate-real-estate-leader): 'ArticleDeduplicator' object has no attribute 'model_name'
+2025-07-09 15:54:24 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12073/low-earth-orbit-economy-could-add-1-trillion-by-2040): 'ArticleDeduplicator' object has no attribute 'model_name'
+2025-07-09 15:54:24 - INFO - Flattened articles: 0 items in total.
+2025-07-09 15:54:24 - INFO - All articles committed successfully.
+2025-07-09 15:54:24 - INFO - Web scraping pipeline completed successfully.
+2025-07-09 15:55:14 - INFO - Database tables created or already exist.
+2025-07-09 15:55:14 - INFO - WebScraper class instantiated.
+2025-07-09 15:55:16 - INFO - Extracted items for https://www.nri.com/jp/News: 1
+2025-07-09 15:55:52 - ERROR - Failed in secondary LLM parsing (https://www.nri.com/jp/knowledge/glossary/perovskite_solar_cell.html): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e43b0-70db0dc30d08b11861b1120b;8ae52adb-6dc8-4e9a-ae97-efc0dec12a4e)
+2025-07-09 15:55:57 - INFO - Extracted items for https://www.consulting.us/: 3
+2025-07-09 15:57:37 - INFO - Database tables created or already exist.
+2025-07-09 15:57:37 - INFO - WebScraper class instantiated.
+2025-07-09 15:57:39 - INFO - Extracted items for https://www.nri.com/jp/News: 1
+2025-07-09 15:58:08 - ERROR - Failed in secondary LLM parsing (https://www.nri.com/jp/knowledge/glossary/perovskite_solar_cell.html): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-MiniLM-L6-v2 (Request ID: Root=1-686e4437-1654fbc50690697d61149a19;b203543d-7478-4638-9244-4da25a66d330)
+2025-07-09 15:58:13 - INFO - Extracted items for https://www.consulting.us/: 3
+2025-07-09 15:58:24 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12064/clutch-hires-james-regan-as-chief-strategy-officer): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-MiniLM-L6-v2 (Request ID: Root=1-686e4448-0fa27c240a62706c148e0c98;fb87e759-4bfd-4a9d-8596-9a62d88e1f19)
+2025-07-09 15:58:37 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12061/alvarez-marsal-hires-michael-golichowski-as-corporate-real-estate-leader): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-MiniLM-L6-v2 (Request ID: Root=1-686e4454-4486c88912047a0d5e184c7d;c2a1bc85-b623-435d-847d-7eebcd8ad0df)
+2025-07-09 17:35:08 - INFO - Database tables created or already exist.
+2025-07-09 17:35:09 - INFO - WebScraper class instantiated.
+2025-07-09 17:35:13 - INFO - Extracted items for https://www.nri.com/jp/News: 1
+2025-07-09 17:35:36 - ERROR - Failed in secondary LLM parsing (https://www.nri.com/jp/knowledge/glossary/perovskite_solar_cell.html): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e5b10-3d4d444d5d586cd95aac2205;e0f5acc9-f311-4c85-bfa9-7e39be265031)
+2025-07-09 17:35:41 - INFO - Extracted items for https://www.consulting.us/: 3
+2025-07-09 17:35:56 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12064/clutch-hires-james-regan-as-chief-strategy-officer): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e5b24-766733035de6514031e0260b;ede1bb12-14be-4bed-889c-f285766be35e)
+2025-07-09 17:36:16 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12061/alvarez-marsal-hires-michael-golichowski-as-corporate-real-estate-leader): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (Request ID: Root=1-686e5b38-1eef14bc684ea859443b7af8;5dfcf048-330e-42b9-8fe1-d8011cb91e4e)
+2025-07-09 17:44:42 - INFO - Database tables created or already exist.
+2025-07-09 17:44:42 - INFO - WebScraper class instantiated.
+2025-07-09 17:44:46 - INFO - Extracted items for https://www.nri.com/jp/News: 1
+2025-07-09 17:45:16 - ERROR - Failed in secondary LLM parsing (https://www.nri.com/jp/knowledge/glossary/perovskite_solar_cell.html): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/thenlper/gte-small (Request ID: Root=1-686e5d54-77339c321d729ba720a2baf1;7b62610b-9950-4b8e-8f6b-000776502d74)
+2025-07-09 17:45:20 - INFO - Extracted items for https://www.consulting.us/: 3
+2025-07-09 17:45:41 - ERROR - Failed in secondary LLM parsing (https://www.consulting.us/news/12064/clutch-hires-james-regan-as-chief-strategy-officer): 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/thenlper/gte-small (Request ID: Root=1-686e5d6d-574f37c074e2b92120d8b8ee;e9d1ec41-8954-4247-a5d8-e08aaf65e157)
+2025-07-09 17:52:31 - INFO - Use pytorch device_name: cpu
+2025-07-09 17:52:31 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-07-09 17:52:37 - INFO - Database tables created or already exist.
+2025-07-09 17:52:37 - INFO - WebScraper class instantiated.
+2025-07-09 17:52:41 - INFO - Extracted items for https://www.nri.com/jp/News: 1
+2025-07-09 17:53:12 - INFO - Unique article: \u30da\u30ed\u30d6\u30b9\u30ab\u30a4\u30c8\u592a\u967d\u96fb\u6c60
+2025-07-09 17:53:12 - INFO - LLM secondary extraction success for: https://www.nri.com/jp/knowledge/glossary/perovskite_solar_cell.html
+2025-07-09 17:53:17 - INFO - Extracted items for https://www.consulting.us/: 3
+2025-07-09 17:53:28 - INFO - Unique article: Clutch hires James Regan as chief strategy officer
+2025-07-09 17:53:28 - INFO - LLM secondary extraction success for: https://www.consulting.us/news/12064/clutch-hires-james-regan-as-chief-strategy-officer
+2025-07-09 17:53:48 - INFO - Unique article: Alvarez & Marsal hires Michael Golichowski as corporate real estate leader
+2025-07-09 17:53:48 - INFO - LLM secondary extraction success for: https://www.consulting.us/news/12061/alvarez-marsal-hires-michael-golichowski-as-corporate-real-estate-leader
+2025-07-09 17:54:10 - INFO - Unique article: Low Earth orbit economy could add €1 trillion by 2040
+2025-07-09 17:54:10 - INFO - LLM secondary extraction success for: https://www.consulting.us/news/12073/low-earth-orbit-economy-could-add-1-trillion-by-2040
+2025-07-09 17:54:10 - INFO - Flattened articles: 4 items in total.
+2025-07-09 17:54:14 - INFO - Japanese articles detected generating only japanese summary
+2025-07-09 17:54:14 - INFO - Prepared to insert article: Consulting.org (https://www.nri.com/jp/knowledge/glossary/perovskite_solar_cell.html)
+2025-07-09 17:54:16 - INFO - Prepared to insert article: Consulting.org (https://www.consulting.us/news/12064/clutch-hires-james-regan-as-chief-strategy-officer)
+2025-07-09 17:54:18 - INFO - Prepared to insert article: Consulting.org (https://www.consulting.us/news/12061/alvarez-marsal-hires-michael-golichowski-as-corporate-real-estate-leader)
+2025-07-09 17:54:19 - INFO - Prepared to insert article: Consulting.org (https://www.consulting.us/news/12073/low-earth-orbit-economy-could-add-1-trillion-by-2040)
+2025-07-09 17:54:19 - INFO - All articles committed successfully.
+2025-07-09 17:54:19 - INFO - Web scraping pipeline completed successfully.

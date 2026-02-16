@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags and Title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalized Scores Dashboard</title>
+    <style>
+        /* Reset and Base Styles */
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: transparent; /* Make background transparent like manager_scores.html */
+            color: #fff; /* Ensure text is readable */
+        }
+
+        /* Flash Messages */
+        #flash-messages {
+            position: relative;
+            opacity: 1;
+            transition: opacity 1s ease-out;
+            margin: 10px 20px;
+        }
+
+        #flash-messages.fade-out {
+            opacity: 0;
+        }
+
+        .flash-message {
+            background-color: #ffc107; /* Amber background for warning */
+            color: #856404; /* Dark yellow text */
+            padding: 10px 20px;
+            border: 1px solid #ffeeba; /* Light yellow border */
+            margin-bottom: 10px;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        /* Filters Toggle Button (similar spacing as manager_scores) */
+        .filters-toggle {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            cursor: pointer;
+            font-size: 18px;
+            width: 100%;
+            text-align: left;
+            outline: none;
+            border-radius: 5px;
+            margin: 20px 0 10px 0; /* Similar spacing to manager_scores.html */
+            transition: background-color 0.3s ease;
+        }
+
+        .filters-toggle:hover {
+            background-color: #0056b3;
+        }
+
+        .filters-toggle::after {
+            content: '\25BC'; /* Down arrow */
+            float: right;
+            margin-left: 10px;
+        }
+
+        .filters-toggle.active::after {
+            content: '\25B2'; /* Up arrow */
+        }
+
+        /* Filter Form */
+        .filter-form {
+            padding: 0 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-bottom: 1px solid #ddd;
+            display: none; /* Hidden by default */
+            overflow: hidden;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .filter-form form {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        .filter-row {
+            flex: 1;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .filter-row input[type="text"],
+        .filter-row input[type="date"] {
+            flex: 1 1 150px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: rgba(255, 255, 255, 0.8);
+            color: #000;
+        }
+
+        .filter-row input[type="text"]::placeholder,
+        .filter-row input[type="date"]::placeholder {
+            color: #555;
+        }
+
+        .filter-actions {
+            display: flex;
+            gap: 10px;
+            margin-left: 10px;
+            flex-wrap: wrap;
+        }
+
+        .filter-button,
+        .reset-button {
+            padding: 8px 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .filter-button {
+            background-color: #007BFF;
+            color: white;
+        }
+
+        .filter-button:hover {
+            background-color: #0056b3;
+        }
+
+        .reset-button {
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .reset-button:hover {
+            background-color: #5a6268;
+        }
+
+        /* Table Container */
+        .table-container {
+            width: 100%;
+            max-height: 600px; /* Set desired height for vertical scrolling */
+            overflow-x: auto; /* Enable horizontal scrolling */
+            overflow-y: auto; /* Enable vertical scrolling */
+            border: 1px solid #444;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.05);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed; /* Prevent the table from elongating */
+            color: #fff; /* Ensure table text is visible */
+        }
+
+        table th,
+        table td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ffffff67; /* White borders for cells */
+        }
+
+        table th {
+            background-color: #007BFF;
+            color: white;
+        }
+
+        /* Fixed Widths for Columns */
+        table th:nth-child(1), table td:nth-child(1) {
+            width: 120px; /* ID */
+        }
+    
+        table th:nth-child(2), table td:nth-child(2) {
+            width: 150px; /* Company Name */
+        }
+    
+        table th:nth-child(3), table td:nth-child(3) {
+            width: 100px; /* Date */
+        }
+    
+        table th:nth-child(4), table td:nth-child(4){
+            width: 100px; /* Time */
+        }
+        table th:nth-child(5), table td:nth-child(5) {
+            width: 80px; /* Link */
+        }
+    
+        table th:nth-child(6), table td:nth-child(6) {
+            width: 200px; /* Category */
+        }
+    
+        table th:nth-child(7), table td:nth-child(7) {
+            width: 150px; /* Category Code*/
+        }
+    
+        table th:nth-child(8), table td:nth-child(8) {
+            width: 200px; /* Summary */
+        }
+    
+        table th:nth-child(9), table td:nth-child(9)
+        {
+            width: 200px; /* Summary Japanese */
+        }
+
+        table th:nth-child(10), table td:nth-child(10) {
+            width: 200px; /* Type of Article */
+        }
+
+        table th:nth-child(11), table td:nth-child(10) {
+            width: 105px; /* Manager 1 */
+        }
+
+        table th:nth-child(12), table td:nth-child(11) {
+            width: 105px; /* Manager 2 */
+        }
+        table th:nth-child(13), table td:nth-child(11) {
+            width: 120px; /* Total Score */
+        }
+
+
+        .pagination {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .pagination a {
+            display: inline-block;
+            padding: 8px 16px;
+            margin: 0 4px;
+            text-decoration: none;
+            background-color: #007BFF;
+            color: white;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .pagination a:hover {
+            background-color: #0056b3;
+        }
+
+        .pagination .active {
+            background-color: #007BFF;
+        }
+
+        .pagination .disabled {
+            background-color: rgba(255, 255, 255, 0.3);
+            color: #6c757d;
+            pointer-events: none;
+        }
+
+        .download-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #17a2b8;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+
+        .download-button:hover {
+            background-color: #138496;
+        }
+
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1000; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgba(0, 0, 0, 0.7); /* Black w/ opacity */
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 10% auto; /* 10% from the top and centered */
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            border-radius: 8px;
+            color: #000;
+            position: relative;
+        }
+
+        .close-button {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            cursor: pointer;
+        }
+
+        .close-button:hover,
+        .close-button:focus {
+            color: black;
+            text-decoration: none;
+        }
+
+        .view-more-button {
+            background-color: #00fceb8a;
+            color: white;
+            border: none;
+            padding: 4px 8px;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 12px;
+            margin-left: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .view-more-button:hover {
+            background-color: #218826;
+        }
+
+        @media (max-width: 768px) {
+            .filter-form form {
+                flex-direction: column;
+            }
+
+            .filter-actions {
+                margin-left: 0;
+                justify-content: center;
+            }
+
+            .filters-toggle {
+                font-size: 16px;
+                padding: 10px 16px;
+            }
+
+            .filter-button,
+            .reset-button {
+                font-size: 14px;
+                padding: 8px 12px;
+            }
+
+            table th,
+            table td {
+                padding: 8px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Flash Messages -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        <div id="flash-messages">
+          {% for category, message in messages %}
+            <div class="flash-message {{ category }}">
+              {{ message }}
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endwith %}
+
+    <!-- Filters Toggle Button -->
+    <button class="filters-toggle">Filters</button>
+
+    <!-- Filter Form -->
+    <div class="filter-form">
+        <form id="filter-form">
+            <div class="filter-row">
+                <input type="text" name="company" placeholder="Company Name">
+                <input type="date" name="from_date" placeholder="From Date">
+                <input type="date" name="to_date" placeholder="To Date">
+                <input type="text" name="category" placeholder="Category">
+            </div>
+            <div class="filter-actions">
+                <button type="submit" class="filter-button">Filter</button>
+                <button type="button" class="reset-button">Reset</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Finalized Emails Table -->
+    <div class="table-container">
+        <table id="finalized-emails-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Company Name</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Link</th>
+                    <th>Category</th>
+                    <th>Category Code</th>
+                    <th>Summary</th>
+                    <th>Summary (Japanese)</th>
+                    <th>Type of Article</th>
+                    <th>Manager 1</th>
+                    <th>Manager 2</th>
+                    <th>Total Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="12" style="text-align: center;">No finalized emails found.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Pagination -->
+    <div class="pagination" id="pagination"></div>
+
+    <!-- Download as Excel Button -->
+    <button class="download-button" id="download-excel">Download as Excel</button>
+
+    <!-- Modal Structure -->
+    <div id="summary-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal-content">
+            <span class="close-button" aria-label="Close Modal">&times;</span>
+            <h2 id="modal-title">Summary Details</h2>
+            <p id="modal-summary-text"></p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        function logAction(actionDescription) {
+            console.log("LOG:", actionDescription);
+            fetch('/frontend_log', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ message: actionDescription })
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            logAction("Finalized Data page loaded");
+
+            // Filters Toggle Functionality
+            const filtersToggle = document.querySelector('.filters-toggle');
+            const filterFormContainer = document.querySelector('.filter-form');
+
+            filtersToggle.addEventListener('click', function () {
+                filtersToggle.classList.toggle('active');
+                if (filterFormContainer.style.display === 'block') {
+                    filterFormContainer.style.display = 'none';
+                    logAction("Filters hidden");
+                } else {
+                    filterFormContainer.style.display = 'block';
+                    logAction("Filters shown");
+                }
+            });
+
+            // Flash messages fade-out
+            const flashMessages = document.getElementById('flash-messages');
+
+            if (flashMessages) {
+                setTimeout(function () {
+                    flashMessages.classList.add('fade-out');
+                    flashMessages.addEventListener('transitionend', function () {
+                        flashMessages.remove();
+                        logAction("Flash messages faded out");
+                    });
+                }, 5000);
+            }
+
+            // Download Excel
+            const downloadButton = document.getElementById('download-excel');
+            if (downloadButton) {
+                downloadButton.addEventListener('click', function () {
+                    logAction("Download as Excel button clicked");
+                    const params = new URLSearchParams({
+                        company: window.filters.company,
+                        from_date: window.filters.from_date,
+                        to_date: window.filters.to_date,
+                        category: window.filters.category
+                    }).toString();
+
+                    const downloadUrl = `/download_finalized_data?${params}`;
+                    window.open(downloadUrl, '_blank');
+                });
+            }
+
+            // Modal functionality
+            const modal = document.getElementById('summary-modal');
+            const closeButton = document.querySelector('.close-button');
+            const modalSummaryText = document.getElementById('modal-summary-text');
+
+            function openModal(summary, language) {
+                document.getElementById('modal-title').textContent = `Summary Details (${language})`;
+                modalSummaryText.textContent = summary;
+                modal.style.display = 'block';
+                logAction("Summary modal opened");
+            }
+
+            function closeModal() {
+                modal.style.display = 'none';
+                modalSummaryText.textContent = '';
+                logAction("Summary modal closed");
+            }
+
+            closeButton.addEventListener('click', function () {
+                closeModal();
+            });
+
+            window.addEventListener('click', function (event) {
+                if (event.target == modal) {
+                    logAction("Summary modal closed by clicking outside");
+                    closeModal();
+                }
+            });
+
+            document.addEventListener('keydown', function(event) {
+                if (event.key === 'Escape' && modal.style.display === 'block') {
+                    logAction("Summary modal closed by pressing Escape key");
+                    closeModal();
+                }
+            });
+
+            const filterForm = document.getElementById('filter-form');
+            filterForm.addEventListener('submit', function (e) {
+                e.preventDefault();
+                logAction("Filter applied");
+                window.filters.company = this.elements['company'].value.trim();
+                window.filters.from_date = this.elements['from_date'].value.trim();
+                window.filters.to_date = this.elements['to_date'].value.trim();
+                window.filters.category = this.elements['category'].value.trim();
+                window.currentPage = 1;
+                window.fetchFinalizedEmails();
+            });
+
+            const resetButton = document.querySelector('.reset-button');
+            resetButton.addEventListener('click', function () {
+                logAction("Filters reset");
+                filterForm.reset();
+                window.filters = { company: '', from_date: '', to_date: '', category: '' };
+                window.currentPage = 1;
+                window.fetchFinalizedEmails();
+            });
+
+            window.currentPage = 1;
+            window.perPage = 5;
+            window.filters = { company: '', from_date: '', to_date: '', category: '' };
+
+            window.fetchFinalizedEmails = function () {
+                const queryParams = new URLSearchParams({
+                    page: window.currentPage,
+                    per_page: window.perPage,
+                    ...window.filters
+                });
+                fetch(`/finalized_data_emails?${queryParams}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        logAction("Finalized emails data fetched");
+                        const tbody = document.querySelector('#finalized-emails-table tbody');
+                        tbody.innerHTML = '';
+                        if (data.emails.length === 0) {
+                            tbody.innerHTML = `<tr><td colspan="12" style="text-align: center;">No finalized emails found.</td></tr>`;
+                            logAction("No finalized emails found");
+                        } else {
+                            data.emails.forEach(email => {
+                                const truncatedEN = email.summary.length > 35
+                                    ? email.summary.substring(0, 35) + '...'
+                                    : email.summary;
+                                const truncatedJP = email.summary_japanese.length > 0
+                                    ? email.summary_japanese.substring(0, 30) + '...'
+                                    : email.summary_japanese;
+
+                                const enButton = email.summary.length > 35
+                                    ? `<button class="view-more-button" data-summary="${email.summary.replace(/"/g, '&quot;')}" data-language="English">View More</button>`
+                                    : '';
+
+                                const jpButton = email.summary_japanese.length > 30
+                                    ? `<button class="view-more-button" data-summary="${email.summary_japanese.replace(/"/g, '&quot;')}" data-language="Japanese">View More</button>`
+                                    : '';
+
+                                const row = `
+                                    <tr>
+                                        <td>${email.date}_${email.id}</td>
+                                        <td>${email.company_name}</td>
+                                        <td>${email.date}</td>
+                                        <td>${email.time}</td>
+                                        <td><a href="${email.link}" target="_blank" style="color: #1e90ff;">View</a></td>
+                                        <td>${email.category}</td>
+                                        <td>${email.category_code}</td>
+                                        <td>
+                                            ${truncatedEN}
+                                            ${enButton}
+                                        </td>
+                                        <td>
+                                            ${truncatedJP}
+                                            ${jpButton}
+                                        </td>
+                                        <td>${email.subject}</td>
+                                        <td>${email.satake_score}</td>
+                                        <td>${email.kajikawa_score}</td>
+                                        <td>${email.total_score}</td>
+                                    </tr>
+                                `;
+                                tbody.innerHTML += row;
+                            });
+                        }
+                        updatePagination(data);
+
+                        const newViewMoreButtons = document.querySelectorAll('.view-more-button');
+                        newViewMoreButtons.forEach(button => {
+                            button.addEventListener('click', function () {
+                                const summary = this.getAttribute('data-summary');
+                                const language = this.getAttribute('data-language');
+                                logAction("View More Summary clicked");
+                                openModal(summary, language);
+                            });
+                        });
+                    })
+                    .catch(error => {
+                        console.error('Error fetching finalized emails:', error);
+                        logAction("Error fetching finalized emails: " + error);
+                        const tbody = document.querySelector('#finalized-emails-table tbody');
+                        tbody.innerHTML = `<tr><td colspan="12" style="text-align: center; color: red;">Error loading finalized emails.</td></tr>`;
+                    });
+            };
+
+            window.updatePagination = function (data) {
+                const paginationDiv = document.getElementById('pagination');
+                paginationDiv.innerHTML = '';
+                if (data.total > 0) {
+                    if (data.has_prev) {
+                        const prevButton = `<a href="#" onclick="logAction('Pagination: Previous clicked'); window.currentPage=${data.prev_num}; window.fetchFinalizedEmails(); return false;">« Previous</a>`;
+                        paginationDiv.innerHTML += prevButton;
+                    }
+                    for (let i = 1; i <= data.pages; i++) {
+                        const activeClass = i === data.page ? 'class="active"' : '';
+                        const pageButton = `<a href="#" onclick="logAction('Pagination: Page ${i} clicked'); window.currentPage=${i}; window.fetchFinalizedEmails(); return false;" ${activeClass}>${i}</a>`;
+                        paginationDiv.innerHTML += pageButton;
+                    }
+                    if (data.has_next) {
+                        const nextButton = `<a href="#" onclick="logAction('Pagination: Next clicked'); window.currentPage=${data.next_num}; window.fetchFinalizedEmails(); return false;">Next »</a>`;
+                        paginationDiv.innerHTML += nextButton;
+                    }
+                }
+            };
+
+            // Initial fetch on page load
+            window.fetchFinalizedEmails();
+
+            // Auto-refresh every 5 seconds
+            setInterval(window.fetchFinalizedEmails, 2000);
+        });
+    </script>
+</body>
+</html>

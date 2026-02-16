@@ -1,0 +1,137 @@
+2025-07-17 12:49:12 - INFO - Use pytorch device_name: cpu
+2025-07-17 12:49:12 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-07-17 12:49:20 - INFO - Database tables created or already exist.
+2025-07-17 12:49:22 - INFO - WebScraper class instantiated.
+2025-07-17 12:49:32 - INFO - Extracted items for https://newsroom.accenture.com/: 0
+2025-07-17 12:49:36 - INFO - Extracted items for https://www.consulting.us/: 2
+2025-07-17 12:49:56 - INFO - Unique article: AlixPartners promotes Dan Hearsch to co-leader of automotive practice
+2025-07-17 12:49:56 - INFO - LLM secondary extraction success for: https://www.consulting.us/news/12127/alixpartners-promotes-dan-hearsch-to-co-leader-of-automotive-practice
+2025-07-17 12:50:12 - INFO - Unique article: Bain & Company partners with Andrew Ng and AI Inspire
+2025-07-17 12:50:12 - INFO - LLM secondary extraction success for: https://www.consulting.us/news/12124/bain-company-partners-with-andrew-ng-and-ai-inspire
+2025-07-17 12:50:14 - INFO - Extracted items for https://www.consultancy.eu/: 0
+2025-07-17 12:50:15 - INFO - Flattened articles: 2 items in total.
+2025-07-17 12:50:19 - INFO - Prepared to insert article: Consulting.org (https://www.consulting.us/news/12127/alixpartners-promotes-dan-hearsch-to-co-leader-of-automotive-practice)
+2025-07-17 12:50:21 - INFO - Prepared to insert article: Consulting.org (https://www.consulting.us/news/12124/bain-company-partners-with-andrew-ng-and-ai-inspire)
+2025-07-17 12:50:21 - INFO - All articles committed successfully.
+2025-07-17 12:50:21 - INFO - Web scraping pipeline completed successfully.
+2025-07-17 13:01:21 - INFO - Use pytorch device_name: cpu
+2025-07-17 13:01:21 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-07-17 13:01:26 - INFO - Database tables created or already exist.
+2025-07-17 13:01:27 - INFO - WebScraper class instantiated.
+2025-07-17 13:01:32 - INFO - Extracted items for https://www.consultancy.asia/: 2
+2025-07-17 13:01:53 - INFO - Unique article: Yasushi Sasaki takes over as Chair of BCG�s Asia Pacific business
+2025-07-17 13:01:53 - INFO - LLM secondary extraction success for: https://www.consultancy.asia/news/6078/yasushi-sasaki-takes-over-as-chair-of-bcgs-asia-pacific-business
+2025-07-17 13:02:14 - INFO - Duplicate article: Bain & Company appoints Shintaro Okuno as new APAC managing partner
+2025-07-17 13:02:14 - INFO - LLM secondary extraction success for: https://www.consultancy.asia/news/6075/bain-company-appoints-shintaro-okuno-as-new-apac-managing-partner
+2025-07-17 13:02:22 - INFO - Extracted items for https://www.consultancy.uk/: 5
+2025-07-17 13:02:47 - INFO - Unique article: Businesses cannot be left to self-regulate on sustainability, experts conclude
+2025-07-17 13:02:47 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/40907/businesses-cannot-be-left-to-self-regulate-on-sustainability-experts-conclude
+2025-07-17 13:03:19 - INFO - Unique article: Addressing skills gap key for UK making most of AI opportunities
+2025-07-17 13:03:19 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/40904/addressing-skills-gap-key-for-uk-making-most-of-ai-opportunities
+2025-07-17 13:03:51 - INFO - Unique article: What the Companies House u-turn reveals about the UK�s treatment of SMEs
+2025-07-17 13:03:51 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/40898/what-the-companies-house-u-turn-reveals-about-the-uks-treatment-of-smes
+2025-07-17 13:04:10 - INFO - Unique article: Katherine Reid named director in Oxford office of Grant Thornton
+2025-07-17 13:04:10 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/40895/katherine-reid-named-director-in-oxford-office-of-grant-thornton
+2025-07-17 13:04:29 - INFO - Unique article: James Cavanagh and Mike Hallet become directors at CIL
+2025-07-17 13:04:29 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/40883/james-cavanagh-and-mike-hallet-become-directors-at-cil
+2025-07-17 13:04:29 - INFO - Flattened articles: 7 items in total.
+2025-07-17 13:04:36 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.asia/news/6078/yasushi-sasaki-takes-over-as-chair-of-bcgs-asia-pacific-business)
+2025-07-17 13:04:38 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.asia/news/6075/bain-company-appoints-shintaro-okuno-as-new-apac-managing-partner)
+2025-07-17 13:04:40 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.uk/news/40907/businesses-cannot-be-left-to-self-regulate-on-sustainability-experts-conclude)
+2025-07-17 13:04:41 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.uk/news/40904/addressing-skills-gap-key-for-uk-making-most-of-ai-opportunities)
+2025-07-17 13:04:42 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.uk/news/40898/what-the-companies-house-u-turn-reveals-about-the-uks-treatment-of-smes)
+2025-07-17 13:04:45 - INFO - Prepared to insert article: Press Release (https://www.consultancy.uk/news/40895/katherine-reid-named-director-in-oxford-office-of-grant-thornton)
+2025-07-17 13:04:47 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.uk/news/40883/james-cavanagh-and-mike-hallet-become-directors-at-cil)
+2025-07-17 13:04:47 - INFO - All articles committed successfully.
+2025-07-17 13:04:47 - INFO - Web scraping pipeline completed successfully.
+2025-07-17 13:07:37 - INFO - Use pytorch device_name: cpu
+2025-07-17 13:07:37 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-07-17 13:07:42 - INFO - Database tables created or already exist.
+2025-07-17 13:07:42 - INFO - WebScraper class instantiated.
+2025-07-17 13:08:31 - INFO - Extracted items for https://www.mckinsey.com/about-us/new-at-mckinsey-blog: 0
+2025-07-17 13:09:03 - INFO - Extracted items for https://www.mckinsey.com/jp/our-insights: 0
+2025-07-17 13:09:37 - INFO - Extracted items for https://www.bcg.com/about/corporate-newsroom: 0
+2025-07-17 13:10:14 - INFO - Extracted items for https://www.bain.com/about/media-center/press-releases/: 0
+2025-07-17 13:10:22 - INFO - Extracted items for https://www.ey.com/en_gl/newsroom: 0
+2025-07-17 13:10:22 - INFO - Flattened articles: 0 items in total.
+2025-07-17 13:10:22 - INFO - All articles committed successfully.
+2025-07-17 13:10:22 - INFO - Web scraping pipeline completed successfully.
+2025-07-17 13:13:18 - INFO - Use pytorch device_name: cpu
+2025-07-17 13:13:18 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-07-17 13:13:24 - INFO - Starting Gmail authentication.
+2025-07-17 13:13:24 - INFO - Loaded credentials from token.json.
+2025-07-17 13:13:24 - INFO - Gmail authentication successful.
+2025-07-17 13:13:24 - INFO - Fetching unread emails from Gmail.
+2025-07-17 13:13:24 - INFO - Found 8 unread emails. Processing...
+2025-07-17 13:13:25 - INFO - Processing company: Bain & Company
+2025-07-17 13:13:25 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-17 13:13:26 - INFO - Processing company: Accenture
+2025-07-17 13:13:26 - INFO - Processing company: Accenture
+2025-07-17 13:13:27 - INFO - Processing company: Accenture
+2025-07-17 13:13:27 - INFO - Processing company: Accenture
+2025-07-17 13:13:28 - INFO - Processing company: Accenture
+2025-07-17 13:13:28 - INFO - Processing company: Accenture
+2025-07-17 13:13:28 - INFO - Retrieved 8 unread emails.
+2025-07-17 13:13:28 - INFO - Processing email: Google Alert - Bain & Company on 17-07-25
+2025-07-17 13:13:54 - INFO - Unique article detected. Added PCI Pharma: Strategic Investment Raised From Bain Capital, Kohlberg, And Mubadala to the database
+2025-07-17 13:13:54 - INFO - Prepared email insertion: Google Alert - Bain & Company from https://pulse2.com/pci-pharma-strategic-investment-raised-from-bain-capital-kohlberg-and-mubadala/
+2025-07-17 13:14:07 - INFO - Unique article detected. Added India�s Moment in the Global Supply Chain Shift to the database
+2025-07-17 13:14:07 - INFO - Prepared email insertion: Google Alert - Bain & Company from https://www.linkedin.com/posts/cnbc-tv18_cnbctv18prime-cnbctv18primecircle-leadershipunplugged-activity-7351265255399809024-ZI-T
+2025-07-17 13:14:34 - INFO - Unique article detected. Added Fashion decarbonisation hinges on AI, resale and supplier engagement: Report to the database
+2025-07-17 13:14:34 - INFO - Prepared email insertion: Google Alert - Bain & Company from https://apparelresources.com/business-news/sustainability/fashion-decarbonisation-hinges-ai-resale-supplier-engagement-report/
+2025-07-17 13:14:34 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 17-07-25
+2025-07-17 13:15:02 - INFO - Unique article detected. Added Mahanagar Gas to Invest \u20b91,500 Crore in Battery and Biogas Ventures to the database
+2025-07-17 13:15:02 - INFO - Prepared email insertion: Google Alert - "Boston Consulting Group" "BCG" from https://chemindigest.com/mahanagar-gas-to-invest-%E2%82%B91500-crore-in-battery-and-biogas/
+2025-07-17 13:15:02 - INFO - Processing email: Google Alert - Accenture on 17-07-25
+2025-07-17 13:15:21 - INFO - Unique article detected. Added WPP: Accenture-Manager Baiju Shah wird Global CEO von AKQA to the database
+2025-07-17 13:15:21 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.horizont.net/agenturen/nachrichten/wpp-accenture-manager-baiju-shah-wird-global-ceo-von-akqa-229172
+2025-07-17 13:15:55 - INFO - Duplicate article detected, skipping: Baiju Shah departs Accenture Song to become Global Chief Executive Officer of AKQA
+2025-07-17 13:15:55 - INFO - Prepared email insertion: Google Alert - Accenture from https://campaignbriefasia.com/2025/07/15/baiju-shah-departs-accenture-song-to-become-global-chief-executive-officer-of-akqa/
+2025-07-17 13:16:14 - INFO - Unique article detected. Added Avelia evolves to accelerate SAF adoption as a multi-supplier platform to the database
+2025-07-17 13:16:14 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.mobilityplaza.org/news/41983
+2025-07-17 13:16:14 - INFO - Processing email: Google Alert - Accenture on 16-07-25
+2025-07-17 13:16:56 - WARNING - LLM returned invalid response for https://lbbonline.com/news/Joe-Duffy-Detective-Lidl-Ireland-Series
+2025-07-17 13:16:56 - INFO - Processing email: Google Alert - Accenture on 16-07-25
+2025-07-17 13:17:28 - INFO - Unique article detected. Added All The Accenture Acquisitions Of 2025 (So Far) to the database
+2025-07-17 13:17:28 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.crn.com/news/channel-news/2025/all-the-accenture-acquisitions-of-2025-so-far
+2025-07-17 13:18:03 - INFO - Unique article detected. Added Accenture and WPP have discussed potential M&A deal to the database
+2025-07-17 13:18:03 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.mmm-online.com/news/accenture-and-wpp-have-discussed-potential-ma-deal/
+2025-07-17 13:18:18 - INFO - Duplicate article detected, skipping: Is Accenture interested in all or some of WPP?
+2025-07-17 13:18:18 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.moreaboutadvertising.com/2025/07/is-accenture-interested-in-all-or-some-of-wpp/
+2025-07-17 13:18:35 - INFO - Duplicate article detected, skipping: Accenture and WPP have discussed potential M&A deal
+2025-07-17 13:18:35 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.campaignasia.com/article/accenture-and-wpp-have-discussed-potential-ma-deal/503655
+2025-07-17 13:19:31 - INFO - Duplicate article detected, skipping: Accenture Song/WPP merger rumors swirl, but would it make sense?
+2025-07-17 13:19:31 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.thedrum.com/news/2025/07/15/accenture-song-wpp-merger-rumors-swirl-would-it-make-sense
+2025-07-17 13:19:52 - INFO - Duplicate article detected, skipping: Accenture's Trading Volume Hits 11.01 Billion, Ranks 70th Amid Cloud Computing Woes
+2025-07-17 13:19:52 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.ainvest.com/news/accenture-trading-volume-hits-11-01-billion-ranks-70th-cloud-computing-woes-2507/
+2025-07-17 13:20:12 - INFO - Unique article detected. Added Accenture Stock Slides 7.69% in Four Days as CEO Sells Shares, Trading Volume Ranks 64th to the database
+2025-07-17 13:20:12 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.ainvest.com/news/accenture-stock-slides-7-69-days-ceo-sells-shares-trading-volume-ranks-64th-2507/
+2025-07-17 13:21:15 - INFO - Duplicate article detected, skipping: As Accenture�s Baiju Shah becomes AKQA CEO, read his agenda-setting email to staff
+2025-07-17 13:21:15 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.thedrum.com/news/2025/07/15/accenture-s-baiju-shah-becomes-akqa-ceo-read-his-agenda-setting-email-staff
+2025-07-17 13:21:53 - INFO - Unique article detected. Added Stack Financial Management Inc Reduces Stake in Accenture PLC (NYSE:ACN) to the database
+2025-07-17 13:21:53 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.marketbeat.com/instant-alerts/filing-accenture-plc-nyseacn-stake-trimmed-by-stack-financial-management-inc-2025-07-15/
+2025-07-17 13:22:38 - INFO - Duplicate article detected, skipping: AKQA Names Accenture Song�s Baiju Shah Global CEO
+2025-07-17 13:22:38 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.adweek.com/agencies/akqa-names-accenture-songs-baiju-shah-global-ceo/
+2025-07-17 13:22:38 - INFO - Processing email: Google Alert - Accenture on 16-07-25
+2025-07-17 13:23:05 - ERROR - Error processing email 'Google Alert - Accenture' with URL 'https://www.prweek.com/article/1925604/accenture-wpp-discussed-potential-m-a-deal': 'title'
+2025-07-17 13:23:46 - INFO - Duplicate article detected, skipping: Accenture Stock: Downgrade To Hold As Near-Term Growth Outlook Worsens (NYSE:ACN)
+2025-07-17 13:23:46 - INFO - Japanese articles detected generating only japanese summary
+2025-07-17 13:23:46 - INFO - Prepared email insertion: Google Alert - Accenture from https://seekingalpha.com/article/4801197-accenture-stock-downgrade-to-hold-as-near-term-growth-outlook-worsens
+2025-07-17 13:24:19 - INFO - Duplicate article detected, skipping: Accenture Calls for Knowledge Graphs to Bolster AI Trust
+2025-07-17 13:24:19 - INFO - Prepared email insertion: Google Alert - Accenture from https://technologymagazine.com/news/why-accenture-calls-for-knowledge-graphs-to-build-ai-trust
+2025-07-17 13:24:34 - INFO - Duplicate article detected, skipping: Accenture and WPP have discussed potential M&A deal
+2025-07-17 13:24:34 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.campaignlive.co.uk/article/accenture-wpp-discussed-potential-m-a-deal/1925334
+2025-07-17 13:24:34 - INFO - Processing email: Google Alert - Accenture on 16-07-25
+2025-07-17 13:24:55 - INFO - Duplicate article detected, skipping: WPP hires AKQA global CEO from Accenture
+2025-07-17 13:24:55 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.campaignindia.in/article/wpp-hires-akqa-global-ceo-from-accenture/503666
+2025-07-17 13:25:21 - INFO - Duplicate article detected, skipping: WPP names Baiju Shah as Global CEO of AKQA
+2025-07-17 13:25:21 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.socialsamosa.com/industry-updates/wpp-baiju-shah-global-ceo-akqa-9499293
+2025-07-17 13:25:53 - INFO - Duplicate article detected, skipping: WPP appoints Baiju Shah as Global CEO of AKQA
+2025-07-17 13:25:53 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.adgully.com/post/3934/wpp-appoints-baiju-shah-as-global-ceo-of-akqa
+2025-07-17 13:25:53 - INFO - Processing email: Google Alert - Accenture on 16-07-25
+2025-07-17 13:26:30 - INFO - Duplicate article detected, skipping: Accenture CEO sweet sells $635k in shares
+2025-07-17 13:26:31 - INFO - Prepared email insertion: Google Alert - Accenture from https://au.investing.com/news/insider-trading-news/accenture-ceo-sweet-sells-635k-in-shares-93CH-3925854
+2025-07-17 13:26:52 - INFO - Unique article detected. Added Justice Ministry Non-Exec Board Member Reappointed to the database
+2025-07-17 13:26:52 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.miragenews.com/justice-ministry-non-exec-board-member-1496637/
+2025-07-17 13:26:52 - INFO - All emails committed successfully.
+2025-07-17 13:26:58 - INFO - Emails marked as read.

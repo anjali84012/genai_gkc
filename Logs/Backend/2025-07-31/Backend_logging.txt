@@ -1,0 +1,168 @@
+2025-07-31 11:02:58 - INFO - Use pytorch device_name: cpu
+2025-07-31 11:02:58 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-07-31 11:03:03 - INFO - Starting Gmail authentication.
+2025-07-31 11:03:03 - INFO - Loaded credentials from token.json.
+2025-07-31 11:03:03 - INFO - Gmail authentication successful.
+2025-07-31 11:03:03 - INFO - Fetching unread emails from Gmail.
+2025-07-31 11:03:03 - INFO - Found 100 unread emails. Processing...
+2025-07-31 11:03:04 - INFO - Processing company: "Ernst & Young" "EY"
+2025-07-31 11:03:04 - INFO - Processing company: McKinsey
+2025-07-31 11:03:05 - INFO - Processing company: McKinsey
+2025-07-31 11:03:05 - INFO - Processing company: Bain & Company
+2025-07-31 11:03:06 - INFO - Processing company: McKinsey
+2025-07-31 11:03:06 - INFO - Processing company: "Deloitte"
+2025-07-31 11:03:07 - INFO - Processing company: McKinsey
+2025-07-31 11:03:07 - INFO - Processing company: McKinsey
+2025-07-31 11:03:08 - INFO - Processing company: Deloitte
+2025-07-31 11:03:08 - INFO - Processing company: Bain & Company
+2025-07-31 11:03:09 - INFO - Processing company: "PricewaterhouseCoopers" "PwC"
+2025-07-31 11:03:09 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-31 11:03:10 - INFO - Processing company: Deloitte
+2025-07-31 11:03:10 - INFO - Processing company: Bain & Company
+2025-07-31 11:03:10 - INFO - Processing company: "Deloitte"
+2025-07-31 11:03:11 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-31 11:03:11 - INFO - Processing company: Deloitte
+2025-07-31 11:03:12 - INFO - Processing company: KPMG
+2025-07-31 11:03:12 - INFO - Processing company: McKinsey
+2025-07-31 11:03:13 - INFO - Processing company: "Ernst & Young" "EY"
+2025-07-31 11:03:13 - INFO - Processing company: "PricewaterhouseCoopers" "PwC"
+2025-07-31 11:03:14 - INFO - Processing company: "PricewaterhouseCoopers" "PwC"
+2025-07-31 11:03:14 - INFO - Processing company: "PricewaterhouseCoopers" "PwC"
+2025-07-31 11:03:15 - INFO - Processing company: McKinsey
+2025-07-31 11:03:15 - INFO - Processing company: McKinsey
+2025-07-31 11:03:15 - INFO - Processing company: Accenture
+2025-07-31 11:03:16 - INFO - Processing company: McKinsey
+2025-07-31 11:03:16 - INFO - Processing company: Bain & Company
+2025-07-31 11:03:17 - INFO - Processing company: Bain & Company
+2025-07-31 11:03:17 - INFO - Processing company: Deloitte
+2025-07-31 11:03:18 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-31 11:03:18 - INFO - Processing company: Deloitte
+2025-07-31 11:03:19 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-31 11:03:19 - INFO - Processing company: Bain & Company
+2025-07-31 11:03:20 - INFO - Processing company: "PricewaterhouseCoopers" "PwC"
+2025-07-31 11:03:20 - INFO - Processing company: Deloitte
+2025-07-31 11:03:21 - INFO - Processing company: McKinsey
+2025-07-31 11:03:21 - INFO - Processing company: Bain & Company
+2025-07-31 11:03:22 - INFO - Processing company: Bain & Company
+2025-07-31 11:03:22 - INFO - Processing company: Deloitte
+2025-07-31 11:03:23 - INFO - Processing company: "Deloitte"
+2025-07-31 11:03:23 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-31 11:03:23 - INFO - Processing company: "PricewaterhouseCoopers" "PwC"
+2025-07-31 11:03:24 - INFO - Processing company: Deloitte
+2025-07-31 11:03:24 - INFO - Processing company: McKinsey
+2025-07-31 11:03:25 - INFO - Processing company: Bain & Company
+2025-07-31 11:03:25 - INFO - Processing company: Deloitte
+2025-07-31 11:03:26 - INFO - Processing company: "Deloitte"
+2025-07-31 11:03:26 - INFO - Processing company: "PricewaterhouseCoopers" "PwC"
+2025-07-31 11:03:27 - INFO - Processing company: Deloitte
+2025-07-31 11:03:27 - INFO - Processing company: Bain & Company
+2025-07-31 11:03:28 - INFO - Processing company: Bain & Company
+2025-07-31 11:03:28 - INFO - Processing company: Deloitte
+2025-07-31 11:03:28 - INFO - Processing company: KPMG
+2025-07-31 11:03:29 - INFO - Processing company: "PricewaterhouseCoopers" "PwC"
+2025-07-31 11:03:29 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-31 11:03:30 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-31 11:03:30 - INFO - Processing company: Bain & Company
+2025-07-31 11:03:31 - INFO - Processing company: "Deloitte"
+2025-07-31 11:03:31 - INFO - Processing company: "Mitsubishi Research Institute" "MRI"
+2025-07-31 11:03:32 - INFO - Processing company: "Boston Consulting Group" "BCG"
+2025-07-31 11:03:33 - INFO - Processing company: McKinsey
+2025-07-31 11:03:33 - INFO - Processing company: KPMG
+2025-07-31 11:03:34 - INFO - Processing company: Deloitte
+2025-07-31 11:03:34 - INFO - Processing company: "Deloitte"
+2025-07-31 11:03:51 - INFO - Use pytorch device_name: cpu
+2025-07-31 11:03:51 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-07-31 11:03:55 - INFO - Database tables created or already exist.
+2025-07-31 11:03:55 - INFO - WebScraper class instantiated.
+2025-07-31 11:04:08 - INFO - Extracted items for https://kpmg.com/xx/en/home/media/press-releases.html: 3
+2025-07-31 11:06:03 - INFO - Duplicate article: Global PE Investment Slows Sharply Amid Rising Geopolitical and Trade Uncertainty, according to KPMG’s Private Equity Pulse
+2025-07-31 11:06:03 - INFO - LLM secondary extraction success for: https://kpmg.com/xx/en/media/press-releases/2025/07/global-pe-investment-slows-sharply-amid-rising-geopolitical-and-trade-uncertainty.html
+2025-07-31 11:07:07 - INFO - Duplicate article: Global VC investment holds steady in Q2’25 amid AI surge – with some regional divergence, according to KPMG’s Venture Pulse
+2025-07-31 11:07:07 - INFO - LLM secondary extraction success for: https://kpmg.com/xx/en/media/press-releases/2025/07/global-vc-investment-holds-steady-in-q2-25-amid-ai-surge.html
+2025-07-31 11:07:39 - INFO - Duplicate article: KPMG and Hippocratic AI announce collaboration to transform healthcare delivery using AI healthcare agents to tackle global sector staffing shortages
+2025-07-31 11:07:39 - INFO - LLM secondary extraction success for: https://kpmg.com/xx/en/media/press-releases/2025/07/kpmg-and-hippocratic-ai-announce-collaboration-to-transform-healthcare.html
+2025-07-31 11:07:49 - INFO - Extracted items for https://kpmg.com/jp/ja/home/media/press-releases.html: 0
+2025-07-31 11:08:24 - INFO - Extracted items for https://www.mri.co.jp/news/index.html: 3
+2025-07-31 11:09:24 - INFO - Duplicate article: \u7d44\u7e54\u5909\u66f4\u304a\u3088\u3073\u5f79\u54e1\u4eba\u4e8b\u30fb\u4eba\u4e8b\u7570\u52d5\u306b\u3064\u3044\u3066
+2025-07-31 11:09:24 - INFO - LLM secondary extraction success for: https://www.mri.co.jp/news/press/i5inlu000002bxrx-att/i5inlu000002bxrx-attnr_20250730_hr.pdf
+2025-07-31 11:10:22 - INFO - Unique article: \u6c7a\u7b97\u77ed\u4fe1
+2025-07-31 11:10:22 - INFO - LLM secondary extraction success for: https://ir.mri.co.jp/ja/library/earning.html
+2025-07-31 11:11:05 - INFO - Unique article: \u4e09\u83f1\u7dcf\u5408\u7814\u7a76\u6240\u3001\u4e09\u83f1\u5546\u4e8b\u3068\u5171\u540c\u3067\u300c\u65e5\u672cCDR\u5354\u8b70\u4f1a\u300d\u3092\u8a2d\u7acb\u3000\u8131\u70ad\u7d20\u793e\u4f1a\u306e\u5b9f\u73fe\u306b\u5411\u3051\u3001\u4e8c\u9178\u5316\u70ad\u7d20\u9664\u53bb\u306e\u53d6\u308a\u7d44\u307f\u3092\u52a0\u901f
+2025-07-31 11:11:05 - INFO - LLM secondary extraction success for: https://www.mri.co.jp/news/press/20250730.html
+2025-07-31 11:11:11 - INFO - Extracted items for https://www.consulting.us/: 2
+2025-07-31 11:11:30 - INFO - Unique article: Former IRS acting commissioner joins KPMG’s tax practice
+2025-07-31 11:11:30 - INFO - LLM secondary extraction success for: https://www.consulting.us/news/12190/former-irs-acting-commissioner-joins-kpmgs-tax-practice
+2025-07-31 11:11:52 - INFO - Unique article: HKA appoints Ramon “Ray” de Legorburu as head of Americas investigations practice
+2025-07-31 11:11:52 - INFO - LLM secondary extraction success for: https://www.consulting.us/news/12193/hka-appoints-ramon-ray-de-legorburu-as-head-of-americas-investigations-practice
+2025-07-31 11:11:58 - INFO - Extracted items for https://www.consultancy.uk/: 1
+2025-07-31 11:12:12 - INFO - Unique article: Dow Schofield Watts launches Pathway to Partner initiative
+2025-07-31 11:12:12 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41099/dow-schofield-watts-launches-pathway-to-partner-initiative
+2025-07-31 11:12:18 - INFO - Extracted items for https://www.consultancy.asia/country/japan: 0
+2025-07-31 11:12:25 - INFO - Extracted items for https://www.consultancy.in/: 0
+2025-07-31 11:12:29 - INFO - Extracted items for https://www.consultancy.com.au/: 0
+2025-07-31 11:12:37 - INFO - Extracted items for https://www.consultancy.eu/: 4
+2025-07-31 11:12:51 - INFO - Unique article: Data and AI consultancy Artefact partners with Cinven to triple the business by 2030
+2025-07-31 11:12:51 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12212/data-and-ai-consultancy-artefact-partners-with-cinven-to-triple-the-business-by-2030
+2025-07-31 11:13:17 - ERROR - Failed in secondary LLM parsing (https://www.consultancy.eu/news/12209/building-an-ai-strategy-from-the-ground-up): 'title'
+2025-07-31 11:13:36 - INFO - Unique article: Bain & Company appoints Laurent Hermoye as EMEA Leader for Enterprise Technology
+2025-07-31 11:13:36 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12206/bain-company-appoints-laurent-hermoye-as-emea-leader-for-enterprise-technology
+2025-07-31 11:13:52 - INFO - Unique article: Expertum expands SAP offering into HCM following Persolis acquisition
+2025-07-31 11:13:52 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12203/expertum-expands-sap-offering-into-hcm-following-persolis-acquisition
+2025-07-31 11:13:56 - INFO - Extracted items for https://www.consultancy.asia/: 0
+2025-07-31 11:14:04 - INFO - Extracted items for https://www.consultancy-me.com/: 5
+2025-07-31 11:14:16 - INFO - Unique article: Baker Tilly welcomes new member firm in the UAE
+2025-07-31 11:14:16 - INFO - LLM secondary extraction success for: https://www.consultancy-me.com/news/11249/baker-tilly-welcomes-new-member-firm-in-the-uae
+2025-07-31 11:14:41 - INFO - Unique article: Caliber Consulting cements its place as a leader in Organization Design
+2025-07-31 11:14:41 - INFO - LLM secondary extraction success for: https://www.consultancy-me.com/news/11246/caliber-consulting-cements-its-place-as-a-leader-in-organization-design
+2025-07-31 11:15:01 - INFO - Unique article: PwC elects Middle East chairman Riyadh Al Najjar to Global Board
+2025-07-31 11:15:01 - INFO - LLM secondary extraction success for: https://www.consultancy-me.com/news/11243/pwc-elects-middle-east-chairman-riyadh-al-najjar-to-global-board
+2025-07-31 11:15:18 - INFO - Unique article: Middle East M&A sector gains momentum in first half of 2025
+2025-07-31 11:15:18 - INFO - LLM secondary extraction success for: https://www.consultancy-me.com/news/11240/middle-east-ma-sector-gains-momentum-in-first-half-of-2025
+2025-07-31 11:15:56 - INFO - Unique article: Daniel Hensel on 4most’s growing footprint in the region’s financial services landscape
+2025-07-31 11:15:56 - INFO - LLM secondary extraction success for: https://www.consultancy-me.com/news/11234/daniel-hensel-on-4mosts-growing-footprint-in-the-regions-financial-services-landscape
+2025-07-31 11:16:08 - INFO - Extracted items for https://www.consultancy.nl/: 7
+2025-07-31 11:16:33 - INFO - Duplicate article: Meerderheid van zorgorganisaties mist cruciale (gen) AI-vaardigheden
+2025-07-31 11:16:33 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/61943/meerderheid-van-zorgorganisaties-mist-cruciale-gen-ai-vaardigheden
+2025-07-31 11:16:46 - INFO - Unique article: COA kiest Babbage Company, OnlyHuman en USG MarCom voor communicatie
+2025-07-31 11:16:46 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/61982/coa-kiest-babbage-company-onlyhuman-en-usg-marcom-voor-communicatie
+2025-07-31 11:17:11 - INFO - Unique article: Arlande breidt team uit met Merel Hofman, Martijn Kuiper en Veerle Corten
+2025-07-31 11:17:11 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/61985/arlande-breidt-team-uit-met-merel-hofman-martijn-kuiper-en-veerle-corten
+2025-07-31 11:17:34 - INFO - Unique article: Bvolve ondersteunt Medipoint bij stroomlijnen van Wmo-implementaties
+2025-07-31 11:17:34 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/61970/bvolve-ondersteunt-medipoint-bij-stroomlijnen-van-wmo-implementaties
+2025-07-31 11:17:53 - INFO - Unique article: Been Management Consulting en Tommy Tomato zetten samen in op gezonde schoollunches
+2025-07-31 11:17:53 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/61976/been-management-consulting-en-tommy-tomato-zetten-samen-in-op-gezonde-schoollunches
+2025-07-31 11:18:05 - INFO - Unique article: Chemship stroomlijnt orderproces met geautomatiseerde documentverwerking
+2025-07-31 11:18:05 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/61880/chemship-stroomlijnt-orderproces-met-geautomatiseerde-documentverwerking
+2025-07-31 11:18:29 - INFO - Unique article: FREE Nature en Accenture verbeteren natuurlijke begrazing met slimme tech
+2025-07-31 11:18:29 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/61904/free-nature-en-accenture-verbeteren-natuurlijke-begrazing-met-slimme-tech
+2025-07-31 11:18:33 - INFO - Extracted items for https://www.consultancy.co.za/: 0
+2025-07-31 11:18:37 - INFO - Extracted items for https://www.consultancy.lat/: 0
+2025-07-31 11:18:37 - INFO - Flattened articles: 24 items in total.
+2025-07-31 11:18:40 - INFO - Prepared to insert article: Press Release (https://kpmg.com/xx/en/media/press-releases/2025/07/global-pe-investment-slows-sharply-amid-rising-geopolitical-and-trade-uncertainty.html)
+2025-07-31 11:18:41 - INFO - Prepared to insert article: Consulting.org (https://kpmg.com/xx/en/media/press-releases/2025/07/global-vc-investment-holds-steady-in-q2-25-amid-ai-surge.html)
+2025-07-31 11:18:42 - INFO - Prepared to insert article: Consulting.org (https://kpmg.com/xx/en/media/press-releases/2025/07/kpmg-and-hippocratic-ai-announce-collaboration-to-transform-healthcare.html)
+2025-07-31 11:18:44 - INFO - Japanese articles detected generating only japanese summary
+2025-07-31 11:18:44 - INFO - Prepared to insert article: Press Release (https://www.mri.co.jp/news/press/i5inlu000002bxrx-att/i5inlu000002bxrx-attnr_20250730_hr.pdf)
+2025-07-31 11:18:46 - INFO - Prepared to insert article: Press Release (https://ir.mri.co.jp/ja/library/earning.html)
+2025-07-31 11:18:47 - INFO - Japanese articles detected generating only japanese summary
+2025-07-31 11:18:47 - INFO - Prepared to insert article: Consulting.org (https://www.mri.co.jp/news/press/20250730.html)
+2025-07-31 11:18:48 - INFO - Prepared to insert article: Consulting.org (https://www.consulting.us/news/12190/former-irs-acting-commissioner-joins-kpmgs-tax-practice)
+2025-07-31 11:18:50 - INFO - Prepared to insert article: Press Release (https://www.consulting.us/news/12193/hka-appoints-ramon-ray-de-legorburu-as-head-of-americas-investigations-practice)
+2025-07-31 11:18:51 - INFO - Prepared to insert article: Press Release (https://www.consultancy.uk/news/41099/dow-schofield-watts-launches-pathway-to-partner-initiative)
+2025-07-31 11:18:53 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.eu/news/12212/data-and-ai-consultancy-artefact-partners-with-cinven-to-triple-the-business-by-2030)
+2025-07-31 11:18:54 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.eu/news/12206/bain-company-appoints-laurent-hermoye-as-emea-leader-for-enterprise-technology)
+2025-07-31 11:18:56 - INFO - Prepared to insert article: Press Release (https://www.consultancy.eu/news/12203/expertum-expands-sap-offering-into-hcm-following-persolis-acquisition)
+2025-07-31 11:18:57 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy-me.com/news/11249/baker-tilly-welcomes-new-member-firm-in-the-uae)
+2025-07-31 11:18:59 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy-me.com/news/11246/caliber-consulting-cements-its-place-as-a-leader-in-organization-design)
+2025-07-31 11:19:01 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy-me.com/news/11243/pwc-elects-middle-east-chairman-riyadh-al-najjar-to-global-board)
+2025-07-31 11:19:04 - INFO - Prepared to insert article: Press Release (https://www.consultancy-me.com/news/11240/middle-east-ma-sector-gains-momentum-in-first-half-of-2025)
+2025-07-31 11:19:05 - INFO - Prepared to insert article: Press Release (https://www.consultancy-me.com/news/11234/daniel-hensel-on-4mosts-growing-footprint-in-the-regions-financial-services-landscape)
+2025-07-31 11:19:07 - INFO - Prepared to insert article: Press Release (https://www.consultancy.nl/nieuws/61943/meerderheid-van-zorgorganisaties-mist-cruciale-gen-ai-vaardigheden)
+2025-07-31 11:19:08 - INFO - Prepared to insert article: Press Release (https://www.consultancy.nl/nieuws/61982/coa-kiest-babbage-company-onlyhuman-en-usg-marcom-voor-communicatie)
+2025-07-31 11:19:10 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.nl/nieuws/61985/arlande-breidt-team-uit-met-merel-hofman-martijn-kuiper-en-veerle-corten)
+2025-07-31 11:19:11 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.nl/nieuws/61970/bvolve-ondersteunt-medipoint-bij-stroomlijnen-van-wmo-implementaties)
+2025-07-31 11:19:13 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.nl/nieuws/61976/been-management-consulting-en-tommy-tomato-zetten-samen-in-op-gezonde-schoollunches)
+2025-07-31 11:19:14 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.nl/nieuws/61880/chemship-stroomlijnt-orderproces-met-geautomatiseerde-documentverwerking)
+2025-07-31 11:19:15 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.nl/nieuws/61904/free-nature-en-accenture-verbeteren-natuurlijke-begrazing-met-slimme-tech)
+2025-07-31 11:19:15 - INFO - All articles committed successfully.
+2025-07-31 11:19:15 - INFO - Web scraping pipeline completed successfully.

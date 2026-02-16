@@ -1,0 +1,217 @@
+2025-09-03 14:01:41 - INFO - Use pytorch device_name: cpu
+2025-09-03 14:01:41 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-09-03 14:01:46 - INFO - Database tables created or already exist.
+2025-09-03 14:01:47 - INFO - WebScraper class instantiated.
+2025-09-03 14:01:58 - INFO - Extracted items for https://www.nri.com/jp/News: 0
+2025-09-03 14:02:34 - INFO - Extracted items for https://www.mckinsey.com/about-us/new-at-mckinsey-blog: 1
+2025-09-03 14:03:21 - INFO - Unique article: Shifting gears: Allianz’s motor insurance transformation is boosting growth and customer experience
+2025-09-03 14:03:21 - INFO - LLM secondary extraction success for: https://www.mckinsey.com/about-us/new-at-mckinsey-blog/shifting-gears-allianzs-motor-insurance-transformation-is-boosting-growth-and-customer-experience
+2025-09-03 14:03:54 - INFO - Extracted items for https://www.mckinsey.com/jp/our-insights: 0
+2025-09-03 14:04:28 - INFO - Extracted items for https://www.bcg.com/about/corporate-newsroom: 0
+2025-09-03 14:05:03 - INFO - Extracted items for https://www.bcg.com/ja-jp/about/news/press/default?00000173-7007-d959-afff-79c791c80008-page=1: 0
+2025-09-03 14:05:36 - INFO - Extracted items for https://www.bain.com/about/media-center/press-releases/: 0
+2025-09-03 14:06:08 - INFO - Extracted items for https://www.bain.com/ja/about-bain/media-center/press-releases/: 0
+2025-09-03 14:06:15 - INFO - Extracted items for https://newsroom.accenture.com/: 0
+2025-09-03 14:06:23 - INFO - Extracted items for https://newsroom.accenture.jp/: 0
+2025-09-03 14:06:29 - INFO - Extracted items for https://www.deloitte.com/global/en/about/press-room.html: 0
+2025-09-03 14:06:37 - INFO - Extracted items for https://www2.deloitte.com/jp/ja/footerlinks/nr.html: 1
+2025-09-03 14:06:41 - INFO - Retrying request to /chat/completions in 0.484463 seconds
+2025-09-03 14:06:57 - INFO - Unique article: \u30c7\u30ed\u30a4\u30c8 \u30c8\u30fc\u30de\u30c4\u3001\u4eba\u306e\u500b\u6027\u30fb\u6df1\u5c64\u5fc3\u7406\u3092\u518d\u73fe\u3057\u305fAI\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u96c6\u56e3\u306e\u69cb\u7bc9\u306b\u3088\u308a\u3001\u9867\u5ba2\u3084\u30e6\u30fc\u30b6\u30fc\u306e\u53cd\u5fdc\u4e88\u6e2c\u3092\u53ef\u80fd\u306b\u3059\u308b\u300cAI haconiwa\u300d\u30b5\u30fc\u30d3\u30b9\u3092\u958b\u767a\uff5e\u30d9\u30fc\u30bf\u7248\u63d0\u4f9b\u3092\u958b\u59cb
+2025-09-03 14:06:57 - INFO - LLM secondary extraction success for: https://www.deloitte.com/jp/ja/about/press-room/nr20250902.html
+2025-09-03 14:07:02 - INFO - Extracted items for https://www.ey.com/en_gl/newsroom: 0
+2025-09-03 14:07:36 - INFO - Extracted items for https://www.ey.com/ja_jp/newsroom: 0
+2025-09-03 14:07:47 - INFO - Extracted items for https://www.pwc.com/gx/en/news-room.html: 0
+2025-09-03 14:07:51 - INFO - Extracted items for https://www.pwc.com/jp/ja/press-room.html#press: 0
+2025-09-03 14:08:00 - INFO - Extracted items for https://kpmg.com/xx/en/home/media/press-releases.html: 3
+2025-09-03 14:08:24 - INFO - Unique article: Companies sees tangible business value from ESG Assurance
+2025-09-03 14:08:24 - INFO - LLM secondary extraction success for: https://kpmg.com/xx/en/media/press-releases/2025/09/companies-sees-tangible-business-value-from-esg-assurance.html
+2025-09-03 14:08:46 - INFO - Duplicate article: Regulatory deadlines loom and only 25% of companies feel ready to have ESG data independently assured: KPMG research
+2025-09-03 14:08:46 - INFO - LLM secondary extraction success for: https://kpmg.com/xx/en/media/press-releases/2023/09/kpmg-esg-assurance-maturity-index.html
+2025-09-03 14:09:07 - INFO - Unique article: KPMG launches global ESG Academy, in collaboration with Microsoft
+2025-09-03 14:09:07 - INFO - LLM secondary extraction success for: https://kpmg.com/xx/en/media/press-releases/2023/09/kpmg-launches-global-esg-academy-in-collaboration-with-microsoft.html
+2025-09-03 14:09:14 - INFO - Extracted items for https://kpmg.com/jp/ja/home/media/press-releases.html: 1
+2025-09-03 14:09:31 - INFO - Duplicate article: \u3042\u305a\u3055\u76e3\u67fb\u6cd5\u4eba\u3001\u66f8\u7c4d\u300c\u56f3\u89e3\uff06\u5fb9\u5e95\u89e3\u8aac \u65b0\u30ea\u30fc\u30b9\u4f1a\u8a08\u57fa\u6e96\u300d\u3092\u767a\u884c
+2025-09-03 14:09:31 - INFO - LLM secondary extraction success for: https://kpmg.com/jp/ja/home/media/press-releases/2025/09/new-lease-accounting-standards.html
+2025-09-03 14:10:06 - INFO - Extracted items for https://www.mri.co.jp/news/index.html: 1
+2025-09-03 14:10:55 - INFO - Duplicate article: \u4e09\u83f1\u7dcf\u5408\u7814\u7a76\u6240\u3001AI\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u6d3b\u7528\u306b\u3088\u308b\u4e2d\u8a08\u306e\u7b56\u5b9a\u30fb\u63a8\u9032\u7ba1\u7406\u652f\u63f4\u3092\u958b\u59cb
+2025-09-03 14:10:55 - INFO - LLM secondary extraction success for: https://www.mri.co.jp/news/press/20250902.html
+2025-09-03 14:11:01 - INFO - Extracted items for https://www.consulting.us/: 2
+2025-09-03 14:11:17 - INFO - Unique article: Trivest Partners buys management consultancy Applied Value
+2025-09-03 14:11:17 - INFO - LLM secondary extraction success for: https://www.consulting.us/news/12337/trivest-partners-buys-management-consultancy-applied-value
+2025-09-03 14:11:32 - INFO - Unique article: Compensation Advisory Partners promotes three to partner
+2025-09-03 14:11:32 - INFO - LLM secondary extraction success for: https://www.consulting.us/news/12334/compensation-advisory-partners-promotes-three-to-partner
+2025-09-03 14:11:41 - INFO - Extracted items for https://www.consultancy.uk/: 5
+2025-09-03 14:12:04 - INFO - Unique article: UK CEOs optimistic on prospects despite wider economic performance
+2025-09-03 14:12:04 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41463/uk-ceos-optimistic-on-prospects-despite-wider-economic-performance
+2025-09-03 14:12:23 - INFO - Unique article: Taj Lalli joins Bishop Fleming as partner in Birmingham
+2025-09-03 14:12:23 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41454/taj-lalli-joins-bishop-fleming-as-partner-in-birmingham
+2025-09-03 14:12:58 - INFO - Unique article: Emma O’Brien on 15 years of growth at Embridge Consulting
+2025-09-03 14:12:58 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41445/emma-obrien-on-15-years-of-growth-at-embridge-consulting
+2025-09-03 14:13:38 - INFO - Unique article: Mosaic Island evaluates insurance client’s plans for line of business platform
+2025-09-03 14:13:38 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41457/mosaic-island-evaluates-insurance-clients-plans-for-line-of-business-platform
+2025-09-03 14:13:55 - INFO - Unique article: Valcon appoints Laura Casci as new UK managing partner
+2025-09-03 14:13:55 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41460/valcon-appoints-laura-casci-as-new-uk-managing-partner
+2025-09-03 14:14:01 - INFO - Extracted items for https://www.consultancy.asia/country/japan: 0
+2025-09-03 14:14:07 - INFO - Extracted items for https://www.consultancy.in/: 0
+2025-09-03 14:14:13 - INFO - Extracted items for https://www.consultancy.com.au/: 0
+2025-09-03 14:17:05 - INFO - Use pytorch device_name: cpu
+2025-09-03 14:17:05 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-09-03 14:17:10 - INFO - Database tables created or already exist.
+2025-09-03 14:17:11 - INFO - WebScraper class instantiated.
+2025-09-03 14:17:13 - INFO - Extracted items for https://www.nri.com/jp/News: 0
+2025-09-03 14:17:16 - INFO - Extracted items for https://www.mckinsey.com/about-us/new-at-mckinsey-blog: 1
+2025-09-03 14:17:27 - INFO - Unique article: Shifting gears: Allianz’s motor insurance transformation is boosting growth and customer experience
+2025-09-03 14:17:27 - INFO - LLM secondary extraction success for: https://www.mckinsey.com/about-us/new-at-mckinsey-blog/shifting-gears-allianzs-motor-insurance-transformation-is-boosting-growth-and-customer-experience
+2025-09-03 14:17:30 - INFO - Extracted items for https://www.mckinsey.com/jp/our-insights: 1
+2025-09-03 14:18:01 - INFO - Duplicate article: AI \u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u3068\u306f\uff1f
+2025-09-03 14:18:01 - INFO - LLM secondary extraction success for: https://www.mckinsey.com/jp/~/media/mckinsey/locations/asia/japan/our%20insights/what%20is%20an%20ai%20agent/what%20is%20an%20ai%20agent___2k_0723.pdf
+2025-09-03 14:18:03 - INFO - Extracted items for https://www.bcg.com/about/corporate-newsroom: 0
+2025-09-03 14:18:05 - INFO - Extracted items for https://www.bcg.com/ja-jp/about/news/press/default?00000173-7007-d959-afff-79c791c80008-page=1: 0
+2025-09-03 14:18:07 - INFO - Extracted items for https://www.bain.com/about/media-center/press-releases/: 0
+2025-09-03 14:18:09 - INFO - Extracted items for https://www.bain.com/ja/about-bain/media-center/press-releases/: 0
+2025-09-03 14:18:11 - INFO - Extracted items for https://newsroom.accenture.com/: 0
+2025-09-03 14:18:12 - INFO - Extracted items for https://newsroom.accenture.jp/: 0
+2025-09-03 14:18:14 - INFO - Extracted items for https://www.deloitte.com/global/en/about/press-room.html: 0
+2025-09-03 14:18:17 - INFO - Extracted items for https://www2.deloitte.com/jp/ja/footerlinks/nr.html: 1
+2025-09-03 14:19:21 - INFO - Duplicate article: \u30c7\u30ed\u30a4\u30c8 \u30c8\u30fc\u30de\u30c4\u3001\u4eba\u306e\u500b\u6027\u30fb\u6df1\u5c64\u5fc3\u7406\u3092\u518d\u73fe\u3057\u305fAI\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u96c6\u56e3\u306e\u69cb\u7bc9\u306b\u3088\u308a\u3001\u9867\u5ba2\u3084\u30e6\u30fc\u30b6\u30fc\u306e\u53cd\u5fdc\u4e88\u6e2c\u3092\u53ef\u80fd\u306b\u3059\u308b\u300cAI haconiwa\u300d\u30b5\u30fc\u30d3\u30b9\u3092\u958b\u767a\uff5e\u30d9\u30fc\u30bf\u7248\u63d0\u4f9b\u3092\u958b\u59cb
+2025-09-03 14:19:21 - INFO - LLM secondary extraction success for: https://www.deloitte.com/jp/ja/about/press-room/nr20250902.html
+2025-09-03 14:19:22 - INFO - Extracted items for https://www.ey.com/en_gl/newsroom: 0
+2025-09-03 14:19:24 - INFO - Extracted items for https://www.ey.com/ja_jp/newsroom: 0
+2025-09-03 14:19:26 - INFO - Extracted items for https://www.pwc.com/gx/en/news-room.html: 0
+2025-09-03 14:19:36 - INFO - Extracted items for https://www.pwc.com/jp/ja/press-room.html#press: 0
+2025-09-03 14:19:40 - INFO - Extracted items for https://kpmg.com/xx/en/home/media/press-releases.html: 1
+2025-09-03 14:20:00 - INFO - Unique article: Companies sees tangible business value from ESG Assurance
+2025-09-03 14:20:00 - INFO - LLM secondary extraction success for: https://kpmg.com/xx/en/media/press-releases/2025/09/companies-sees-tangible-business-value-from-esg-assurance.html
+2025-09-03 14:20:03 - INFO - Extracted items for https://kpmg.com/jp/ja/home/media/press-releases.html: 1
+2025-09-03 14:20:17 - INFO - Duplicate article: \u3042\u305a\u3055\u76e3\u67fb\u6cd5\u4eba\u3001\u66f8\u7c4d\u300c\u56f3\u89e3\uff06\u5fb9\u5e95\u89e3\u8aac \u65b0\u30ea\u30fc\u30b9\u4f1a\u8a08\u57fa\u6e96\u300d\u3092\u767a\u884c
+2025-09-03 14:20:17 - INFO - LLM secondary extraction success for: https://kpmg.com/jp/ja/home/media/press-releases/2025/09/new-lease-accounting-standards.html
+2025-09-03 14:20:20 - INFO - Extracted items for https://www.mri.co.jp/news/index.html: 1
+2025-09-03 14:20:47 - INFO - Unique article: \u4e09\u83f1\u7dcf\u5408\u7814\u7a76\u6240\u3001AI\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u6d3b\u7528\u306b\u3088\u308b\u4e2d\u8a08\u306e\u7b56\u5b9a\u30fb\u63a8\u9032\u7ba1\u7406\u652f\u63f4\u3092\u958b\u59cb
+2025-09-03 14:20:47 - INFO - LLM secondary extraction success for: https://www.mri.co.jp/news/press/20250902.html
+2025-09-03 14:20:51 - INFO - Extracted items for https://www.consulting.us/: 2
+2025-09-03 14:21:05 - INFO - Unique article: Trivest Partners buys management consultancy Applied Value
+2025-09-03 14:21:05 - INFO - LLM secondary extraction success for: https://www.consulting.us/news/12337/trivest-partners-buys-management-consultancy-applied-value
+2025-09-03 14:21:18 - INFO - Unique article: Compensation Advisory Partners promotes three to partner
+2025-09-03 14:21:18 - INFO - LLM secondary extraction success for: https://www.consulting.us/news/12334/compensation-advisory-partners-promotes-three-to-partner
+2025-09-03 14:21:25 - INFO - Extracted items for https://www.consultancy.uk/: 5
+2025-09-03 14:21:40 - INFO - Unique article: UK CEOs optimistic on prospects despite wider economic performance
+2025-09-03 14:21:40 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41463/uk-ceos-optimistic-on-prospects-despite-wider-economic-performance
+2025-09-03 14:21:55 - INFO - Unique article: Taj Lalli joins Bishop Fleming as partner in Birmingham
+2025-09-03 14:21:55 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41454/taj-lalli-joins-bishop-fleming-as-partner-in-birmingham
+2025-09-03 14:22:28 - INFO - Unique article: Emma O’Brien on 15 years of growth at Embridge Consulting
+2025-09-03 14:22:28 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41445/emma-obrien-on-15-years-of-growth-at-embridge-consulting
+2025-09-03 14:22:43 - INFO - Unique article: Mosaic Island evaluates insurance client’s plans for line of business platform
+2025-09-03 14:22:43 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41457/mosaic-island-evaluates-insurance-clients-plans-for-line-of-business-platform
+2025-09-03 14:22:59 - INFO - Unique article: Valcon appoints Laura Casci as new UK managing partner
+2025-09-03 14:22:59 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41460/valcon-appoints-laura-casci-as-new-uk-managing-partner
+2025-09-03 14:23:01 - INFO - Extracted items for https://www.consultancy.asia/country/japan: 0
+2025-09-03 14:23:03 - INFO - Extracted items for https://www.consultancy.in/: 0
+2025-09-03 14:23:05 - INFO - Extracted items for https://www.consultancy.com.au/: 0
+2025-09-03 14:23:10 - INFO - Extracted items for https://www.consultancy.eu/: 3
+2025-09-03 14:24:06 - INFO - Unique article: Nextcontinent study: Global energy transition continues on a steady course
+2025-09-03 14:24:06 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12384/nextcontinent-study-global-energy-transition-continues-on-a-steady-course
+2025-09-03 14:24:34 - INFO - Unique article: HR consultancy SuccessDay turns XLA success into a culture of improvement
+2025-09-03 14:24:34 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12381/hr-consultancy-successday-turns-xla-success-into-a-culture-of-improvement
+2025-09-03 14:24:54 - INFO - Unique article: Jeroen Spit rejoins Anderson MacGyver as Director of Operations
+2025-09-03 14:24:54 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12378/jeroen-spit-rejoins-anderson-macgyver-as-director-of-operations
+2025-09-03 14:24:58 - INFO - Extracted items for https://www.consultancy.asia/: 0
+2025-09-03 14:25:07 - INFO - Extracted items for https://www.consultancy-me.com/: 5
+2025-09-03 14:25:35 - INFO - Unique article: Deloitte: Consumers in UAE and KSA driving surge in AI adoption and social commerce
+2025-09-03 14:25:35 - INFO - LLM secondary extraction success for: https://www.consultancy-me.com/news/11592/deloitte-consumers-in-uae-and-ksa-driving-surge-in-ai-adoption-and-social-commer
+2025-09-03 14:25:58 - INFO - Duplicate article: Kearney partners with Microsoft to accelerate AI impact in the Middle East
+2025-09-03 14:25:58 - INFO - LLM secondary extraction success for: https://www.consultancy-me.com/news/11595/kearney-partners-with-microsoft-to-accelerate-ai-impact-in-the-middle-east
+2025-09-03 14:26:23 - INFO - Unique article: Bahrain appoints advisors for first utility-scale solar power project
+2025-09-03 14:26:23 - INFO - LLM secondary extraction success for: https://www.consultancy-me.com/news/11583/bahrain-appoints-advisors-for-first-utility-scale-solar-power-project
+2025-09-03 14:26:45 - INFO - Unique article: New Metrics and Medallia to host landmark summit Experience KSA 2025
+2025-09-03 14:26:45 - INFO - LLM secondary extraction success for: https://www.consultancy-me.com/news/11580/new-metrics-and-medallia-to-host-landmark-summit-experience-ksa-2025
+2025-09-03 14:27:01 - INFO - Unique article: Apex Advisory working on new outdoor advertising strategy in Bahrain
+2025-09-03 14:27:01 - INFO - LLM secondary extraction success for: https://www.consultancy-me.com/news/11577/apex-advisory-working-on-new-outdoor-advertising-strategy-in-bahrain
+2025-09-03 14:27:21 - INFO - Extracted items for https://www.consultancy.nl/: 7
+2025-09-03 14:27:51 - INFO - Duplicate article: Flexibel autobezit groeit: Nederland koploper in autolease en abonnementen
+2025-09-03 14:27:51 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/62332/flexibel-autobezit-groeit-nederland-koploper-in-autolease-en-abonnementen
+2025-09-03 14:28:13 - INFO - Unique article: EY benoemt Hassan Bettani tot partner binnen CFO Advisory-praktijk
+2025-09-03 14:28:13 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/62409/ey-benoemt-hassan-bettani-tot-partner-binnen-cfo-advisory-praktijk
+2025-09-03 14:28:53 - INFO - Unique article: AT Osborne opnieuw gecertificeerd op hoogste trede van CO2-prestatieladder
+2025-09-03 14:28:53 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/62406/at-osborne-opnieuw-gecertificeerd-op-hoogste-trede-van-co2-prestatieladder
+2025-09-03 14:29:33 - INFO - Duplicate article: Werken met agile: Acht valkuilen voor professionals – én enkele succesfactoren
+2025-09-03 14:29:33 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/62430/werken-met-agile-acht-valkuilen-voor-professionals-en-enkele-succesfactoren
+2025-09-03 14:29:53 - INFO - Unique article: FGS Global breidt partnerteam uit met Maartje Snellen en Jeanette Hamster
+2025-09-03 14:29:53 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/62427/fgs-global-breidt-partnerteam-uit-met-maartje-snellen-en-jeanette-hamster
+2025-09-03 14:30:18 - ERROR - Failed in secondary LLM parsing (https://www.consultancy.nl/nieuws/62424/energyprofs-verwelkomt-vijf-nieuwe-business-consultants): 'title'
+2025-09-03 14:30:36 - INFO - Unique article: IMAP benoemt Olaf van Tuijl tot partner
+2025-09-03 14:30:36 - INFO - LLM secondary extraction success for: https://www.consultancy.nl/nieuws/62418/imap-benoemt-olaf-van-tuijl-tot-partner
+2025-09-03 14:30:42 - INFO - Extracted items for https://www.consultancy.co.za/: 0
+2025-09-03 14:30:47 - INFO - Extracted items for https://www.consultancy.lat/: 0
+2025-09-03 14:30:52 - INFO - Extracted items for https://www.consultancy.africa/: 0
+2025-09-03 14:30:57 - INFO - Extracted items for https://www.consulting.ca/: 1
+2025-09-03 14:31:17 - INFO - Unique article: WSP wins design contract for Eglington Crosstown West Extension in Toronto
+2025-09-03 14:31:17 - INFO - LLM secondary extraction success for: https://www.consulting.ca/news/4615/wsp-wins-design-contract-for-eglinton-crosstown-west-extension-in-toronto
+2025-09-03 14:31:22 - INFO - Extracted items for https://www.consultancy.asia/country/singapore: 0
+2025-09-03 14:31:25 - INFO - Extracted items for https://www.consultancy.asia/country/china: 0
+2025-09-03 14:31:35 - INFO - Extracted items for https://www.consultancy.eu/country/france: 3
+2025-09-03 14:32:03 - INFO - Duplicate article: Nextcontinent study: Global energy transition continues on a steady course
+2025-09-03 14:32:03 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12384/nextcontinent-study-global-energy-transition-continues-on-a-steady-course
+2025-09-03 14:32:37 - INFO - Duplicate article: HR consultancy SuccessDay turns XLA success into a culture of improvement
+2025-09-03 14:32:37 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12381/hr-consultancy-successday-turns-xla-success-into-a-culture-of-improvement
+2025-09-03 14:32:55 - INFO - Duplicate article: Jeroen Spit rejoins Anderson MacGyver as Director of Operations
+2025-09-03 14:32:55 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12378/jeroen-spit-rejoins-anderson-macgyver-as-director-of-operations
+2025-09-03 14:33:03 - INFO - Extracted items for https://www.consultancy.eu/country/germany: 3
+2025-09-03 14:33:27 - INFO - Duplicate article: Nextcontinent study: Global energy transition continues on a steady course
+2025-09-03 14:33:27 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12384/nextcontinent-study-global-energy-transition-continues-on-a-steady-course
+2025-09-03 14:33:46 - INFO - Duplicate article: HR consultancy SuccessDay turns XLA success into a culture of improvement
+2025-09-03 14:33:46 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12381/hr-consultancy-successday-turns-xla-success-into-a-culture-of-improvement
+2025-09-03 14:34:03 - INFO - Duplicate article: Jeroen Spit rejoins Anderson MacGyver as Director of Operations
+2025-09-03 14:34:03 - INFO - LLM secondary extraction success for: https://www.consultancy.eu/news/12378/jeroen-spit-rejoins-anderson-macgyver-as-director-of-operations
+2025-09-03 14:34:10 - INFO - Extracted items for https://www.consultancy.uk/: 5
+2025-09-03 14:34:53 - INFO - Duplicate article: UK CEOs optimistic on prospects despite wider economic performance
+2025-09-03 14:34:53 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41463/uk-ceos-optimistic-on-prospects-despite-wider-economic-performance
+2025-09-03 14:35:20 - INFO - Duplicate article: Taj Lalli joins Bishop Fleming as partner in Birmingham
+2025-09-03 14:35:20 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41454/taj-lalli-joins-bishop-fleming-as-partner-in-birmingham
+2025-09-03 14:36:07 - INFO - Duplicate article: Emma O’Brien on 15 years of growth at Embridge Consulting
+2025-09-03 14:36:07 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41445/emma-obrien-on-15-years-of-growth-at-embridge-consulting
+2025-09-03 14:36:27 - INFO - Duplicate article: Mosaic Island evaluates insurance client’s plans for line of business platform
+2025-09-03 14:36:27 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41457/mosaic-island-evaluates-insurance-clients-plans-for-line-of-business-platform
+2025-09-03 14:36:44 - INFO - Duplicate article: Valcon appoints Laura Casci as new UK managing partner
+2025-09-03 14:36:44 - INFO - LLM secondary extraction success for: https://www.consultancy.uk/news/41460/valcon-appoints-laura-casci-as-new-uk-managing-partner
+2025-09-03 14:36:44 - INFO - Flattened articles: 39 items in total.
+2025-09-03 14:36:45 - INFO - Skipping McKinsey & Co. - not in target list.
+2025-09-03 14:36:46 - INFO - Skipping McKinsey & Co. - not in target list.
+2025-09-03 14:36:47 - INFO - Prepared to insert article: Consulting.org (https://www.deloitte.com/jp/ja/about/press-room/nr20250902.html)
+2025-09-03 14:36:48 - INFO - Prepared to insert article: Consulting.org (https://kpmg.com/xx/en/media/press-releases/2025/09/companies-sees-tangible-business-value-from-esg-assurance.html)
+2025-09-03 14:36:50 - INFO - Skipping Others - not in target list.
+2025-09-03 14:36:51 - INFO - Skipping Mitsubishi Research Institute (MRI) - not in target list.
+2025-09-03 14:36:53 - INFO - Skipping Others - not in target list.
+2025-09-03 14:36:54 - INFO - Skipping Others - not in target list.
+2025-09-03 14:36:55 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.uk/news/41463/uk-ceos-optimistic-on-prospects-despite-wider-economic-performance)
+2025-09-03 14:36:56 - INFO - Skipping Others - not in target list.
+2025-09-03 14:36:57 - INFO - Skipping Others - not in target list.
+2025-09-03 14:36:59 - INFO - Skipping Others - not in target list.
+2025-09-03 14:37:00 - INFO - Skipping Others - not in target list.
+2025-09-03 14:37:01 - INFO - Skipping Others - not in target list.
+2025-09-03 14:37:03 - INFO - Skipping Others - not in target list.
+2025-09-03 14:37:04 - INFO - Skipping Others - not in target list.
+2025-09-03 14:37:05 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy-me.com/news/11592/deloitte-consumers-in-uae-and-ksa-driving-surge-in-ai-adoption-and-social-commer)
+2025-09-03 14:37:06 - INFO - Skipping Others - not in target list.
+2025-09-03 14:37:08 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy-me.com/news/11583/bahrain-appoints-advisors-for-first-utility-scale-solar-power-project)
+2025-09-03 14:37:09 - INFO - Skipping Others - not in target list.
+2025-09-03 14:37:11 - INFO - Skipping Others - not in target list.
+2025-09-03 14:37:13 - INFO - Skipping Others - not in target list.
+2025-09-03 14:37:14 - INFO - Skipping EY (Ernst & Young) - not in target list.
+2025-09-03 14:37:15 - INFO - Skipping Others - not in target list.
+2025-09-03 14:37:16 - INFO - Skipping Others - not in target list.
+2025-09-03 14:37:17 - INFO - Skipping Others - not in target list.
+2025-09-03 14:37:18 - INFO - Skipping Others - not in target list.
+2025-09-03 14:37:20 - INFO - Skipping Others - not in target list.
+2025-09-03 14:37:22 - INFO - Skipping Others - not in target list.
+2025-09-03 14:37:24 - INFO - Skipping Others - not in target list.
+2025-09-03 14:37:25 - INFO - Skipping Others - not in target list.
+2025-09-03 14:37:26 - INFO - Skipping Others - not in target list.
+2025-09-03 14:37:27 - INFO - Skipping Others - not in target list.
+2025-09-03 14:37:29 - INFO - Skipping Others - not in target list.
+2025-09-03 14:37:31 - INFO - Prepared to insert article: Consulting.org (https://www.consultancy.uk/news/41463/uk-ceos-optimistic-on-prospects-despite-wider-economic-performance)
+2025-09-03 14:37:31 - INFO - Skipping Others - not in target list.
+2025-09-03 14:37:33 - INFO - Skipping Others - not in target list.
+2025-09-03 14:37:35 - INFO - Skipping Others - not in target list.
+2025-09-03 14:37:36 - INFO - Skipping Others - not in target list.
+2025-09-03 14:37:36 - INFO - All articles committed successfully.
+2025-09-03 14:37:36 - INFO - Web scraping pipeline completed successfully.

@@ -1,6 +1,9 @@
-
 import sys
 import os
+
+# Prevent app.py from starting the scheduler when imported
+os.environ["SKIP_SCHEDULER"] = "true"
+
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 

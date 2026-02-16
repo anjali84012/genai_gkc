@@ -259,7 +259,7 @@ def run_url_extraction():
 # Standard Flask pattern: run once in child process or if debug is off
 # Standard Flask pattern: run once in child process or if debug is off
 # Or if reloader is disabled, run in the main process
-if os.environ.get('WERKZEUG_RUN_MAIN') == 'true' or not app.debug or os.environ.get('FLASK_RUN_FROM_CLI') == 'true' or True: # Force start for now as we are in a single process dev mode
+if (os.environ.get('WERKZEUG_RUN_MAIN') == 'true' or not app.debug or os.environ.get('FLASK_RUN_FROM_CLI') == 'true' or True) and not os.environ.get('SKIP_SCHEDULER'):
 
     scheduler = BackgroundScheduler()
     scheduler.add_job(func=run_data_extraction, trigger="interval", hours=2)
@@ -269,7 +269,6 @@ if os.environ.get('WERKZEUG_RUN_MAIN') == 'true' or not app.debug or os.environ.
     # Start URL extraction 30 seconds later to let the first one breathe
     from datetime import timedelta
     scheduler.add_job(func=run_url_extraction, trigger="date", run_date=datetime.now() + timedelta(seconds=30))
-    scheduler.start()
     scheduler.start()
     app.logger.info("GINAI GKC Background Scheduler started.")
 

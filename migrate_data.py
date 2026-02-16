@@ -87,7 +87,7 @@ if __name__ == "__main__":
     print("Welcome to the GKC Data Migration Tool!")
     print("This script moves your local 'emails.db' history to the cloud.")
     
-    url = input("\nPaste your Render Internal Database URL: ").strip()
+    url = input("\nPaste your Render Internal Database URL: ").strip().strip('"').strip("'")
     
     if url:
         migrate(url)

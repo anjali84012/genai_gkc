@@ -23,7 +23,9 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 HUGGINGFACE_API_KEY = os.getenv("HUGGINGFACE_API_KEY")
 JINA_API_KEY = os.getenv("JINA_API_KEY")
 USE_OPENAI = True
-SAVE_EMAILS_LOCAL = True
+# Default to True for local, but allow Env to override (for Render Postgres)
+SAVE_EMAILS_LOCAL = os.getenv("SAVE_EMAILS_LOCAL", "True").lower() == "true"
+DATABASE_URI = os.getenv("DATABASE_URI")
 
 TARGET_COMPANIES = {
     'Nomura Research Institute',

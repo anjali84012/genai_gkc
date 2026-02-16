@@ -270,7 +270,13 @@ if os.environ.get('WERKZEUG_RUN_MAIN') == 'true' or not app.debug or os.environ.
     from datetime import timedelta
     scheduler.add_job(func=run_url_extraction, trigger="date", run_date=datetime.now() + timedelta(seconds=30))
     scheduler.start()
+    scheduler.start()
     app.logger.info("GINAI GKC Background Scheduler started.")
+
+# Ensure DB tables exist
+with app.app_context():
+    db.create_all()
+    app.logger.info("Database tables verified/created.")
 
 if __name__ == '__main__':
     print("\n" + "="*50)

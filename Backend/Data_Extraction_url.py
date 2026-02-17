@@ -273,11 +273,15 @@ class WebScraper:
                     final_article = {
                         **item,           # Initial extraction data (company_name, etc.)
                         **refined_data,   # Secondary LLM data (category, summary, decision, etc.)
-                        "title": title,
+                        # "title": title, # REMOVED: Do not overwrite title from refined_data
                         "body": body,
                         "link": full_link,
-                        "subject": title # Use title as subject if not present
+                        "subject": refined_data.get("title", title) # Use generated title as subject too
                     }
+                    
+                    # Ensure title is set if not in refined_data
+                    if "title" not in final_article:
+                        final_article["title"] = title
                     
                     # Ensure company_name exists if not in item
                     if "company_name" not in final_article:

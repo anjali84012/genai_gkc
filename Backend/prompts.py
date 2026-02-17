@@ -7,7 +7,7 @@ prompt_for_html_content = """
                 I need you to extract all individual news items in JSON format given below.
 
                 STRICTLY Return ONLY the result as a list of JSON objects like:
-                    "title": "headline of the news article. It is given in each article. Search it thoroughly",
+                    "title": "Generate a short, descriptive headline summarizing the article's core content (max 15 words). Do NOT simply extract the H1 tag unless it is already highly descriptive.",
                     "text" : "All the content from that article. Make sure you are extracting every bit of content of the article like text, author, date, timestamp"
 
                 I DONT NEED ANY ADDITIONAL WORDS OR EXPLANATION EXCEPT THE JSON OBJECT
@@ -223,26 +223,6 @@ def prompt_initial_call():
     today = date.today()
     date_for_prompt = today - timedelta(days=1)
     print(today)
-    prompt_for_html_content = """
-                You are an expert web content extractor especially news ones.
-                You will be provided a raw HTML content or a Markdown file below the 
-                triple backticks of a press release or news page.  
-                I need you to extract all individual news items in JSON format given below.
-
-                STRICTLY Return ONLY the result as a list of JSON objects like:
-                    "title": "Headline of the news article. MUST BE TRANSLATED TO ENGLISH if in another language.",
-                    "text" : "Full content of the article. MUST BE TRANSLATED TO ENGLISH if in another language. Include text, author, date, timestamp."
-
-                I DONT NEED ANY ADDITIONAL WORDS OR EXPLANATION EXCEPT THE JSON OBJECT
-                IMPORTANT: ALL OUTPUT MUST BE IN ENGLISH regardless of the original article language.
-                """
-
-# ... (Categories and other dicts remain unchanged) ...
-
-def prompt_initial_call():
-    today = date.today()
-    date_for_prompt = today - timedelta(days=1)
-    print(today)
     prompt_initial_call = f"""You are a web content extractor.
 
             The input content contains links formatted as [Title](URL). 
@@ -265,10 +245,10 @@ Background: In your project, you’re collecting the latest news articles from y
 You cover all the latest news of the competitors (consulting firms).
 Task: Could you summarize the article?
 Here are the instructions: -
-1) Use simple English in the summary. **ALL OUTPUT MUST BE IN ENGLISH.** If the original text is in another language, TRANSLATE IT.
+1) Use simple English in the summary, however, the specific terms regarding technology/business/industry should be kept as it is
 2) Please follow the 5W1H approach for summary writing
-3) The summary should be prepared from a consulting business perspective
-4) The language of the summary should not be marketing language rather factual language
+3) The summary should be prepared from a consulting business perspective, that is, how this news is impacting the competitor's consulting business or the consulting industry or your client's consulting business
+4) The language of the summary should not be marketing language rather factual language (like you are reporting the key facts about the event that has happened)
 5) After reading the summary, one should get a feeling that it has been written by a human rather than a machine
 
 You are a classification and summarization assistant who is also an expert in determining whether a news is consulting or no consulting. 
@@ -288,7 +268,7 @@ The required JSON structure is:
 "company_name": "Name of the company from the {target_companies}. If the news is not related to the target company mentioned, then return Others,
 "subject": "You are not allowed to return it None or empty string. See a link will be provided. If it from consulting website, then return Consulting.org otherwise return Press Release. Take it from the link provided: {url}". ,
 "link":{url},
-"title": "Specific and meaningful title in ENGLISH (translate if necessary) following rules above",
+"title": "Specific and meaningful title following rules above",
 "decision": "CONSULTING" or "NON-CONSULTING",
 "reasoning": "Detailed explanation in plain text. Use standard ASCII bullet points ('-' or ';') to separate reasoning steps. Mention the relevant company from the target list. Include the Consulting Qualification Test: for each question, state 'Question: ... Answer: Yes/No - <justification>' in plain text, separated by semicolons.",
 "category": "CATEGORY_KEY_FROM_DICT mentioned below",

@@ -24,32 +24,38 @@ class ArticleDeduplicator:
             
         self.use_api = False
         self.openai_client = None
-        
+        self.enabled = True
+        self._faiss_lib = None
+
         # Try importing faiss
         try:
             import faiss
             self._faiss_lib = faiss
-            self.enabled = True
         except Exception as e:
             print(f"WARNING: faiss could not be loaded ({e}). Deduplication will be disabled.")
             self.enabled = False
-            self._faiss_lib = None
             return
 
-        # Try importing SentenceTransformer (requires torch)
-        try:
-            from sentence_transformers import SentenceTransformer
-            self.model_name = SentenceTransformer(model_name)
-        except Exception as e:
-            print(f"WARNING: Local embedding model (torch/sentence_transformers) failed to load ({e}). Attempting API fallback.")
-            if config.OPENAI_API_KEY:
+        # CHECK CONFIG FIRST: Use OpenAI if enabled to save memory
+        if config.USE_OPENAI and config.OPENAI_API_KEY:
+            try:
                 from openai import OpenAI
                 self.openai_client = OpenAI(api_key=config.OPENAI_API_KEY)
                 self.use_api = True
-                self.model_name = "text-embedding-3-small" # Use efficient model
-                print("SUCCESS: Switched to OpenAI API for embeddings.")
-            else:
-                print("ERROR: No OPENAI_API_KEY found. Deduplication disabled.")
+                self.model_name = "text-embedding-3-small"
+                print("SUCCESS: Initialized OpenAI API for embeddings (Memory Optimized).")
+            except Exception as e:
+                 print(f"ERROR: Failed to initialize OpenAI client: {e}")
+                 self.enabled = False
+                 return
+        else:
+            # Fallback to local model (Heavy Memory Usage)
+            print("WARNING: OpenAI not enabled. Attempting to load local SentenceTransformer (High Memory Usage).")
+            try:
+                from sentence_transformers import SentenceTransformer
+                self.model_name = SentenceTransformer(model_name)
+            except Exception as e:
+                print(f"ERROR: Local embedding model failed to load ({e}). Deduplication disabled.")
                 self.enabled = False
 
         self.index_path = index_path

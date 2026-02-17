@@ -3,10 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import text
 from newspaper import Article
 from mtranslate import translate
-try:
-    import prompts
-except ImportError:
-    from Backend import prompts
+import prompts
 from bs4 import BeautifulSoup
 import re
 import json
@@ -154,17 +151,11 @@ def fetch_using_selenium(url):
         chrome_options.add_argument("--disable-dev-shm-usage")
         chrome_options.add_argument("--disable-gpu")
         chrome_options.add_argument("--window-size=1920,1080")
-        # chrome_options.binary_location = r"C:\Program Files\Google\Chrome\Application\chrome.exe" # Commented out to auto-detect
+        chrome_options.binary_location = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
         chrome_options.add_argument("--remote-debugging-port=9222")
         chrome_options.add_argument("--ignore-certificate-errors")
 
-        # Ensure absolute path for driver
-        driver_path = os.path.join(config.BASE_DIR, config.CHROME_DRIVER_PATH)
-        if not os.path.exists(driver_path):
-             # Fallback to creating path if config path is relative to CWD not BASE_DIR
-             driver_path = os.path.abspath(config.CHROME_DRIVER_PATH)
-
-        service = Service(driver_path)
+        service = Service(config.CHROME_DRIVER_PATH)
         driver = webdriver.Chrome(service=service, options=chrome_options)
         
 
@@ -241,15 +232,11 @@ def get_article_html(url):
     try:
         # 1️⃣ If using Jina directly
         if config.use_jina_ai:
-            try:
-                html = fetch_using_jina(url)
-                if html and len(html) > 500: # Check for meaningful content
-                    return html
-            except Exception as e:
-                print(f"Jina failed: {e}")
+            html = fetch_using_jina(url)
+            if html:
+                return html
 
         # 2️⃣ Try normal GET first
-        html = ""
         try:
             headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"}
             response = requests.get(url, headers=headers, timeout=40)
@@ -259,19 +246,17 @@ def get_article_html(url):
             html = ""
 
         # 3️⃣ If NOT JS-rendered → try Newspaper
-        if html and len(html) > 500 and not is_js_rendered(html):
+        if html and not is_js_rendered(html):
             article_html = fetch_article_content(url, html=html)
-            if article_html and len(article_html) > 200:
+            if article_html:
                 return article_html
 
         # 4️⃣ Try Jina fallback
-        if config.use_jina_ai: # Retry Jina
-             jina_html = fetch_using_jina(url)
-             if jina_html:
-                return jina_html
+        jina_html = fetch_using_jina(url)
+        if jina_html:
+            return jina_html
 
         # 5️⃣ Try Selenium as LAST fallback
-        # Also try if html was short/empty
         selenium_html = fetch_using_selenium(url)
         if selenium_html:
             return selenium_html
@@ -401,27 +386,6 @@ def summary_japanese_translate(response):
         print(f"Error translating to Japanese: {e}")
         return response  # Fallback to English summary on error
     
-from langdetect import detect
-
-def ensure_english(text):
-    """
-    Ensures text is in English by detecting language and translating if necessary.
-    """
-    if not text:
-        return ""
-    try:
-        try:
-            lang = detect(text)
-        except:
-            return text  # detection failed, return original
-
-        if lang != 'en':
-            translated = translate(text, "en", "auto")
-            return translated
-    except Exception as e:
-        print(f"Translation to English failed: {e}")
-    return text
-
 #------------------------------------------------------------------------------------------------------
                                           ## LLM Functions ##
 #------------------------------------------------------------------------------------------------------
@@ -752,21 +716,59 @@ def auto_generated_token_json(
         Credentials object (google.oauth2.credentials.Credentials)
     """
     creds = None
+    
+    # Ensure Inputs directory exists for saving token.json
+    os.makedirs(os.path.dirname(token_path), exist_ok=True)
 
     # Load existing token if present
     if os.path.exists(token_path):
         creds = Credentials.from_authorized_user_file(token_path, scopes)
+        print(f"INFO: Loaded credentials from {token_path}")
+    else:
+        # Fallback check for token.json in root
+        root_token = os.path.join(config.BASE_DIR, 'token.json')
+        if os.path.exists(root_token):
+            creds = Credentials.from_authorized_user_file(root_token, scopes)
+            print(f"INFO: Loaded credentials from {root_token}")
 
     # If credentials are expired but refresh token is available, refresh
     if creds and creds.expired and creds.refresh_token:
-        creds.refresh(Request())
-        with open(token_path, 'w') as token:
-            token.write(creds.to_json())
+        try:
+            creds.refresh(Request())
+            with open(token_path, 'w') as token:
+                token.write(creds.to_json())
+            print("INFO: Token refreshed successfully.")
+        except Exception as e:
+            print(f"WARNING: Could not refresh token: {e}")
+            creds = None # Force re-auth if refresh fails
+
     # If no valid credentials, start OAuth flow
-    elif not creds or not creds.valid:
-        flow = InstalledAppFlow.from_client_secrets_file(credentials_path, scopes)
-        creds = flow.run_local_server(port=0)
-        with open(token_path, 'w') as token:
-            token.write(creds.to_json())
+    if not creds or not creds.valid:
+        # Check for credentials.json in Inputs or Root
+        if not os.path.exists(credentials_path):
+            root_creds = os.path.join(config.BASE_DIR, 'credentials.json')
+            if os.path.exists(root_creds):
+                credentials_path = root_creds
+            else:
+                print(f"ERROR: credentials.json not found. Checked: {credentials_path} and {root_creds}")
+                print("HINT: Please upload credentials.json as a Secret File on Render.")
+                return None
+
+        print(f"INFO: Using client secrets from {credentials_path}")
+        
+        # Check if we are in a headless environment (Render)
+        # run_local_server requires a browser, which fails in headless environments.
+        # We strongly prefer having a valid token.json uploaded.
+        try:
+            flow = InstalledAppFlow.from_client_secrets_file(credentials_path, scopes)
+            # If we are on Render, this will likely fail unless we have a console-based flow
+            # But standard google-auth-oauthlib doesn't support console flow easily anymore
+            creds = flow.run_local_server(port=0)
+            with open(token_path, 'w') as token:
+                token.write(creds.to_json())
+        except Exception as e:
+            print(f"ERROR: OAuth flow failed: {e}")
+            print("HINT: On Render, you MUST upload a valid 'token.json' because interactive login is not possible.")
+            return None
 
     return creds

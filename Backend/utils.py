@@ -48,11 +48,13 @@ def configure_logging(module_type='backend', log_filename='application.log', bas
     log_path = os.path.join(log_dir, log_filename)
 
     logging.basicConfig(
-        filename=log_path,
-        filemode='a',
         format='%(asctime)s - %(levelname)s - %(message)s',
         datefmt='%Y-%m-%d %H:%M:%S', 
-        level=logging.INFO
+        level=logging.INFO,
+        handlers=[
+            logging.FileHandler(log_path),
+            logging.StreamHandler(sys.stdout)
+        ]
     )
 
     logging.getLogger("httpx").setLevel(logging.WARNING)

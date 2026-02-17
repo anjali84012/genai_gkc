@@ -210,31 +210,40 @@ def run_sequential_extraction():
         # 1. Run Data Extraction (Email)
         app.logger.info("Scheduler: --> Starting Email Extraction...")
         backend_script = os.path.join(config.BASE_DIR, 'Backend', 'Data_Extraction.py')
-        log_file_path = os.path.join(config.BASE_DIR, "instance", "scheduler_run_log.txt")
         
-        with open(log_file_path, "a") as f:
-            f.write(f"\n[{datetime.now()}] --- Sequential: Email Extraction START ---\n")
-            f.flush()
+        process_email = subprocess.Popen(
+            [sys.executable, backend_script],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT,
+            cwd=config.BASE_DIR,
+            text=True,
+            bufsize=1,
+            # universal_newlines=True # text=True implies universal_newlines
+        )
         
-        # Use subprocess.run to BLOCK until it finishes
-        cmd_email = [sys.executable, backend_script]
-        with open(log_file_path, "a") as f_out:
-            subprocess.run(cmd_email, stdout=f_out, stderr=subprocess.STDOUT, cwd=config.BASE_DIR, check=False)
-            
+        for line in process_email.stdout:
+            app.logger.info(f"[EmailExtraction] {line.strip()}")
+        
+        process_email.wait()  
         app.logger.info("Scheduler: --> Email Extraction Completed.")
 
         # 2. Run URL Extraction
         app.logger.info("Scheduler: --> Starting URL Extraction...")
         backend_script_url = os.path.join(config.BASE_DIR, 'Backend', 'Data_Extraction_url.py')
         
-        with open(log_file_path, "a") as f:
-            f.write(f"\n[{datetime.now()}] --- Sequential: URL Extraction START ---\n")
-            f.flush()
-
-        cmd_url = [sys.executable, backend_script_url]
-        with open(log_file_path, "a") as f_out:
-            subprocess.run(cmd_url, stdout=f_out, stderr=subprocess.STDOUT, cwd=config.BASE_DIR, check=False)
+        process_url = subprocess.Popen(
+            [sys.executable, backend_script_url],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT,
+            cwd=config.BASE_DIR,
+            text=True,
+            bufsize=1
+        )
+        
+        for line in process_url.stdout:
+            app.logger.info(f"[URLExtraction] {line.strip()}")
             
+        process_url.wait()
         app.logger.info("Scheduler: --> URL Extraction Completed.")
         app.logger.info("Scheduler: Sequential Extraction Task Finished Successfully.")
 

@@ -53,26 +53,6 @@ def normalize_for_matching(article_content):
         return title
 
 
-def ensure_english(text):
-    """
-    Ensures text is in English by detecting language and translating if necessary.
-    """
-    if not text:
-        return ""
-    try:
-        try:
-            lang = detect(text)
-        except:
-            return text  # detection failed, return original
-
-        if lang != 'en':
-            translated = translate(text, "en", "auto")
-            return translated
-    except Exception as e:
-        logger.warning(f"Translation to English failed: {e}")
-    return text
-
-
 class EmailOperations:
     # ... (rest of class) ...
 
@@ -90,7 +70,7 @@ class EmailOperations:
                 logging.info(f"Processing email: {email['subject']} on {email['date']}")
 
                 # Translate subject to English
-                email_subject_en = ensure_english(email.get('subject', ''))
+                email_subject_en = utils.ensure_english(email.get('subject', ''))
 
                 for link in email['links']:
                     # Check globally if link already exists
@@ -109,8 +89,8 @@ class EmailOperations:
                             continue
 
                         # Translate Title and Body to English
-                        title_en = ensure_english(article_content.get("title", ""))
-                        body_en = ensure_english(article_content.get("text", ""))
+                        title_en = utils.ensure_english(article_content.get("title", ""))
+                        body_en = utils.ensure_english(article_content.get("text", ""))
 
                         article_string = f"Title:\n{title_en}\n\nText:\n{body_en}"
                         

@@ -3,7 +3,10 @@ from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import text
 from newspaper import Article
 from mtranslate import translate
-import prompts
+try:
+    import prompts
+except ImportError:
+    from Backend import prompts
 from bs4 import BeautifulSoup
 import re
 import json
@@ -151,11 +154,17 @@ def fetch_using_selenium(url):
         chrome_options.add_argument("--disable-dev-shm-usage")
         chrome_options.add_argument("--disable-gpu")
         chrome_options.add_argument("--window-size=1920,1080")
-        chrome_options.binary_location = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
+        # chrome_options.binary_location = r"C:\Program Files\Google\Chrome\Application\chrome.exe" # Commented out to auto-detect
         chrome_options.add_argument("--remote-debugging-port=9222")
         chrome_options.add_argument("--ignore-certificate-errors")
 
-        service = Service(config.CHROME_DRIVER_PATH)
+        # Ensure absolute path for driver
+        driver_path = os.path.join(config.BASE_DIR, config.CHROME_DRIVER_PATH)
+        if not os.path.exists(driver_path):
+             # Fallback to creating path if config path is relative to CWD not BASE_DIR
+             driver_path = os.path.abspath(config.CHROME_DRIVER_PATH)
+
+        service = Service(driver_path)
         driver = webdriver.Chrome(service=service, options=chrome_options)
         
 
@@ -232,11 +241,15 @@ def get_article_html(url):
     try:
         # 1️⃣ If using Jina directly
         if config.use_jina_ai:
-            html = fetch_using_jina(url)
-            if html:
-                return html
+            try:
+                html = fetch_using_jina(url)
+                if html and len(html) > 500: # Check for meaningful content
+                    return html
+            except Exception as e:
+                print(f"Jina failed: {e}")
 
         # 2️⃣ Try normal GET first
+        html = ""
         try:
             headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"}
             response = requests.get(url, headers=headers, timeout=40)
@@ -246,17 +259,19 @@ def get_article_html(url):
             html = ""
 
         # 3️⃣ If NOT JS-rendered → try Newspaper
-        if html and not is_js_rendered(html):
+        if html and len(html) > 500 and not is_js_rendered(html):
             article_html = fetch_article_content(url, html=html)
-            if article_html:
+            if article_html and len(article_html) > 200:
                 return article_html
 
         # 4️⃣ Try Jina fallback
-        jina_html = fetch_using_jina(url)
-        if jina_html:
-            return jina_html
+        if config.use_jina_ai: # Retry Jina
+             jina_html = fetch_using_jina(url)
+             if jina_html:
+                return jina_html
 
         # 5️⃣ Try Selenium as LAST fallback
+        # Also try if html was short/empty
         selenium_html = fetch_using_selenium(url)
         if selenium_html:
             return selenium_html
@@ -386,6 +401,27 @@ def summary_japanese_translate(response):
         print(f"Error translating to Japanese: {e}")
         return response  # Fallback to English summary on error
     
+from langdetect import detect
+
+def ensure_english(text):
+    """
+    Ensures text is in English by detecting language and translating if necessary.
+    """
+    if not text:
+        return ""
+    try:
+        try:
+            lang = detect(text)
+        except:
+            return text  # detection failed, return original
+
+        if lang != 'en':
+            translated = translate(text, "en", "auto")
+            return translated
+    except Exception as e:
+        print(f"Translation to English failed: {e}")
+    return text
+
 #------------------------------------------------------------------------------------------------------
                                           ## LLM Functions ##
 #------------------------------------------------------------------------------------------------------

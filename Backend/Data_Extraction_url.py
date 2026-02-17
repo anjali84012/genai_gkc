@@ -222,9 +222,13 @@ class WebScraper:
                         logging.warning(f"Invalid content from URL: {full_link}")
                         continue
 
-                    title = article_content.get("title", "No Title")
-                    body = article_content.get("text", "")
+                    title_raw = article_content.get("title", "No Title")
+                    body_raw = article_content.get("text", "")
                     
+                    # Enforce English
+                    title = utils.ensure_english(title_raw)
+                    body = utils.ensure_english(body_raw)
+
                     # 2. Prepare for Secondary LLM
                     article_string = f"Title:\n{title}\n\nText:\n{body}"
                     max_tokens = config.max_input_token

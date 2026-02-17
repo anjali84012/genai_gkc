@@ -31,9 +31,6 @@ else:
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
-# Ensure tables exist (safe: checks first, doesn't overwrite)
-with app.app_context():
-    db.create_all()
 
 class Email(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -61,6 +58,10 @@ class Email(db.Model):
     disapproved = db.Column(db.Boolean, default=False)
     duplicated_or_not = db.Column(db.Boolean, default=False)
     reason_of_duplication = db.Column(db.Text)
+
+# Ensure tables exist (safe: checks first, doesn't overwrite)
+with app.app_context():
+    db.create_all()
 
 USERS = {"auditor@nriindia.co.in": {"password": "gkc123", "role": "auditor"}}
 

@@ -23,10 +23,7 @@ app.logger.setLevel(logging.INFO)
 werkzeug_logger = logging.getLogger('werkzeug')
 werkzeug_logger.setLevel(logging.ERROR)
 
-if config.SAVE_EMAILS_LOCAL:
-    app.config['SQLALCHEMY_DATABASE_URI'] = config.db_path
-else:
-    app.config['SQLALCHEMY_DATABASE_URI'] = config.DATABASE_URI
+app.config['SQLALCHEMY_DATABASE_URI'] = config.db_path
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
@@ -112,40 +109,30 @@ def dashboard():
     if company: query = query.filter(Email.company_name.ilike(f"%{company}%"))
     if category: query = query.filter(Email.category.ilike(f"%{category}%"))
     
-    if config.SAVE_EMAILS_LOCAL:
-        all_emails = query.all()
+    # ALWAYS use Python-side filtering for consistency across DBs (SQLite/Postgres)
+    # and to handle custom date format "DD-MM-YY" reliably.
+    all_emails = query.all()
+    
+    # Filter by date range (Python side because date is stored as DD-MM-YY string)
+    if start_date_str:
+        try:
+            s_date = datetime.strptime(start_date_str, "%Y-%m-%d")
+            all_emails = [e for e in all_emails if _parse_date(e.date) >= s_date]
+        except ValueError: pass
         
-        # Filter by date range (Python side because date is stored as DD-MM-YY string)
-        if start_date_str:
-            try:
-                s_date = datetime.strptime(start_date_str, "%Y-%m-%d")
-                all_emails = [e for e in all_emails if _parse_date(e.date) >= s_date]
-            except ValueError: pass
-            
-        if end_date_str:
-            try:
-                e_date = datetime.strptime(end_date_str, "%Y-%m-%d")
-                # Add time component to end date to include the whole day
-                e_date = e_date.replace(hour=23, minute=59, second=59)
-                all_emails = [e for e in all_emails if _parse_date(e.date) <= e_date]
-            except ValueError: pass
+    if end_date_str:
+        try:
+            e_date = datetime.strptime(end_date_str, "%Y-%m-%d")
+            # Add time component to end date to include the whole day
+            e_date = e_date.replace(hour=23, minute=59, second=59)
+            all_emails = [e for e in all_emails if _parse_date(e.date) <= e_date]
+        except ValueError: pass
 
-        # Sort by date DESC, then ID DESC to ensure newest items for same date appear first
-        sorted_emails = sorted(all_emails, key=lambda x: (_parse_date(x.date), x.id), reverse=True)
-        total = len(sorted_emails)
-        items = sorted_emails[(page-1)*per_page : page*per_page]
-        pages = math.ceil(total / per_page)
-    else:
-        # For non-local, assume SQL handling (though date format suggests this might be tricky in SQL too without conversion)
-        # Keeping existing logic for else block but might need update if used. Assuming SAVE_EMAILS_LOCAL is primary.
-        # If we need to support SQL date filtering here:
-        if start_date_str:
-             query = query.filter(func.to_date(Email.date, "DD-MM-YY") >= start_date_str)
-        if end_date_str:
-             query = query.filter(func.to_date(Email.date, "DD-MM-YY") <= end_date_str)
-             
-        pagination = query.order_by(func.to_date(Email.date, "DD-MM-YY").desc()).paginate(page=page, per_page=per_page, error_out=False)
-        items, total, pages = pagination.items, pagination.total, pagination.pages
+    # Sort by date DESC, then ID DESC to ensure newest items for same date appear first
+    sorted_emails = sorted(all_emails, key=lambda x: (_parse_date(x.date), x.id), reverse=True)
+    total = len(sorted_emails)
+    items = sorted_emails[(page-1)*per_page : page*per_page]
+    pages = math.ceil(total / per_page)
         
     return render_template('dashboard.html', emails=items, page=page, pages=pages, total=total, 
                            company_filter=company, category_filter=category, 
@@ -186,6 +173,7 @@ def download_data():
     output.seek(0)
     return send_file(output, download_name=f"auditor_data_{datetime.now().strftime('%Y%m%d_%H%M%S')}.xlsx", as_attachment=True)
 
+@app.route('/gmail_webhook', methods=['POST'])
 def is_process_running(pid):
     try:
         # Check if process exists. signal 0 does nothing but error if process missing
@@ -271,12 +259,12 @@ if os.environ.get('WERKZEUG_RUN_MAIN') == 'true' or not app.debug or os.environ.
     scheduler = BackgroundScheduler()
     
     # Schedule the sequential task every 2 hours
-    # scheduler.add_job(func=run_sequential_extraction, trigger="interval", hours=2)
+    scheduler.add_job(func=run_sequential_extraction, trigger="interval", hours=2)
     
     # Schedule immediate run with a DELAY to allow server startup (e.g., 2 minutes)
     from datetime import timedelta
     startup_delay = datetime.now() + timedelta(minutes=2)
-    # scheduler.add_job(func=run_sequential_extraction, trigger="date", run_date=startup_delay)
+    scheduler.add_job(func=run_sequential_extraction, trigger="date", run_date=startup_delay)
     
     scheduler.start()
     app.logger.info(f"GENAI GKC Background Scheduler started. First run scheduled at {startup_delay.strftime('%H:%M:%S')}")

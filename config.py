@@ -9,7 +9,13 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 os.makedirs(os.path.join(BASE_DIR, "instance"), exist_ok=True)
 
 LOCAL_SQLITE = os.path.join(BASE_DIR, "instance", "emails.db")
-db_path = f"sqlite:///{LOCAL_SQLITE}"
+# Check for Render's DATABASE_URL
+database_url = os.getenv("DATABASE_URL")
+if database_url:
+    # SQL Alchemy requires postgresql:// but Render provides postgres://
+    db_path = database_url.replace("postgres://", "postgresql://")
+else:
+    db_path = f"sqlite:///{LOCAL_SQLITE}"
 DEDUPLICATION_INDEX_PATH = os.path.join(BASE_DIR, "instance", "faiss_hnsw.index")
 backend_log_path = "Backend_logging.txt"
 frontend_log_path = "Frontend_logging.txt"

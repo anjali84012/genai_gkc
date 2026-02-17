@@ -186,7 +186,6 @@ def download_data():
     output.seek(0)
     return send_file(output, download_name=f"auditor_data_{datetime.now().strftime('%Y%m%d_%H%M%S')}.xlsx", as_attachment=True)
 
-@app.route('/gmail_webhook', methods=['POST'])
 def is_process_running(pid):
     try:
         # Check if process exists. signal 0 does nothing but error if process missing
@@ -272,12 +271,12 @@ if os.environ.get('WERKZEUG_RUN_MAIN') == 'true' or not app.debug or os.environ.
     scheduler = BackgroundScheduler()
     
     # Schedule the sequential task every 2 hours
-    scheduler.add_job(func=run_sequential_extraction, trigger="interval", hours=2)
+    # scheduler.add_job(func=run_sequential_extraction, trigger="interval", hours=2)
     
     # Schedule immediate run with a DELAY to allow server startup (e.g., 2 minutes)
     from datetime import timedelta
     startup_delay = datetime.now() + timedelta(minutes=2)
-    scheduler.add_job(func=run_sequential_extraction, trigger="date", run_date=startup_delay)
+    # scheduler.add_job(func=run_sequential_extraction, trigger="date", run_date=startup_delay)
     
     scheduler.start()
     app.logger.info(f"GENAI GKC Background Scheduler started. First run scheduled at {startup_delay.strftime('%H:%M:%S')}")

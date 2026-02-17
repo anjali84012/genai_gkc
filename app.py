@@ -190,71 +190,74 @@ def is_process_running(pid):
     except OSError:
         return False
 
-def run_data_extraction():
-    try:
-        # Lock check - Move to instance folder to avoid reloader loop
-        lock_file = os.path.join(config.BASE_DIR, "instance", "data_extraction.pid")
-        if os.path.exists(lock_file):
-            try:
-                with open(lock_file, 'r') as f:
-                    old_pid = int(f.read().strip())
-                if is_process_running(old_pid):
-                    app.logger.info(f"Scheduler: Email Extraction already running (PID: {old_pid}). Skipping.")
-                    return
-            except Exception:
-                pass # Ignore corrupt lock file
 
-        app.logger.info("Scheduler: Initiating Email Extraction.")
+def run_sequential_extraction():
+    """
+    Runs data extraction and URL extraction sequentially to avoid OOM on low-memory environments.
+    """
+    lock_file = os.path.join(config.BASE_DIR, "instance", "sequential_extraction.pid")
+    
+    # Check if already running
+    if os.path.exists(lock_file):
+        try:
+            with open(lock_file, 'r') as f:
+                old_pid = int(f.read().strip())
+            if is_process_running(old_pid):
+                app.logger.info(f"Scheduler: Sequential Extraction already running (PID: {old_pid}). Skipping.")
+                return
+        except Exception:
+            pass # Ignore corrupt lock file
+
+    # Write current PID
+    with open(lock_file, 'w') as f:
+        f.write(str(os.getpid()))
+
+    try:
+        app.logger.info("Scheduler: Starting Sequential Extraction Task.")
+        
+        # 1. Run Data Extraction (Email)
+        app.logger.info("Scheduler: --> Starting Email Extraction...")
         backend_script = os.path.join(config.BASE_DIR, 'Backend', 'Data_Extraction.py')
         log_file_path = os.path.join(config.BASE_DIR, "instance", "scheduler_run_log.txt")
         
         with open(log_file_path, "a") as f:
-            f.write(f"\n[{datetime.now()}] --- Email Extraction START ---\n")
+            f.write(f"\n[{datetime.now()}] --- Sequential: Email Extraction START ---\n")
             f.flush()
         
-        # Use shell=True and a command string for better reliability on Windows
-        cmd = f'"{sys.executable}" "{backend_script}"'
-        f_out = open(log_file_path, "a")
-        proc = subprocess.Popen(cmd, shell=True, stdout=f_out, stderr=subprocess.STDOUT, text=True, cwd=config.BASE_DIR)
-        
-        # Write new PID
-        with open(lock_file, 'w') as f:
-            f.write(str(proc.pid))
+        # Use subprocess.run to BLOCK until it finishes
+        cmd_email = [sys.executable, backend_script]
+        with open(log_file_path, "a") as f_out:
+            subprocess.run(cmd_email, stdout=f_out, stderr=subprocess.STDOUT, cwd=config.BASE_DIR, check=False)
             
-        app.logger.info(f"Scheduler: Email Extraction process spawned with cmd: {cmd} (PID: {proc.pid})")
-    except Exception as e: app.logger.error(f"Email Automation Error: {e}")
+        app.logger.info("Scheduler: --> Email Extraction Completed.")
 
-def run_url_extraction():
-    try:
-        # Lock check - Move to instance folder
-        lock_file = os.path.join(config.BASE_DIR, "instance", "url_extraction.pid")
-        if os.path.exists(lock_file):
-            try:
-                with open(lock_file, 'r') as f:
-                    old_pid = int(f.read().strip())
-                if is_process_running(old_pid):
-                    app.logger.info(f"Scheduler: URL Extraction already running (PID: {old_pid}). Skipping.")
-                    return
-            except Exception:
-                pass
-
-        app.logger.info("Scheduler: Initiating URL Extraction.")
-        backend_script = os.path.join(config.BASE_DIR, 'Backend', 'Data_Extraction_url.py')
-        log_file_path = os.path.join(config.BASE_DIR, "instance", "scheduler_run_log.txt")
+        # 2. Run URL Extraction
+        app.logger.info("Scheduler: --> Starting URL Extraction...")
+        backend_script_url = os.path.join(config.BASE_DIR, 'Backend', 'Data_Extraction_url.py')
         
         with open(log_file_path, "a") as f:
-            f.write(f"\n[{datetime.now()}] --- URL Extraction START ---\n")
+            f.write(f"\n[{datetime.now()}] --- Sequential: URL Extraction START ---\n")
             f.flush()
-            
-        cmd = f'"{sys.executable}" "{backend_script}"'
-        f_out = open(log_file_path, "a")
-        proc = subprocess.Popen(cmd, shell=True, stdout=f_out, stderr=subprocess.STDOUT, text=True, cwd=config.BASE_DIR)
-        
-        with open(lock_file, 'w') as f:
-            f.write(str(proc.pid))
 
-        app.logger.info(f"Scheduler: URL Extraction process spawned with cmd: {cmd} (PID: {proc.pid})")
-    except Exception as e: app.logger.error(f"URL Automation Error: {e}")
+        cmd_url = [sys.executable, backend_script_url]
+        with open(log_file_path, "a") as f_out:
+            subprocess.run(cmd_url, stdout=f_out, stderr=subprocess.STDOUT, cwd=config.BASE_DIR, check=False)
+            
+        app.logger.info("Scheduler: --> URL Extraction Completed.")
+        app.logger.info("Scheduler: Sequential Extraction Task Finished Successfully.")
+
+    except Exception as e:
+        app.logger.error(f"Sequential Extraction Error: {e}")
+    finally:
+        # Clean up lock file (optional, but good practice if we want to rely on it)
+        # However, for PID checks, we usually leave it. But since this wrapper runs inside the worker process 
+        # (or the scheduler thread inside it), the PID is the worker PID.
+        # Actually, since we are blocking, the scheduler thread is blocked. BackgroundScheduler runs in a thread.
+        # So this is fine.
+        if os.path.exists(lock_file):
+            try:
+                os.remove(lock_file)
+            except: pass
 
 # Standard Flask pattern: run once in child process or if debug is off
 # Standard Flask pattern: run once in child process or if debug is off
@@ -262,16 +265,18 @@ def run_url_extraction():
 if os.environ.get('WERKZEUG_RUN_MAIN') == 'true' or not app.debug or os.environ.get('FLASK_RUN_FROM_CLI') == 'true' or True: # Force start for now as we are in a single process dev mode
 
     scheduler = BackgroundScheduler()
-    scheduler.add_job(func=run_data_extraction, trigger="interval", hours=2)
-    # scheduler.add_job(func=run_url_extraction, trigger="interval", hours=2)
-    scheduler.add_job(func=run_url_extraction, trigger="cron", hour=8, minute=0)
-    # Staggered immediate runs to avoid file lock conflict
-    scheduler.add_job(func=run_data_extraction, trigger="date", run_date=datetime.now())
-    # Start URL extraction 30 seconds later to let the first one breathe
+    
+    # Schedule the sequential task every 2 hours
+    scheduler.add_job(func=run_sequential_extraction, trigger="interval", hours=2)
+    
+    # Schedule immediate run with a DELAY to allow server startup (e.g., 2 minutes)
     from datetime import timedelta
-    scheduler.add_job(func=run_url_extraction, trigger="date", run_date=datetime.now() + timedelta(seconds=30))
+    startup_delay = datetime.now() + timedelta(minutes=2)
+    scheduler.add_job(func=run_sequential_extraction, trigger="date", run_date=startup_delay)
+    
     scheduler.start()
-    app.logger.info("GENAI GKC Background Scheduler started.")
+    app.logger.info(f"GENAI GKC Background Scheduler started. First run scheduled at {startup_delay.strftime('%H:%M:%S')}")
+
 
 if __name__ == '__main__':
     print("\n" + "="*50)

@@ -13,8 +13,7 @@ db_path = f"sqlite:///{LOCAL_SQLITE}"
 DEDUPLICATION_INDEX_PATH = os.path.join(BASE_DIR, "instance", "faiss_hnsw.index")
 backend_log_path = "Backend_logging.txt"
 frontend_log_path = "Frontend_logging.txt"
-CHROME_DRIVER_PATH = os.getenv("CHROME_DRIVER_PATH", r"C:\Users\anjali-kanojia\Desktop\genai_gkc\chromedriver-win64\chromedriver.exe")
-
+CHROME_DRIVER_PATH = "Inputs/chromedriver-win64/chromedriver.exe"
 
 SCOPES = ['https://www.googleapis.com/auth/gmail.modify']
 openai_model_name = "gpt-4o-mini"
@@ -23,9 +22,7 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 HUGGINGFACE_API_KEY = os.getenv("HUGGINGFACE_API_KEY")
 JINA_API_KEY = os.getenv("JINA_API_KEY")
 USE_OPENAI = True
-# Default to True for local, but allow Env to override (for Render Postgres)
-SAVE_EMAILS_LOCAL = os.getenv("SAVE_EMAILS_LOCAL", "True").lower() == "true"
-DATABASE_URI = os.getenv("DATABASE_URI")
+SAVE_EMAILS_LOCAL = True
 
 TARGET_COMPANIES = {
     'Nomura Research Institute',

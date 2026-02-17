@@ -1,5 +1,6 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy import text
 from newspaper import Article
 from mtranslate import translate
 import prompts
@@ -76,6 +77,15 @@ def flask_sql_alchemy_db():
     app.config['SQLALCHEMY_DATABASE_URI'] = config.db_path
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     db = SQLAlchemy(app)
+    
+    with app.app_context():
+        try:
+            db.session.execute(text("PRAGMA journal_mode=WAL;"))
+            db.session.commit()
+            print("INFO: Database set to WAL mode.")
+        except Exception as e:
+            print(f"WARNING: Could not set WAL mode: {e}")
+
     return db, app
 
 #------------------------------------------------------------------------------------------------------
@@ -141,11 +151,7 @@ def fetch_using_selenium(url):
         chrome_options.add_argument("--remote-debugging-port=9222")
         chrome_options.add_argument("--ignore-certificate-errors")
 
-        if config.CHROME_DRIVER_PATH and os.path.exists(config.CHROME_DRIVER_PATH):
-            service = Service(config.CHROME_DRIVER_PATH)
-        else:
-            service = Service()
-
+        service = Service(config.CHROME_DRIVER_PATH)
         driver = webdriver.Chrome(service=service, options=chrome_options)
         
 
@@ -229,7 +235,9 @@ def get_article_html(url):
         # 2️⃣ Try normal GET first
         try:
             headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"}
-            html = requests.get(url, headers=headers, timeout=40).text
+            response = requests.get(url, headers=headers, timeout=40)
+            response.encoding = response.apparent_encoding
+            html = response.text
         except:
             html = ""
 

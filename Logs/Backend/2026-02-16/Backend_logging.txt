@@ -464,3 +464,259 @@
 2026-02-16 12:06:55 - WARNING - Invalid content from URL: https://www.eset.com/afr/about/newsroom/press-releases-afr/blog/ai-powered-cybersecurity-for-african-organizations/
 2026-02-16 12:06:55 - INFO - All emails committed successfully.
 2026-02-16 12:07:29 - INFO - Emails marked as read.
+2026-02-16 13:44:55 - INFO - Loading faiss with AVX2 support.
+2026-02-16 13:44:55 - INFO - Successfully loaded faiss with AVX2 support.
+2026-02-16 13:45:01 - INFO - Starting Gmail authentication.
+2026-02-16 13:45:01 - INFO - Loaded credentials from token.json.
+2026-02-16 13:45:01 - INFO - Gmail authentication successful.
+2026-02-16 13:45:01 - WARNING - GMAIL_PUBSUB_TOPIC not found in config. Skipping watch registration.
+2026-02-16 13:45:01 - INFO - Fetching unread emails from Gmail.
+2026-02-16 13:45:02 - INFO - Found 15 unread emails on this page. Processing...
+2026-02-16 13:45:12 - INFO - Retrieved 15 relevant emails from 15 total unread.
+2026-02-16 13:45:12 - INFO - Processing email: Google Alert - KPMG on 16-02-26
+2026-02-16 13:45:21 - WARNING - Invalid content from URL: https://www.financialexpress.com/life/technology-kpmg-australia-partner-fined-for-cheating-ai-ethics-training-exam-using-ai-4144532/
+2026-02-16 13:45:24 - WARNING - Invalid content from URL: https://www.thestatesman.com/technology/the-ultimate-irony-kpmg-partner-fined-10k-australian-dollars-for-using-ai-to-clear-ai-test-1503557469.html
+2026-02-16 13:45:24 - INFO - Processing email: Google Alert - Accenture on 16-02-26
+2026-02-16 13:46:06 - INFO - Unique article detected. Added 'India helping shape what comes next in AI': Tech leaders from Accenture, Amazon, Qualcomm, Vertiv look forward to AI-Impact summit to the database
+2026-02-16 13:46:06 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.aninews.in/news/world/asia/india-helping-shape-what-comes-next-in-ai-tech-leaders-from-accenture-amazon-qualcomm-vertiv-look-forward-to-ai-impact-summit20260215095038
+2026-02-16 13:46:14 - WARNING - Invalid content from URL: https://www.livemint.com/technology/tech-news/ais-next-chapter-will-be-what-accenture-openai-qualcomm-other-ceos-say-ahead-of-india-ai-impact-summit-2026-11771145368667.html
+2026-02-16 13:46:14 - INFO - Processing email: Google Alert - KPMG on 16-02-26
+2026-02-16 13:46:22 - WARNING - Invalid content from URL: https://www.afr.com/companies/professional-services/kpmg-partner-fined-for-using-ai-to-cheat-on-an-ai-test-20260215-p5o2f2
+2026-02-16 13:46:33 - WARNING - Invalid content from URL: https://theaussiecorporate.com/blogs/pickandscrollnews/kpmg-faces-ai-cheating-scandal
+2026-02-16 13:46:43 - WARNING - Invalid content from URL: https://www.cyberdaily.au/security/13218-kpmg-partner-uses-ai-to-cheat-on-ai-test-faces-fine
+2026-02-16 13:46:56 - INFO - Duplicate article detected, skipping: As AI adoption accelerates, KPMG report urges tech leaders to focus on returns
+2026-02-16 13:46:56 - INFO - Prepared email insertion: Google Alert - KPMG from https://www.newtimes.co.rw/article/33331/news/featured/as-ai-adoption-accelerates-kpmg-report-urges-tech-leaders-to-focus-on-returns
+2026-02-16 13:47:05 - WARNING - Invalid content from URL: https://www.afr.com/rear-window/kpmg-takes-las-vegas-during-troubled-times-20260215-p5o2em
+2026-02-16 13:47:08 - WARNING - Invalid content from URL: https://www.crowdfundinsider.com/2026/02/261920-kpmg-uk-examines-private-equity-and-ai-focused-trends-shares-fintech-funding-updates/
+2026-02-16 13:47:17 - WARNING - Invalid content from URL: https://www.ft.com/content/c30ded60-bece-45e0-981d-653e1e3e9818
+2026-02-16 13:47:18 - WARNING - Invalid content from URL: https://www.hcamag.com/au/specialisation/employment-law/kpmg-partner-fined-over-ai-exam-breach/565406
+2026-02-16 13:47:19 - WARNING - Invalid content from URL: https://www.thestatesman.com/technology/the-ultimate-irony-kpmg-partner-fined-10k-australian-dollars-for-using-ai-to-clear-ai-test-1503557469.html
+2026-02-16 13:47:28 - WARNING - Invalid content from URL: https://www.tradingview.com/news/smallcaps:631014c73094b:0-the-big-boomer-sell-down/
+2026-02-16 13:47:29 - WARNING - Invalid content from URL: https://www.linkedin.com/posts/kpmg-us_%F0%9D%97%AC%F0%9D%97%BC%F0%9D%98%82%F0%9D%97%BF-%F0%9D%97%A6%F0%9D%97%AE%F0%9D%98%81%F0%9D%98%82%F0%9D%97%BF%F0%9D%97%B1%F0%9D%97%AE%F0%9D%98%86-%F0%9D%97%A0%F0%9D%97%BC%F0%9D%97%BF%F0%9D%97%BB%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%B4-activity-7428464291026132992-vq8d
+2026-02-16 13:47:29 - INFO - Processing email: Google Alert - KPMG on 16-02-26
+2026-02-16 13:47:31 - WARNING - Invalid content from URL: https://www.crowdfundinsider.com/2026/02/261920-kpmg-uk-examines-private-equity-and-ai-focused-trends-shares-fintech-funding-updates/
+2026-02-16 13:47:39 - WARNING - Invalid content from URL: https://www.tradingview.com/news/smallcaps:631014c73094b:0-the-big-boomer-sell-down/
+2026-02-16 13:47:48 - WARNING - Invalid content from URL: https://theaussiecorporate.com/blogs/pickandscrollnews/kpmg-faces-ai-cheating-scandal
+2026-02-16 13:48:07 - INFO - Duplicate article detected, skipping: Asset Management and Private Equity CEO Outlook
+2026-02-16 13:48:07 - INFO - Prepared email insertion: Google Alert - KPMG from https://kpmg.com/us/en/articles/2026/asset-management-private-equity.html
+2026-02-16 13:48:10 - WARNING - Invalid content from URL: https://www.finextra.com/newsarticle/47307/global-fintech-investment-rebounds-in-2025-supported-by-stronger-exit-activity
+2026-02-16 13:48:18 - WARNING - Invalid content from URL: https://www.msn.com/en-in/money/topstories/kpmg-report-2026-10-priorities-to-make-india-a-manufacturing-and-innovation-powerhouse-by-2047-et-now-global-business-summit-2026/ar-AA1WinWr?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1
+2026-02-16 13:48:20 - WARNING - Invalid content from URL: https://www.pressreader.com/new-zealand/the-new-zealand-herald/20260216/281904484633459
+2026-02-16 13:48:49 - INFO - Unique article detected. Added India Must Shift from Growth at Scale to Productivity for Viksit Bharat 2047: KPMG Report to the database
+2026-02-16 13:48:49 - INFO - Prepared email insertion: Google Alert - KPMG from https://www.latestly.com/agency-news/business-news-india-must-shift-from-growth-at-scale-to-productivity-for-viksit-bharat-2047-kpmg-report-7313657.html
+2026-02-16 13:48:52 - WARNING - Invalid content from URL: https://www.pressreader.com/south-africa/the-sunday-independent/20260215/281844355090208
+2026-02-16 13:48:52 - WARNING - Skipping non-article URL: http://www.msn.com/en-us/sports/golf/club-pro-disqualified-from-kpmg-women-s-pga-championship-after-15-over-87/ar-AA1H6vLg?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1
+2026-02-16 13:48:52 - WARNING - Invalid content from URL: http://www.msn.com/en-us/sports/golf/club-pro-disqualified-from-kpmg-women-s-pga-championship-after-15-over-87/ar-AA1H6vLg?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1
+2026-02-16 13:48:52 - INFO - Processing email: Google Alert - "Deloitte" on 16-02-26
+2026-02-16 13:48:53 - WARNING - Invalid content from URL: https://www.crowdfundinsider.com/2026/02/261921-deloitte-shares-insights-on-navigating-ai-enabled-digital-transformation-of-business-environment/
+2026-02-16 13:49:02 - WARNING - Invalid content from URL: https://www.msn.com/en-in/money/news/deloitte-announces-massive-workforce-overhaul-important-news-for-181-500-employees/ar-AA1ULcEL?cvid=6973f74ed1f44e47ab2ae80c291198d7&ocid=mobilepwa&apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1
+2026-02-16 13:49:02 - INFO - Skipping duplicate link from DB: https://www.deloitte.com/lu/en/alliances/servicenow/case-studies/powering-progress-through-deloitte-servicenow-journey.html
+2026-02-16 13:49:50 - INFO - Duplicate article detected, skipping: Smart Manufacturing Optimism: Tech, Talent Drive Growth
+2026-02-16 13:49:50 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://www.advancedmanufacturing.org/technologies/cutting-edge/smart-manufacturing-optimism-tech-talent-drive-growth/article_10d14d2f-9b9d-4da1-b9b9-6a750b3fd9ee.html
+2026-02-16 13:50:01 - WARNING - Invalid content from URL: https://finance.yahoo.com/news/varex-imaging-stockholders-reelect-directors-040200567.html
+2026-02-16 13:50:03 - WARNING - Invalid content from URL: https://www.hcamag.com/au/specialisation/employment-law/kpmg-partner-fined-over-ai-exam-breach/565406
+2026-02-16 13:50:05 - WARNING - Invalid content from URL: https://www.theeastafrican.co.ke/tea/business-tech/dwindling-profitability-a-major-pain-point-for-african-banks-5359304
+2026-02-16 13:50:20 - INFO - Unique article detected. Added Freightways reports strong half-year performance to the database
+2026-02-16 13:50:20 - INFO - Prepared email insertion: Google Alert - "Deloitte" from https://businessdesk.co.nz/markets/announcements-generated-by-ai/freightways-reports-strong-half-year-performance
+2026-02-16 13:50:20 - INFO - Processing email: Google Alert - Accenture on 16-02-26
+2026-02-16 13:50:48 - INFO - Unique article detected. Added Accenture Sharpens Leadership And Security Focus With New CCO And Partnership to the database
+2026-02-16 13:50:48 - INFO - Prepared email insertion: Google Alert - Accenture from https://simplywall.st/stocks/us/software/nyse-acn/accenture/news/accenture-sharpens-leadership-and-security-focus-with-new-cc
+2026-02-16 13:50:59 - WARNING - Invalid content from URL: http://www.msn.com/en-us/money/savingandinvesting/accenture-buys-germany-s-systema/ar-AA1HK0ey?ocid=finance-verthp-feeds&apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1
+2026-02-16 13:51:08 - WARNING - Invalid content from URL: https://www.livemint.com/technology/tech-news/ais-next-chapter-will-be-what-accenture-openai-qualcomm-other-ceos-say-ahead-of-india-ai-impact-summit-2026/amp-11771145368667.html
+2026-02-16 13:51:09 - WARNING - Invalid content from URL: https://www.gurufocus.com/news/8619483/avantis-us-equity-etf-buys-1582-shares-of-accenture-plc-acn
+2026-02-16 13:51:10 - WARNING - Invalid content from URL: https://www.bignewsnetwork.com/news/278869293/india-helping-shape-what-comes-next-in-ai-tech-leaders-from-accenture-amazon-qualcomm-vertiv-look-forward-to-ai-impact-summit
+2026-02-16 13:51:27 - WARNING - Invalid content from URL: https://www.capecodtimes.com/press-release/story/77351/blue-grid-group-appoints-donald-carr-as-ceo-to-spearhead-the-company-and-its-business-outcomes-as-a-service-strategy/
+2026-02-16 13:52:25 - INFO - Duplicate article detected, skipping: Aberdeen Group plc Acquires 85,221 Shares of Accenture PLC $ACN
+2026-02-16 13:52:25 - INFO - Prepared email insertion: Google Alert - Accenture from https://www.marketbeat.com/instant-alerts/filing-aberdeen-group-plc-acquires-85221-shares-of-accenture-plc-acn-2026-02-15/
+2026-02-16 13:52:27 - WARNING - Invalid content from URL: https://www.gurufocus.com/news/8617784/evergreen-capital-management-llc-buys-3440-shares-of-accenture-plc-acn?utm_source=marketwatch&utm_medium=syndication&utm_campaign=headlines&r=4bf001661e6fdd88d0cd7a5659ff9748&mod=mw_quote_news
+2026-02-16 13:53:15 - WARNING - LLM returned invalid response for https://www.marketbeat.com/instant-alerts/filing-state-of-new-jersey-common-pension-fund-d-raises-stake-in-accenture-plc-acn-2026-02-15/
+2026-02-16 13:53:15 - WARNING - Skipping non-article URL: https://www.msn.com/en-in/money/news/testmu-ai-formerly-lambdatest-unveils-2025-partner-of-the-year-award-winners/ar-AA1WkEhA
+2026-02-16 13:53:15 - WARNING - Invalid content from URL: https://www.msn.com/en-in/money/news/testmu-ai-formerly-lambdatest-unveils-2025-partner-of-the-year-award-winners/ar-AA1WkEhA
+2026-02-16 13:53:15 - INFO - Processing email: Google Alert - KPMG on 16-02-26
+2026-02-16 13:58:44 - INFO - Loading faiss with AVX2 support.
+2026-02-16 13:58:44 - INFO - Successfully loaded faiss with AVX2 support.
+2026-02-16 13:58:44 - INFO - Loading faiss with AVX2 support.
+2026-02-16 13:58:44 - INFO - Successfully loaded faiss with AVX2 support.
+2026-02-16 13:58:51 - INFO - Database tables created or already exist.
+2026-02-16 13:58:52 - INFO - WebScraper class instantiated.
+2026-02-16 13:58:52 - INFO - Starting Gmail authentication.
+2026-02-16 13:58:52 - INFO - Loaded credentials from token.json.
+2026-02-16 13:58:52 - INFO - Gmail authentication successful.
+2026-02-16 13:58:52 - INFO - Processing URL: https://www.nri.com/jp/News
+2026-02-16 13:58:52 - WARNING - GMAIL_PUBSUB_TOPIC not found in config. Skipping watch registration.
+2026-02-16 13:58:52 - INFO - Fetching unread emails from Gmail.
+2026-02-16 13:58:53 - INFO - Found 16 unread emails on this page. Processing...
+2026-02-16 13:58:55 - ERROR - Failed to parse LLM initial content from https://www.nri.com/jp/News: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 13:58:55 - INFO - Processing URL: https://www.mckinsey.com/about-us/new-at-mckinsey-blog
+2026-02-16 13:59:01 - INFO - Retrieved 16 relevant emails from 16 total unread.
+2026-02-16 13:59:01 - INFO - Processing email: Google Alert - "Boston Consulting Group" "BCG" on 16-02-26
+2026-02-16 13:59:04 - WARNING - Invalid content from URL: https://www.tribuneindia.com/news/business/indias-retail-market-to-more-than-double-to-rs-215-trillion-by-2035-driven-by-ai-and-consumption-surge-report/
+2026-02-16 13:59:06 - WARNING - Invalid content from URL: https://www.thehansindia.com/business/indias-retail-market-to-more-than-double-to-rs-210215-trillion-by-2035-report-1048949
+2026-02-16 13:59:06 - INFO - Processing email: Google Alert - KPMG on 16-02-26
+2026-02-16 13:59:14 - WARNING - Invalid content from URL: https://www.financialexpress.com/life/technology-kpmg-australia-partner-fined-for-cheating-ai-ethics-training-exam-using-ai-4144532/
+2026-02-16 13:59:16 - WARNING - Invalid content from URL: https://www.thestatesman.com/technology/the-ultimate-irony-kpmg-partner-fined-10k-australian-dollars-for-using-ai-to-clear-ai-test-1503557469.html
+2026-02-16 13:59:16 - INFO - Processing email: Google Alert - Accenture on 16-02-26
+2026-02-16 13:59:17 - WARNING - Invalid content from URL: https://www.aninews.in/news/world/asia/india-helping-shape-what-comes-next-in-ai-tech-leaders-from-accenture-amazon-qualcomm-vertiv-look-forward-to-ai-impact-summit20260215095038
+2026-02-16 13:59:25 - WARNING - Invalid content from URL: https://www.livemint.com/technology/tech-news/ais-next-chapter-will-be-what-accenture-openai-qualcomm-other-ceos-say-ahead-of-india-ai-impact-summit-2026-11771145368667.html
+2026-02-16 13:59:25 - INFO - Processing email: Google Alert - KPMG on 16-02-26
+2026-02-16 13:59:34 - WARNING - Invalid content from URL: https://www.afr.com/companies/professional-services/kpmg-partner-fined-for-using-ai-to-cheat-on-an-ai-test-20260215-p5o2f2
+2026-02-16 13:59:43 - WARNING - Invalid content from URL: https://theaussiecorporate.com/blogs/pickandscrollnews/kpmg-faces-ai-cheating-scandal
+2026-02-16 13:59:43 - ERROR - Failed to parse LLM initial content from https://www.mckinsey.com/about-us/new-at-mckinsey-blog: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 13:59:43 - INFO - Processing URL: https://www.mckinsey.com/jp/our-insights
+2026-02-16 13:59:53 - WARNING - Invalid content from URL: https://www.cyberdaily.au/security/13218-kpmg-partner-uses-ai-to-cheat-on-ai-test-faces-fine
+2026-02-16 13:59:55 - WARNING - Invalid content from URL: https://www.newtimes.co.rw/article/33331/news/featured/as-ai-adoption-accelerates-kpmg-report-urges-tech-leaders-to-focus-on-returns
+2026-02-16 14:00:04 - WARNING - Invalid content from URL: https://www.afr.com/rear-window/kpmg-takes-las-vegas-during-troubled-times-20260215-p5o2em
+2026-02-16 14:00:05 - WARNING - Invalid content from URL: https://www.crowdfundinsider.com/2026/02/261920-kpmg-uk-examines-private-equity-and-ai-focused-trends-shares-fintech-funding-updates/
+2026-02-16 14:00:14 - WARNING - Invalid content from URL: https://www.ft.com/content/c30ded60-bece-45e0-981d-653e1e3e9818
+2026-02-16 14:00:15 - WARNING - Invalid content from URL: https://www.hcamag.com/au/specialisation/employment-law/kpmg-partner-fined-over-ai-exam-breach/565406
+2026-02-16 14:00:17 - WARNING - Invalid content from URL: https://www.thestatesman.com/technology/the-ultimate-irony-kpmg-partner-fined-10k-australian-dollars-for-using-ai-to-clear-ai-test-1503557469.html
+2026-02-16 14:00:26 - WARNING - Invalid content from URL: https://www.tradingview.com/news/smallcaps:631014c73094b:0-the-big-boomer-sell-down/
+2026-02-16 14:00:28 - WARNING - Invalid content from URL: https://www.linkedin.com/posts/kpmg-us_%F0%9D%97%AC%F0%9D%97%BC%F0%9D%98%82%F0%9D%97%BF-%F0%9D%97%A6%F0%9D%97%AE%F0%9D%98%81%F0%9D%98%82%F0%9D%97%BF%F0%9D%97%B1%F0%9D%97%AE%F0%9D%98%86-%F0%9D%97%A0%F0%9D%97%BC%F0%9D%97%BF%F0%9D%97%BB%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%B4-activity-7428464291026132992-vq8d
+2026-02-16 14:00:28 - INFO - Processing email: Google Alert - KPMG on 16-02-26
+2026-02-16 14:00:29 - WARNING - Invalid content from URL: https://www.crowdfundinsider.com/2026/02/261920-kpmg-uk-examines-private-equity-and-ai-focused-trends-shares-fintech-funding-updates/
+2026-02-16 14:00:32 - ERROR - Failed to parse LLM initial content from https://www.mckinsey.com/jp/our-insights: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:00:32 - INFO - Processing URL: https://www.bcg.com/about/corporate-newsroom
+2026-02-16 14:00:33 - ERROR - Failed to parse LLM initial content from https://www.bcg.com/about/corporate-newsroom: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:00:33 - INFO - Processing URL: https://www.bcg.com/ja-jp/about/news/press/default?00000173-7007-d959-afff-79c791c80008-page=1
+2026-02-16 14:00:34 - ERROR - Failed to parse LLM initial content from https://www.bcg.com/ja-jp/about/news/press/default?00000173-7007-d959-afff-79c791c80008-page=1: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:00:34 - INFO - Processing URL: https://www.bain.com/about/media-center/press-releases/
+2026-02-16 14:00:36 - ERROR - Failed to parse LLM initial content from https://www.bain.com/about/media-center/press-releases/: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:00:36 - INFO - Processing URL: https://www.bain.com/ja/about-bain/media-center/press-releases/
+2026-02-16 14:00:37 - WARNING - Invalid content from URL: https://www.tradingview.com/news/smallcaps:631014c73094b:0-the-big-boomer-sell-down/
+2026-02-16 14:00:39 - ERROR - Failed to parse LLM initial content from https://www.bain.com/ja/about-bain/media-center/press-releases/: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:00:39 - INFO - Processing URL: https://newsroom.accenture.com/
+2026-02-16 14:00:40 - ERROR - Failed to parse LLM initial content from https://newsroom.accenture.com/: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:00:40 - INFO - Processing URL: https://newsroom.accenture.jp/
+2026-02-16 14:00:42 - ERROR - Failed to parse LLM initial content from https://newsroom.accenture.jp/: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:00:42 - INFO - Processing URL: https://www.deloitte.com/global/en/about/press-room.html
+2026-02-16 14:00:44 - ERROR - Failed to parse LLM initial content from https://www.deloitte.com/global/en/about/press-room.html: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:00:44 - INFO - Processing URL: https://www2.deloitte.com/jp/ja/footerlinks/nr.html
+2026-02-16 14:00:45 - ERROR - Failed to parse LLM initial content from https://www2.deloitte.com/jp/ja/footerlinks/nr.html: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:00:45 - INFO - Processing URL: https://www.ey.com/en_gl/newsroom
+2026-02-16 14:00:46 - WARNING - Invalid content from URL: https://theaussiecorporate.com/blogs/pickandscrollnews/kpmg-faces-ai-cheating-scandal
+2026-02-16 14:00:47 - ERROR - Failed to parse LLM initial content from https://www.ey.com/en_gl/newsroom: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:00:47 - INFO - Processing URL: https://www.ey.com/ja_jp/newsroom
+2026-02-16 14:00:48 - WARNING - Invalid content from URL: https://kpmg.com/us/en/articles/2026/asset-management-private-equity.html
+2026-02-16 14:00:49 - WARNING - Invalid content from URL: https://www.finextra.com/newsarticle/47307/global-fintech-investment-rebounds-in-2025-supported-by-stronger-exit-activity
+2026-02-16 14:00:50 - ERROR - Failed to parse LLM initial content from https://www.ey.com/ja_jp/newsroom: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:00:50 - INFO - Processing URL: https://www.pwc.com/gx/en/news-room.html
+2026-02-16 14:00:52 - ERROR - Failed to parse LLM initial content from https://www.pwc.com/gx/en/news-room.html: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:00:52 - INFO - Processing URL: https://www.pwc.com/jp/ja/press-room.html#press
+2026-02-16 14:00:54 - ERROR - Failed to parse LLM initial content from https://www.pwc.com/jp/ja/press-room.html#press: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:00:54 - INFO - Processing URL: https://kpmg.com/xx/en/home/media/press-releases.html
+2026-02-16 14:00:56 - ERROR - Failed to parse LLM initial content from https://kpmg.com/xx/en/home/media/press-releases.html: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:00:56 - INFO - Processing URL: https://kpmg.com/jp/ja/home/media/press-releases.html
+2026-02-16 14:00:57 - ERROR - Failed to parse LLM initial content from https://kpmg.com/jp/ja/home/media/press-releases.html: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:00:57 - INFO - Processing URL: https://www.mri.co.jp/news/index.html
+2026-02-16 14:00:57 - WARNING - Invalid content from URL: https://www.msn.com/en-in/money/topstories/kpmg-report-2026-10-priorities-to-make-india-a-manufacturing-and-innovation-powerhouse-by-2047-et-now-global-business-summit-2026/ar-AA1WinWr?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1
+2026-02-16 14:00:58 - ERROR - Failed to parse LLM initial content from https://www.mri.co.jp/news/index.html: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:00:58 - INFO - Processing URL: https://www.consulting.us/
+2026-02-16 14:00:59 - WARNING - Invalid content from URL: https://www.pressreader.com/new-zealand/the-new-zealand-herald/20260216/281904484633459
+2026-02-16 14:01:00 - WARNING - Invalid content from URL: https://www.latestly.com/agency-news/business-news-india-must-shift-from-growth-at-scale-to-productivity-for-viksit-bharat-2047-kpmg-report-7313657.html
+2026-02-16 14:01:01 - WARNING - Invalid content from URL: https://www.pressreader.com/south-africa/the-sunday-independent/20260215/281844355090208
+2026-02-16 14:01:01 - WARNING - Skipping non-article URL: http://www.msn.com/en-us/sports/golf/club-pro-disqualified-from-kpmg-women-s-pga-championship-after-15-over-87/ar-AA1H6vLg?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1
+2026-02-16 14:01:01 - WARNING - Invalid content from URL: http://www.msn.com/en-us/sports/golf/club-pro-disqualified-from-kpmg-women-s-pga-championship-after-15-over-87/ar-AA1H6vLg?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1
+2026-02-16 14:01:01 - INFO - Processing email: Google Alert - "Deloitte" on 16-02-26
+2026-02-16 14:01:02 - WARNING - Invalid content from URL: https://www.crowdfundinsider.com/2026/02/261921-deloitte-shares-insights-on-navigating-ai-enabled-digital-transformation-of-business-environment/
+2026-02-16 14:01:08 - ERROR - Failed to parse LLM initial content from https://www.consulting.us/: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:01:08 - INFO - Processing URL: https://www.consultancy.uk/
+2026-02-16 14:01:10 - ERROR - Failed to parse LLM initial content from https://www.consultancy.uk/: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:01:10 - INFO - Processing URL: https://www.consultancy.asia/country/japan
+2026-02-16 14:01:11 - ERROR - Failed to parse LLM initial content from https://www.consultancy.asia/country/japan: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:01:11 - INFO - Processing URL: https://www.consultancy.in/
+2026-02-16 14:01:12 - WARNING - Invalid content from URL: https://www.msn.com/en-in/money/news/deloitte-announces-massive-workforce-overhaul-important-news-for-181-500-employees/ar-AA1ULcEL?cvid=6973f74ed1f44e47ab2ae80c291198d7&ocid=mobilepwa&apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1
+2026-02-16 14:01:12 - INFO - Skipping duplicate link from DB: https://www.deloitte.com/lu/en/alliances/servicenow/case-studies/powering-progress-through-deloitte-servicenow-journey.html
+2026-02-16 14:01:13 - ERROR - Failed to parse LLM initial content from https://www.consultancy.in/: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:01:13 - INFO - Processing URL: https://www.consultancy.com.au/
+2026-02-16 14:01:14 - ERROR - Failed to parse LLM initial content from https://www.consultancy.com.au/: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:01:14 - INFO - Processing URL: https://www.consultancy.eu/
+2026-02-16 14:01:15 - WARNING - Invalid content from URL: https://www.advancedmanufacturing.org/technologies/cutting-edge/smart-manufacturing-optimism-tech-talent-drive-growth/article_10d14d2f-9b9d-4da1-b9b9-6a750b3fd9ee.html
+2026-02-16 14:01:17 - ERROR - Failed to parse LLM initial content from https://www.consultancy.eu/: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:01:17 - INFO - Processing URL: https://www.consultancy.asia/
+2026-02-16 14:01:18 - ERROR - Failed to parse LLM initial content from https://www.consultancy.asia/: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:01:18 - INFO - Processing URL: https://www.consultancy-me.com/
+2026-02-16 14:01:20 - ERROR - Failed to parse LLM initial content from https://www.consultancy-me.com/: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:01:20 - INFO - Processing URL: https://www.consultancy.nl/
+2026-02-16 14:01:21 - ERROR - Failed to parse LLM initial content from https://www.consultancy.nl/: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:01:21 - INFO - Processing URL: https://www.consultancy.co.za/
+2026-02-16 14:01:23 - ERROR - Failed to parse LLM initial content from https://www.consultancy.co.za/: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:01:23 - INFO - Processing URL: https://www.consultancy.lat/
+2026-02-16 14:01:24 - WARNING - Invalid content from URL: https://finance.yahoo.com/news/varex-imaging-stockholders-reelect-directors-040200567.html
+2026-02-16 14:01:25 - WARNING - Invalid content from URL: https://www.hcamag.com/au/specialisation/employment-law/kpmg-partner-fined-over-ai-exam-breach/565406
+2026-02-16 14:01:25 - ERROR - Failed to parse LLM initial content from https://www.consultancy.lat/: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:01:25 - INFO - Processing URL: https://www.consultancy.africa/
+2026-02-16 14:01:26 - WARNING - Invalid content from URL: https://www.theeastafrican.co.ke/tea/business-tech/dwindling-profitability-a-major-pain-point-for-african-banks-5359304
+2026-02-16 14:01:27 - ERROR - Failed to parse LLM initial content from https://www.consultancy.africa/: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:01:27 - INFO - Processing URL: https://www.consulting.ca/
+2026-02-16 14:01:27 - WARNING - Invalid content from URL: https://businessdesk.co.nz/markets/announcements-generated-by-ai/freightways-reports-strong-half-year-performance
+2026-02-16 14:01:27 - INFO - Processing email: Google Alert - Accenture on 16-02-26
+2026-02-16 14:01:29 - ERROR - Failed to parse LLM initial content from https://www.consulting.ca/: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:01:29 - INFO - Processing URL: https://www.consultancy.asia/country/singapore
+2026-02-16 14:01:29 - WARNING - Invalid content from URL: https://simplywall.st/stocks/us/software/nyse-acn/accenture/news/accenture-sharpens-leadership-and-security-focus-with-new-cc
+2026-02-16 14:01:30 - ERROR - Failed to parse LLM initial content from https://www.consultancy.asia/country/singapore: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:01:30 - INFO - Processing URL: https://www.consultancy.asia/country/china
+2026-02-16 14:01:31 - ERROR - Failed to parse LLM initial content from https://www.consultancy.asia/country/china: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:01:31 - INFO - Processing URL: https://www.consultancy.eu/country/france
+2026-02-16 14:01:33 - ERROR - Failed to parse LLM initial content from https://www.consultancy.eu/country/france: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:01:33 - INFO - Processing URL: https://www.consultancy.eu/country/germany
+2026-02-16 14:01:35 - ERROR - Failed to parse LLM initial content from https://www.consultancy.eu/country/germany: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:01:35 - INFO - Processing URL: https://www.consultancy.uk/
+2026-02-16 14:01:37 - ERROR - Failed to parse LLM initial content from https://www.consultancy.uk/: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************AqQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-02-16 14:01:37 - INFO - All articles committed successfully.
+2026-02-16 14:01:37 - INFO - FAISS index saved successfully.
+2026-02-16 14:01:37 - INFO - Web scraping pipeline completed successfully.
+2026-02-16 14:01:38 - WARNING - Invalid content from URL: http://www.msn.com/en-us/money/savingandinvesting/accenture-buys-germany-s-systema/ar-AA1HK0ey?ocid=finance-verthp-feeds&apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1
+2026-02-16 14:01:46 - WARNING - Invalid content from URL: https://www.livemint.com/technology/tech-news/ais-next-chapter-will-be-what-accenture-openai-qualcomm-other-ceos-say-ahead-of-india-ai-impact-summit-2026/amp-11771145368667.html
+2026-02-16 14:01:48 - WARNING - Invalid content from URL: https://www.gurufocus.com/news/8619483/avantis-us-equity-etf-buys-1582-shares-of-accenture-plc-acn
+2026-02-16 14:01:48 - WARNING - Invalid content from URL: https://www.bignewsnetwork.com/news/278869293/india-helping-shape-what-comes-next-in-ai-tech-leaders-from-accenture-amazon-qualcomm-vertiv-look-forward-to-ai-impact-summit
+2026-02-16 14:02:06 - WARNING - Invalid content from URL: https://www.capecodtimes.com/press-release/story/77351/blue-grid-group-appoints-donald-carr-as-ceo-to-spearhead-the-company-and-its-business-outcomes-as-a-service-strategy/
+2026-02-16 14:02:07 - WARNING - Invalid content from URL: https://www.marketbeat.com/instant-alerts/filing-aberdeen-group-plc-acquires-85221-shares-of-accenture-plc-acn-2026-02-15/
+2026-02-16 14:02:08 - WARNING - Invalid content from URL: https://www.gurufocus.com/news/8617784/evergreen-capital-management-llc-buys-3440-shares-of-accenture-plc-acn?utm_source=marketwatch&utm_medium=syndication&utm_campaign=headlines&r=4bf001661e6fdd88d0cd7a5659ff9748&mod=mw_quote_news
+2026-02-16 14:02:10 - WARNING - Invalid content from URL: https://www.marketbeat.com/instant-alerts/filing-state-of-new-jersey-common-pension-fund-d-raises-stake-in-accenture-plc-acn-2026-02-15/
+2026-02-16 14:02:10 - WARNING - Skipping non-article URL: https://www.msn.com/en-in/money/news/testmu-ai-formerly-lambdatest-unveils-2025-partner-of-the-year-award-winners/ar-AA1WkEhA
+2026-02-16 14:02:10 - WARNING - Invalid content from URL: https://www.msn.com/en-in/money/news/testmu-ai-formerly-lambdatest-unveils-2025-partner-of-the-year-award-winners/ar-AA1WkEhA
+2026-02-16 14:02:10 - INFO - Processing email: Google Alert - KPMG on 16-02-26
+2026-02-16 14:02:18 - WARNING - Invalid content from URL: https://www.afr.com/companies/professional-services/kpmg-partner-fined-for-using-ai-to-cheat-on-an-ai-test-20260215-p5o2f2
+2026-02-16 14:02:19 - WARNING - Invalid content from URL: https://www.hcamag.com/au/specialisation/employment-law/kpmg-partner-fined-over-ai-exam-breach/565406
+2026-02-16 14:02:28 - WARNING - Invalid content from URL: https://www.afr.com/rear-window/kpmg-takes-las-vegas-during-troubled-times-20260215-p5o2em
+2026-02-16 14:02:30 - WARNING - Invalid content from URL: https://smallcaps.com.au/article/the-big-boomer-sell-down
+2026-02-16 14:02:40 - WARNING - Invalid content from URL: https://www.afr.com/companies/professional-services/alvarez-and-marsal-plots-major-expansion-with-big-salaries-and-demands-20251005-p5n055
+2026-02-16 14:02:49 - WARNING - Invalid content from URL: https://www.msn.com/en-au/news/australia/more-aussies-putting-retirement-on-hold-working-into-their-70s-than-ever-before/ar-AA1MNPx0?ocid=finance-verthp-feeds&apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1
+2026-02-16 14:02:49 - INFO - Processing email: Google Alert - Accenture on 16-02-26
+2026-02-16 14:02:58 - WARNING - Invalid content from URL: https://finance.yahoo.com/news/accenture-links-communications-leadership-black-042027031.html
+2026-02-16 14:02:59 - WARNING - Invalid content from URL: https://www.gurufocus.com/news/8619483/avantis-us-equity-etf-buys-1582-shares-of-accenture-plc-acn
+2026-02-16 14:03:01 - WARNING - Invalid content from URL: https://www.marketbeat.com/instant-alerts/filing-aberdeen-group-plc-acquires-85221-shares-of-accenture-plc-acn-2026-02-15/
+2026-02-16 14:03:02 - WARNING - Invalid content from URL: https://www.gurufocus.com/news/8617784/evergreen-capital-management-llc-buys-3440-shares-of-accenture-plc-acn?utm_source=marketwatch&utm_medium=syndication&utm_campaign=headlines&r=4bf001661e6fdd88d0cd7a5659ff9748&mod=mw_quote_news
+2026-02-16 14:03:05 - WARNING - Invalid content from URL: https://www.tribuneindia.com/news/world/india-helping-shape-what-comes-next-in-ai-tech-leaders-from-accenture-amazon-qualcomm-vertiv-look-forward-to-ai-impact-summit/
+2026-02-16 14:03:07 - WARNING - Invalid content from URL: https://www.marketbeat.com/instant-alerts/filing-state-of-new-jersey-common-pension-fund-d-raises-stake-in-accenture-plc-acn-2026-02-15/
+2026-02-16 14:03:08 - WARNING - Invalid content from URL: https://www.marketbeat.com/instant-alerts/filing-abn-amro-investment-solutions-has-1333-million-stock-position-in-accenture-plc-acn-2026-02-15/
+2026-02-16 14:03:10 - WARNING - Invalid content from URL: https://www.marketbeat.com/instant-alerts/filing-troy-asset-management-ltd-purchases-23343-shares-of-accenture-plc-acn-2026-02-15/
+2026-02-16 14:03:19 - WARNING - Invalid content from URL: https://www.defenseworld.net/2026/02/15/abn-amro-investment-solutions-has-13-33-million-stock-position-in-accenture-plc-acn.html
+2026-02-16 14:03:19 - WARNING - Skipping non-article URL: https://www.msn.com/en-in/money/news/testmu-ai-formerly-lambdatest-unveils-2025-partner-of-the-year-award-winners/ar-AA1WkEhA
+2026-02-16 14:03:19 - WARNING - Invalid content from URL: https://www.msn.com/en-in/money/news/testmu-ai-formerly-lambdatest-unveils-2025-partner-of-the-year-award-winners/ar-AA1WkEhA
+2026-02-16 14:03:19 - INFO - Processing email: Google Alert - McKinsey on 16-02-26
+2026-02-16 14:03:26 - WARNING - Invalid content from URL: https://www.dataweek.co.za/26586r
+2026-02-16 14:03:26 - INFO - Processing email: Google Alert - Bain & Company on 16-02-26
+2026-02-16 14:03:27 - WARNING - Invalid content from URL: https://www.peoplematters.in/news/appointments/upgrad-enterprise-announces-arushee-aggarwal-as-new-ceo-48427
+2026-02-16 14:03:27 - INFO - Processing email: Google Alert - Bain & Company on 16-02-26
+2026-02-16 14:03:38 - WARNING - Invalid content from URL: https://sg.finance.yahoo.com/news/galderma-announces-appointment-chief-financial-060000222.html
+2026-02-16 14:03:39 - WARNING - Invalid content from URL: https://sbr.com.sg/markets/news/isca-sets-aside-3m-98-foresee-industry-disruption
+2026-02-16 14:03:40 - WARNING - Invalid content from URL: https://sbr.com.sg/stocks/news/oue-projects-2025-net-loss-240m-china-property-hit
+2026-02-16 14:03:41 - WARNING - Invalid content from URL: https://sbr.com.sg/residential-property/news/january-home-sales-see-strong-rebound-december-sharp-yoy-drop
+2026-02-16 14:03:41 - WARNING - Invalid content from URL: https://sbr.com.sg/markets-investing/news/centurion-acquires-65-stake-in-manna-777-build-new-kim-chuan-dormitory
+2026-02-16 14:03:42 - WARNING - Invalid content from URL: https://sbr.com.sg/financial-services/news/bank-singapore-names-bernard-heng-head-customised-solutions
+2026-02-16 14:03:43 - WARNING - Invalid content from URL: https://sbr.com.sg/healthcare/news/singapore-paincare-sinks-net-loss-rising-staff-expenses
+2026-02-16 14:03:44 - WARNING - Invalid content from URL: https://sbr.com.sg/news/marco-polo-marine-q1-gross-profit-jumps-32-wind-fleet-expansion
+2026-02-16 14:03:44 - INFO - Processing email: Google Alert - Deloitte on 16-02-26
+2026-02-16 14:03:54 - WARNING - Invalid content from URL: https://finance.yahoo.com/news/varex-imaging-stockholders-reelect-directors-040200567.html
+2026-02-16 14:03:55 - WARNING - Invalid content from URL: https://www.openpr.com/news/4391241/operation-business-process-as-a-service-bpaas-market-to-reach
+2026-02-16 14:03:55 - INFO - Processing email: Google Alert - Bain & Company on 16-02-26
+2026-02-16 14:03:56 - WARNING - Invalid content from URL: https://www.businesswire.com/news/home/20260215396920/en/Galderma-Announces-Appointment-of-New-Chief-Financial-Officer
+2026-02-16 14:03:56 - INFO - Processing email: Google Alert - McKinsey on 16-02-26
+2026-02-16 14:03:57 - WARNING - Invalid content from URL: https://www.insurancebusinessmag.com/us/news/breaking-news/big-deals-tech-arenas-and-pe-mckinsey-maps-the-new-manda-landscape-for-insurers-565408.aspx
+2026-02-16 14:04:00 - WARNING - Invalid content from URL: https://www.winnipegsun.com/business/be-my-ai-valentine-commit-to-ai-now-or-risk-falling-behind/article_2c9b3fca-788a-45a8-b378-9e3fd91eeb06.html
+2026-02-16 14:04:01 - WARNING - Invalid content from URL: https://www.thailand-business-news.com/tech/287005-southeast-asias-ai-paradox-racing-ahead-while-struggling-to-monetize
+2026-02-16 14:04:01 - INFO - Processing email: Google Alert - "Deloitte" on 16-02-26
+2026-02-16 14:04:11 - WARNING - Invalid content from URL: https://finance.yahoo.com/news/varex-imaging-stockholders-reelect-directors-040200567.html
+2026-02-16 14:04:11 - INFO - All emails committed successfully.
+2026-02-16 14:04:22 - INFO - Emails marked as read.

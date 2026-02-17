@@ -150,19 +150,26 @@ class WebScraper:
 
                     db.session.add(new_email)
                     logger.info(f"Prepared to insert article: {subject} ({link})")
+                    
+                    # Commit immediately to release lock
+                    try:
+                        db.session.commit()
+                        logger.info(f"Successfully committed article: {title}")
+                        # deduplicator.save_index() # Optional: save index less frequently or here
+                    except Exception as e:
+                        db.session.rollback()
+                        logger.error(f"DB commit failed for article '{title}': {e}")
 
                 except Exception as e:
                     logger.error(f"Error preparing article for DB: {e}")
+                    db.session.rollback()
                     continue
 
-            try:
-                db.session.commit()
-                logger.info("All articles committed successfully.")
-                deduplicator.save_index()
-                logger.info("FAISS index saved successfully.")
-            except Exception as e:
-                db.session.rollback()
-                logger.error(f"DB commit failed: {e}")
+        try:
+            deduplicator.save_index()
+            logger.info("FAISS index saved successfully.")
+        except Exception as e:
+            logger.error(f"Error saving FAISS index: {e}")
 
     def scrapping_pipeline(self):
         """

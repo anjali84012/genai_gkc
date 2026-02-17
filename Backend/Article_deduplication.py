@@ -70,7 +70,7 @@ class ArticleDeduplicator:
                 try:
                     self.load_index()
                     if self.id_map.d != self.embedding_dim:
-                         print(f"Index dimension mismatch (File: {self.index.d}, Current: {self.embedding_dim}). Resetting index.")
+                         print(f"Index dimension mismatch (File: {self.id_map.d}, Current: {self.embedding_dim}). Resetting index.")
                          # Reset if using a different model (e.g. switching from local 384 to API 1536)
                          self.index = self._faiss_lib.IndexFlatIP(self.embedding_dim)
                          self.id_map = self._faiss_lib.IndexIDMap(self.index)

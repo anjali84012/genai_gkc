@@ -259,23 +259,19 @@ def run_url_extraction():
 # Standard Flask pattern: run once in child process or if debug is off
 # Standard Flask pattern: run once in child process or if debug is off
 # Or if reloader is disabled, run in the main process
-if (os.environ.get('WERKZEUG_RUN_MAIN') == 'true' or not app.debug or os.environ.get('FLASK_RUN_FROM_CLI') == 'true' or True) and not os.environ.get('SKIP_SCHEDULER'):
+if os.environ.get('WERKZEUG_RUN_MAIN') == 'true' or not app.debug or os.environ.get('FLASK_RUN_FROM_CLI') == 'true' or True: # Force start for now as we are in a single process dev mode
 
     scheduler = BackgroundScheduler()
     scheduler.add_job(func=run_data_extraction, trigger="interval", hours=2)
-    scheduler.add_job(func=run_url_extraction, trigger="interval", hours=2)
+    # scheduler.add_job(func=run_url_extraction, trigger="interval", hours=2)
+    scheduler.add_job(func=run_url_extraction, trigger="cron", hour=8, minute=0)
     # Staggered immediate runs to avoid file lock conflict
     scheduler.add_job(func=run_data_extraction, trigger="date", run_date=datetime.now())
     # Start URL extraction 30 seconds later to let the first one breathe
     from datetime import timedelta
     scheduler.add_job(func=run_url_extraction, trigger="date", run_date=datetime.now() + timedelta(seconds=30))
     scheduler.start()
-    app.logger.info("GINAI GKC Background Scheduler started.")
-
-# Ensure DB tables exist
-with app.app_context():
-    db.create_all()
-    app.logger.info("Database tables verified/created.")
+    app.logger.info("GENAI GKC Background Scheduler started.")
 
 if __name__ == '__main__':
     print("\n" + "="*50)

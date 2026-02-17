@@ -1,13 +1,12 @@
-# Environment variables
-.env
-
-# Google OAuth secrets
-Inputs/token.json
-Inputs/credentials.json
-Inputs/token_backup.json
-Inputs/credentials_backup.json
-instance/
-
-# Python
 __pycache__/
 *.pyc
+instance/
+.env
+Logs/
+venv/
+.vscode/
+.idea/
+*.index
+*.vectors.pkl
+Inputs/token.json
+Inputs/credentials.json

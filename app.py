@@ -31,6 +31,10 @@ else:
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
+# Ensure tables exist (safe: checks first, doesn't overwrite)
+with app.app_context():
+    db.create_all()
+
 class Email(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     company_name = db.Column(db.String(255))

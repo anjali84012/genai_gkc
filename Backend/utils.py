@@ -81,12 +81,14 @@ def flask_sql_alchemy_db():
     db = SQLAlchemy(app)
     
     with app.app_context():
-        try:
-            db.session.execute(text("PRAGMA journal_mode=WAL;"))
-            db.session.commit()
-            print("INFO: Database set to WAL mode.")
-        except Exception as e:
-            print(f"WARNING: Could not set WAL mode: {e}")
+        # Only enable WAL mode for SQLite
+        if "sqlite" in config.db_path:
+            try:
+                db.session.execute(text("PRAGMA journal_mode=WAL;"))
+                db.session.commit()
+                print("INFO: Database set to WAL mode.")
+            except Exception as e:
+                print(f"WARNING: Could not set WAL mode: {e}")
 
     return db, app
 
@@ -702,8 +704,8 @@ def chunk_text(text: str, max_tokens: int, encoding_name: str = config.encoding_
 
 ## --> Auto generating token.json so that need not do the sign in again and again
 def auto_generated_token_json(
-    credentials_path=r'Inputs\credentials.json',
-    token_path=r'Inputs\token.json',
+    credentials_path=os.path.join(config.BASE_DIR, 'Inputs', 'credentials.json'),
+    token_path=os.path.join(config.BASE_DIR, 'Inputs', 'token.json'),
     scopes=config.SCOPES
 ):
     """

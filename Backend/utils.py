@@ -411,8 +411,14 @@ def load_llm():
         object: OpenAI or HuggingFace LLM client instance.
     """
     if config.USE_OPENAI:
+        api_key = config.OPENAI_API_KEY
+        if not api_key:
+            error_msg = "OPENAI_API_KEY environment variable is missing. This is required for AI features."
+            if os.getenv("RAILWAY_STATIC_URL") or os.getenv("RENDER"):
+                logging.critical(f"DEPLOYMENT ERROR: {error_msg} Please set it in your hosting dashboard.")
+            raise ValueError(error_msg)
         llm = OpenAI(
-            api_key=config.OPENAI_API_KEY
+            api_key=api_key
         )
         return llm
     else:
@@ -760,7 +766,13 @@ def auto_generated_token_json(
     # If no valid credentials, start OAuth flow (only if in a TTY/Local environment)
     if not creds or not creds.valid:
         if not os.path.exists(credentials_path):
-             raise FileNotFoundError(f"Gmail credentials.json missing at {credentials_path}. Please provide it or GMAIL_TOKEN_JSON env var.")
+             is_cloud = os.getenv("RENDER") or os.getenv("RAILWAY_STATIC_URL") or not sys.stdin.isatty()
+             if is_cloud:
+                 msg = "GMAIL_TOKEN_JSON environment variable is missing or invalid. Cloud deployment requires this secret."
+                 logging.critical(f"DEPLOYMENT ERROR: {msg}")
+                 raise RuntimeError(msg)
+             else:
+                 raise FileNotFoundError(f"Gmail credentials.json missing at {credentials_path}. Please provide it or GMAIL_TOKEN_JSON env var.")
              
         try:
             # Check if we are likely in a headless/non-interactive environment

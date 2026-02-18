@@ -1,0 +1,13 @@
+venv/
+.git/
+.env
+__pycache__/
+*.pyc
+Logs/
+instance/
+Inputs/chromedriver-win64/
+faiss_hnsw.index
+faiss_hnsw.index.vectors.pkl
+.vscode/
+.idea/
+*.log

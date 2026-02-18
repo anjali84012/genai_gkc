@@ -163,12 +163,26 @@ def fetch_using_selenium(url):
                 if os.path.exists(path):
                     chrome_options.binary_location = path
                     break
-        # On Linux (Docker), Chrome is usually in the PATH, so we don't set binary_location
+        else:
+            # On Linux (Docker), check common paths for google-chrome
+            potential_linux_paths = ["/usr/bin/google-chrome", "/usr/bin/google-chrome-stable", "/usr/local/bin/google-chrome"]
+            for path in potential_linux_paths:
+                if os.path.exists(path):
+                    chrome_options.binary_location = path
+                    break
         
         chrome_options.add_argument("--remote-debugging-port=9222")
         chrome_options.add_argument("--ignore-certificate-errors")
 
-        service = Service(config.CHROME_DRIVER_PATH)
+        # Robust Service initialization:
+        # On Linux, don't use the default Windows path from config.CHROME_DRIVER_PATH
+        if os.name == 'nt' and config.CHROME_DRIVER_PATH:
+             service = Service(config.CHROME_DRIVER_PATH)
+        else:
+             # Let Selenium Manager find/download the matching driver on Linux
+             # This avoids trying to use a .exe on Linux
+             service = Service()
+             
         driver = webdriver.Chrome(service=service, options=chrome_options)
         
 

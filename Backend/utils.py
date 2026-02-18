@@ -151,7 +151,20 @@ def fetch_using_selenium(url):
         chrome_options.add_argument("--disable-dev-shm-usage")
         chrome_options.add_argument("--disable-gpu")
         chrome_options.add_argument("--window-size=1920,1080")
-        chrome_options.binary_location = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
+        if config.CHROME_BINARY_PATH:
+            chrome_options.binary_location = config.CHROME_BINARY_PATH
+        elif os.name == 'nt': # Default for Windows if not specified
+            potential_paths = [
+                r"C:\Program Files\Google\Chrome\Application\chrome.exe",
+                r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",
+                os.path.expandvars(r"%LOCALAPPDATA%\Google\Chrome\Application\chrome.exe")
+            ]
+            for path in potential_paths:
+                if os.path.exists(path):
+                    chrome_options.binary_location = path
+                    break
+        # On Linux (Docker), Chrome is usually in the PATH, so we don't set binary_location
+        
         chrome_options.add_argument("--remote-debugging-port=9222")
         chrome_options.add_argument("--ignore-certificate-errors")
 
@@ -717,20 +730,49 @@ def auto_generated_token_json(
     """
     creds = None
 
+    # Try loading from environment variable first (useful for cloud secrets)
+    token_env = os.getenv("GMAIL_TOKEN_JSON")
+    if token_env and not creds:
+        try:
+            import json
+            token_data = json.loads(token_env)
+            creds = Credentials.from_authorized_user_info(token_data, scopes)
+            logging.info("Gmail Credentials loaded from GMAIL_TOKEN_JSON environment variable.")
+        except Exception as e:
+            logging.error(f"Failed to load credentials from GMAIL_TOKEN_JSON: {e}")
+
     # Load existing token if present
-    if os.path.exists(token_path):
+    if not creds and os.path.exists(token_path):
         creds = Credentials.from_authorized_user_file(token_path, scopes)
 
     # If credentials are expired but refresh token is available, refresh
     if creds and creds.expired and creds.refresh_token:
-        creds.refresh(Request())
-        with open(token_path, 'w') as token:
-            token.write(creds.to_json())
-    # If no valid credentials, start OAuth flow
-    elif not creds or not creds.valid:
-        flow = InstalledAppFlow.from_client_secrets_file(credentials_path, scopes)
-        creds = flow.run_local_server(port=0)
-        with open(token_path, 'w') as token:
-            token.write(creds.to_json())
+        try:
+            creds.refresh(Request())
+            # Save the refreshed token if we have a path
+            if os.access(os.path.dirname(token_path), os.W_OK):
+                with open(token_path, 'w') as token:
+                    token.write(creds.to_json())
+        except Exception as e:
+            logging.error(f"Failed to refresh Gmail token: {e}")
+            creds = None
+
+    # If no valid credentials, start OAuth flow (only if in a TTY/Local environment)
+    if not creds or not creds.valid:
+        if not os.path.exists(credentials_path):
+             raise FileNotFoundError(f"Gmail credentials.json missing at {credentials_path}. Please provide it or GMAIL_TOKEN_JSON env var.")
+             
+        try:
+            # Check if we are likely in a headless/non-interactive environment
+            if os.getenv("RENDER") or os.getenv("RAILWAY_STATIC_URL") or not sys.stdin.isatty():
+                raise RuntimeError("Gmail authentication required but cannot run interactive flow in this environment. Please provide token.json or GMAIL_TOKEN_JSON.")
+
+            flow = InstalledAppFlow.from_client_secrets_file(credentials_path, scopes)
+            creds = flow.run_local_server(port=0)
+            with open(token_path, 'w') as token:
+                token.write(creds.to_json())
+        except Exception as e:
+            logging.critical(f"Gmail Authentication Failed: {e}")
+            raise
 
     return creds

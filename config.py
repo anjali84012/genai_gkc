@@ -19,7 +19,9 @@ else:
 DEDUPLICATION_INDEX_PATH = os.path.join(BASE_DIR, "instance", "faiss_hnsw.index")
 backend_log_path = "Backend_logging.txt"
 frontend_log_path = "Frontend_logging.txt"
-CHROME_DRIVER_PATH = "Inputs/chromedriver-win64/chromedriver.exe"
+# Handle Chrome Driver Path (Default to Windows locally, override in Docker/Linux)
+CHROME_DRIVER_PATH = os.getenv("CHROME_DRIVER_PATH", os.path.join(BASE_DIR, "Inputs", "chromedriver-win64", "chromedriver.exe"))
+CHROME_BINARY_PATH = os.getenv("CHROME_BINARY_PATH") # Optional: override Chrome binary location
 
 SCOPES = ['https://www.googleapis.com/auth/gmail.modify']
 openai_model_name = "gpt-4o-mini"

@@ -1,17 +1,31 @@
-# Use a Python base image
+# Build Stage
+FROM python:3.11.9-slim as builder
+
+WORKDIR /app
+
+# Install build dependencies
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    && rm -rf /var/lib/apt/lists/*
+
+# Optimize pip and install CPU-only dependencies first
+RUN pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir --user -r requirements.txt
+
+# Final Stage
 FROM python:3.11.9-slim
 
-# Install system dependencies for Chrome and other tools
+# Install system dependencies for Chrome and runtime
 RUN apt-get update && apt-get install -y \
     wget \
     gnupg \
-    unzip \
     curl \
-    libgconf-2-4 \
     libnss3 \
+    libgconf-2-4 \
     libxss1 \
     libasound2 \
-    libxtst6 \
     libatk-bridge2.0-0 \
     libgtk-3-0 \
     --no-install-recommends \
@@ -19,27 +33,27 @@ RUN apt-get update && apt-get install -y \
     && echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list \
     && apt-get update && apt-get install -y \
     google-chrome-stable \
-    && rm -rf /var/lib/apt/lists/*
+    && apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# Set working directory
 WORKDIR /app
 
-# Copy requirements first for better caching
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+# Copy installed python packages from builder
+COPY --from=builder /root/.local /root/.local
+COPY --from=builder /usr/local/lib/python3.11/site-packages/torch /usr/local/lib/python3.11/site-packages/torch
 
-# Copy the application code
+# Ensure binaries are in PATH
+ENV PATH=/root/.local/bin:$PATH
+
+# Copy application code
 COPY . .
 
-# Ensure the instance directory exists for persistent data
-RUN mkdir -p /app/instance
-
-# Expose the port (Gunicorn default or specified by platform)
-EXPOSE 8080
-
-# Environment variables for production
+# Environment variables
 ENV FLASK_APP=app.py
 ENV PYTHONUNBUFFERED=1
+ENV PORT=8080
 
-# Run the application with Gunicorn
+RUN mkdir -p /app/instance
+
+EXPOSE 8080
+
 CMD ["gunicorn", "--bind", "0.0.0.0:8080", "--timeout", "120", "app:app"]

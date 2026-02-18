@@ -716,59 +716,21 @@ def auto_generated_token_json(
         Credentials object (google.oauth2.credentials.Credentials)
     """
     creds = None
-    
-    # Ensure Inputs directory exists for saving token.json
-    os.makedirs(os.path.dirname(token_path), exist_ok=True)
 
     # Load existing token if present
     if os.path.exists(token_path):
         creds = Credentials.from_authorized_user_file(token_path, scopes)
-        print(f"INFO: Loaded credentials from {token_path}")
-    else:
-        # Fallback check for token.json in root
-        root_token = os.path.join(config.BASE_DIR, 'token.json')
-        if os.path.exists(root_token):
-            creds = Credentials.from_authorized_user_file(root_token, scopes)
-            print(f"INFO: Loaded credentials from {root_token}")
 
     # If credentials are expired but refresh token is available, refresh
     if creds and creds.expired and creds.refresh_token:
-        try:
-            creds.refresh(Request())
-            with open(token_path, 'w') as token:
-                token.write(creds.to_json())
-            print("INFO: Token refreshed successfully.")
-        except Exception as e:
-            print(f"WARNING: Could not refresh token: {e}")
-            creds = None # Force re-auth if refresh fails
-
+        creds.refresh(Request())
+        with open(token_path, 'w') as token:
+            token.write(creds.to_json())
     # If no valid credentials, start OAuth flow
-    if not creds or not creds.valid:
-        # Check for credentials.json in Inputs or Root
-        if not os.path.exists(credentials_path):
-            root_creds = os.path.join(config.BASE_DIR, 'credentials.json')
-            if os.path.exists(root_creds):
-                credentials_path = root_creds
-            else:
-                print(f"ERROR: credentials.json not found. Checked: {credentials_path} and {root_creds}")
-                print("HINT: Please upload credentials.json as a Secret File on Render.")
-                return None
-
-        print(f"INFO: Using client secrets from {credentials_path}")
-        
-        # Check if we are in a headless environment (Render)
-        # run_local_server requires a browser, which fails in headless environments.
-        # We strongly prefer having a valid token.json uploaded.
-        try:
-            flow = InstalledAppFlow.from_client_secrets_file(credentials_path, scopes)
-            # If we are on Render, this will likely fail unless we have a console-based flow
-            # But standard google-auth-oauthlib doesn't support console flow easily anymore
-            creds = flow.run_local_server(port=0)
-            with open(token_path, 'w') as token:
-                token.write(creds.to_json())
-        except Exception as e:
-            print(f"ERROR: OAuth flow failed: {e}")
-            print("HINT: On Render, you MUST upload a valid 'token.json' because interactive login is not possible.")
-            return None
+    elif not creds or not creds.valid:
+        flow = InstalledAppFlow.from_client_secrets_file(credentials_path, scopes)
+        creds = flow.run_local_server(port=0)
+        with open(token_path, 'w') as token:
+            token.write(creds.to_json())
 
     return creds

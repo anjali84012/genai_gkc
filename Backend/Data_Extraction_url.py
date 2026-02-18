@@ -222,13 +222,9 @@ class WebScraper:
                         logging.warning(f"Invalid content from URL: {full_link}")
                         continue
 
-                    title_raw = article_content.get("title", "No Title")
-                    body_raw = article_content.get("text", "")
+                    title = article_content.get("title", "No Title")
+                    body = article_content.get("text", "")
                     
-                    # Enforce English
-                    title = utils.ensure_english(title_raw)
-                    body = utils.ensure_english(body_raw)
-
                     # 2. Prepare for Secondary LLM
                     article_string = f"Title:\n{title}\n\nText:\n{body}"
                     max_tokens = config.max_input_token
@@ -273,15 +269,11 @@ class WebScraper:
                     final_article = {
                         **item,           # Initial extraction data (company_name, etc.)
                         **refined_data,   # Secondary LLM data (category, summary, decision, etc.)
-                        # "title": title, # REMOVED: Do not overwrite title from refined_data
+                        "title": title,
                         "body": body,
                         "link": full_link,
-                        "subject": refined_data.get("title", title) # Use generated title as subject too
+                        "subject": title # Use title as subject if not present
                     }
-                    
-                    # Ensure title is set if not in refined_data
-                    if "title" not in final_article:
-                        final_article["title"] = title
                     
                     # Ensure company_name exists if not in item
                     if "company_name" not in final_article:

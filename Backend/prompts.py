@@ -7,7 +7,7 @@ prompt_for_html_content = """
                 I need you to extract all individual news items in JSON format given below.
 
                 STRICTLY Return ONLY the result as a list of JSON objects like:
-                    "title": "Generate a short, descriptive headline summarizing the article's core content (max 15 words). Do NOT simply extract the H1 tag unless it is already highly descriptive.",
+                    "title": "headline of the news article. It is given in each article. Search it thoroughly",
                     "text" : "All the content from that article. Make sure you are extracting every bit of content of the article like text, author, date, timestamp"
 
                 I DONT NEED ANY ADDITIONAL WORDS OR EXPLANATION EXCEPT THE JSON OBJECT

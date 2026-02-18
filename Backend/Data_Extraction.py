@@ -55,44 +55,13 @@ def normalize_for_matching(article_content):
 
 class EmailOperations:
     def authenticate_gmail(self):
-
         """
-        Authenticates the Gmail API using OAuth2 flow or existing credentials.
-
-        Returns:
-            googleapiclient.discovery.Resource: Authenticated Gmail service object.
+        Returns the authenticated Gmail service object using the centralized utility.
         """
-
         try:
-            logger.info("Starting Gmail authentication.")
-            token_json_file = os.path.join('Inputs', 'token.json')
-            credentials_json_file = os.path.join('Inputs', 'credentials.json')
-
-            creds = None
-            if os.path.exists(token_json_file):
-                creds = Credentials.from_authorized_user_file(token_json_file, SCOPES)
-                logger.info("Loaded credentials from token.json.")
-            else:
-                logger.warning("token.json not found. Initiating OAuth flow.")
-
-            if not creds or not creds.valid:
-                if creds and creds.expired and creds.refresh_token:
-                    logger.info("Refreshing access token.")
-                    creds.refresh(Request())
-                    logger.info("Access token refreshed.")
-                else:
-                    logger.info("No valid credentials available. Starting OAuth flow.")
-                    flow = InstalledAppFlow.from_client_secrets_file(
-                        credentials_json_file, SCOPES
-                    )
-                    creds = flow.run_local_server(port=0)
-                    logger.info("Obtained new credentials.")
-
-                with open(token_json_file, 'w') as token:
-                    token.write(creds.to_json())
-                    logger.info("Saved credentials to token.json.")
-
-            logger.info("Gmail authentication successful.")
+            creds = utils.auto_generated_token_json()
+            if not creds:
+                raise RuntimeError("Failed to obtain Gmail credentials.")
             return build('gmail', 'v1', credentials=creds)
         except Exception as e:
             logger.error(f"Error authenticating Gmail: {e}", exc_info=True)

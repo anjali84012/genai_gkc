@@ -174,113 +174,115 @@ def download_data():
     return send_file(output, download_name=f"auditor_data_{datetime.now().strftime('%Y%m%d_%H%M%S')}.xlsx", as_attachment=True)
 
 @app.route('/gmail_webhook', methods=['POST'])
-def is_process_running(pid):
-    try:
-        # Check if process exists. signal 0 does nothing but error if process missing
-        os.kill(pid, 0)
-        return True
-    except OSError:
-        return False
+def gmail_webhook():
+    # Placeholder for potential push notifications
+    return jsonify({"status": "received"}), 200
 
+def is_process_running(pid):
+    if pid <= 0: return False
+    if os.name == 'nt':
+        import subprocess
+        try:
+            output = subprocess.check_output(["tasklist", "/FI", f"PID eq {pid}"], stderr=subprocess.STDOUT, text=True)
+            return str(pid) in output
+        except: return False
+    else:
+        try:
+            os.kill(pid, 0)
+            return True
+        except (OSError, ProcessLookupError):
+            return False
 
 def run_sequential_extraction():
     """
-    Runs data extraction and URL extraction sequentially to avoid OOM on low-memory environments.
+    Runs data extraction and URL extraction sequentially with robust locking.
     """
-    lock_file = os.path.join(config.BASE_DIR, "instance", "sequential_extraction.pid")
+    lock_file = os.path.join(config.BASE_DIR, "instance", "sequential_extraction.lock")
     
-    # Check if already running
+    # Robust Locking: Check for stale PID
     if os.path.exists(lock_file):
         try:
             with open(lock_file, 'r') as f:
                 old_pid = int(f.read().strip())
             if is_process_running(old_pid):
-                app.logger.info(f"Scheduler: Sequential Extraction already running (PID: {old_pid}). Skipping.")
+                app.logger.info(f"Scheduler: Task already running (PID: {old_pid}). Skipping.")
                 return
-        except Exception:
-            pass # Ignore corrupt lock file
+            else:
+                app.logger.warning(f"Scheduler: Found stale lock file (PID {old_pid} not running). Cleaning up.")
+                os.remove(lock_file)
+        except Exception as e:
+            app.logger.error(f"Scheduler: Error reading lock file: {e}")
+            if os.path.exists(lock_file): os.remove(lock_file)
 
-    # Write current PID
-    with open(lock_file, 'w') as f:
-        f.write(str(os.getpid()))
+    # Write current PID to lock file
+    try:
+        with open(lock_file, 'w') as f:
+            f.write(str(os.getpid()))
+    except Exception as e:
+        app.logger.error(f"Scheduler: Failed to create lock file: {e}")
+        return
 
     try:
-        app.logger.info("Scheduler: Starting Sequential Extraction Task.")
+        app.logger.info(f"Scheduler: Starting Task (PID: {os.getpid()})")
         
-        # 1. Run Data Extraction (Email)
-        app.logger.info("Scheduler: --> Starting Email Extraction...")
-        backend_script = os.path.join(config.BASE_DIR, 'Backend', 'Data_Extraction.py')
-        
-        process_email = subprocess.Popen(
-            [sys.executable, backend_script],
-            stdout=subprocess.PIPE,
-            stderr=subprocess.STDOUT,
-            cwd=config.BASE_DIR,
-            text=True,
-            bufsize=1,
-            # universal_newlines=True # text=True implies universal_newlines
-        )
-        
-        for line in process_email.stdout:
-            app.logger.info(f"[EmailExtraction] {line.strip()}")
-        
-        process_email.wait()  
-        app.logger.info("Scheduler: --> Email Extraction Completed.")
+        scripts = [
+            ('Email Extraction', os.path.join(config.BASE_DIR, 'Backend', 'Data_Extraction.py')),
+            ('URL Extraction', os.path.join(config.BASE_DIR, 'Backend', 'Data_Extraction_url.py'))
+        ]
 
-        # 2. Run URL Extraction
-        app.logger.info("Scheduler: --> Starting URL Extraction...")
-        backend_script_url = os.path.join(config.BASE_DIR, 'Backend', 'Data_Extraction_url.py')
-        
-        process_url = subprocess.Popen(
-            [sys.executable, backend_script_url],
-            stdout=subprocess.PIPE,
-            stderr=subprocess.STDOUT,
-            cwd=config.BASE_DIR,
-            text=True,
-            bufsize=1
-        )
-        
-        for line in process_url.stdout:
-            app.logger.info(f"[URLExtraction] {line.strip()}")
+        for name, script in scripts:
+            app.logger.info(f"Scheduler: --> Running {name}...")
+            process = subprocess.Popen(
+                [sys.executable, script],
+                stdout=subprocess.PIPE,
+                stderr=subprocess.STDOUT,
+                cwd=config.BASE_DIR,
+                text=True,
+                bufsize=1
+            )
             
-        process_url.wait()
-        app.logger.info("Scheduler: --> URL Extraction Completed.")
-        app.logger.info("Scheduler: Sequential Extraction Task Finished Successfully.")
+            for line in process.stdout:
+                # Log to stdout so it shows up in Railway/Render logs
+                print(f"[{name}] {line.strip()}", flush=True)
+            
+            process.wait()
+            app.logger.info(f"Scheduler: --> {name} Completed with exit code {process.returncode}")
+
+        app.logger.info("Scheduler: All tasks finished successfully.")
 
     except Exception as e:
-        app.logger.error(f"Sequential Extraction Error: {e}")
+        app.logger.error(f"Scheduler Critical Error: {e}")
     finally:
-        # Clean up lock file (optional, but good practice if we want to rely on it)
-        # However, for PID checks, we usually leave it. But since this wrapper runs inside the worker process 
-        # (or the scheduler thread inside it), the PID is the worker PID.
-        # Actually, since we are blocking, the scheduler thread is blocked. BackgroundScheduler runs in a thread.
-        # So this is fine.
         if os.path.exists(lock_file):
             try:
                 os.remove(lock_file)
             except: pass
 
-# Standard Flask pattern: run once in child process or if debug is off
-# Standard Flask pattern: run once in child process or if debug is off
-# Or if reloader is disabled, run in the main process
-if os.environ.get('WERKZEUG_RUN_MAIN') == 'true' or not app.debug or os.environ.get('FLASK_RUN_FROM_CLI') == 'true' or True: # Force start for now as we are in a single process dev mode
+# --- Scheduler Initialization ---
+# We use a global variable to ensure we don't start multiple schedulers in the same process
+_scheduler_started = False
 
-    scheduler = BackgroundScheduler()
+def start_scheduler():
+    global _scheduler_started
+    if _scheduler_started: return
     
-    # Schedule the sequential task every 2 hours
+    # In Gunicorn, we only want the scheduler in the Master process (if using --preload)
+    # or we handle it via a dedicated worker. For this project, we'll use a lock-check approach.
+    
+    scheduler = BackgroundScheduler()
     scheduler.add_job(func=run_sequential_extraction, trigger="interval", hours=2)
     
-    # Schedule immediate run with a DELAY to allow server startup (e.g., 2 minutes)
-    from datetime import timedelta
-    startup_delay = datetime.now() + timedelta(minutes=2)
+    # Initial run after a short delay (30s instead of 2m for faster feedback)
+    startup_delay = datetime.now() + timedelta(seconds=30)
     scheduler.add_job(func=run_sequential_extraction, trigger="date", run_date=startup_delay)
     
     scheduler.start()
-    app.logger.info(f"GENAI GKC Background Scheduler started. First run scheduled at {startup_delay.strftime('%H:%M:%S')}")
+    _scheduler_started = True
+    app.logger.info(f"Background Scheduler started. First run at {startup_delay.strftime('%H:%M:%S')}")
 
+# Start scheduler if not in reloader child and not in debug mode (or forced)
+if os.environ.get('WERKZEUG_RUN_MAIN') == 'true' or not app.debug or os.environ.get('START_SCHEDULER') == 'true':
+    start_scheduler()
 
 if __name__ == '__main__':
-    print("\n" + "="*50)
-    print("--> GKC APP STARTED: Sorting Fix Applied <--")
-    print("="*50 + "\n")
     app.run(debug=True, use_reloader=False)

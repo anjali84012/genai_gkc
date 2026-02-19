@@ -173,6 +173,18 @@ def fetch_using_selenium(url):
         
         chrome_options.add_argument("--remote-debugging-port=9222")
         chrome_options.add_argument("--ignore-certificate-errors")
+        
+        # Aggressive memory saving options
+        chrome_options.add_argument("--disable-extensions")
+        chrome_options.add_argument("--disable-notifications")
+        chrome_options.add_argument("--disable-popup-blocking")
+        chrome_options.add_argument("--disable-infobars")
+        chrome_options.add_argument("--dns-prefetch-disable")
+        chrome_options.add_argument("--no-pings")
+        
+        # Disable images to save memory and bandwidth
+        prefs = {"profile.managed_default_content_settings.images": 2}
+        chrome_options.add_experimental_option("prefs", prefs)
 
         # Robust Service initialization:
         # On Linux, don't use the default Windows path from config.CHROME_DRIVER_PATH
@@ -180,10 +192,13 @@ def fetch_using_selenium(url):
              service = Service(config.CHROME_DRIVER_PATH)
         else:
              # Let Selenium Manager find/download the matching driver on Linux
-             # This avoids trying to use a .exe on Linux
              service = Service()
              
         driver = webdriver.Chrome(service=service, options=chrome_options)
+        
+        # Set explicit timeouts to prevent Gunicorn worker hangs
+        driver.set_page_load_timeout(60)
+        driver.set_script_timeout(30)
         
 
         driver.get(url)

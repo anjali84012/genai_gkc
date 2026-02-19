@@ -2,6 +2,9 @@ import utils
 
 db, app = utils.flask_sql_alchemy_db()
 
+with app.app_context():
+    db.create_all()
+
 class Email(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     company_name = db.Column(db.String(255))

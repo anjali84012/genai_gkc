@@ -12,54 +12,17 @@ from flask import Flask, render_template, request, redirect, flash, session, url
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import or_, func
 from apscheduler.schedulers.background import BackgroundScheduler
-
 import config
-
-app = Flask(__name__)
-app.secret_key = 'nri_gkc_cia'
+from Backend.database import app, db, Email
 
 logging.basicConfig(stream=sys.stdout, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 app.logger.setLevel(logging.INFO)
 werkzeug_logger = logging.getLogger('werkzeug')
 werkzeug_logger.setLevel(logging.ERROR)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = config.db_path
+app.secret_key = 'nri_gkc_cia'
 
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-db = SQLAlchemy(app)
-
-
-class Email(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    company_name = db.Column(db.String(255))
-    subject = db.Column(db.String(255))
-    date = db.Column(db.String(50))
-    time = db.Column(db.String(50))
-    link = db.Column(db.String(5000))
-    title = db.Column(db.Text)
-    body = db.Column(db.Text)
-    response_generated = db.Column(db.Boolean, default=False)
-    category = db.Column(db.String(255))
-    category_code = db.Column(db.String(50))
-    summary = db.Column(db.Text)
-    summary_japanese = db.Column(db.Text)
-    decision = db.Column(db.String(50))
-    reasoning = db.Column(db.Text)
-    satake_score = db.Column(db.Integer, default=0)
-    kajikawa_score = db.Column(db.Integer, default=0)
-    satake_done_scoring = db.Column(db.Boolean, default=False)
-    kajikawa_done_scoring = db.Column(db.Boolean, default=False)
-    total_score = db.Column(db.Integer, default=0)
-    final_flag = db.Column(db.Boolean, default=False)
-    remove_flag = db.Column(db.Boolean, default=False)
-    disapproved = db.Column(db.Boolean, default=False)
-    duplicated_or_not = db.Column(db.Boolean, default=False)
-    reason_of_duplication = db.Column(db.Text)
-
-# Ensure tables exist (safe: checks first, doesn't overwrite)
-with app.app_context():
-    db.create_all()
-
+# System-wide login credentials
 USERS = {"auditor@nriindia.co.in": {"password": "gkc123", "role": "auditor"}}
 
 def login_required(f):

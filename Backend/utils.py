@@ -74,8 +74,11 @@ def flask_sql_alchemy_db():
         db (SQLAlchemy instance), app (Flask app instance)
     """
 
-    app = Flask(__name__)
-    os.makedirs(app.instance_path, exist_ok=True)
+    # Point templates/static to root directory since utils is in Backend/
+    root_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+    app = Flask(__name__, template_folder=os.path.join(root_path, 'templates'), 
+                static_folder=os.path.join(root_path, 'static'))
+    os.makedirs(os.path.join(root_path, "instance"), exist_ok=True)
     app.config['SQLALCHEMY_DATABASE_URI'] = config.db_path
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     db = SQLAlchemy(app)

@@ -156,25 +156,28 @@ def is_process_running(pid):
         except (OSError, ProcessLookupError):
             return False
 
-def run_sequential_extraction():
+def run_script_task(name, script_path):
     """
-    Runs data extraction and URL extraction sequentially with robust locking.
+    Runs a specific python script with robust locking to prevent overlaps.
     """
-    lock_file = os.path.join(config.BASE_DIR, "instance", "sequential_extraction.lock")
+    # Create a unique lock file for each task name
+    safe_name = name.lower().replace(" ", "_")
+    lock_file = os.path.join(config.BASE_DIR, "instance", f"{safe_name}.lock")
     
     # Robust Locking: Check for stale PID
     if os.path.exists(lock_file):
         try:
             with open(lock_file, 'r') as f:
-                old_pid = int(f.read().strip())
-            if is_process_running(old_pid):
-                app.logger.info(f"Scheduler: Task already running (PID: {old_pid}). Skipping.")
+                content = f.read().strip()
+                old_pid = int(content) if content else 0
+            if old_pid > 0 and is_process_running(old_pid):
+                app.logger.info(f"Scheduler [{name}]: Already running (PID: {old_pid}). Skipping.")
                 return
             else:
-                app.logger.warning(f"Scheduler: Found stale lock file (PID {old_pid} not running). Cleaning up.")
+                app.logger.warning(f"Scheduler [{name}]: Cleaning up stale lock (PID {old_pid}).")
                 os.remove(lock_file)
         except Exception as e:
-            app.logger.error(f"Scheduler: Error reading lock file: {e}")
+            app.logger.error(f"Scheduler [{name}]: Error checking lock: {e}")
             if os.path.exists(lock_file): os.remove(lock_file)
 
     # Write current PID to lock file
@@ -182,44 +185,40 @@ def run_sequential_extraction():
         with open(lock_file, 'w') as f:
             f.write(str(os.getpid()))
     except Exception as e:
-        app.logger.error(f"Scheduler: Failed to create lock file: {e}")
+        app.logger.error(f"Scheduler [{name}]: Failed to create lock file: {e}")
         return
 
     try:
-        app.logger.info(f"Scheduler: Starting Task (PID: {os.getpid()})")
+        app.logger.info(f"Scheduler [{name}]: Starting (PID: {os.getpid()})")
         
-        scripts = [
-            ('Email Extraction', os.path.join(config.BASE_DIR, 'Backend', 'Data_Extraction.py')),
-            ('URL Extraction', os.path.join(config.BASE_DIR, 'Backend', 'Data_Extraction_url.py'))
-        ]
-
-        for name, script in scripts:
-            app.logger.info(f"Scheduler: --> Running {name}...")
-            process = subprocess.Popen(
-                [sys.executable, script],
-                stdout=subprocess.PIPE,
-                stderr=subprocess.STDOUT,
-                cwd=config.BASE_DIR,
-                text=True,
-                bufsize=1
-            )
-            
-            for line in process.stdout:
-                # Log to stdout so it shows up in Railway/Render logs
-                print(f"[{name}] {line.strip()}", flush=True)
-            
-            process.wait()
-            app.logger.info(f"Scheduler: --> {name} Completed with exit code {process.returncode}")
-
-        app.logger.info("Scheduler: All tasks finished successfully.")
+        process = subprocess.Popen(
+            [sys.executable, script_path],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT,
+            cwd=config.BASE_DIR,
+            text=True,
+            bufsize=1
+        )
+        
+        for line in process.stdout:
+            print(f"[{name}] {line.strip()}", flush=True)
+        
+        process.wait()
+        app.logger.info(f"Scheduler [{name}]: Completed with exit code {process.returncode}")
 
     except Exception as e:
-        app.logger.error(f"Scheduler Critical Error: {e}")
+        app.logger.error(f"Scheduler [{name}] Critical Error: {e}")
     finally:
         if os.path.exists(lock_file):
             try:
                 os.remove(lock_file)
             except: pass
+
+def run_email_extraction():
+    run_script_task('Email Extraction', os.path.join(config.BASE_DIR, 'Backend', 'Data_Extraction.py'))
+
+def run_url_extraction():
+    run_script_task('URL Extraction', os.path.join(config.BASE_DIR, 'Backend', 'Data_Extraction_url.py'))
 
 # --- Scheduler Initialization ---
 # We use a global variable to ensure we don't start multiple schedulers in the same process
@@ -233,15 +232,20 @@ def start_scheduler():
     # or we handle it via a dedicated worker. For this project, we'll use a lock-check approach.
     
     scheduler = BackgroundScheduler()
-    scheduler.add_job(func=run_sequential_extraction, trigger="interval", hours=2)
     
-    # Initial run after a short delay (30s instead of 2m for faster feedback)
+    # 1. Email Extraction: Every 2 hours
+    scheduler.add_job(func=run_email_extraction, trigger="interval", hours=2)
+    
+    # 2. URL Extraction: Once daily at 8:00 AM
+    scheduler.add_job(func=run_url_extraction, trigger="cron", hour=8, minute=0)
+    
+    # Initial run for Email Extraction 30s after boot for immediate feedback
     startup_delay = datetime.now() + timedelta(seconds=30)
-    scheduler.add_job(func=run_sequential_extraction, trigger="date", run_date=startup_delay)
+    scheduler.add_job(func=run_email_extraction, trigger="date", run_date=startup_delay)
     
     scheduler.start()
     _scheduler_started = True
-    app.logger.info(f"Background Scheduler started. First run at {startup_delay.strftime('%H:%M:%S')}")
+    app.logger.info(f"Background Scheduler started. Email: 2h interval, URL: Daily 08:00 AM.")
 
 # Start scheduler if not in reloader child and not in debug mode (or forced)
 if os.environ.get('WERKZEUG_RUN_MAIN') == 'true' or not app.debug or os.environ.get('START_SCHEDULER') == 'true':

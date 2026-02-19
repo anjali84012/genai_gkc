@@ -9,8 +9,8 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 os.makedirs(os.path.join(BASE_DIR, "instance"), exist_ok=True)
 
 LOCAL_SQLITE = os.path.join(BASE_DIR, "instance", "emails.db")
-# Check for Render's DATABASE_URL
-database_url = os.getenv("DATABASE_URL")
+# Check for Database URL (support both Internal and Public)
+database_url = os.getenv("DATABASE_URL") or os.getenv("DATABASE_PUBLIC_URL")
 if database_url:
     # SQL Alchemy requires postgresql:// but Render provides postgres://
     db_path = database_url.replace("postgres://", "postgresql://")

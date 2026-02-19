@@ -92,9 +92,9 @@ def flask_sql_alchemy_db():
         from urllib.parse import urlparse
         parsed = urlparse(config.db_path)
         host = parsed.hostname or "local"
-        logging.info(f"Database initialized: {db_type} at {host}")
+        print(f"INFO: Database initialized: {db_type} at {host}", flush=True)
     except:
-        logging.info(f"Database initialized: {db_type}")
+        print(f"INFO: Database initialized: {db_type}", flush=True)
 
     with app.app_context():
         # Only enable WAL mode for SQLite

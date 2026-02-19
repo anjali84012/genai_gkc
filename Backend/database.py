@@ -5,8 +5,6 @@ except ImportError:
 
 db, app = utils.flask_sql_alchemy_db()
 
-with app.app_context():
-    db.create_all()
 
 class Email(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -107,3 +105,6 @@ urls_to_be_scrapped = [
     "https://www.consultancy.eu/country/germany",
     "https://www.consultancy.uk/"                       ## Fetched from newspaper
 ]
+
+with app.app_context():
+    db.create_all()

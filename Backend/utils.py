@@ -86,6 +86,16 @@ def flask_sql_alchemy_db():
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     db = SQLAlchemy(app)
     
+    # Debug Logging: Identify active database protocol (safe/masked)
+    db_type = "PostgreSQL" if "postgresql" in config.db_path else "SQLite"
+    try:
+        from urllib.parse import urlparse
+        parsed = urlparse(config.db_path)
+        host = parsed.hostname or "local"
+        logging.info(f"Database initialized: {db_type} at {host}")
+    except:
+        logging.info(f"Database initialized: {db_type}")
+
     with app.app_context():
         # Only enable WAL mode for SQLite
         if "sqlite" in config.db_path:

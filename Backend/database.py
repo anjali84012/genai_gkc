@@ -1,4 +1,7 @@
-import utils
+try:
+    from . import utils
+except ImportError:
+    import utils
 
 db, app = utils.flask_sql_alchemy_db()
 

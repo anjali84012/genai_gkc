@@ -1,7 +1,11 @@
 from tqdm import tqdm
 from urllib.parse import urlparse, urljoin
-from database import Email, db, app, urls_to_be_scrapped
-import utils
+try:
+    from .database import Email, db, app, urls_to_be_scrapped
+    from . import utils
+except ImportError:
+    from database import Email, db, app, urls_to_be_scrapped
+    import utils
 import logging
 from Article_deduplication import ArticleDeduplicator
 from datetime import datetime

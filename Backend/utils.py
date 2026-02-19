@@ -3,7 +3,10 @@ from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import text
 from newspaper import Article
 from mtranslate import translate
-import prompts
+try:
+    from . import prompts
+except ImportError:
+    import prompts
 from bs4 import BeautifulSoup
 import re
 import json

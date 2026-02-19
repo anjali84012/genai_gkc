@@ -13,8 +13,12 @@ from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 from tqdm import tqdm
-from database import db, app, Email
-import utils
+try:
+    from .database import db, app, Email
+    from . import utils
+except ImportError:
+    from database import db, app, Email
+    import utils
 import html
 import json
 from Article_deduplication import ArticleDeduplicator

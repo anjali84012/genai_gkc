@@ -110,3 +110,4 @@ langdetect==1.0.9
 faiss-cpu
 APScheduler==3.10.4
 torchgen
+openpyxl

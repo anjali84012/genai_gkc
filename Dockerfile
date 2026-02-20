@@ -8,9 +8,8 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     && rm -rf /var/lib/apt/lists/*
 
-# Optimize pip and install CPU-only dependencies first
-RUN pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu
-
+# Optimize pip and install all dependencies into the user path
+RUN pip install --no-cache-dir --user torch --index-url https://download.pytorch.org/whl/cpu
 COPY requirements.txt .
 RUN pip install --no-cache-dir --user -r requirements.txt
 
@@ -39,7 +38,6 @@ WORKDIR /app
 
 # Copy installed python packages from builder
 COPY --from=builder /root/.local /root/.local
-COPY --from=builder /usr/local/lib/python3.11/site-packages/torch /usr/local/lib/python3.11/site-packages/torch
 
 # Ensure binaries are in PATH
 ENV PATH=/root/.local/bin:$PATH

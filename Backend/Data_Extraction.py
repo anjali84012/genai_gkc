@@ -324,10 +324,17 @@ class EmailOperations:
                             # result_dict = self.combine_chunk_results(chunk_results)
                             # ------------------------------------------------------------
 
-                        category = result_dict.get('Category', 'error')
-                        summary = result_dict.get('Summary', 'error')
-                        decision = result_dict.get('Decision', 'error')
-                        reasoning = result_dict.get('Reasoning', 'error')
+                        
+                        def get_case_insensitive_key(d, target_key, default_val):
+                            for k, v in d.items():
+                                if k.lower() == target_key.lower():
+                                    return v
+                            return default_val
+
+                        category = get_case_insensitive_key(result_dict, 'Category', 'error')
+                        summary = get_case_insensitive_key(result_dict, 'Summary', 'error')
+                        decision = get_case_insensitive_key(result_dict, 'Decision', 'error')
+                        reasoning = get_case_insensitive_key(result_dict, 'Reasoning', 'error')
 
                         if isinstance(reasoning, list):
                             reasoning = "\n".join(str(item) for item in reasoning)

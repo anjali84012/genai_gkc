@@ -67,7 +67,7 @@ class ArticleDeduplicator:
         else:
             self.embedding_dim = 384
             
-        self.SIMILARITY_THRESHOLD = 0.6
+        self.SIMILARITY_THRESHOLD = 0.8
         self.vector_store = []
 
         if self.enabled:

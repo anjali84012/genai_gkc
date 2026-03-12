@@ -4,6 +4,10 @@ from sqlalchemy import text
 from newspaper import Article
 from mtranslate import translate
 try:
+    from langdetect import detect
+except ImportError:
+    pass
+try:
     from . import prompts
 except ImportError:
     import prompts
@@ -86,10 +90,15 @@ def flask_sql_alchemy_db():
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     db = SQLAlchemy(app)
     
-    # Debug Logging: Identify active database protocol (LOUD for user)
-    db_type = "POSTGRESQL" if "postgresql" in config.db_path.lower() else "SQLITE"
-    print(f"\n[DATABASE] ACTIVE STORAGE: {db_type}")
-    print(f"[DATABASE] URI (Masked): {config.db_path.split('@')[-1] if '@' in config.db_path else config.db_path}\n")
+    # Debug Logging: Identify active database protocol (safe/masked)
+    db_type = "PostgreSQL" if "postgresql" in config.db_path else "SQLite"
+    try:
+        from urllib.parse import urlparse
+        parsed = urlparse(config.db_path)
+        host = parsed.hostname or "local"
+        logging.info(f"Database initialized: {db_type} at {host}")
+    except:
+        logging.info(f"Database initialized: {db_type}")
 
     with app.app_context():
         # Only enable WAL mode for SQLite
@@ -120,7 +129,31 @@ def fetch_article_content(url, html=None):
     """
 
     try:
-        article = Article(url, language="en")  # use "ja" for Japanese if needed
+        # Detect language to properly initialize Newspaper3k 
+        detected_lang = 'en'
+        if html:
+            try:
+                # Try to detect lang from title or brief text early on
+                soup = BeautifulSoup(html, 'html.parser')
+                title = soup.title.string if soup.title else ""
+                body = soup.find('body')
+                text_snippet = (body.get_text()[:500] if body else html[:500])
+                detect_text = title + " " + text_snippet
+                if detect_text.strip():
+                     detected_lang = detect(detect_text)
+            except Exception:
+                pass
+        else:
+            # Fallback if URL is .jp
+            if '.jp' in url.lower():
+                detected_lang = 'ja'
+        
+        # Ensure detected_lang is a valid Newspaper3k language code (defaulting to en)
+        valid_langs = ['ar', 'ru', 'nl', 'de', 'en', 'es', 'fr', 'he', 'it', 'ko', 'no', 'fa', 'pl', 'pt', 'sv', 'hu', 'id', 'vi', 'zh', 'tr', 'hi', 'ja']
+        if detected_lang not in valid_langs:
+            detected_lang = 'en'
+
+        article = Article(url, language=detected_lang)
         if html:
             article.set_html(html)
         else:

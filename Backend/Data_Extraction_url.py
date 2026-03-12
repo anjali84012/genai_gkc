@@ -87,9 +87,16 @@ class WebScraper:
                     link = article.get("link", "")
                     title = article.get("title", "No Title")
                     body = article.get("body", "")
-                    category = article.get("category", "Uncategorized")
-                    summary = article.get("summary", "")
-                    decision = article.get("decision", "")
+                    
+                    def get_case_insensitive_key(d, target_key, default_val):
+                        for k, v in d.items():
+                            if k.lower() == target_key.lower():
+                                return v
+                        return default_val
+
+                    category = get_case_insensitive_key(article, "category", "Uncategorized")
+                    summary = get_case_insensitive_key(article, "summary", "")
+                    decision = get_case_insensitive_key(article, "decision", "")
                     date = article.get("date", "")
                     time = article.get("time", "")
                     summary_japanese = utils.summary_japanese_translate(summary)
@@ -250,10 +257,11 @@ class WebScraper:
                     refined_data["time"] = datetime.now().strftime("%H:%M:%S")
 
                     # 4. Deduplication Check
+                    summary_extracted = get_case_insensitive_key(refined_data, "summary", "")
                     dedup_dict = {
                         "title": title,
                         "text": body,
-                        "summary": refined_data.get("summary", "")
+                        "summary": summary_extracted
                     }
                     is_duplicate, reason = deduplicator.check_deduplication(dedup_dict)
                     
